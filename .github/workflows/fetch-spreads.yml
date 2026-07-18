@@ -26,6 +26,9 @@ jobs:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python fetch_spreads.py
 
+      - name: Fetch VIX EOD
+        run: python fetch_vix_eod.py
+
       - name: Commit updated database
         run: |
           git config user.name "github-actions[bot]"

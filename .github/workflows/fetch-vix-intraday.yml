@@ -1,0 +1,72 @@
+name: Fetch VIX Intraday
+
+# GitHub Actions cron always fires in UTC and has no concept of DST, so ET
+# market hours (9:30am-4:00pm) can't be expressed as a single fixed-UTC cron
+# year-round. This schedule uses a generous UTC window that safely covers
+# market hours across both EDT (UTC-4) and EST (UTC-5), and the "Check
+# market hours" step below does the actual ET-aware filtering at runtime —
+# skipping any fire that lands outside real local market hours or on a
+# weekend. That keeps exactly one row written per market hour, with no
+# duplicates and no gaps across the DST transition.
+on:
+  schedule:
+    - cron: '30 13-20 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check market hours (ET)
+        id: market_hours
+        run: |
+          now_et=$(TZ="America/New_York" date +"%u %H:%M")
+          weekday=$(echo "$now_et" | awk '{print $1}')
+          time=$(echo "$now_et" | awk '{print $2}')
+          if [ "$weekday" -gt 5 ]; then
+            echo "Weekend ($now_et ET) — skipping"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          elif [[ "$time" < "09:30" || "$time" > "16:00" ]]; then
+            echo "Outside market hours ($time ET) — skipping"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Within market hours ($time ET) — proceeding"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Should this run proceed?
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ steps.market_hours.outputs.run }}" = "true" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v7
+        if: steps.gate.outputs.proceed == 'true'
+
+      - uses: actions/setup-python@v6
+        if: steps.gate.outputs.proceed == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        if: steps.gate.outputs.proceed == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Fetch VIX intraday reading
+        if: steps.gate.outputs.proceed == 'true'
+        run: python fetch_vix_intraday.py
+
+      - name: Commit updated database
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add spreads.db
+          git diff --cached --quiet || git commit -m "Add VIX intraday reading $(date -u +%Y-%m-%dT%H:%M)"
+          git push
