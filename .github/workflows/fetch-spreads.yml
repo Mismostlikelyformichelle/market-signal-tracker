@@ -29,10 +29,13 @@ jobs:
       - name: Fetch VIX EOD
         run: python fetch_vix_eod.py
 
-      - name: Commit updated database
+      - name: Build dashboard
+        run: python build_dashboard.py
+
+      - name: Commit updated database and dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spreads.db
+          git add spreads.db docs/data.json docs/index.html
           git diff --cached --quiet || git commit -m "Update spreads data $(date -u +%Y-%m-%d)"
           git push

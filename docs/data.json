@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-07-18T17:48:49.013141+00:00",
+  "composite": {
+    "status": "Calm",
+    "watches": 0,
+    "alerts": 0
+  },
+  "indicators": {
+    "t10y2y": {
+      "label": "10Y-2Y Treasury Spread",
+      "latest_date": "2026-07-17",
+      "latest_value": 0.37,
+      "unit": "pp",
+      "status": "Calm",
+      "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
+      "history": [
+        {
+          "date": "2026-07-01",
+          "value": 0.31
+        },
+        {
+          "date": "2026-07-02",
+          "value": 0.35
+        },
+        {
+          "date": "2026-07-06",
+          "value": 0.35
+        },
+        {
+          "date": "2026-07-07",
+          "value": 0.36
+        },
+        {
+          "date": "2026-07-08",
+          "value": 0.35
+        },
+        {
+          "date": "2026-07-09",
+          "value": 0.38
+        },
+        {
+          "date": "2026-07-10",
+          "value": 0.35
+        },
+        {
+          "date": "2026-07-13",
+          "value": 0.36
+        },
+        {
+          "date": "2026-07-14",
+          "value": 0.4
+        },
+        {
+          "date": "2026-07-15",
+          "value": 0.42
+        },
+        {
+          "date": "2026-07-16",
+          "value": 0.41
+        },
+        {
+          "date": "2026-07-17",
+          "value": 0.37
+        }
+      ]
+    },
+    "hy": {
+      "label": "ICE BofA High Yield Spread",
+      "latest_date": "2026-07-16",
+      "latest_value": 2.71,
+      "latest_value_bps": 271.0,
+      "unit": "pp",
+      "status": "Calm",
+      "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
+      "history": [
+        {
+          "date": "2026-07-01",
+          "value": 2.74
+        },
+        {
+          "date": "2026-07-02",
+          "value": 2.75
+        },
+        {
+          "date": "2026-07-03",
+          "value": 2.74
+        },
+        {
+          "date": "2026-07-06",
+          "value": 2.72
+        },
+        {
+          "date": "2026-07-07",
+          "value": 2.67
+        },
+        {
+          "date": "2026-07-08",
+          "value": 2.7
+        },
+        {
+          "date": "2026-07-09",
+          "value": 2.7
+        },
+        {
+          "date": "2026-07-10",
+          "value": 2.69
+        },
+        {
+          "date": "2026-07-13",
+          "value": 2.69
+        },
+        {
+          "date": "2026-07-14",
+          "value": 2.72
+        },
+        {
+          "date": "2026-07-15",
+          "value": 2.71
+        },
+        {
+          "date": "2026-07-16",
+          "value": 2.71
+        }
+      ]
+    },
+    "vix": {
+      "label": "VIX (Close)",
+      "latest_date": "2026-07-17",
+      "latest_value": 18.770000457763672,
+      "unit": "",
+      "status": "Normal",
+      "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
+      "history": [
+        {
+          "date": "2026-07-13",
+          "value": 17.15999984741211
+        },
+        {
+          "date": "2026-07-14",
+          "value": 16.5
+        },
+        {
+          "date": "2026-07-15",
+          "value": 15.670000076293945
+        },
+        {
+          "date": "2026-07-16",
+          "value": 16.729999542236328
+        },
+        {
+          "date": "2026-07-17",
+          "value": 18.770000457763672
+        }
+      ]
+    }
+  },
+  "vix_intraday": {
+    "latest": {
+      "timestamp": "2026-07-17T20:14:00+00:00",
+      "value": 18.739999771118164
+    },
+    "series": [
+      {
+        "timestamp": "2026-07-17T20:14:00+00:00",
+        "value": 18.739999771118164
+      }
+    ]
+  }
+}

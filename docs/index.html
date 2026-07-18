@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Signal Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root {
+    --bg: #0b0f14;
+    --card: #151b23;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --calm: #2ea043;
+    --watch: #d29922;
+    --alert: #f85149;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px;
+  }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
+  .composite {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 0.95rem; color: var(--muted); font-weight: 500; }
+  .card .value { font-size: 1.8rem; font-weight: 700; margin-bottom: 6px; }
+  .pill {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .card .thresholds { color: var(--muted); font-size: 0.75rem; margin-top: 8px; }
+  .status-Calm, .status-Normal { background: rgba(46,160,67,0.15); color: var(--calm); }
+  .status-Watch, .status-Elevated { background: rgba(210,153,34,0.15); color: var(--watch); }
+  .status-Alert, .status-High { background: rgba(248,81,73,0.15); color: var(--alert); }
+  .composite-Calm { background: rgba(46,160,67,0.15); color: var(--calm); border-color: var(--calm); }
+  .composite-Mild-Watch { background: rgba(210,153,34,0.15); color: var(--watch); border-color: var(--watch); }
+  .composite-Elevated { background: rgba(210,153,34,0.25); color: var(--watch); border-color: var(--watch); }
+  .composite-High-Alert { background: rgba(248,81,73,0.2); color: var(--alert); border-color: var(--alert); }
+  .charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 16px;
+  }
+  .chart-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .chart-card h3 { margin: 0 0 10px; font-size: 0.95rem; color: var(--muted); font-weight: 500; }
+  .no-data { color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+  <h1>Market Signal Tracker</h1>
+  <div class="updated" id="updated"></div>
+  <div class="composite" id="composite"></div>
+
+  <div class="grid" id="cards"></div>
+
+  <div class="charts">
+    <div class="chart-card"><h3>10Y-2Y Treasury Spread</h3><canvas id="chart-t10y2y" height="180"></canvas></div>
+    <div class="chart-card"><h3>ICE BofA High Yield Spread</h3><canvas id="chart-hy" height="180"></canvas></div>
+    <div class="chart-card"><h3>VIX (Daily Close)</h3><canvas id="chart-vix" height="180"></canvas></div>
+    <div class="chart-card"><h3>VIX Intraday (most recent session)</h3><canvas id="chart-intraday" height="180"></canvas></div>
+  </div>
+
+<script>
+const DATA = {"generated_at": "2026-07-18T17:48:49.013141+00:00", "composite": {"status": "Calm", "watches": 0, "alerts": 0}, "indicators": {"t10y2y": {"label": "10Y-2Y Treasury Spread", "latest_date": "2026-07-17", "latest_value": 0.37, "unit": "pp", "status": "Calm", "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0", "history": [{"date": "2026-07-01", "value": 0.31}, {"date": "2026-07-02", "value": 0.35}, {"date": "2026-07-06", "value": 0.35}, {"date": "2026-07-07", "value": 0.36}, {"date": "2026-07-08", "value": 0.35}, {"date": "2026-07-09", "value": 0.38}, {"date": "2026-07-10", "value": 0.35}, {"date": "2026-07-13", "value": 0.36}, {"date": "2026-07-14", "value": 0.4}, {"date": "2026-07-15", "value": 0.42}, {"date": "2026-07-16", "value": 0.41}, {"date": "2026-07-17", "value": 0.37}]}, "hy": {"label": "ICE BofA High Yield Spread", "latest_date": "2026-07-16", "latest_value": 2.71, "latest_value_bps": 271.0, "unit": "pp", "status": "Calm", "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps", "history": [{"date": "2026-07-01", "value": 2.74}, {"date": "2026-07-02", "value": 2.75}, {"date": "2026-07-03", "value": 2.74}, {"date": "2026-07-06", "value": 2.72}, {"date": "2026-07-07", "value": 2.67}, {"date": "2026-07-08", "value": 2.7}, {"date": "2026-07-09", "value": 2.7}, {"date": "2026-07-10", "value": 2.69}, {"date": "2026-07-13", "value": 2.69}, {"date": "2026-07-14", "value": 2.72}, {"date": "2026-07-15", "value": 2.71}, {"date": "2026-07-16", "value": 2.71}]}, "vix": {"label": "VIX (Close)", "latest_date": "2026-07-17", "latest_value": 18.770000457763672, "unit": "", "status": "Normal", "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25", "history": [{"date": "2026-07-13", "value": 17.15999984741211}, {"date": "2026-07-14", "value": 16.5}, {"date": "2026-07-15", "value": 15.670000076293945}, {"date": "2026-07-16", "value": 16.729999542236328}, {"date": "2026-07-17", "value": 18.770000457763672}]}}, "vix_intraday": {"latest": {"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}, "series": [{"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}]}};
+
+document.getElementById("updated").textContent =
+  "Last updated: " + new Date(DATA.generated_at).toLocaleString();
+
+const compositeEl = document.getElementById("composite");
+compositeEl.textContent = DATA.composite.status;
+compositeEl.className = "composite composite-" + DATA.composite.status.replace(/ /g, "-");
+
+const cardsEl = document.getElementById("cards");
+function renderCard(ind, valueText) {
+  if (!ind.status) {
+    return `<div class="card"><h3>${ind.label}</h3><div class="no-data">No data available</div></div>`;
+  }
+  return `<div class="card">
+    <h3>${ind.label}</h3>
+    <div class="value">${valueText}</div>
+    <span class="pill status-${ind.status.replace(/ /g, "-")}">${ind.status}</span>
+    <div class="thresholds">${ind.thresholds}</div>
+  </div>`;
+}
+cardsEl.innerHTML =
+  renderCard(DATA.indicators.t10y2y, DATA.indicators.t10y2y.latest_value !== null ? DATA.indicators.t10y2y.latest_value.toFixed(2) : "") +
+  renderCard(DATA.indicators.hy, DATA.indicators.hy.latest_value !== null ? DATA.indicators.hy.latest_value.toFixed(2) + "% (" + Math.round(DATA.indicators.hy.latest_value_bps) + " bps)" : "") +
+  renderCard(DATA.indicators.vix, DATA.indicators.vix.latest_value !== null ? DATA.indicators.vix.latest_value.toFixed(2) : "") +
+  (function() {
+    const iv = DATA.vix_intraday.latest;
+    if (!iv) return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="no-data">No reading available (outside market hours)</div></div>`;
+    const t = new Date(iv.timestamp).toLocaleString();
+    return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="thresholds">${t}</div></div>`;
+  })();
+
+const chartDefaults = {
+  type: "line",
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+      y: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+    },
+  },
+};
+
+function renderLineChart(canvasId, history, labelKey, valueKey, color) {
+  const canvas = document.getElementById(canvasId);
+  if (!history || history.length === 0) {
+    canvas.parentElement.innerHTML += '<div class="no-data">No data available</div>';
+    return;
+  }
+  new Chart(canvas, {
+    ...chartDefaults,
+    data: {
+      labels: history.map(r => r[labelKey]),
+      datasets: [{
+        data: history.map(r => r[valueKey]),
+        borderColor: color,
+        backgroundColor: color,
+        pointRadius: 0,
+        borderWidth: 2,
+        tension: 0.15,
+      }],
+    },
+  });
+}
+
+renderLineChart("chart-t10y2y", DATA.indicators.t10y2y.history, "date", "value", "#58a6ff");
+renderLineChart("chart-hy", DATA.indicators.hy.history, "date", "value", "#d2a8ff");
+renderLineChart("chart-vix", DATA.indicators.vix.history, "date", "value", "#ffa657");
+renderLineChart("chart-intraday", DATA.vix_intraday.series, "timestamp", "value", "#7ee787");
+</script>
+</body>
+</html>
