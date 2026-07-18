@@ -91,10 +91,13 @@
     <div class="chart-card"><h3>ICE BofA High Yield Spread</h3><canvas id="chart-hy" height="180"></canvas></div>
     <div class="chart-card"><h3>VIX (Daily Close)</h3><canvas id="chart-vix" height="180"></canvas></div>
     <div class="chart-card"><h3>VIX Intraday (most recent session)</h3><canvas id="chart-intraday" height="180"></canvas></div>
+    <div class="chart-card"><h3>VIX Term Structure (VIX9D / VIX / VIX3M)</h3><canvas id="chart-vixterm" height="180"></canvas></div>
+    <div class="chart-card"><h3>US Dollar Index (DXY)</h3><canvas id="chart-dxy" height="180"></canvas></div>
+    <div class="chart-card"><h3>Gold (GC=F)</h3><canvas id="chart-gold" height="180"></canvas></div>
   </div>
 
 <script>
-const DATA = {"generated_at": "2026-07-18T17:48:49.013141+00:00", "composite": {"status": "Calm", "watches": 0, "alerts": 0}, "indicators": {"t10y2y": {"label": "10Y-2Y Treasury Spread", "latest_date": "2026-07-17", "latest_value": 0.37, "unit": "pp", "status": "Calm", "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0", "history": [{"date": "2026-07-01", "value": 0.31}, {"date": "2026-07-02", "value": 0.35}, {"date": "2026-07-06", "value": 0.35}, {"date": "2026-07-07", "value": 0.36}, {"date": "2026-07-08", "value": 0.35}, {"date": "2026-07-09", "value": 0.38}, {"date": "2026-07-10", "value": 0.35}, {"date": "2026-07-13", "value": 0.36}, {"date": "2026-07-14", "value": 0.4}, {"date": "2026-07-15", "value": 0.42}, {"date": "2026-07-16", "value": 0.41}, {"date": "2026-07-17", "value": 0.37}]}, "hy": {"label": "ICE BofA High Yield Spread", "latest_date": "2026-07-16", "latest_value": 2.71, "latest_value_bps": 271.0, "unit": "pp", "status": "Calm", "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps", "history": [{"date": "2026-07-01", "value": 2.74}, {"date": "2026-07-02", "value": 2.75}, {"date": "2026-07-03", "value": 2.74}, {"date": "2026-07-06", "value": 2.72}, {"date": "2026-07-07", "value": 2.67}, {"date": "2026-07-08", "value": 2.7}, {"date": "2026-07-09", "value": 2.7}, {"date": "2026-07-10", "value": 2.69}, {"date": "2026-07-13", "value": 2.69}, {"date": "2026-07-14", "value": 2.72}, {"date": "2026-07-15", "value": 2.71}, {"date": "2026-07-16", "value": 2.71}]}, "vix": {"label": "VIX (Close)", "latest_date": "2026-07-17", "latest_value": 18.770000457763672, "unit": "", "status": "Normal", "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25", "history": [{"date": "2026-07-13", "value": 17.15999984741211}, {"date": "2026-07-14", "value": 16.5}, {"date": "2026-07-15", "value": 15.670000076293945}, {"date": "2026-07-16", "value": 16.729999542236328}, {"date": "2026-07-17", "value": 18.770000457763672}]}}, "vix_intraday": {"latest": {"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}, "series": [{"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}]}};
+const DATA = {"generated_at": "2026-07-18T21:29:41.110726+00:00", "composite": {"status": "Calm", "watches": 0, "alerts": 0}, "indicators": {"t10y2y": {"label": "10Y-2Y Treasury Spread", "latest_date": "2026-07-17", "latest_value": 0.37, "unit": "pp", "status": "Calm", "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0", "history": [{"date": "2026-07-01", "value": 0.31}, {"date": "2026-07-02", "value": 0.35}, {"date": "2026-07-06", "value": 0.35}, {"date": "2026-07-07", "value": 0.36}, {"date": "2026-07-08", "value": 0.35}, {"date": "2026-07-09", "value": 0.38}, {"date": "2026-07-10", "value": 0.35}, {"date": "2026-07-13", "value": 0.36}, {"date": "2026-07-14", "value": 0.4}, {"date": "2026-07-15", "value": 0.42}, {"date": "2026-07-16", "value": 0.41}, {"date": "2026-07-17", "value": 0.37}]}, "hy": {"label": "ICE BofA High Yield Spread", "latest_date": "2026-07-16", "latest_value": 2.71, "latest_value_bps": 271.0, "unit": "pp", "status": "Calm", "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps", "history": [{"date": "2026-07-01", "value": 2.74}, {"date": "2026-07-02", "value": 2.75}, {"date": "2026-07-03", "value": 2.74}, {"date": "2026-07-06", "value": 2.72}, {"date": "2026-07-07", "value": 2.67}, {"date": "2026-07-08", "value": 2.7}, {"date": "2026-07-09", "value": 2.7}, {"date": "2026-07-10", "value": 2.69}, {"date": "2026-07-13", "value": 2.69}, {"date": "2026-07-14", "value": 2.72}, {"date": "2026-07-15", "value": 2.71}, {"date": "2026-07-16", "value": 2.71}]}, "vix": {"label": "VIX (Close)", "latest_date": "2026-07-17", "latest_value": 18.770000457763672, "unit": "", "status": "Normal", "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25", "history": [{"date": "2026-07-13", "value": 17.15999984741211}, {"date": "2026-07-14", "value": 16.5}, {"date": "2026-07-15", "value": 15.670000076293945}, {"date": "2026-07-16", "value": 16.729999542236328}, {"date": "2026-07-17", "value": 18.770000457763672}]}, "vix_term": {"label": "VIX Term Structure (VIX3M \u2212 VIX9D)", "latest_date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54, "spread": 3.6899999999999977, "unit": "", "status": "Calm", "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)", "history": [{"date": "2026-07-06", "vix9d": 12.32, "vix": 15.57, "vix3m": 18.78}, {"date": "2026-07-07", "vix9d": 13.42, "vix": 16.13, "vix3m": 19.01}, {"date": "2026-07-08", "vix9d": 14.41, "vix": 16.9, "vix3m": 19.46}, {"date": "2026-07-09", "vix9d": 12.5, "vix": 15.84, "vix3m": 18.99}, {"date": "2026-07-10", "vix9d": 11.15, "vix": 15.03, "vix3m": 18.57}, {"date": "2026-07-13", "vix9d": 15.13, "vix": 17.16, "vix3m": 19.64}, {"date": "2026-07-14", "vix9d": 13.46, "vix": 16.5, "vix3m": 19.3}, {"date": "2026-07-15", "vix9d": 12.06, "vix": 15.67, "vix3m": 18.91}, {"date": "2026-07-16", "vix9d": 13.98, "vix": 16.73, "vix3m": 19.5}, {"date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54}]}, "dxy": {"label": "US Dollar Index (DXY)", "latest_date": "2026-07-17", "latest_value": 100.75, "pct_change_20d": null, "unit": "", "status": null, "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%", "history": [{"date": "2026-07-13", "value": 101.27999877929688}, {"date": "2026-07-14", "value": 100.94000244140625}, {"date": "2026-07-15", "value": 100.5}, {"date": "2026-07-16", "value": 100.7300033569336}, {"date": "2026-07-17", "value": 100.75}]}, "gold": {"label": "Gold (GC=F)", "latest_date": "2026-07-17", "latest_value": 4012.699951171875, "pct_change_20d": null, "unit": "$", "status": null, "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%", "history": [{"date": "2026-07-13", "value": 3997.0}, {"date": "2026-07-14", "value": 4061.10009765625}, {"date": "2026-07-15", "value": 4044.0}, {"date": "2026-07-16", "value": 3985.60009765625}, {"date": "2026-07-17", "value": 4012.699951171875}]}}, "vix_intraday": {"latest": {"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}, "series": [{"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}]}};
 
 document.getElementById("updated").textContent =
   "Last updated: " + new Date(DATA.generated_at).toLocaleString();
@@ -124,7 +127,39 @@ cardsEl.innerHTML =
     if (!iv) return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="no-data">No reading available (outside market hours)</div></div>`;
     const t = new Date(iv.timestamp).toLocaleString();
     return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="thresholds">${t}</div></div>`;
-  })();
+  })() +
+  (function() {
+    const vt = DATA.indicators.vix_term;
+    if (!vt.status) return `<div class="card"><h3>${vt.label}</h3><div class="no-data">No data available</div></div>`;
+    return `<div class="card">
+      <h3>${vt.label}</h3>
+      <div class="value">${vt.spread.toFixed(2)}</div>
+      <span class="pill status-${vt.status}">${vt.status}</span>
+      <div class="thresholds">VIX9D ${vt.vix9d.toFixed(2)} · VIX ${vt.vix.toFixed(2)} · VIX3M ${vt.vix3m.toFixed(2)}<br>${vt.thresholds}</div>
+    </div>`;
+  })() +
+  renderMomentumCard(DATA.indicators.dxy, v => v.toFixed(2)) +
+  renderMomentumCard(DATA.indicators.gold, v => "$" + v.toFixed(2));
+
+function renderMomentumCard(ind, formatValue) {
+  if (ind.latest_value === null || ind.latest_value === undefined) {
+    return `<div class="card"><h3>${ind.label}</h3><div class="no-data">No data available</div></div>`;
+  }
+  if (!ind.status) {
+    return `<div class="card">
+      <h3>${ind.label}</h3>
+      <div class="value">${formatValue(ind.latest_value)}</div>
+      <div class="thresholds">Status pending — needs 20 trading days of history to compute a 20-day move<br>${ind.thresholds}</div>
+    </div>`;
+  }
+  const chg = ind.pct_change_20d !== null ? (ind.pct_change_20d >= 0 ? "+" : "") + ind.pct_change_20d.toFixed(1) + "% (20d)" : "";
+  return `<div class="card">
+    <h3>${ind.label}</h3>
+    <div class="value">${formatValue(ind.latest_value)}</div>
+    <span class="pill status-${ind.status}">${ind.status}</span>
+    <div class="thresholds">${chg}<br>${ind.thresholds}</div>
+  </div>`;
+}
 
 const chartDefaults = {
   type: "line",
@@ -160,10 +195,48 @@ function renderLineChart(canvasId, history, labelKey, valueKey, color) {
   });
 }
 
+function renderMultiLineChart(canvasId, history, labelKey, series) {
+  const canvas = document.getElementById(canvasId);
+  if (!history || history.length === 0) {
+    canvas.parentElement.innerHTML += '<div class="no-data">No data available</div>';
+    return;
+  }
+  new Chart(canvas, {
+    type: "line",
+    data: {
+      labels: history.map(r => r[labelKey]),
+      datasets: series.map(s => ({
+        label: s.name,
+        data: history.map(r => r[s.key]),
+        borderColor: s.color,
+        backgroundColor: s.color,
+        pointRadius: 0,
+        borderWidth: 2,
+        tension: 0.15,
+      })),
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: true, labels: { color: "#e6edf3" } } },
+      scales: {
+        x: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+        y: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+      },
+    },
+  });
+}
+
 renderLineChart("chart-t10y2y", DATA.indicators.t10y2y.history, "date", "value", "#58a6ff");
 renderLineChart("chart-hy", DATA.indicators.hy.history, "date", "value", "#d2a8ff");
 renderLineChart("chart-vix", DATA.indicators.vix.history, "date", "value", "#ffa657");
 renderLineChart("chart-intraday", DATA.vix_intraday.series, "timestamp", "value", "#7ee787");
+renderMultiLineChart("chart-vixterm", DATA.indicators.vix_term.history, "date", [
+  { name: "VIX9D", key: "vix9d", color: "#f85149" },
+  { name: "VIX", key: "vix", color: "#ffa657" },
+  { name: "VIX3M", key: "vix3m", color: "#7ee787" },
+]);
+renderLineChart("chart-dxy", DATA.indicators.dxy.history, "date", "value", "#58a6ff");
+renderLineChart("chart-gold", DATA.indicators.gold.history, "date", "value", "#e3b341");
 </script>
 </body>
 </html>

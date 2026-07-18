@@ -29,6 +29,15 @@ jobs:
       - name: Fetch VIX EOD
         run: python fetch_vix_eod.py
 
+      - name: Fetch VIX term structure
+        run: python fetch_vix_term.py
+
+      - name: Fetch DXY
+        run: python fetch_dxy.py
+
+      - name: Fetch Gold
+        run: python fetch_gold.py
+
       - name: Build dashboard
         run: python build_dashboard.py
 
