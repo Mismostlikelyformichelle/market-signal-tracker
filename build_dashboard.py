@@ -107,6 +107,41 @@ def composite_status(flags):
     return "Calm"
 
 
+def apply_vix_term_modifier(vix_flag, term_status):
+    """VIX close and VIX term structure both measure volatility -- just from
+    different angles (current level vs. shape of the curve). Giving both a
+    fully independent vote in the composite would silently over-weight vol
+    relative to rates/credit (a single vol event could swing the composite by
+    2 flags out of what's really still 3 underlying signal sources). Instead,
+    term structure acts as a severity modifier on the existing VIX flag:
+      - contango (not inverted): no change, regardless of VIX level
+      - VIX watch (Elevated) + inverted: escalate watch -> alert, since
+        inversion confirms the stress is acute, not just elevated
+      - VIX already alert (High): no change, already at max severity
+      - VIX calm + inverted: term structure can occasionally lead a VIX
+        spike, so rather than being silently suppressed by the calm VIX
+        reading, this becomes its own standalone watch flag.
+    Returns (effective_vix_flag, extra_flag_or_None, note_or_None).
+    """
+    if term_status != "Alert":  # not inverted (Alert == spread < 0 == backwardation)
+        return vix_flag, None, None
+
+    if vix_flag == "watch":
+        return "alert", None, (
+            "VIX term structure is inverted (VIX9D > VIX3M), confirming acute stress — "
+            "escalated the VIX flag from watch to alert in the composite."
+        )
+    if vix_flag == "alert":
+        return "alert", None, (
+            "VIX term structure inversion confirms already-flagged stress; "
+            "no further escalation (already at max severity)."
+        )
+    return vix_flag, "watch", (
+        "VIX term structure is inverted while VIX close is still calm — flagged as its own "
+        "standalone watch in the composite, since inversion can occasionally lead a VIX spike."
+    )
+
+
 def fetch_history(conn, table, date_col, value_col, since):
     rows = conn.execute(
         f"SELECT {date_col}, {value_col} FROM {table} WHERE {date_col} >= ? AND {value_col} IS NOT NULL ORDER BY {date_col}",
@@ -174,21 +209,29 @@ def build_data(conn):
     hy_status = status_hy(hy_val)
     vix_status = status_vix(vix_val)
 
-    flags = [
-        WATCH_ALERT_MAP["t10y2y"][t10y2y_status] if t10y2y_status else "calm",
-        WATCH_ALERT_MAP["hy"][hy_status] if hy_status else "calm",
-        WATCH_ALERT_MAP["vix"][vix_status] if vix_status else "calm",
-    ]
-    composite = composite_status(flags)
-
-    intraday_latest, intraday_series = fetch_todays_intraday(conn)
-
     vixterm_date, vixterm_vals = fetch_latest_multi(conn, "vix_term", "date", ["vix9d", "vix", "vix3m"])
     vixterm_history = fetch_history_multi(conn, "vix_term", "date", ["vix9d", "vix", "vix3m"], since)
     vixterm_spread = None
     if vixterm_vals.get("vix3m") is not None and vixterm_vals.get("vix9d") is not None:
         vixterm_spread = vixterm_vals["vix3m"] - vixterm_vals["vix9d"]
     vixterm_status = status_vix_term(vixterm_spread)
+
+    vix_flag_raw = WATCH_ALERT_MAP["vix"][vix_status] if vix_status else "calm"
+    if vixterm_status:
+        vix_flag_effective, vixterm_extra_flag, vixterm_note = apply_vix_term_modifier(vix_flag_raw, vixterm_status)
+    else:
+        vix_flag_effective, vixterm_extra_flag, vixterm_note = vix_flag_raw, None, None
+
+    flags = [
+        WATCH_ALERT_MAP["t10y2y"][t10y2y_status] if t10y2y_status else "calm",
+        WATCH_ALERT_MAP["hy"][hy_status] if hy_status else "calm",
+        vix_flag_effective,
+    ]
+    if vixterm_extra_flag:
+        flags.append(vixterm_extra_flag)
+    composite = composite_status(flags)
+
+    intraday_latest, intraday_series = fetch_todays_intraday(conn)
 
     dxy_date, dxy_val = fetch_latest(conn, "dxy", "date", "dxy_close")
     dxy_history = fetch_history(conn, "dxy", "date", "dxy_close", since)
@@ -206,6 +249,7 @@ def build_data(conn):
             "status": composite,
             "watches": flags.count("watch"),
             "alerts": flags.count("alert"),
+            "vix_term_note": vixterm_note,
         },
         "indicators": {
             "t10y2y": {
@@ -314,6 +358,13 @@ HTML_TEMPLATE = """<!doctype html>
     margin-bottom: 24px;
     border: 1px solid var(--border);
   }
+  .composite-note {
+    color: var(--muted);
+    font-size: 0.8rem;
+    max-width: 480px;
+    margin: -16px 0 24px;
+    line-height: 1.4;
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -384,6 +435,13 @@ document.getElementById("updated").textContent =
 const compositeEl = document.getElementById("composite");
 compositeEl.textContent = DATA.composite.status;
 compositeEl.className = "composite composite-" + DATA.composite.status.replace(/ /g, "-");
+
+if (DATA.composite.vix_term_note) {
+  const noteEl = document.createElement("div");
+  noteEl.className = "composite-note";
+  noteEl.textContent = DATA.composite.vix_term_note;
+  compositeEl.insertAdjacentElement("afterend", noteEl);
+}
 
 const cardsEl = document.getElementById("cards");
 function renderCard(ind, valueText) {
