@@ -46,6 +46,9 @@ jobs:
       - name: Match headlines to recent events
         run: python fetch_event_headlines.py
 
+      - name: Fetch top headlines
+        run: python fetch_headlines.py
+
       - name: Build dashboard
         run: python build_dashboard.py
 

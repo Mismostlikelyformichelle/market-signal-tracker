@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T01:08:47.938135+00:00",
+  "generated_at": "2026-07-19T01:20:13.231674+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -330,5 +330,67 @@
         "headline": null
       }
     ]
-  }
+  },
+  "headlines": [
+    {
+      "headline": "Samsung Electronics America to cut 739 New Jersey positions",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/samsung-electronics-america-to-cut-739-new-jersey-positions-4799690",
+      "published_at": "2026-07-19T01:17:09+00:00"
+    },
+    {
+      "headline": "Why would Stripe want PayPal?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/why-would-stripe-want-paypal-4799689",
+      "published_at": "2026-07-19T00:39:35+00:00"
+    },
+    {
+      "headline": "US renews strikes on Iran after two military personnel killed by Iranian attack",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/world-news/us-renews-strikes-on-iran-after-two-military-personnel-were-killed-by-iranian-attack-4799684",
+      "published_at": "2026-07-19T00:30:30+00:00"
+    },
+    {
+      "headline": "Data center opponents stage 142 protests across 42 US states",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-data-center-protests-go-national-as-backlash-grows-4799582",
+      "published_at": "2026-07-19T00:00:32+00:00"
+    },
+    {
+      "headline": "What the U.S. stands to gain when Argentina and Spain play tomorrow",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f378cecc-e82b-4068-b6da-0977bc067819&mod=mw_rss_bulletins",
+      "published_at": "2026-07-18T15:10:34+00:00"
+    },
+    {
+      "headline": "Two unexpected revelations in Warren Buffett's CNBC interview",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
+      "published_at": "2026-07-18T14:53:36+00:00"
+    },
+    {
+      "headline": "How a homegrown Chinese chip maker became the memory industry\u2019s big wild card",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f94c1a24-ef4f-4b79-a41b-0276c1704105&mod=mw_rss_bulletins",
+      "published_at": "2026-07-18T13:49:30+00:00"
+    },
+    {
+      "headline": "Will the Fed hike interest rates this month?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2d474798-f9fb-4c0e-9b42-70a398ae195c&mod=mw_rss_bulletins",
+      "published_at": "2026-07-18T13:18:14+00:00"
+    },
+    {
+      "headline": "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/18/how-are-prediction-markets-taxed-the-irs-hasnt-provided-guidance-yet.html",
+      "published_at": "2026-07-18T11:24:54+00:00"
+    },
+    {
+      "headline": "These 19 stocks \u2014 mostly tech stocks \u2014 have fallen 25% or more in July",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=abdac6d9-5d55-47a6-89f1-f394a9c346e2&mod=mw_rss_bulletins",
+      "published_at": "2026-07-17T23:09:41+00:00"
+    }
+  ]
 }

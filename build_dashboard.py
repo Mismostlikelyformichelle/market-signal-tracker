@@ -12,6 +12,7 @@ DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 HISTORY_DAYS = 90
 CALENDAR_DAYS_AHEAD = 30
 CALENDAR_HEADLINE_DAYS_BACK = 7
+TOP_HEADLINES_COUNT = 10
 
 
 def status_t10y2y(v):
@@ -161,6 +162,14 @@ def fetch_latest(conn, table, date_col, value_col):
     return row[0], row[1]
 
 
+def fetch_top_headlines(conn, limit):
+    rows = conn.execute(
+        "SELECT headline, source, link, published_at FROM headlines ORDER BY published_at DESC LIMIT ?",
+        (limit,),
+    ).fetchall()
+    return [{"headline": r[0], "source": r[1], "link": r[2], "published_at": r[3]} for r in rows]
+
+
 def fetch_upcoming_calendar(conn, days_ahead, headline_days_back):
     today_date = datetime.now(timezone.utc).date()
     today = today_date.isoformat()
@@ -271,6 +280,7 @@ def build_data(conn):
     gold_status = status_momentum(gold_pct20, 6, 12)
 
     upcoming_events = fetch_upcoming_calendar(conn, CALENDAR_DAYS_AHEAD, CALENDAR_HEADLINE_DAYS_BACK)
+    top_headlines = fetch_top_headlines(conn, TOP_HEADLINES_COUNT)
 
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -350,6 +360,7 @@ def build_data(conn):
             "days_ahead": CALENDAR_DAYS_AHEAD,
             "events": upcoming_events,
         },
+        "headlines": top_headlines,
     }
     return data
 
@@ -460,6 +471,23 @@ HTML_TEMPLATE = """<!doctype html>
   .calendar-headline a { color: var(--text); text-decoration: none; }
   .calendar-headline a:hover { text-decoration: underline; }
   .calendar-headline .source { color: var(--muted); }
+  .headlines-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px 16px;
+    max-width: 600px;
+    max-height: 360px;
+    overflow-y: auto;
+  }
+  .headline-row {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .headline-row:last-child { border-bottom: none; }
+  .headline-row a { color: var(--text); text-decoration: none; font-size: 0.9rem; }
+  .headline-row a:hover { text-decoration: underline; }
+  .headline-meta { color: var(--muted); font-size: 0.75rem; margin-top: 3px; }
 </style>
 </head>
 <body>
@@ -478,6 +506,9 @@ HTML_TEMPLATE = """<!doctype html>
     <div class="chart-card"><h3>US Dollar Index (DXY)</h3><canvas id="chart-dxy" height="180"></canvas></div>
     <div class="chart-card"><h3>Gold (GC=F)</h3><canvas id="chart-gold" height="180"></canvas></div>
   </div>
+
+  <div class="section-title">Top Headlines</div>
+  <div class="headlines-card" id="headlines-list"></div>
 
   <div class="section-title" id="calendar-title"></div>
   <div class="calendar-card" id="calendar-list"></div>
@@ -630,6 +661,19 @@ renderMultiLineChart("chart-vixterm", DATA.indicators.vix_term.history, "date", 
 ]);
 renderLineChart("chart-dxy", DATA.indicators.dxy.history, "date", "value", "#58a6ff");
 renderLineChart("chart-gold", DATA.indicators.gold.history, "date", "value", "#e3b341");
+
+const headlinesEl = document.getElementById("headlines-list");
+if (!DATA.headlines || DATA.headlines.length === 0) {
+  headlinesEl.innerHTML = '<div class="no-data" style="padding: 12px 0;">No headlines yet</div>';
+} else {
+  headlinesEl.innerHTML = DATA.headlines.map(h => {
+    const t = new Date(h.published_at).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    return `<div class="headline-row">
+      <a href="${h.link}" target="_blank" rel="noopener">${h.headline}</a>
+      <div class="headline-meta">${h.source} · ${t}</div>
+    </div>`;
+  }).join("");
+}
 
 document.getElementById("calendar-title").textContent =
   `Economic Calendar (next ${DATA.econ_calendar.days_ahead} days, recent releases included)`;
