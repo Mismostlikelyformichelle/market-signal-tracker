@@ -90,18 +90,20 @@
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 4px 16px;
-    max-width: 480px;
+    max-width: 600px;
   }
   .calendar-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
     padding: 10px 0;
     border-bottom: 1px solid var(--border);
   }
   .calendar-row:last-child { border-bottom: none; }
+  .calendar-row-main { display: flex; justify-content: space-between; gap: 16px; }
   .calendar-date { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
   .calendar-name { font-size: 0.9rem; text-align: right; }
+  .calendar-headline { margin-top: 6px; font-size: 0.8rem; text-align: right; }
+  .calendar-headline a { color: var(--text); text-decoration: none; }
+  .calendar-headline a:hover { text-decoration: underline; }
+  .calendar-headline .source { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -125,7 +127,7 @@
   <div class="calendar-card" id="calendar-list"></div>
 
 <script>
-const DATA = {"generated_at": "2026-07-19T00:46:28.750842+00:00", "composite": {"status": "Calm", "watches": 0, "alerts": 0, "vix_term_note": null}, "indicators": {"t10y2y": {"label": "10Y-2Y Treasury Spread", "latest_date": "2026-07-17", "latest_value": 0.37, "unit": "pp", "status": "Calm", "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0", "history": [{"date": "2026-07-01", "value": 0.31}, {"date": "2026-07-02", "value": 0.35}, {"date": "2026-07-06", "value": 0.35}, {"date": "2026-07-07", "value": 0.36}, {"date": "2026-07-08", "value": 0.35}, {"date": "2026-07-09", "value": 0.38}, {"date": "2026-07-10", "value": 0.35}, {"date": "2026-07-13", "value": 0.36}, {"date": "2026-07-14", "value": 0.4}, {"date": "2026-07-15", "value": 0.42}, {"date": "2026-07-16", "value": 0.41}, {"date": "2026-07-17", "value": 0.37}]}, "hy": {"label": "ICE BofA High Yield Spread", "latest_date": "2026-07-16", "latest_value": 2.71, "latest_value_bps": 271.0, "unit": "pp", "status": "Calm", "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps", "history": [{"date": "2026-07-01", "value": 2.74}, {"date": "2026-07-02", "value": 2.75}, {"date": "2026-07-03", "value": 2.74}, {"date": "2026-07-06", "value": 2.72}, {"date": "2026-07-07", "value": 2.67}, {"date": "2026-07-08", "value": 2.7}, {"date": "2026-07-09", "value": 2.7}, {"date": "2026-07-10", "value": 2.69}, {"date": "2026-07-13", "value": 2.69}, {"date": "2026-07-14", "value": 2.72}, {"date": "2026-07-15", "value": 2.71}, {"date": "2026-07-16", "value": 2.71}]}, "vix": {"label": "VIX (Close)", "latest_date": "2026-07-17", "latest_value": 18.770000457763672, "unit": "", "status": "Normal", "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25", "history": [{"date": "2026-07-13", "value": 17.15999984741211}, {"date": "2026-07-14", "value": 16.5}, {"date": "2026-07-15", "value": 15.670000076293945}, {"date": "2026-07-16", "value": 16.729999542236328}, {"date": "2026-07-17", "value": 18.770000457763672}]}, "vix_term": {"label": "VIX Term Structure (VIX3M \u2212 VIX9D)", "latest_date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54, "spread": 3.6899999999999977, "unit": "", "status": "Calm", "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)", "history": [{"date": "2026-07-06", "vix9d": 12.32, "vix": 15.57, "vix3m": 18.78}, {"date": "2026-07-07", "vix9d": 13.42, "vix": 16.13, "vix3m": 19.01}, {"date": "2026-07-08", "vix9d": 14.41, "vix": 16.9, "vix3m": 19.46}, {"date": "2026-07-09", "vix9d": 12.5, "vix": 15.84, "vix3m": 18.99}, {"date": "2026-07-10", "vix9d": 11.15, "vix": 15.03, "vix3m": 18.57}, {"date": "2026-07-13", "vix9d": 15.13, "vix": 17.16, "vix3m": 19.64}, {"date": "2026-07-14", "vix9d": 13.46, "vix": 16.5, "vix3m": 19.3}, {"date": "2026-07-15", "vix9d": 12.06, "vix": 15.67, "vix3m": 18.91}, {"date": "2026-07-16", "vix9d": 13.98, "vix": 16.73, "vix3m": 19.5}, {"date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54}]}, "dxy": {"label": "US Dollar Index (DXY)", "latest_date": "2026-07-17", "latest_value": 100.75, "pct_change_20d": null, "unit": "", "status": null, "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%", "history": [{"date": "2026-07-13", "value": 101.27999877929688}, {"date": "2026-07-14", "value": 100.94000244140625}, {"date": "2026-07-15", "value": 100.5}, {"date": "2026-07-16", "value": 100.7300033569336}, {"date": "2026-07-17", "value": 100.75}]}, "gold": {"label": "Gold (GC=F)", "latest_date": "2026-07-17", "latest_value": 4012.699951171875, "pct_change_20d": null, "unit": "$", "status": null, "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%", "history": [{"date": "2026-07-13", "value": 3997.0}, {"date": "2026-07-14", "value": 4061.10009765625}, {"date": "2026-07-15", "value": 4044.0}, {"date": "2026-07-16", "value": 3985.60009765625}, {"date": "2026-07-17", "value": 4012.699951171875}]}}, "vix_intraday": {"latest": {"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}, "series": [{"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}]}, "econ_calendar": {"days_ahead": 30, "events": [{"date": "2026-07-29", "name": "FOMC Rate Decision"}, {"date": "2026-07-30", "name": "GDP Release"}, {"date": "2026-08-07", "name": "Employment Situation (Jobs Report)"}, {"date": "2026-08-12", "name": "CPI Release"}]}};
+const DATA = {"generated_at": "2026-07-19T00:58:00.090860+00:00", "composite": {"status": "Calm", "watches": 0, "alerts": 0, "vix_term_note": null}, "indicators": {"t10y2y": {"label": "10Y-2Y Treasury Spread", "latest_date": "2026-07-17", "latest_value": 0.37, "unit": "pp", "status": "Calm", "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0", "history": [{"date": "2026-07-01", "value": 0.31}, {"date": "2026-07-02", "value": 0.35}, {"date": "2026-07-06", "value": 0.35}, {"date": "2026-07-07", "value": 0.36}, {"date": "2026-07-08", "value": 0.35}, {"date": "2026-07-09", "value": 0.38}, {"date": "2026-07-10", "value": 0.35}, {"date": "2026-07-13", "value": 0.36}, {"date": "2026-07-14", "value": 0.4}, {"date": "2026-07-15", "value": 0.42}, {"date": "2026-07-16", "value": 0.41}, {"date": "2026-07-17", "value": 0.37}]}, "hy": {"label": "ICE BofA High Yield Spread", "latest_date": "2026-07-16", "latest_value": 2.71, "latest_value_bps": 271.0, "unit": "pp", "status": "Calm", "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps", "history": [{"date": "2026-07-01", "value": 2.74}, {"date": "2026-07-02", "value": 2.75}, {"date": "2026-07-03", "value": 2.74}, {"date": "2026-07-06", "value": 2.72}, {"date": "2026-07-07", "value": 2.67}, {"date": "2026-07-08", "value": 2.7}, {"date": "2026-07-09", "value": 2.7}, {"date": "2026-07-10", "value": 2.69}, {"date": "2026-07-13", "value": 2.69}, {"date": "2026-07-14", "value": 2.72}, {"date": "2026-07-15", "value": 2.71}, {"date": "2026-07-16", "value": 2.71}]}, "vix": {"label": "VIX (Close)", "latest_date": "2026-07-17", "latest_value": 18.770000457763672, "unit": "", "status": "Normal", "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25", "history": [{"date": "2026-07-13", "value": 17.15999984741211}, {"date": "2026-07-14", "value": 16.5}, {"date": "2026-07-15", "value": 15.670000076293945}, {"date": "2026-07-16", "value": 16.729999542236328}, {"date": "2026-07-17", "value": 18.770000457763672}]}, "vix_term": {"label": "VIX Term Structure (VIX3M \u2212 VIX9D)", "latest_date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54, "spread": 3.6899999999999977, "unit": "", "status": "Calm", "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)", "history": [{"date": "2026-07-06", "vix9d": 12.32, "vix": 15.57, "vix3m": 18.78}, {"date": "2026-07-07", "vix9d": 13.42, "vix": 16.13, "vix3m": 19.01}, {"date": "2026-07-08", "vix9d": 14.41, "vix": 16.9, "vix3m": 19.46}, {"date": "2026-07-09", "vix9d": 12.5, "vix": 15.84, "vix3m": 18.99}, {"date": "2026-07-10", "vix9d": 11.15, "vix": 15.03, "vix3m": 18.57}, {"date": "2026-07-13", "vix9d": 15.13, "vix": 17.16, "vix3m": 19.64}, {"date": "2026-07-14", "vix9d": 13.46, "vix": 16.5, "vix3m": 19.3}, {"date": "2026-07-15", "vix9d": 12.06, "vix": 15.67, "vix3m": 18.91}, {"date": "2026-07-16", "vix9d": 13.98, "vix": 16.73, "vix3m": 19.5}, {"date": "2026-07-17", "vix9d": 16.85, "vix": 18.77, "vix3m": 20.54}]}, "dxy": {"label": "US Dollar Index (DXY)", "latest_date": "2026-07-17", "latest_value": 100.75, "pct_change_20d": null, "unit": "", "status": null, "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%", "history": [{"date": "2026-07-13", "value": 101.27999877929688}, {"date": "2026-07-14", "value": 100.94000244140625}, {"date": "2026-07-15", "value": 100.5}, {"date": "2026-07-16", "value": 100.7300033569336}, {"date": "2026-07-17", "value": 100.75}]}, "gold": {"label": "Gold (GC=F)", "latest_date": "2026-07-17", "latest_value": 4012.699951171875, "pct_change_20d": null, "unit": "$", "status": null, "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%", "history": [{"date": "2026-07-13", "value": 3997.0}, {"date": "2026-07-14", "value": 4061.10009765625}, {"date": "2026-07-15", "value": 4044.0}, {"date": "2026-07-16", "value": 3985.60009765625}, {"date": "2026-07-17", "value": 4012.699951171875}]}}, "vix_intraday": {"latest": {"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}, "series": [{"timestamp": "2026-07-17T20:14:00+00:00", "value": 18.739999771118164}]}, "econ_calendar": {"days_ahead": 30, "events": [{"date": "2026-07-29", "name": "FOMC Rate Decision", "is_past": false, "headline": null}, {"date": "2026-07-30", "name": "GDP Release", "is_past": false, "headline": null}, {"date": "2026-08-07", "name": "Employment Situation (Jobs Report)", "is_past": false, "headline": null}, {"date": "2026-08-12", "name": "CPI Release", "is_past": false, "headline": null}]}};
 
 document.getElementById("updated").textContent =
   "Last updated: " + new Date(DATA.generated_at).toLocaleString();
@@ -274,7 +276,7 @@ renderLineChart("chart-dxy", DATA.indicators.dxy.history, "date", "value", "#58a
 renderLineChart("chart-gold", DATA.indicators.gold.history, "date", "value", "#e3b341");
 
 document.getElementById("calendar-title").textContent =
-  `Upcoming Economic Releases (next ${DATA.econ_calendar.days_ahead} days)`;
+  `Economic Calendar (next ${DATA.econ_calendar.days_ahead} days, recent releases included)`;
 const calendarEl = document.getElementById("calendar-list");
 if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
   calendarEl.innerHTML = '<div class="no-data" style="padding: 12px 0;">No releases scheduled in this window</div>';
@@ -282,7 +284,15 @@ if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
   calendarEl.innerHTML = DATA.econ_calendar.events.map(ev => {
     const d = new Date(ev.date + "T00:00:00");
     const label = d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
-    return `<div class="calendar-row"><span class="calendar-date">${label}</span><span class="calendar-name">${ev.name}</span></div>`;
+    let headlineHtml = "";
+    if (ev.headline) {
+      const sourceHtml = ev.headline.source ? ` <span class="source">(${ev.headline.source})</span>` : "";
+      headlineHtml = `<div class="calendar-headline"><a href="${ev.headline.link}" target="_blank" rel="noopener">${ev.headline.text}</a>${sourceHtml}</div>`;
+    }
+    return `<div class="calendar-row">
+      <div class="calendar-row-main"><span class="calendar-date">${label}</span><span class="calendar-name">${ev.name}</span></div>
+      ${headlineHtml}
+    </div>`;
   }).join("");
 }
 </script>

@@ -43,6 +43,9 @@ jobs:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python fetch_econ_calendar.py
 
+      - name: Match headlines to recent events
+        run: python fetch_event_headlines.py
+
       - name: Build dashboard
         run: python build_dashboard.py
 

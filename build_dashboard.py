@@ -11,6 +11,7 @@ DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 
 HISTORY_DAYS = 90
 CALENDAR_DAYS_AHEAD = 30
+CALENDAR_HEADLINE_DAYS_BACK = 7
 
 
 def status_t10y2y(v):
@@ -160,14 +161,29 @@ def fetch_latest(conn, table, date_col, value_col):
     return row[0], row[1]
 
 
-def fetch_upcoming_calendar(conn, days_ahead):
-    today = datetime.now(timezone.utc).date().isoformat()
-    cutoff = (datetime.now(timezone.utc).date() + timedelta(days=days_ahead)).isoformat()
+def fetch_upcoming_calendar(conn, days_ahead, headline_days_back):
+    today_date = datetime.now(timezone.utc).date()
+    today = today_date.isoformat()
+    start = (today_date - timedelta(days=headline_days_back)).isoformat()
+    cutoff = (today_date + timedelta(days=days_ahead)).isoformat()
     rows = conn.execute(
-        "SELECT event_date, event_name FROM econ_calendar WHERE event_date >= ? AND event_date <= ? ORDER BY event_date, event_name",
-        (today, cutoff),
+        """
+        SELECT c.event_date, c.event_name, h.headline, h.source, h.link
+        FROM econ_calendar c
+        LEFT JOIN event_headlines h
+            ON h.event_date = c.event_date AND h.event_name = c.event_name
+        WHERE c.event_date >= ? AND c.event_date <= ?
+        ORDER BY c.event_date, c.event_name
+        """,
+        (start, cutoff),
     ).fetchall()
-    return [{"date": r[0], "name": r[1]} for r in rows]
+    events = []
+    for event_date, event_name, headline, source, link in rows:
+        entry = {"date": event_date, "name": event_name, "is_past": event_date < today, "headline": None}
+        if headline:
+            entry["headline"] = {"text": headline, "source": source, "link": link}
+        events.append(entry)
+    return events
 
 
 def fetch_latest_multi(conn, table, date_col, value_cols):
@@ -254,7 +270,7 @@ def build_data(conn):
     gold_pct20 = pct_change_over(gold_history, 20)
     gold_status = status_momentum(gold_pct20, 6, 12)
 
-    upcoming_events = fetch_upcoming_calendar(conn, CALENDAR_DAYS_AHEAD)
+    upcoming_events = fetch_upcoming_calendar(conn, CALENDAR_DAYS_AHEAD, CALENDAR_HEADLINE_DAYS_BACK)
 
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -430,18 +446,20 @@ HTML_TEMPLATE = """<!doctype html>
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 4px 16px;
-    max-width: 480px;
+    max-width: 600px;
   }
   .calendar-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
     padding: 10px 0;
     border-bottom: 1px solid var(--border);
   }
   .calendar-row:last-child { border-bottom: none; }
+  .calendar-row-main { display: flex; justify-content: space-between; gap: 16px; }
   .calendar-date { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
   .calendar-name { font-size: 0.9rem; text-align: right; }
+  .calendar-headline { margin-top: 6px; font-size: 0.8rem; text-align: right; }
+  .calendar-headline a { color: var(--text); text-decoration: none; }
+  .calendar-headline a:hover { text-decoration: underline; }
+  .calendar-headline .source { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -614,7 +632,7 @@ renderLineChart("chart-dxy", DATA.indicators.dxy.history, "date", "value", "#58a
 renderLineChart("chart-gold", DATA.indicators.gold.history, "date", "value", "#e3b341");
 
 document.getElementById("calendar-title").textContent =
-  `Upcoming Economic Releases (next ${DATA.econ_calendar.days_ahead} days)`;
+  `Economic Calendar (next ${DATA.econ_calendar.days_ahead} days, recent releases included)`;
 const calendarEl = document.getElementById("calendar-list");
 if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
   calendarEl.innerHTML = '<div class="no-data" style="padding: 12px 0;">No releases scheduled in this window</div>';
@@ -622,7 +640,15 @@ if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
   calendarEl.innerHTML = DATA.econ_calendar.events.map(ev => {
     const d = new Date(ev.date + "T00:00:00");
     const label = d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
-    return `<div class="calendar-row"><span class="calendar-date">${label}</span><span class="calendar-name">${ev.name}</span></div>`;
+    let headlineHtml = "";
+    if (ev.headline) {
+      const sourceHtml = ev.headline.source ? ` <span class="source">(${ev.headline.source})</span>` : "";
+      headlineHtml = `<div class="calendar-headline"><a href="${ev.headline.link}" target="_blank" rel="noopener">${ev.headline.text}</a>${sourceHtml}</div>`;
+    }
+    return `<div class="calendar-row">
+      <div class="calendar-row-main"><span class="calendar-date">${label}</span><span class="calendar-name">${ev.name}</span></div>
+      ${headlineHtml}
+    </div>`;
   }).join("");
 }
 </script>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T00:46:28.750842+00:00",
+  "generated_at": "2026-07-19T00:58:00.090860+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -307,19 +307,27 @@
     "events": [
       {
         "date": "2026-07-29",
-        "name": "FOMC Rate Decision"
+        "name": "FOMC Rate Decision",
+        "is_past": false,
+        "headline": null
       },
       {
         "date": "2026-07-30",
-        "name": "GDP Release"
+        "name": "GDP Release",
+        "is_past": false,
+        "headline": null
       },
       {
         "date": "2026-08-07",
-        "name": "Employment Situation (Jobs Report)"
+        "name": "Employment Situation (Jobs Report)",
+        "is_past": false,
+        "headline": null
       },
       {
         "date": "2026-08-12",
-        "name": "CPI Release"
+        "name": "CPI Release",
+        "is_past": false,
+        "headline": null
       }
     ]
   }
