@@ -501,7 +501,14 @@ HTML_TEMPLATE = """<!doctype html>
 <body>
   <h1>Market Signal Tracker</h1>
   <div class="updated" id="updated"></div>
-  <div class="composite" id="composite"></div>
+
+  <div class="section-title" id="calendar-title" style="margin-top: 0;"></div>
+  <div class="calendar-card" id="calendar-list"></div>
+
+  <div class="section-title">Top Headlines</div>
+  <div class="headlines-card" id="headlines-list"></div>
+
+  <div class="composite" id="composite" style="margin-top: 28px;"></div>
 
   <div class="grid" id="cards"></div>
 
@@ -514,12 +521,6 @@ HTML_TEMPLATE = """<!doctype html>
     <div class="chart-card"><h3>US Dollar Index (DXY)</h3><canvas id="chart-dxy" height="180"></canvas></div>
     <div class="chart-card"><h3>Gold (GC=F)</h3><canvas id="chart-gold" height="180"></canvas></div>
   </div>
-
-  <div class="section-title">Top Headlines</div>
-  <div class="headlines-card" id="headlines-list"></div>
-
-  <div class="section-title" id="calendar-title"></div>
-  <div class="calendar-card" id="calendar-list"></div>
 
 <script>
 const DATA = __DATA_JSON__;
