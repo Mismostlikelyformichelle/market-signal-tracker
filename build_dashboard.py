@@ -219,19 +219,23 @@ def fetch_history_multi(conn, table, date_col, value_cols, since):
     return result
 
 
-def fetch_todays_intraday(conn):
+def fetch_latest_intraday_session(conn):
+    """Returns the most recent day of vix_intraday readings -- not necessarily
+    today's, since the hourly workflow only runs on weekday market hours. On
+    weekends/holidays this naturally falls back to the last trading day's data."""
     latest_ts = conn.execute(
         "SELECT MAX(timestamp) FROM vix_intraday"
     ).fetchone()[0]
     if not latest_ts:
-        return None, []
-    latest_date = latest_ts[:10]
+        return None, [], None
+    session_date = latest_ts[:10]
     rows = conn.execute(
         "SELECT timestamp, vix_value FROM vix_intraday WHERE timestamp LIKE ? ORDER BY timestamp",
-        (f"{latest_date}%",),
+        (f"{session_date}%",),
     ).fetchall()
     series = [{"timestamp": r[0], "value": r[1]} for r in rows]
-    return series[-1] if series else None, series
+    latest = series[-1] if series else None
+    return latest, series, session_date
 
 
 def build_data(conn):
@@ -267,7 +271,9 @@ def build_data(conn):
         flags.append(vixterm_extra_flag)
     composite = composite_status(flags)
 
-    intraday_latest, intraday_series = fetch_todays_intraday(conn)
+    intraday_latest, intraday_series, intraday_session_date = fetch_latest_intraday_session(conn)
+    today_str = datetime.now(timezone.utc).date().isoformat()
+    intraday_is_stale = intraday_session_date is not None and intraday_session_date != today_str
 
     dxy_date, dxy_val = fetch_latest(conn, "dxy", "date", "dxy_close")
     dxy_history = fetch_history(conn, "dxy", "date", "dxy_close", since)
@@ -355,6 +361,8 @@ def build_data(conn):
         "vix_intraday": {
             "latest": intraday_latest,
             "series": intraday_series,
+            "session_date": intraday_session_date,
+            "is_stale": intraday_is_stale,
         },
         "econ_calendar": {
             "days_ahead": CALENDAR_DAYS_AHEAD,
@@ -550,7 +558,13 @@ cardsEl.innerHTML =
     const iv = DATA.vix_intraday.latest;
     if (!iv) return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="no-data">No reading available (outside market hours)</div></div>`;
     const t = new Date(iv.timestamp).toLocaleString();
-    return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="thresholds">${t}</div></div>`;
+    let staleNote = "";
+    if (DATA.vix_intraday.is_stale && DATA.vix_intraday.session_date) {
+      const d = new Date(DATA.vix_intraday.session_date + "T00:00:00");
+      const label = d.toLocaleDateString(undefined, { weekday: "long", month: "short", day: "numeric" });
+      staleNote = `<div class="thresholds" style="margin-top: 4px;">Showing ${label} — markets closed</div>`;
+    }
+    return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="thresholds">${t}</div>${staleNote}</div>`;
   })() +
   (function() {
     const vt = DATA.indicators.vix_term;
