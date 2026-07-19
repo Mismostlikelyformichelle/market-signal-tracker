@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:39:01.575444+00:00",
+  "generated_at": "2026-07-19T00:46:28.750842+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -299,6 +299,27 @@
       {
         "timestamp": "2026-07-17T20:14:00+00:00",
         "value": 18.739999771118164
+      }
+    ]
+  },
+  "econ_calendar": {
+    "days_ahead": 30,
+    "events": [
+      {
+        "date": "2026-07-29",
+        "name": "FOMC Rate Decision"
+      },
+      {
+        "date": "2026-07-30",
+        "name": "GDP Release"
+      },
+      {
+        "date": "2026-08-07",
+        "name": "Employment Situation (Jobs Report)"
+      },
+      {
+        "date": "2026-08-12",
+        "name": "CPI Release"
       }
     ]
   }

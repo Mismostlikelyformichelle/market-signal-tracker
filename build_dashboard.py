@@ -10,6 +10,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "spreads.db")
 DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 
 HISTORY_DAYS = 90
+CALENDAR_DAYS_AHEAD = 30
 
 
 def status_t10y2y(v):
@@ -159,6 +160,16 @@ def fetch_latest(conn, table, date_col, value_col):
     return row[0], row[1]
 
 
+def fetch_upcoming_calendar(conn, days_ahead):
+    today = datetime.now(timezone.utc).date().isoformat()
+    cutoff = (datetime.now(timezone.utc).date() + timedelta(days=days_ahead)).isoformat()
+    rows = conn.execute(
+        "SELECT event_date, event_name FROM econ_calendar WHERE event_date >= ? AND event_date <= ? ORDER BY event_date, event_name",
+        (today, cutoff),
+    ).fetchall()
+    return [{"date": r[0], "name": r[1]} for r in rows]
+
+
 def fetch_latest_multi(conn, table, date_col, value_cols):
     cols = ", ".join(value_cols)
     row = conn.execute(
@@ -243,6 +254,8 @@ def build_data(conn):
     gold_pct20 = pct_change_over(gold_history, 20)
     gold_status = status_momentum(gold_pct20, 6, 12)
 
+    upcoming_events = fetch_upcoming_calendar(conn, CALENDAR_DAYS_AHEAD)
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "composite": {
@@ -316,6 +329,10 @@ def build_data(conn):
         "vix_intraday": {
             "latest": intraday_latest,
             "series": intraday_series,
+        },
+        "econ_calendar": {
+            "days_ahead": CALENDAR_DAYS_AHEAD,
+            "events": upcoming_events,
         },
     }
     return data
@@ -407,6 +424,24 @@ HTML_TEMPLATE = """<!doctype html>
   }
   .chart-card h3 { margin: 0 0 10px; font-size: 0.95rem; color: var(--muted); font-weight: 500; }
   .no-data { color: var(--muted); font-size: 0.85rem; }
+  .section-title { font-size: 1rem; font-weight: 600; margin: 28px 0 12px; }
+  .calendar-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px 16px;
+    max-width: 480px;
+  }
+  .calendar-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .calendar-row:last-child { border-bottom: none; }
+  .calendar-date { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+  .calendar-name { font-size: 0.9rem; text-align: right; }
 </style>
 </head>
 <body>
@@ -425,6 +460,9 @@ HTML_TEMPLATE = """<!doctype html>
     <div class="chart-card"><h3>US Dollar Index (DXY)</h3><canvas id="chart-dxy" height="180"></canvas></div>
     <div class="chart-card"><h3>Gold (GC=F)</h3><canvas id="chart-gold" height="180"></canvas></div>
   </div>
+
+  <div class="section-title" id="calendar-title"></div>
+  <div class="calendar-card" id="calendar-list"></div>
 
 <script>
 const DATA = __DATA_JSON__;
@@ -574,6 +612,19 @@ renderMultiLineChart("chart-vixterm", DATA.indicators.vix_term.history, "date", 
 ]);
 renderLineChart("chart-dxy", DATA.indicators.dxy.history, "date", "value", "#58a6ff");
 renderLineChart("chart-gold", DATA.indicators.gold.history, "date", "value", "#e3b341");
+
+document.getElementById("calendar-title").textContent =
+  `Upcoming Economic Releases (next ${DATA.econ_calendar.days_ahead} days)`;
+const calendarEl = document.getElementById("calendar-list");
+if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
+  calendarEl.innerHTML = '<div class="no-data" style="padding: 12px 0;">No releases scheduled in this window</div>';
+} else {
+  calendarEl.innerHTML = DATA.econ_calendar.events.map(ev => {
+    const d = new Date(ev.date + "T00:00:00");
+    const label = d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+    return `<div class="calendar-row"><span class="calendar-date">${label}</span><span class="calendar-name">${ev.name}</span></div>`;
+  }).join("");
+}
 </script>
 </body>
 </html>

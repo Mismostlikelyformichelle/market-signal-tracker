@@ -38,6 +38,11 @@ jobs:
       - name: Fetch Gold
         run: python fetch_gold.py
 
+      - name: Fetch economic calendar
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python fetch_econ_calendar.py
+
       - name: Build dashboard
         run: python build_dashboard.py
 
