@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T01:35:12.402470+00:00",
+  "generated_at": "2026-07-19T14:23:47.093121+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -261,7 +261,7 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-07-17",
-      "latest_value": 4012.699951171875,
+      "latest_value": 4018.800048828125,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -285,7 +285,7 @@
         },
         {
           "date": "2026-07-17",
-          "value": 4012.699951171875
+          "value": 4018.800048828125
         }
       ]
     }
@@ -335,6 +335,36 @@
   },
   "headlines": [
     {
+      "headline": "Bernstein spotlights how compute markets are increasingly resembling commodities",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/bernstein-spotlights-how-compute-markets-are-increasingly-resembling-commodities-4799726",
+      "published_at": "2026-07-19T14:13:16+00:00"
+    },
+    {
+      "headline": "Boeing focused on production, not new orders at Farnborough Airshow",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/boeing-studying-new-737-max-production-hikes-4799724",
+      "published_at": "2026-07-19T13:54:27+00:00"
+    },
+    {
+      "headline": "Alphabet, Intel results in focus for AI trade as US earnings rev up",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/alphabet-intel-results-in-focus-for-ai-trade-as-us-earnings-rev-up-4799723",
+      "published_at": "2026-07-19T13:00:30+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts suggest these 3 dividend stocks for steady income",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/19/top-analysts-suggest-these-3-dividend-stocks-for-steady-income.html",
+      "published_at": "2026-07-19T12:46:25+00:00"
+    },
+    {
+      "headline": "Kalshi adds 3 million new users as prediction market capitalizes on the World Cup",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/19/kalshi-adds-3-million-new-users-as-company-capitalizes-on-world-cup.html",
+      "published_at": "2026-07-19T12:42:30+00:00"
+    },
+    {
       "headline": "Samsung Electronics America to cut 739 New Jersey positions",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/samsung-electronics-america-to-cut-739-new-jersey-positions-4799690",
@@ -363,36 +393,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f378cecc-e82b-4068-b6da-0977bc067819&mod=mw_rss_bulletins",
       "published_at": "2026-07-18T15:10:34+00:00"
-    },
-    {
-      "headline": "Two unexpected revelations in Warren Buffett's CNBC interview",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html",
-      "published_at": "2026-07-18T14:53:36+00:00"
-    },
-    {
-      "headline": "How a homegrown Chinese chip maker became the memory industry\u2019s big wild card",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f94c1a24-ef4f-4b79-a41b-0276c1704105&mod=mw_rss_bulletins",
-      "published_at": "2026-07-18T13:49:30+00:00"
-    },
-    {
-      "headline": "Will the Fed hike interest rates this month?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2d474798-f9fb-4c0e-9b42-70a398ae195c&mod=mw_rss_bulletins",
-      "published_at": "2026-07-18T13:18:14+00:00"
-    },
-    {
-      "headline": "How are prediction markets taxed? The IRS hasn\u2019t provided guidance yet",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/18/how-are-prediction-markets-taxed-the-irs-hasnt-provided-guidance-yet.html",
-      "published_at": "2026-07-18T11:24:54+00:00"
-    },
-    {
-      "headline": "These 19 stocks \u2014 mostly tech stocks \u2014 have fallen 25% or more in July",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=abdac6d9-5d55-47a6-89f1-f394a9c346e2&mod=mw_rss_bulletins",
-      "published_at": "2026-07-17T23:09:41+00:00"
     }
   ]
 }
