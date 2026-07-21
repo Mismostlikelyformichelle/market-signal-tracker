@@ -14,6 +14,18 @@ CALENDAR_DAYS_AHEAD = 30
 CALENDAR_HEADLINE_DAYS_BACK = 7
 TOP_HEADLINES_COUNT = 10
 
+# Acute-panic override: an isolated extreme VIX close forces High Alert on its
+# own, regardless of the other flags. Added because backtesting against full
+# VIX history (CBOE, 1990-2026) showed the 2008 GFC (VIX 80.86) and 2020 COVID
+# crash (VIX 82.69, the all-time record) both only reached "Elevated" under
+# the normal 2+ flags rule -- the yield curve wasn't inverted on either peak
+# day, since the Fed cuts hard during acute panics, steepening rather than
+# inverting the curve. 40 sits just above the 97.5th percentile (38.87) of
+# that 36-year history and captures 33 distinct crisis episodes averaging
+# about one per year, including both 2008's and 2020's peaks, while excluding
+# most routine single-day spikes.
+CRISIS_VIX_THRESHOLD = 40
+
 
 def status_t10y2y(v):
     if v is None:
@@ -145,6 +157,23 @@ def apply_vix_term_modifier(vix_flag, term_status):
     )
 
 
+def apply_crisis_override(composite, vix_val):
+    """Acute-panic override: an isolated extreme VIX close forces High Alert
+    on its own, as an OR alongside the normal 2+ flags path -- not a
+    replacement for it. Without this, an isolated vol shock can get stuck at
+    "Elevated" just because the curve/credit spread haven't caught up yet
+    (see CRISIS_VIX_THRESHOLD's docstring for the backtest that motivated
+    this). Returns (final_composite, note_or_None)."""
+    if vix_val is None or vix_val < CRISIS_VIX_THRESHOLD:
+        return composite, None
+    if composite == "High Alert":
+        return composite, None
+    return "High Alert", (
+        f"VIX crisis override: VIX closed at {vix_val:.2f}, above the acute-panic threshold of "
+        f"{CRISIS_VIX_THRESHOLD} — forced to High Alert regardless of the other flags."
+    )
+
+
 def fetch_history(conn, table, date_col, value_col, since):
     rows = conn.execute(
         f"SELECT {date_col}, {value_col} FROM {table} WHERE {date_col} >= ? AND {value_col} IS NOT NULL ORDER BY {date_col}",
@@ -270,6 +299,7 @@ def build_data(conn):
     if vixterm_extra_flag:
         flags.append(vixterm_extra_flag)
     composite = composite_status(flags)
+    composite, crisis_override_note = apply_crisis_override(composite, vix_val)
 
     intraday_latest, intraday_series, intraday_session_date = fetch_latest_intraday_session(conn)
     today_str = datetime.now(timezone.utc).date().isoformat()
@@ -296,6 +326,7 @@ def build_data(conn):
             "watches": flags.count("watch"),
             "alerts": flags.count("alert"),
             "vix_term_note": vixterm_note,
+            "crisis_override_note": crisis_override_note,
         },
         "indicators": {
             "t10y2y": {
@@ -554,11 +585,14 @@ const compositeEl = document.getElementById("composite");
 compositeEl.textContent = DATA.composite.status;
 compositeEl.className = "composite composite-" + DATA.composite.status.replace(/ /g, "-");
 
-if (DATA.composite.vix_term_note) {
+const compositeNotes = [DATA.composite.crisis_override_note, DATA.composite.vix_term_note].filter(Boolean);
+let anchorEl = compositeEl;
+for (const note of compositeNotes) {
   const noteEl = document.createElement("div");
   noteEl.className = "composite-note";
-  noteEl.textContent = DATA.composite.vix_term_note;
-  compositeEl.insertAdjacentElement("afterend", noteEl);
+  noteEl.textContent = note;
+  anchorEl.insertAdjacentElement("afterend", noteEl);
+  anchorEl = noteEl;
 }
 
 function formatAsOfDate(dateStr) {

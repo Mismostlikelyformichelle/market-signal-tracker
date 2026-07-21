@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-07-21T15:04:10.777632+00:00",
+  "generated_at": "2026-07-21T15:17:56.982643+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
     "alerts": 0,
-    "vix_term_note": null
+    "vix_term_note": null,
+    "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
