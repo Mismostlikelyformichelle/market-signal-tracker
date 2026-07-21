@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:44:11.954084+00:00",
+  "generated_at": "2026-07-21T15:04:10.777632+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -9,8 +9,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-17",
-      "latest_value": 0.37,
+      "latest_date": "2026-07-20",
+      "latest_value": 0.39,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -62,14 +62,18 @@
         {
           "date": "2026-07-17",
           "value": 0.37
+        },
+        {
+          "date": "2026-07-20",
+          "value": 0.39
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-07-16",
-      "latest_value": 2.71,
-      "latest_value_bps": 271.0,
+      "latest_date": "2026-07-20",
+      "latest_value": 2.69,
+      "latest_value_bps": 269.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -121,13 +125,21 @@
         {
           "date": "2026-07-16",
           "value": 2.71
+        },
+        {
+          "date": "2026-07-17",
+          "value": 2.73
+        },
+        {
+          "date": "2026-07-20",
+          "value": 2.69
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-07-20",
-      "latest_value": 18.3799991607666,
+      "latest_date": "2026-07-21",
+      "latest_value": 17.329999923706055,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -154,17 +166,21 @@
         },
         {
           "date": "2026-07-20",
-          "value": 18.3799991607666
+          "value": 18.649999618530273
+        },
+        {
+          "date": "2026-07-21",
+          "value": 17.329999923706055
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-17",
-      "vix9d": 16.85,
-      "vix": 18.77,
-      "vix3m": 20.54,
-      "spread": 3.6899999999999977,
+      "latest_date": "2026-07-20",
+      "vix9d": 17.78,
+      "vix": 18.65,
+      "vix3m": 20.4,
+      "spread": 2.6199999999999974,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -228,13 +244,19 @@
           "vix9d": 16.85,
           "vix": 18.77,
           "vix3m": 20.54
+        },
+        {
+          "date": "2026-07-20",
+          "vix9d": 17.78,
+          "vix": 18.65,
+          "vix3m": 20.4
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-07-20",
-      "latest_value": 100.99600219726562,
+      "latest_date": "2026-07-21",
+      "latest_value": 101.15699768066406,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -262,14 +284,18 @@
         },
         {
           "date": "2026-07-20",
-          "value": 100.99600219726562
+          "value": 100.98999786376953
+        },
+        {
+          "date": "2026-07-21",
+          "value": 101.15699768066406
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-07-20",
-      "latest_value": 4013.0,
+      "latest_date": "2026-07-21",
+      "latest_value": 4072.39990234375,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -297,7 +323,11 @@
         },
         {
           "date": "2026-07-20",
-          "value": 4013.0
+          "value": 4010.300048828125
+        },
+        {
+          "date": "2026-07-21",
+          "value": 4072.39990234375
         }
       ]
     }
@@ -352,68 +382,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-20T15:11:46.573566+00:00"
+    "last_refreshed": "2026-07-21T15:04:09.306817+00:00"
   },
   "headlines": [
+    {
+      "headline": "Jefferies downgrades Datadog after 94% YTD rally",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/jefferies-downgrades-datadog-after-94-ytd-rally-4803764",
+      "published_at": "2026-07-21T14:48:41+00:00"
+    },
+    {
+      "headline": "GM boosts profit outlook, cites \u2019resilient\u2019 consumer demand",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/gm-quarterly-core-profit-rises-30-on-truck-suv-strength-4802597",
+      "published_at": "2026-07-21T14:48:22+00:00"
+    },
+    {
+      "headline": "Velo3D stock rises on Livermore manufacturing campus opening",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/velo3d-stock-rises-on-livermore-manufacturing-campus-opening-93CH-4803763",
+      "published_at": "2026-07-21T14:48:07+00:00"
+    },
+    {
+      "headline": "Sidus Space stock jumps on $170M capital raise, Russell inclusion",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/sidus-space-stock-jumps-on-170m-capital-raise-russell-inclusion-93CH-4803762",
+      "published_at": "2026-07-21T14:45:19+00:00"
+    },
+    {
+      "headline": "Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/21/bets-against-spacex-grow-to-32percent-of-float-as-elon-musk-warns-short-sellers-wont-survive.html",
+      "published_at": "2026-07-21T14:28:52+00:00"
+    },
+    {
+      "headline": "Chips outperforming as U.S. stocks advance at opening bell \u2014 live updates",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c177febe-f877-4f5a-9934-dd575f69649b&mod=mw_rss_bulletins",
+      "published_at": "2026-07-21T13:37:35+00:00"
+    },
+    {
+      "headline": "Economic calendar: Wall Street looks ahead to jobless-claims data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3475d81b-e8bd-4892-b276-c80d4a5962d6&mod=mw_rss_bulletins",
+      "published_at": "2026-07-21T12:05:22+00:00"
+    },
+    {
+      "headline": "LSE says it's planning to launch 24-hour trading",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ae1e6b45-ed08-4c8b-8566-443d2ccaf9c6&mod=mw_rss_bulletins",
+      "published_at": "2026-07-21T10:09:26+00:00"
+    },
+    {
+      "headline": "Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=034f5eb1-b2ff-494f-b7d8-8ba0a3e28cfd&mod=mw_rss_bulletins",
+      "published_at": "2026-07-21T09:04:34+00:00"
+    },
     {
       "headline": "Tempus to buy cancer test maker Personalis for $1.5 billion",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/tempus-to-acquire-personalis-for-15-billion-4801007",
       "published_at": "2026-07-20T14:50:13+00:00"
-    },
-    {
-      "headline": "India\u2019s \u2019cockroach movement\u2019 leaders say minister promises talks on demands",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/world-news/police-cane-supporters-of-indias-cockroach-movement-as-thousands-gather-for-march-4799818",
-      "published_at": "2026-07-20T14:49:56+00:00"
-    },
-    {
-      "headline": "Google plans new chip to run Gemini models more efficiently, the Information reports",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/google-plans-new-chip-to-run-gemini-models-more-efficiently-the-information-reports-4801240",
-      "published_at": "2026-07-20T14:49:34+00:00"
-    },
-    {
-      "headline": "Polestar to exit US market after Commerce Department ban",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/polestar-to-exit-us-market-after-commerce-department-ban-93CH-4801319",
-      "published_at": "2026-07-20T14:49:25+00:00"
-    },
-    {
-      "headline": "How South Korea got so relevant for mutual-fund investors",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c1b76732-851f-4510-9cdc-fb6a8e5aed05&mod=mw_rss_bulletins",
-      "published_at": "2026-07-20T14:43:55+00:00"
-    },
-    {
-      "headline": "Economic calendar: Leading indicators due at 10. Trump tariff news anticipated.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=dc55346b-146b-4a6c-97a7-3fd83dc5187c&mod=mw_rss_bulletins",
-      "published_at": "2026-07-20T13:11:49+00:00"
-    },
-    {
-      "headline": "Why crude-oil futures are resurgent after earlier pullback \u2014 live coverage",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6ba222df-12ed-48bc-b0f2-d845cc7a7791&mod=mw_rss_bulletins",
-      "published_at": "2026-07-20T12:44:44+00:00"
-    },
-    {
-      "headline": "Oil prices reverse lower amid report of 10-day cease-fire in Iran",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3fd1f431-ca73-42e4-b188-3db94d0c0bb4&mod=mw_rss_bulletins",
-      "published_at": "2026-07-20T12:23:32+00:00"
-    },
-    {
-      "headline": "Bernstein spotlights how compute markets are increasingly resembling commodities",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/bernstein-spotlights-how-compute-markets-are-increasingly-resembling-commodities-4799726",
-      "published_at": "2026-07-19T14:13:16+00:00"
-    },
-    {
-      "headline": "Boeing focused on production, not new orders at Farnborough Airshow",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/boeing-studying-new-737-max-production-hikes-4799724",
-      "published_at": "2026-07-19T13:54:27+00:00"
     }
   ]
 }
