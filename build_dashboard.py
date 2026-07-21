@@ -287,6 +287,7 @@ def build_data(conn):
 
     upcoming_events = fetch_upcoming_calendar(conn, CALENDAR_DAYS_AHEAD, CALENDAR_HEADLINE_DAYS_BACK)
     top_headlines = fetch_top_headlines(conn, TOP_HEADLINES_COUNT)
+    calendar_last_refreshed = conn.execute("SELECT MAX(updated_at) FROM econ_calendar").fetchone()[0]
 
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -367,6 +368,7 @@ def build_data(conn):
         "econ_calendar": {
             "days_ahead": CALENDAR_DAYS_AHEAD,
             "events": upcoming_events,
+            "last_refreshed": calendar_last_refreshed,
         },
         "headlines": top_headlines,
     }
@@ -439,6 +441,8 @@ HTML_TEMPLATE = """<!doctype html>
     font-weight: 600;
   }
   .card .thresholds { color: var(--muted); font-size: 0.75rem; margin-top: 8px; }
+  .as-of { color: var(--muted); font-size: 0.78rem; margin: 2px 0 8px; }
+  .section-as-of { color: var(--muted); font-size: 0.78rem; font-weight: 400; margin-left: 8px; }
   .status-Calm, .status-Normal { background: rgba(46,160,67,0.15); color: var(--calm); }
   .status-Watch, .status-Elevated { background: rgba(210,153,34,0.15); color: var(--watch); }
   .status-Alert, .status-High { background: rgba(248,81,73,0.15); color: var(--alert); }
@@ -505,7 +509,7 @@ HTML_TEMPLATE = """<!doctype html>
   <div class="section-title" id="calendar-title" style="margin-top: 0;"></div>
   <div class="calendar-card" id="calendar-list"></div>
 
-  <div class="section-title">Top Headlines</div>
+  <div class="section-title">Top Headlines<span class="section-as-of" id="headlines-as-of"></span></div>
   <div class="headlines-card" id="headlines-list"></div>
 
   <div class="composite" id="composite" style="margin-top: 28px;"></div>
@@ -539,6 +543,17 @@ if (DATA.composite.vix_term_note) {
   compositeEl.insertAdjacentElement("afterend", noteEl);
 }
 
+function formatAsOfDate(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(dateStr + "T00:00:00");
+  return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+}
+function formatAsOfDateTime(isoStr) {
+  if (!isoStr) return "";
+  const d = new Date(isoStr);
+  return d.toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+}
+
 const cardsEl = document.getElementById("cards");
 function renderCard(ind, valueText) {
   if (!ind.status) {
@@ -547,6 +562,7 @@ function renderCard(ind, valueText) {
   return `<div class="card">
     <h3>${ind.label}</h3>
     <div class="value">${valueText}</div>
+    <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
     <span class="pill status-${ind.status.replace(/ /g, "-")}">${ind.status}</span>
     <div class="thresholds">${ind.thresholds}</div>
   </div>`;
@@ -558,14 +574,13 @@ cardsEl.innerHTML =
   (function() {
     const iv = DATA.vix_intraday.latest;
     if (!iv) return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="no-data">No reading available (outside market hours)</div></div>`;
-    const t = new Date(iv.timestamp).toLocaleString();
     let staleNote = "";
     if (DATA.vix_intraday.is_stale && DATA.vix_intraday.session_date) {
       const d = new Date(DATA.vix_intraday.session_date + "T00:00:00");
       const label = d.toLocaleDateString(undefined, { weekday: "long", month: "short", day: "numeric" });
       staleNote = `<div class="thresholds" style="margin-top: 4px;">Showing ${label} — markets closed</div>`;
     }
-    return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="thresholds">${t}</div>${staleNote}</div>`;
+    return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="as-of">As of ${formatAsOfDateTime(iv.timestamp)}</div>${staleNote}</div>`;
   })() +
   (function() {
     const vt = DATA.indicators.vix_term;
@@ -573,6 +588,7 @@ cardsEl.innerHTML =
     return `<div class="card">
       <h3>${vt.label}</h3>
       <div class="value">${vt.spread.toFixed(2)}</div>
+      <div class="as-of">As of ${formatAsOfDate(vt.latest_date)}</div>
       <span class="pill status-${vt.status}">${vt.status}</span>
       <div class="thresholds">VIX9D ${vt.vix9d.toFixed(2)} · VIX ${vt.vix.toFixed(2)} · VIX3M ${vt.vix3m.toFixed(2)}<br>${vt.thresholds}</div>
     </div>`;
@@ -588,6 +604,7 @@ function renderMomentumCard(ind, formatValue) {
     return `<div class="card">
       <h3>${ind.label}</h3>
       <div class="value">${formatValue(ind.latest_value)}</div>
+      <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
       <div class="thresholds">Status pending — needs 20 trading days of history to compute a 20-day move<br>${ind.thresholds}</div>
     </div>`;
   }
@@ -595,6 +612,7 @@ function renderMomentumCard(ind, formatValue) {
   return `<div class="card">
     <h3>${ind.label}</h3>
     <div class="value">${formatValue(ind.latest_value)}</div>
+    <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
     <span class="pill status-${ind.status}">${ind.status}</span>
     <div class="thresholds">${chg}<br>${ind.thresholds}</div>
   </div>`;
@@ -688,10 +706,12 @@ if (!DATA.headlines || DATA.headlines.length === 0) {
       <div class="headline-meta">${h.source} · ${t}</div>
     </div>`;
   }).join("");
+  document.getElementById("headlines-as-of").textContent = `As of ${formatAsOfDateTime(DATA.headlines[0].published_at)}`;
 }
 
-document.getElementById("calendar-title").textContent =
-  `Economic Calendar (next ${DATA.econ_calendar.days_ahead} days, recent releases included)`;
+document.getElementById("calendar-title").innerHTML =
+  `Economic Calendar (next ${DATA.econ_calendar.days_ahead} days, recent releases included)` +
+  (DATA.econ_calendar.last_refreshed ? `<span class="section-as-of">Last refreshed ${formatAsOfDateTime(DATA.econ_calendar.last_refreshed)}</span>` : "");
 const calendarEl = document.getElementById("calendar-list");
 if (!DATA.econ_calendar.events || DATA.econ_calendar.events.length === 0) {
   calendarEl.innerHTML = '<div class="no-data" style="padding: 12px 0;">No releases scheduled in this window</div>';

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T19:14:12.006289+00:00",
+  "generated_at": "2026-07-21T13:55:46.019917+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -322,7 +322,7 @@
       }
     ],
     "session_date": "2026-07-20",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -351,7 +351,8 @@
         "is_past": false,
         "headline": null
       }
-    ]
+    ],
+    "last_refreshed": "2026-07-20T15:11:46.573566+00:00"
   },
   "headlines": [
     {
