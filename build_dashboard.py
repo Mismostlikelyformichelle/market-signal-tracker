@@ -430,6 +430,8 @@ HTML_TEMPLATE = """<!doctype html>
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 16px;
+    position: relative;
+    cursor: pointer;
   }
   .card h3 { margin: 0 0 6px; font-size: 0.95rem; color: var(--muted); font-weight: 500; }
   .card .value { font-size: 1.8rem; font-weight: 700; margin-bottom: 6px; }
@@ -440,7 +442,23 @@ HTML_TEMPLATE = """<!doctype html>
     font-size: 0.8rem;
     font-weight: 600;
   }
-  .card .thresholds { color: var(--muted); font-size: 0.75rem; margin-top: 8px; }
+  .card .thresholds {
+    color: var(--muted);
+    font-size: 0.75rem;
+    margin-top: 8px;
+    display: none;
+  }
+  .card:hover .thresholds, .card.expanded .thresholds { display: block; }
+  .info-hint {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    color: var(--muted);
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+  .card:hover .info-hint, .card.expanded .info-hint { opacity: 0; }
+  .stale-note { color: var(--muted); font-size: 0.75rem; margin-top: 4px; }
   .as-of { color: var(--muted); font-size: 0.78rem; margin: 2px 0 8px; }
   .section-as-of { color: var(--muted); font-size: 0.78rem; font-weight: 400; margin-left: 8px; }
   .status-Calm, .status-Normal { background: rgba(46,160,67,0.15); color: var(--calm); }
@@ -560,6 +578,7 @@ function renderCard(ind, valueText) {
     return `<div class="card"><h3>${ind.label}</h3><div class="no-data">No data available</div></div>`;
   }
   return `<div class="card">
+    <span class="info-hint">ⓘ</span>
     <h3>${ind.label}</h3>
     <div class="value">${valueText}</div>
     <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
@@ -578,7 +597,7 @@ cardsEl.innerHTML =
     if (DATA.vix_intraday.is_stale && DATA.vix_intraday.session_date) {
       const d = new Date(DATA.vix_intraday.session_date + "T00:00:00");
       const label = d.toLocaleDateString(undefined, { weekday: "long", month: "short", day: "numeric" });
-      staleNote = `<div class="thresholds" style="margin-top: 4px;">Showing ${label} — markets closed</div>`;
+      staleNote = `<div class="stale-note">Showing ${label} — markets closed</div>`;
     }
     return `<div class="card"><h3>VIX Intraday (latest)</h3><div class="value">${iv.value.toFixed(2)}</div><div class="as-of">As of ${formatAsOfDateTime(iv.timestamp)}</div>${staleNote}</div>`;
   })() +
@@ -586,6 +605,7 @@ cardsEl.innerHTML =
     const vt = DATA.indicators.vix_term;
     if (!vt.status) return `<div class="card"><h3>${vt.label}</h3><div class="no-data">No data available</div></div>`;
     return `<div class="card">
+      <span class="info-hint">ⓘ</span>
       <h3>${vt.label}</h3>
       <div class="value">${vt.spread.toFixed(2)}</div>
       <div class="as-of">As of ${formatAsOfDate(vt.latest_date)}</div>
@@ -596,12 +616,20 @@ cardsEl.innerHTML =
   renderMomentumCard(DATA.indicators.dxy, v => v.toFixed(2)) +
   renderMomentumCard(DATA.indicators.gold, v => "$" + v.toFixed(2));
 
+// Hover reveals details on desktop (CSS-only). This click handler adds
+// tap-to-toggle support for touch devices, where :hover doesn't apply.
+cardsEl.addEventListener("click", (e) => {
+  const card = e.target.closest(".card");
+  if (card) card.classList.toggle("expanded");
+});
+
 function renderMomentumCard(ind, formatValue) {
   if (ind.latest_value === null || ind.latest_value === undefined) {
     return `<div class="card"><h3>${ind.label}</h3><div class="no-data">No data available</div></div>`;
   }
   if (!ind.status) {
     return `<div class="card">
+      <span class="info-hint">ⓘ</span>
       <h3>${ind.label}</h3>
       <div class="value">${formatValue(ind.latest_value)}</div>
       <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
@@ -610,6 +638,7 @@ function renderMomentumCard(ind, formatValue) {
   }
   const chg = ind.pct_change_20d !== null ? (ind.pct_change_20d >= 0 ? "+" : "") + ind.pct_change_20d.toFixed(1) + "% (20d)" : "";
   return `<div class="card">
+    <span class="info-hint">ⓘ</span>
     <h3>${ind.label}</h3>
     <div class="value">${formatValue(ind.latest_value)}</div>
     <div class="as-of">As of ${formatAsOfDate(ind.latest_date)}</div>
