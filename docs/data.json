@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:09:14.384485+00:00",
+  "generated_at": "2026-07-23T15:32:28.177283+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -387,25 +387,17 @@
   },
   "vix_intraday": {
     "latest": {
-      "timestamp": "2026-07-22T18:27:00+00:00",
-      "value": 16.959999084472656
+      "timestamp": "2026-07-23T15:17:00+00:00",
+      "value": 19.790000915527344
     },
     "series": [
       {
-        "timestamp": "2026-07-22T15:05:00+00:00",
-        "value": 16.989999771118164
-      },
-      {
-        "timestamp": "2026-07-22T16:41:00+00:00",
-        "value": 16.81999969482422
-      },
-      {
-        "timestamp": "2026-07-22T18:27:00+00:00",
-        "value": 16.959999084472656
+        "timestamp": "2026-07-23T15:17:00+00:00",
+        "value": 19.790000915527344
       }
     ],
-    "session_date": "2026-07-22",
-    "is_stale": true
+    "session_date": "2026-07-23",
+    "is_stale": false
   },
   "econ_calendar": {
     "days_ahead": 30,
