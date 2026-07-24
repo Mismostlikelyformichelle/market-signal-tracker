@@ -681,13 +681,38 @@ function renderMomentumCard(ind, formatValue) {
   </div>`;
 }
 
+// Daily charts get "Jul 20" only on the first tick or when the month changes,
+// just the day number ("21") otherwise. The intraday chart (full timestamps,
+// all within one session) shows time-of-day instead, since date never
+// changes within a single day's readings.
+function formatChartAxisLabel(rawLabel, index, allLabels) {
+  const isTimestamp = rawLabel.includes("T");
+  const d = new Date(isTimestamp ? rawLabel : rawLabel + "T00:00:00");
+  if (isTimestamp) {
+    return d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+  }
+  if (index === 0) {
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+  const prev = new Date(allLabels[index - 1] + "T00:00:00");
+  if (prev.getMonth() !== d.getMonth()) {
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+  return String(d.getDate());
+}
+
+function axisTickCallback(value) {
+  const label = this.getLabelForValue(value);
+  return formatChartAxisLabel(label, value, this.chart.data.labels);
+}
+
 const chartDefaults = {
   type: "line",
   options: {
     responsive: true,
     plugins: { legend: { display: false } },
     scales: {
-      x: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+      x: { ticks: { color: "#8b949e", callback: axisTickCallback }, grid: { color: "#2a313c" } },
       y: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
     },
   },
@@ -739,7 +764,7 @@ function renderMultiLineChart(canvasId, history, labelKey, series) {
       responsive: true,
       plugins: { legend: { display: true, labels: { color: "#e6edf3" } } },
       scales: {
-        x: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
+        x: { ticks: { color: "#8b949e", callback: axisTickCallback }, grid: { color: "#2a313c" } },
         y: { ticks: { color: "#8b949e" }, grid: { color: "#2a313c" } },
       },
     },
