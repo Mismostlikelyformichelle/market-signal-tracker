@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:56:18.092577+00:00",
+  "generated_at": "2026-07-24T14:54:57.397692+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-22",
-      "latest_value": 0.36,
+      "latest_date": "2026-07-23",
+      "latest_value": 0.34,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -75,14 +75,18 @@
         {
           "date": "2026-07-22",
           "value": 0.36
+        },
+        {
+          "date": "2026-07-23",
+          "value": 0.34
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-07-22",
-      "latest_value": 2.68,
-      "latest_value_bps": 268.0,
+      "latest_date": "2026-07-23",
+      "latest_value": 2.77,
+      "latest_value_bps": 277.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -150,13 +154,17 @@
         {
           "date": "2026-07-22",
           "value": 2.68
+        },
+        {
+          "date": "2026-07-23",
+          "value": 2.77
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-07-23",
-      "latest_value": 19.3799991607666,
+      "latest_date": "2026-07-24",
+      "latest_value": 18.639999389648438,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -195,17 +203,21 @@
         },
         {
           "date": "2026-07-23",
-          "value": 19.3799991607666
+          "value": 18.700000762939453
+        },
+        {
+          "date": "2026-07-24",
+          "value": 18.639999389648438
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-22",
-      "vix9d": 14.88,
-      "vix": 16.64,
-      "vix3m": 19.54,
-      "spread": 4.659999999999998,
+      "latest_date": "2026-07-23",
+      "vix9d": 18.15,
+      "vix": 18.7,
+      "vix3m": 20.6,
+      "spread": 2.450000000000003,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -287,13 +299,19 @@
           "vix9d": 14.88,
           "vix": 16.64,
           "vix3m": 19.54
+        },
+        {
+          "date": "2026-07-23",
+          "vix9d": 18.15,
+          "vix": 18.7,
+          "vix3m": 20.6
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-07-23",
-      "latest_value": 101.48500061035156,
+      "latest_date": "2026-07-24",
+      "latest_value": 101.4520034790039,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -333,14 +351,18 @@
         },
         {
           "date": "2026-07-23",
-          "value": 101.48500061035156
+          "value": 101.43000030517578
+        },
+        {
+          "date": "2026-07-24",
+          "value": 101.4520034790039
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-07-23",
-      "latest_value": 4061.39990234375,
+      "latest_date": "2026-07-24",
+      "latest_value": 4063.0,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -380,7 +402,11 @@
         },
         {
           "date": "2026-07-23",
-          "value": 4061.39990234375
+          "value": 4046.60009765625
+        },
+        {
+          "date": "2026-07-24",
+          "value": 4063.0
         }
       ]
     }
@@ -405,7 +431,7 @@
       }
     ],
     "session_date": "2026-07-23",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -435,68 +461,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-23T15:09:12.980324+00:00"
+    "last_refreshed": "2026-07-24T14:54:55.645917+00:00"
   },
   "headlines": [
+    {
+      "headline": "Earnings call transcript: Sensient tops Q2 2026 estimates on color demand",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-sensient-tops-q2-2026-estimates-on-color-demand-93CH-4812112",
+      "published_at": "2026-07-24T14:35:43+00:00"
+    },
+    {
+      "headline": "SanDisk, Micron among market cap stock movers on Friday",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/sandisk-micron-among-market-cap-stock-movers-on-friday-93CH-4812111",
+      "published_at": "2026-07-24T14:35:10+00:00"
+    },
+    {
+      "headline": "NATO drone shot down in Romanian airspace",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/nato-drone-shot-down-in-romanian-airspace-93CH-4812110",
+      "published_at": "2026-07-24T14:34:38+00:00"
+    },
+    {
+      "headline": "UBS raises RTX stock price target to $215 on strong earnings",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/ubs-raises-rtx-stock-price-target-to-215-on-strong-earnings-93CH-4812108",
+      "published_at": "2026-07-24T14:32:59+00:00"
+    },
+    {
+      "headline": "Why pay raises keep shrinking \u2014 and how much smaller they\u2019ll be next year",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d515b9d3-2be7-4306-9b78-d69ca0966ac7&mod=mw_rss_bulletins",
+      "published_at": "2026-07-24T14:31:47+00:00"
+    },
+    {
+      "headline": "Data suggest U.S. economy was gaining steam till Iran peace talks unraveled",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=830d08d9-7bc6-48d0-b016-a398752fc253&mod=mw_rss_bulletins",
+      "published_at": "2026-07-24T14:14:16+00:00"
+    },
+    {
+      "headline": "Economic calendar: New-home-sales data and PMI reports incoming",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2e2fe419-6b83-4820-abbd-4889a35ee2f5&mod=mw_rss_bulletins",
+      "published_at": "2026-07-24T12:39:32+00:00"
+    },
+    {
+      "headline": "What every month of Iran disruption does to oil prices, according to JPMorgan",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7d51b6ad-cc71-4515-a7c2-168fc906b85b&mod=mw_rss_bulletins",
+      "published_at": "2026-07-24T10:17:29+00:00"
+    },
+    {
+      "headline": "As the S&P 500 sells off, traders eye key 'risk pivot' level",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
+      "published_at": "2026-07-23T20:22:32+00:00"
+    },
     {
       "headline": "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/forex-news/ubs-adds-norwegian-krone-to-top-fx-picks-as-oil-rally-seen-capped-4809440",
       "published_at": "2026-07-23T14:58:21+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Kaiser Aluminum posts Q2 2026 beat, shares jump 10.6%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-kaiser-aluminum-posts-q2-2026-beat-shares-jump-106-93CH-4809439",
-      "published_at": "2026-07-23T14:58:14+00:00"
-    },
-    {
-      "headline": "Jyong Biotech pursues global licensing partnerships for BPH drug",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/jyong-biotech-pursues-global-licensing-partnerships-for-bph-drug-93CH-4809438",
-      "published_at": "2026-07-23T14:56:31+00:00"
-    },
-    {
-      "headline": "Warren accuses AI firms of trying to curb oversight in trade accord",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/warren-accuses-ai-firms-of-trying-to-curb-oversight-in-trade-accord-4808040",
-      "published_at": "2026-07-23T14:56:29+00:00"
-    },
-    {
-      "headline": "FDA may take an important step toward opening the peptide floodgates this week",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fb4bbf2e-5578-47a2-b048-2b7492cc0069&mod=mw_rss_bulletins",
-      "published_at": "2026-07-23T14:09:17+00:00"
-    },
-    {
-      "headline": "Stocks slump after earnings disappoint and oil hits $100 a barrel \u2014 live updates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c105fddc-8eb2-48c7-95fb-90d9a0b7d5b3&mod=mw_rss_bulletins",
-      "published_at": "2026-07-23T13:53:28+00:00"
-    },
-    {
-      "headline": "Brent crude tops $100 a barrel. How the next stop could be $120",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/23/brent-crude-tops-100-a-barrel-how-the-next-stop-could-be-120.html",
-      "published_at": "2026-07-23T13:36:29+00:00"
-    },
-    {
-      "headline": "Premarket stock declines deepen after stronger-than-forecast jobless-claims data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=552bd1e2-db79-4e79-ae4b-34f917884bed&mod=mw_rss_bulletins",
-      "published_at": "2026-07-23T12:43:15+00:00"
-    },
-    {
-      "headline": "Economic calendar: Fresh unemployment-claims data now minutes away",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d5b26d20-f8f8-4fea-8590-5042a7ebb52f&mod=mw_rss_bulletins",
-      "published_at": "2026-07-23T12:23:00+00:00"
-    },
-    {
-      "headline": "John Paulson says we are in the early stages of a long-term bull market for gold",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/22/john-paulson-says-we-are-in-early-stages-of-a-long-term-bull-market-for-gold.html",
-      "published_at": "2026-07-22T22:06:49+00:00"
     }
   ]
 }
