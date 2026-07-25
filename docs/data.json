@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T18:59:42.648969+00:00",
+  "generated_at": "2026-07-25T14:37:52.521916+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-23",
-      "latest_value": 0.34,
+      "latest_date": "2026-07-24",
+      "latest_value": 0.36,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -79,6 +79,10 @@
         {
           "date": "2026-07-23",
           "value": 0.34
+        },
+        {
+          "date": "2026-07-24",
+          "value": 0.36
         }
       ]
     },
@@ -213,11 +217,11 @@
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-23",
-      "vix9d": 18.15,
-      "vix": 18.7,
-      "vix3m": 20.6,
-      "spread": 2.450000000000003,
+      "latest_date": "2026-07-24",
+      "vix9d": 17.62,
+      "vix": 18.58,
+      "vix3m": 20.51,
+      "spread": 2.8900000000000006,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -305,6 +309,12 @@
           "vix9d": 18.15,
           "vix": 18.7,
           "vix3m": 20.6
+        },
+        {
+          "date": "2026-07-24",
+          "vix9d": 17.62,
+          "vix": 18.58,
+          "vix3m": 20.51
         }
       ]
     },
@@ -362,7 +372,7 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-07-24",
-      "latest_value": 4063.0,
+      "latest_value": 4067.60009765625,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -406,7 +416,7 @@
         },
         {
           "date": "2026-07-24",
-          "value": 4063.0
+          "value": 4067.60009765625
         }
       ]
     }
@@ -431,7 +441,7 @@
       }
     ],
     "session_date": "2026-07-24",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -461,68 +471,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-24T14:54:55.645917+00:00"
+    "last_refreshed": "2026-07-25T14:37:50.672346+00:00"
   },
   "headlines": [
     {
-      "headline": "Earnings call transcript: Sensient tops Q2 2026 estimates on color demand",
+      "headline": "Israeli troops round up Palestinians in West Bank village after shootout involving settlers",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-sensient-tops-q2-2026-estimates-on-color-demand-93CH-4812112",
-      "published_at": "2026-07-24T14:35:43+00:00"
+      "link": "https://www.investing.com/news/world-news/israeli-troops-round-up-palestinians-in-west-bank-village-after-shootout-involving-settlers-4812776",
+      "published_at": "2026-07-25T14:12:24+00:00"
     },
     {
-      "headline": "SanDisk, Micron among market cap stock movers on Friday",
+      "headline": "IDFC FIRST Bank Q1 FY27 slides: profit crosses Rs. 1,000 crore milestone",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/sandisk-micron-among-market-cap-stock-movers-on-friday-93CH-4812111",
-      "published_at": "2026-07-24T14:35:10+00:00"
+      "link": "https://www.investing.com/news/company-news/idfc-first-bank-q1-fy27-slides-profit-crosses-rs-1000-crore-milestone-93CH-4812792",
+      "published_at": "2026-07-25T14:06:51+00:00"
     },
     {
-      "headline": "NATO drone shot down in Romanian airspace",
+      "headline": "Attack on holiday camp kills 11, says governor of Russian-held territory in Ukraine",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/nato-drone-shot-down-in-romanian-airspace-93CH-4812110",
-      "published_at": "2026-07-24T14:34:38+00:00"
+      "link": "https://www.investing.com/news/world-news/attack-on-holiday-camps-kills-eight-says-governor-of-russianheld-territory-in-ukraine-4812758",
+      "published_at": "2026-07-25T14:00:30+00:00"
     },
     {
-      "headline": "UBS raises RTX stock price target to $215 on strong earnings",
+      "headline": "Israel kills senior Hamas-led police official in Gaza, medics and police officials say",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/ubs-raises-rtx-stock-price-target-to-215-on-strong-earnings-93CH-4812108",
-      "published_at": "2026-07-24T14:32:59+00:00"
+      "link": "https://www.investing.com/news/world-news/israel-kills-senior-hamasled-police-official-in-gaza-medics-and-police-officials-say-4812784",
+      "published_at": "2026-07-25T13:54:07+00:00"
     },
     {
-      "headline": "Why pay raises keep shrinking \u2014 and how much smaller they\u2019ll be next year",
+      "headline": "SpaceX isn\u2019t the threat to wireless that investors fear \u2014 unless this happens",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d515b9d3-2be7-4306-9b78-d69ca0966ac7&mod=mw_rss_bulletins",
-      "published_at": "2026-07-24T14:31:47+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2dd45092-402d-431a-b852-671f9bc8547a&mod=mw_rss_bulletins",
+      "published_at": "2026-07-25T13:49:01+00:00"
     },
     {
-      "headline": "Data suggest U.S. economy was gaining steam till Iran peace talks unraveled",
+      "headline": "Investors in the dark about Fed\u2019s decision this week\u2014that\u2019s what Warsh wants",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=830d08d9-7bc6-48d0-b016-a398752fc253&mod=mw_rss_bulletins",
-      "published_at": "2026-07-24T14:14:16+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=26347bdc-0555-4751-ab44-56a8e00110d6&mod=mw_rss_bulletins",
+      "published_at": "2026-07-25T13:12:16+00:00"
     },
     {
-      "headline": "Economic calendar: New-home-sales data and PMI reports incoming",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2e2fe419-6b83-4820-abbd-4889a35ee2f5&mod=mw_rss_bulletins",
-      "published_at": "2026-07-24T12:39:32+00:00"
-    },
-    {
-      "headline": "What every month of Iran disruption does to oil prices, according to JPMorgan",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7d51b6ad-cc71-4515-a7c2-168fc906b85b&mod=mw_rss_bulletins",
-      "published_at": "2026-07-24T10:17:29+00:00"
-    },
-    {
-      "headline": "As the S&P 500 sells off, traders eye key 'risk pivot' level",
+      "headline": "Buffett favors an estate tax, but like virtually all billionaires, he won't be paying it",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
-      "published_at": "2026-07-23T20:22:32+00:00"
+      "link": "https://www.cnbc.com/2026/07/25/buffett-favors-an-estate-tax-but-like-virtually-all-billionaires-he-wont-be-paying-it.html",
+      "published_at": "2026-07-25T12:28:33+00:00"
     },
     {
-      "headline": "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/forex-news/ubs-adds-norwegian-krone-to-top-fx-picks-as-oil-rally-seen-capped-4809440",
-      "published_at": "2026-07-23T14:58:21+00:00"
+      "headline": "Can AI-powered ETFs beat the stock market?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=35a9ddd9-e86b-4c56-991c-4651cb1e4777&mod=mw_rss_bulletins",
+      "published_at": "2026-07-25T01:25:30+00:00"
+    },
+    {
+      "headline": "Nvidia\u2019s Jensen Huang has a high-stakes message for AI policymakers",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5f5f65ff-9639-4ee2-9528-58b8c188e4aa&mod=mw_rss_bulletins",
+      "published_at": "2026-07-25T00:09:19+00:00"
+    },
+    {
+      "headline": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer ",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
+      "published_at": "2026-07-24T17:28:15+00:00"
     }
   ]
 }
