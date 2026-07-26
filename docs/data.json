@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T14:37:52.521916+00:00",
+  "generated_at": "2026-07-26T14:29:16.208683+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -372,7 +372,7 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-07-24",
-      "latest_value": 4067.60009765625,
+      "latest_value": 4070.800048828125,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -416,7 +416,7 @@
         },
         {
           "date": "2026-07-24",
-          "value": 4067.60009765625
+          "value": 4070.800048828125
         }
       ]
     }
@@ -471,9 +471,39 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-25T14:37:50.672346+00:00"
+    "last_refreshed": "2026-07-26T14:29:14.633339+00:00"
   },
   "headlines": [
+    {
+      "headline": "Shein reveals key financials ahead of Hong Kong IPO",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/shein-reveals-key-financials-ahead-of-hong-kong-ipo-4812893",
+      "published_at": "2026-07-26T14:06:26+00:00"
+    },
+    {
+      "headline": "Iran war widens to Red Sea and Caspian despite pause in US strikes",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/iran-war-widens-to-red-sea-and-caspian-despite-pause-in-us-strikes-4812824",
+      "published_at": "2026-07-26T14:00:08+00:00"
+    },
+    {
+      "headline": "Kremlin says too early to comment on reported US-Ukraine air ceasefire talks",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/world-news/kremlin-says-too-early-to-comment-on-reported-usukraine-air-ceasefire-talks-4812894",
+      "published_at": "2026-07-26T13:54:24+00:00"
+    },
+    {
+      "headline": "Trump\u00a0is giving Iran talks \u2019a little bit of room,\u2019 US ambassador to UN says",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/world-news/trumpis-giving-iran-talks-a-little-bit-of-room-us-ambassador-to-un-says-4812892",
+      "published_at": "2026-07-26T13:36:27+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts back these 3 stocks for their long-term growth potential",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/26/top-analysts-back-these-3-stocks-for-their-long-term-growth-potential.html",
+      "published_at": "2026-07-26T11:33:11+00:00"
+    },
     {
       "headline": "Israeli troops round up Palestinians in West Bank village after shootout involving settlers",
       "source": "Investing.com",
@@ -503,36 +533,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2dd45092-402d-431a-b852-671f9bc8547a&mod=mw_rss_bulletins",
       "published_at": "2026-07-25T13:49:01+00:00"
-    },
-    {
-      "headline": "Investors in the dark about Fed\u2019s decision this week\u2014that\u2019s what Warsh wants",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=26347bdc-0555-4751-ab44-56a8e00110d6&mod=mw_rss_bulletins",
-      "published_at": "2026-07-25T13:12:16+00:00"
-    },
-    {
-      "headline": "Buffett favors an estate tax, but like virtually all billionaires, he won't be paying it",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/25/buffett-favors-an-estate-tax-but-like-virtually-all-billionaires-he-wont-be-paying-it.html",
-      "published_at": "2026-07-25T12:28:33+00:00"
-    },
-    {
-      "headline": "Can AI-powered ETFs beat the stock market?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=35a9ddd9-e86b-4c56-991c-4651cb1e4777&mod=mw_rss_bulletins",
-      "published_at": "2026-07-25T01:25:30+00:00"
-    },
-    {
-      "headline": "Nvidia\u2019s Jensen Huang has a high-stakes message for AI policymakers",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5f5f65ff-9639-4ee2-9528-58b8c188e4aa&mod=mw_rss_bulletins",
-      "published_at": "2026-07-25T00:09:19+00:00"
-    },
-    {
-      "headline": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer ",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
-      "published_at": "2026-07-24T17:28:15+00:00"
     }
   ]
 }
