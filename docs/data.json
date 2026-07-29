@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:56:37.515187+00:00",
+  "generated_at": "2026-07-29T15:08:30.079763+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-27",
-      "latest_value": 0.34,
+      "latest_date": "2026-07-28",
+      "latest_value": 0.35,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -87,14 +87,18 @@
         {
           "date": "2026-07-27",
           "value": 0.34
+        },
+        {
+          "date": "2026-07-28",
+          "value": 0.35
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-07-27",
-      "latest_value": 2.81,
-      "latest_value_bps": 281.0,
+      "latest_date": "2026-07-28",
+      "latest_value": 2.84,
+      "latest_value_bps": 284.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -174,13 +178,17 @@
         {
           "date": "2026-07-27",
           "value": 2.81
+        },
+        {
+          "date": "2026-07-28",
+          "value": 2.84
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-07-28",
-      "latest_value": 18.5,
+      "latest_date": "2026-07-29",
+      "latest_value": 19.780000686645508,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -232,16 +240,20 @@
         {
           "date": "2026-07-28",
           "value": 18.5
+        },
+        {
+          "date": "2026-07-29",
+          "value": 19.780000686645508
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-27",
-      "vix9d": 18.13,
-      "vix": 18.67,
-      "vix3m": 20.2,
-      "spread": 2.0700000000000003,
+      "latest_date": "2026-07-28",
+      "vix9d": 17.25,
+      "vix": 18.21,
+      "vix3m": 19.86,
+      "spread": 2.6099999999999994,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -341,13 +353,19 @@
           "vix9d": 18.13,
           "vix": 18.67,
           "vix3m": 20.2
+        },
+        {
+          "date": "2026-07-28",
+          "vix9d": 17.25,
+          "vix": 18.21,
+          "vix3m": 19.86
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-07-28",
-      "latest_value": 101.4010009765625,
+      "latest_date": "2026-07-29",
+      "latest_value": 101.45099639892578,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -395,18 +413,22 @@
         },
         {
           "date": "2026-07-27",
-          "value": 101.45999908447266
+          "value": 101.51000213623047
         },
         {
           "date": "2026-07-28",
           "value": 101.4010009765625
+        },
+        {
+          "date": "2026-07-29",
+          "value": 101.45099639892578
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-07-28",
-      "latest_value": 4028.0,
+      "latest_date": "2026-07-29",
+      "latest_value": 4061.89990234375,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -458,7 +480,11 @@
         },
         {
           "date": "2026-07-28",
-          "value": 4028.0
+          "value": 4036.300048828125
+        },
+        {
+          "date": "2026-07-29",
+          "value": 4061.89990234375
         }
       ]
     }
@@ -479,7 +505,7 @@
       }
     ],
     "session_date": "2026-07-28",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -488,7 +514,11 @@
         "date": "2026-07-29",
         "name": "FOMC Rate Decision",
         "is_past": false,
-        "headline": null
+        "headline": {
+          "text": "The Federal Reserve faces a critical decision on interest rates",
+          "source": "NPR",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXhqTkhuVFhZUVVRaFdXYXp2OTJ2TXJtVEFFNEp6YVFLbUZKS25KT2JDaGdCbjdGWnVqRVN6NVBfMjI5SEwwU2F1VDF0VndmYWE0U1JzQnRwMjJhZjFNWU1vbjJ2WjduQ1F3cFQ1TVBSQllFUVotX2R4MEw2UXBtTWF1eEdUYjRjc1pBSU9n?oc=5"
+        }
       },
       {
         "date": "2026-07-30",
@@ -515,68 +545,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-28T15:21:49.436975+00:00"
+    "last_refreshed": "2026-07-29T15:08:27.196481+00:00"
   },
   "headlines": [
     {
-      "headline": "Apple briefly becomes second company ever to notch $5 trillion market value",
+      "headline": "Q2 Holdings earnings in focus as digital banking moats face AI test",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/apple-briefly-becomes-second-company-ever-to-notch-5-trillion-market-value-4817465",
-      "published_at": "2026-07-28T15:06:34+00:00"
+      "link": "https://www.investing.com/news/earnings/q2-holdings-earnings-in-focus-as-digital-banking-moats-face-ai-test-93CH-4820983",
+      "published_at": "2026-07-29T15:05:12+00:00"
     },
     {
-      "headline": "Clean Harbors earnings on deck as oil prices, growth tested",
+      "headline": "Renasant Q2 2026 slides: profitability rises amid deposit pressure",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/earnings/clean-harbors-earnings-on-deck-as-oil-prices-growth-tested-93CH-4817464",
-      "published_at": "2026-07-28T15:06:18+00:00"
+      "link": "https://www.investing.com/news/company-news/renasant-q2-2026-slides-profitability-rises-amid-deposit-pressure-93CH-4820984",
+      "published_at": "2026-07-29T15:05:07+00:00"
     },
     {
-      "headline": "Earnings call transcript: Tata Capital posts strong Q1 2027 growth, shares rise",
+      "headline": "Mozambique central bank holds rates steady at 9.25% amid inflation",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-tata-capital-posts-strong-q1-2027-growth-shares-rise-93CH-4817463",
-      "published_at": "2026-07-28T15:06:02+00:00"
+      "link": "https://www.investing.com/news/economy-news/mozambique-central-bank-holds-rates-steady-at-925-amid-inflation-93CH-4820982",
+      "published_at": "2026-07-29T15:05:06+00:00"
     },
     {
-      "headline": "Why is Amkor Technology stock crashing today?",
+      "headline": "Truist reiterates Buy on Manhattan Associates stock after record bookings",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-amkor-technology-stock-crashing-today-93CH-4817462",
-      "published_at": "2026-07-28T15:05:52+00:00"
+      "link": "https://www.investing.com/news/analyst-ratings/truist-reiterates-buy-on-manhattan-associates-stock-after-record-bookings-93CH-4820980",
+      "published_at": "2026-07-29T15:05:00+00:00"
     },
     {
-      "headline": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
+      "headline": "Dow, S&P 500 and Nasdaq open lower as Trump teases more Iran strikes",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=82be7e93-b14a-4073-ae4e-dd84f06f0e4e&mod=mw_rss_bulletins",
+      "published_at": "2026-07-29T13:30:57+00:00"
+    },
+    {
+      "headline": "Two rival AI super PACs are backing the same congressman. What gives?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e091108d-2f4a-4274-9a1e-ae904d60e7b1&mod=mw_rss_bulletins",
+      "published_at": "2026-07-29T12:52:16+00:00"
+    },
+    {
+      "headline": "Warsh's rate decision is a cliffhanger. These trades might offer a clue",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
-      "published_at": "2026-07-28T14:05:53+00:00"
+      "link": "https://www.cnbc.com/2026/07/29/warshs-rate-decision-is-a-cliffhanger-these-trades-might-offer-a-clue.html",
+      "published_at": "2026-07-29T12:19:47+00:00"
     },
     {
-      "headline": "Las Vegas home prices post largest drop in the nation",
+      "headline": "Economic calendar: It's all about the Fed's interest-rate decision",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=803ff752-0287-4b2d-b9f9-0b90e31ac5c5&mod=mw_rss_bulletins",
-      "published_at": "2026-07-28T13:50:08+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c74b2bb7-5988-410e-8b68-6a43d82a8e57&mod=mw_rss_bulletins",
+      "published_at": "2026-07-29T11:42:48+00:00"
     },
     {
-      "headline": "Nasdaq slides as chip selloff deepens; Dow rises 350 points at the open",
+      "headline": "Saudi Arabia has a new, and pricier, workaround to export its oil",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eca355b2-cb60-4770-9293-e43009dabef6&mod=mw_rss_bulletins",
-      "published_at": "2026-07-28T13:31:02+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8702e1f5-bf32-4710-905a-61689b5ddc4e&mod=mw_rss_bulletins",
+      "published_at": "2026-07-29T00:34:55+00:00"
     },
     {
-      "headline": "Apple is now letting you lease an iPhone like a car. Here\u2019s what to know.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ea14c636-93d5-4bee-b4e7-e2264c53715c&mod=mw_rss_bulletins",
-      "published_at": "2026-07-28T13:01:21+00:00"
-    },
-    {
-      "headline": "Boeing\u2019s stock rallies as a large loss is offset by upbeat revenue and backlog",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8453a720-bdac-4932-80e7-8f79bc565f68&mod=mw_rss_bulletins",
-      "published_at": "2026-07-28T12:27:07+00:00"
-    },
-    {
-      "headline": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
+      "headline": "44 states are aligned on one thing in their fight against prediction markets. It's about sports wagering",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
-      "published_at": "2026-07-28T11:01:48+00:00"
+      "link": "https://www.cnbc.com/2026/07/28/44-states-say-cftc-has-no-authority-over-sports-prediction-markets.html",
+      "published_at": "2026-07-28T18:27:43+00:00"
     }
   ]
 }
