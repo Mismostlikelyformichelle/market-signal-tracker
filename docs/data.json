@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T17:57:04.601935+00:00",
+  "generated_at": "2026-07-31T15:19:42.472761+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-29",
+      "latest_date": "2026-07-30",
       "latest_value": 0.45,
       "unit": "pp",
       "status": "Calm",
@@ -95,14 +95,18 @@
         {
           "date": "2026-07-29",
           "value": 0.45
+        },
+        {
+          "date": "2026-07-30",
+          "value": 0.45
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-07-29",
-      "latest_value": 2.87,
-      "latest_value_bps": 287.0,
+      "latest_date": "2026-07-30",
+      "latest_value": 2.84,
+      "latest_value_bps": 284.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -190,13 +194,17 @@
         {
           "date": "2026-07-29",
           "value": 2.87
+        },
+        {
+          "date": "2026-07-30",
+          "value": 2.84
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-07-30",
-      "latest_value": 18.809999465942383,
+      "latest_date": "2026-07-31",
+      "latest_value": 17.510000228881836,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -255,19 +263,23 @@
         },
         {
           "date": "2026-07-30",
-          "value": 18.809999465942383
+          "value": 17.09000015258789
+        },
+        {
+          "date": "2026-07-31",
+          "value": 17.510000228881836
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-29",
-      "vix9d": 20.38,
-      "vix": 20.66,
-      "vix3m": 21.5,
-      "spread": 1.120000000000001,
+      "latest_date": "2026-07-30",
+      "vix9d": 14.85,
+      "vix": 17.09,
+      "vix3m": 19.5,
+      "spread": 4.65,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
         {
@@ -377,13 +389,19 @@
           "vix9d": 20.38,
           "vix": 20.66,
           "vix3m": 21.5
+        },
+        {
+          "date": "2026-07-30",
+          "vix9d": 14.85,
+          "vix": 17.09,
+          "vix3m": 19.5
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-07-30",
-      "latest_value": 100.15799713134766,
+      "latest_date": "2026-07-31",
+      "latest_value": 100.08499908447266,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -443,14 +461,18 @@
         },
         {
           "date": "2026-07-30",
-          "value": 100.15799713134766
+          "value": 100.01000213623047
+        },
+        {
+          "date": "2026-07-31",
+          "value": 100.08499908447266
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-07-30",
-      "latest_value": 4156.7998046875,
+      "latest_date": "2026-07-31",
+      "latest_value": 4102.5,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -510,7 +532,11 @@
         },
         {
           "date": "2026-07-30",
-          "value": 4156.7998046875
+          "value": 4100.10009765625
+        },
+        {
+          "date": "2026-07-31",
+          "value": 4102.5
         }
       ]
     }
@@ -531,7 +557,7 @@
       }
     ],
     "session_date": "2026-07-30",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -549,7 +575,7 @@
       {
         "date": "2026-07-30",
         "name": "GDP Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "U.S. Economic Growth Slowed to 1.5% in Second Quarter",
           "source": "WSJ",
@@ -575,9 +601,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-30T15:10:25.379411+00:00"
+    "last_refreshed": "2026-07-31T15:19:40.284478+00:00"
   },
   "headlines": [
+    {
+      "headline": "GLPI Q2 2026 slides: AFFO guidance raised, dividend up 5%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/glpi-q2-2026-slides-affo-guidance-raised-dividend-up-5-93CH-4828895",
+      "published_at": "2026-07-31T15:17:52+00:00"
+    },
+    {
+      "headline": "Gates Q2 2026 slides: record results, raised guidance on recovery",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/gates-q2-2026-slides-record-results-raised-guidance-on-recovery-93CH-4828894",
+      "published_at": "2026-07-31T15:17:22+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 and Nasdaq climb as Amazon's gain offsets Apple's loss",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=45dffae0-3cb6-419d-b6f0-93d2b028e22c&mod=mw_rss_bulletins",
+      "published_at": "2026-07-31T15:17:09+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Franklin Templeton beats Q3 2026 estimates on revenue",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-franklin-templeton-beats-q3-2026-estimates-on-revenue-93CH-4828893",
+      "published_at": "2026-07-31T15:17:06+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Pembina Pipeline posts stronger Q2 2026 results",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-pembina-pipeline-posts-stronger-q2-2026-results-93CH-4828892",
+      "published_at": "2026-07-31T15:16:49+00:00"
+    },
+    {
+      "headline": "Apple heads for a $460 billion market-cap wipeout",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b601573-a1aa-4623-9c75-5aeec051e002&mod=mw_rss_bulletins",
+      "published_at": "2026-07-31T13:59:13+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 and Nasdaq jump on chip-stock rally, South Korea rebound",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e6c83073-87c7-40f8-b221-ee6a8ddd9aac&mod=mw_rss_bulletins",
+      "published_at": "2026-07-31T13:30:52+00:00"
+    },
+    {
+      "headline": "Economic calendar: consumer sentiment and manufacturing data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2a12f36e-627f-4144-b80a-96093e675272&mod=mw_rss_bulletins",
+      "published_at": "2026-07-31T11:07:05+00:00"
+    },
     {
       "headline": "The oil majors are about to report booming profits. These smaller stocks may be better buys",
       "source": "CNBC",
@@ -589,54 +663,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/greece-stocks-higher-at-close-of-trade-athens-general-composite-up-125-4825126",
       "published_at": "2026-07-30T14:50:03+00:00"
-    },
-    {
-      "headline": "Microchip Technology stock may move 12% on earnings release",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/microchip-technology-stock-may-move-12-on-earnings-release-93CH-4825125",
-      "published_at": "2026-07-30T14:49:53+00:00"
-    },
-    {
-      "headline": "Braveheart Bio targets $1.2 billion valuation in US IPO",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/braveheart-bio-targets-12-billion-valuation-in-us-ipo-4824218",
-      "published_at": "2026-07-30T14:49:09+00:00"
-    },
-    {
-      "headline": "Zoox gets approval to deploy robotaxis after safety review",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/zoox-gets-approval-to-deploy-robotaxis-after-safety-review-93CH-4825124",
-      "published_at": "2026-07-30T14:48:59+00:00"
-    },
-    {
-      "headline": "Why Meta's stock is falling \u2014 and why the company is in Wall Street\u2019s doghouse",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f81bd444-af02-42d0-a523-d7f0eb296688&mod=mw_rss_bulletins",
-      "published_at": "2026-07-30T14:17:00+00:00"
-    },
-    {
-      "headline": "A pioneering AI hedge fund just discovered the downside of leverage",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7d13dd50-5832-4c27-90fa-25af702c7965&mod=mw_rss_bulletins",
-      "published_at": "2026-07-30T13:58:14+00:00"
-    },
-    {
-      "headline": "Stocks open higher after Big Tech earnings, inflation data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=35ded41d-54f1-4056-ac2d-8abfbcf2574e&mod=mw_rss_bulletins",
-      "published_at": "2026-07-30T13:30:54+00:00"
-    },
-    {
-      "headline": "Economic growth is better than it seems. The GDP report shows why.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f412efde-6c0f-41b0-a234-cea637f073d0&mod=mw_rss_bulletins",
-      "published_at": "2026-07-30T12:59:08+00:00"
-    },
-    {
-      "headline": "What a divided Fed means for investors",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
-      "published_at": "2026-07-29T23:36:34+00:00"
     }
   ]
 }
