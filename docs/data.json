@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:04:43.140743+00:00",
+  "generated_at": "2026-08-01T14:26:15.122096+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-07-30",
-      "latest_value": 0.45,
+      "latest_date": "2026-07-31",
+      "latest_value": 0.47,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -99,6 +99,10 @@
         {
           "date": "2026-07-30",
           "value": 0.45
+        },
+        {
+          "date": "2026-07-31",
+          "value": 0.47
         }
       ]
     },
@@ -204,7 +208,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-07-31",
-      "latest_value": 17.510000228881836,
+      "latest_value": 15.989999771118164,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -267,17 +271,17 @@
         },
         {
           "date": "2026-07-31",
-          "value": 17.510000228881836
+          "value": 15.989999771118164
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-07-30",
-      "vix9d": 14.85,
-      "vix": 17.09,
-      "vix3m": 19.5,
-      "spread": 4.65,
+      "latest_date": "2026-07-31",
+      "vix9d": 13.05,
+      "vix": 15.99,
+      "vix3m": 19.02,
+      "spread": 5.969999999999999,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -395,13 +399,19 @@
           "vix9d": 14.85,
           "vix": 17.09,
           "vix3m": 19.5
+        },
+        {
+          "date": "2026-07-31",
+          "vix9d": 13.05,
+          "vix": 15.99,
+          "vix3m": 19.02
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-07-31",
-      "latest_value": 100.08499908447266,
+      "latest_value": 99.80000305175781,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -465,14 +475,14 @@
         },
         {
           "date": "2026-07-31",
-          "value": 100.08499908447266
+          "value": 99.80000305175781
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-07-31",
-      "latest_value": 4102.5,
+      "latest_value": 4049.10009765625,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -536,7 +546,7 @@
         },
         {
           "date": "2026-07-31",
-          "value": 4102.5
+          "value": 4049.10009765625
         }
       ]
     }
@@ -557,7 +567,7 @@
       }
     ],
     "session_date": "2026-07-31",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -601,9 +611,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-07-31T15:19:40.284478+00:00"
+    "last_refreshed": "2026-08-01T14:26:13.553074+00:00"
   },
   "headlines": [
+    {
+      "headline": "US bars imports from 43 more companies over China\u2019s alleged forced labor involving Uyghurs",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-bars-imports-from-43-more-companies-over-chinas-alleged-forced-labor-involving-uyghurs-4829635",
+      "published_at": "2026-08-01T14:24:36+00:00"
+    },
+    {
+      "headline": "Trump threatens to keep Blanche as acting attorney general, revive \u2019anti-weaponization\u2019 fund",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/politics-news/trump-threatens-to-keep-blanche-as-acting-attorney-general-revive-antiweaponization-fund-4829634",
+      "published_at": "2026-08-01T14:06:26+00:00"
+    },
+    {
+      "headline": "Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=01d4f56b-bcf2-4bc3-b2ff-5ed8513bc342&mod=mw_rss_bulletins",
+      "published_at": "2026-08-01T14:00:50+00:00"
+    },
+    {
+      "headline": "CTA Nasdaq de-risking appears largely complete: BofA",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/cta-nasdaq-derisking-appears-largely-complete-bofa-4829628",
+      "published_at": "2026-08-01T13:56:30+00:00"
+    },
+    {
+      "headline": "OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=319f5d2e-1ec8-4883-9b23-9a99bfbfce5f&mod=mw_rss_bulletins",
+      "published_at": "2026-08-01T13:44:01+00:00"
+    },
+    {
+      "headline": "The equal-weighted S&P 500 just smoked the Nasdaq-100 in July",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=98e83413-2c70-4fec-b923-29284b0501fe&mod=mw_rss_bulletins",
+      "published_at": "2026-08-01T13:20:34+00:00"
+    },
+    {
+      "headline": "Scripps completes acquisition of ABC affiliate in Lexington",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/scripps-completes-acquisition-of-abc-affiliate-in-lexington-93CH-4829625",
+      "published_at": "2026-08-01T13:17:01+00:00"
+    },
+    {
+      "headline": "July ends on a hopeful note for stocks after the momentum trade gets wiped out",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e09c6920-7147-491a-9f30-c468e0db2f86&mod=mw_rss_bulletins",
+      "published_at": "2026-07-31T23:14:45+00:00"
+    },
     {
       "headline": "GLPI Q2 2026 slides: AFFO guidance raised, dividend up 5%",
       "source": "Investing.com",
@@ -615,54 +673,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/gates-q2-2026-slides-record-results-raised-guidance-on-recovery-93CH-4828894",
       "published_at": "2026-07-31T15:17:22+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 and Nasdaq climb as Amazon's gain offsets Apple's loss",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=45dffae0-3cb6-419d-b6f0-93d2b028e22c&mod=mw_rss_bulletins",
-      "published_at": "2026-07-31T15:17:09+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Franklin Templeton beats Q3 2026 estimates on revenue",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-franklin-templeton-beats-q3-2026-estimates-on-revenue-93CH-4828893",
-      "published_at": "2026-07-31T15:17:06+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Pembina Pipeline posts stronger Q2 2026 results",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-pembina-pipeline-posts-stronger-q2-2026-results-93CH-4828892",
-      "published_at": "2026-07-31T15:16:49+00:00"
-    },
-    {
-      "headline": "Apple heads for a $460 billion market-cap wipeout",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b601573-a1aa-4623-9c75-5aeec051e002&mod=mw_rss_bulletins",
-      "published_at": "2026-07-31T13:59:13+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 and Nasdaq jump on chip-stock rally, South Korea rebound",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e6c83073-87c7-40f8-b221-ee6a8ddd9aac&mod=mw_rss_bulletins",
-      "published_at": "2026-07-31T13:30:52+00:00"
-    },
-    {
-      "headline": "Economic calendar: consumer sentiment and manufacturing data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2a12f36e-627f-4144-b80a-96093e675272&mod=mw_rss_bulletins",
-      "published_at": "2026-07-31T11:07:05+00:00"
-    },
-    {
-      "headline": "The oil majors are about to report booming profits. These smaller stocks may be better buys",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/30/the-oil-majors-are-about-to-report-booming-profits-these-smaller-stocks-may-be-better-buys.html",
-      "published_at": "2026-07-30T14:58:40+00:00"
-    },
-    {
-      "headline": "Greece stocks higher at close of trade; Athens General Composite up 1.25%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-higher-at-close-of-trade-athens-general-composite-up-125-4825126",
-      "published_at": "2026-07-30T14:50:03+00:00"
     }
   ]
 }
