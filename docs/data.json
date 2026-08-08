@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:30:48.850132+00:00",
+  "generated_at": "2026-08-08T13:45:20.111790+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-06",
-      "latest_value": 0.44,
+      "latest_date": "2026-08-07",
+      "latest_value": 0.46,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -119,14 +119,18 @@
         {
           "date": "2026-08-06",
           "value": 0.44
+        },
+        {
+          "date": "2026-08-07",
+          "value": 0.46
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-05",
-      "latest_value": 2.75,
-      "latest_value_bps": 275.0,
+      "latest_date": "2026-08-06",
+      "latest_value": 2.71,
+      "latest_value_bps": 271.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -234,15 +238,19 @@
         {
           "date": "2026-08-05",
           "value": 2.75
+        },
+        {
+          "date": "2026-08-06",
+          "value": 2.71
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-08-07",
-      "latest_value": 15.069999694824219,
+      "latest_value": 14.899999618530273,
       "unit": "",
-      "status": "Normal",
+      "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -323,17 +331,17 @@
         },
         {
           "date": "2026-08-07",
-          "value": 15.069999694824219
+          "value": 14.899999618530273
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-06",
-      "vix9d": 12.66,
-      "vix": 15.15,
-      "vix3m": 18.69,
-      "spread": 6.030000000000001,
+      "latest_date": "2026-08-07",
+      "vix9d": 11.96,
+      "vix": 14.9,
+      "vix3m": 18.72,
+      "spread": 6.759999999999998,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -481,13 +489,19 @@
           "vix9d": 12.66,
           "vix": 15.15,
           "vix3m": 18.69
+        },
+        {
+          "date": "2026-08-07",
+          "vix9d": 11.96,
+          "vix": 14.9,
+          "vix3m": 18.72
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-08-07",
-      "latest_value": 99.60900115966797,
+      "latest_value": 99.5999984741211,
       "pct_change_20d": null,
       "unit": "",
       "status": null,
@@ -571,14 +585,14 @@
         },
         {
           "date": "2026-08-07",
-          "value": 99.60900115966797
+          "value": 99.5999984741211
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-08-07",
-      "latest_value": 4400.2998046875,
+      "latest_value": 4340.7001953125,
       "pct_change_20d": null,
       "unit": "$",
       "status": null,
@@ -662,7 +676,7 @@
         },
         {
           "date": "2026-08-07",
-          "value": 4400.2998046875
+          "value": 4340.7001953125
         }
       ]
     }
@@ -695,7 +709,7 @@
       }
     ],
     "session_date": "2026-08-07",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -703,7 +717,7 @@
       {
         "date": "2026-08-07",
         "name": "Employment Situation (Jobs Report)",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "July 2026 Jobs Report: Unexpected Turbulence",
           "source": "Indeed Hiring Lab",
@@ -729,9 +743,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-07T14:13:13.664289+00:00"
+    "last_refreshed": "2026-08-08T13:45:18.426209+00:00"
   },
   "headlines": [
+    {
+      "headline": "What happens to stocks when the Fed starts hiking? Barclays weighs in",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/what-happens-to-stocks-when-the-fed-starts-hiking-barclays-weighs-in-4847660",
+      "published_at": "2026-08-08T13:22:00+00:00"
+    },
+    {
+      "headline": "Berkshire\u2019s profit doubles as equity holdings surge; buys back $4.5 bln shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/berkshires-profit-doubles-as-equity-holdings-surge-cash-nears-360-billion-4847653",
+      "published_at": "2026-08-08T13:14:36+00:00"
+    },
+    {
+      "headline": "Here\u2019s why Wendy\u2019s is losing the burger wars",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=97df2c56-37ba-41bc-93c1-55a1bf7beb90&mod=mw_rss_bulletins",
+      "published_at": "2026-08-08T13:11:57+00:00"
+    },
+    {
+      "headline": "Berkshire lowers cash stake as buybacks accelerate, reports higher profit",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/berkshire-lowers-cash-stake-as-buybacks-accelerate-reports-higher-profit-4847659",
+      "published_at": "2026-08-08T13:06:48+00:00"
+    },
+    {
+      "headline": "Michigan salad warnings ease, but cyclospora keeps shoppers and grocers on edge",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/michigan-salad-warnings-ease-but-cyclospora-keeps-shoppers-and-grocers-on-edge-4847658",
+      "published_at": "2026-08-08T13:06:31+00:00"
+    },
+    {
+      "headline": "Trump trying to fire Lisa Cook again, in effort to stack the Fed with allies",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e7f3069f-16ee-4fd6-91c7-4b8c82263ef0&mod=mw_rss_bulletins",
+      "published_at": "2026-08-08T00:47:28+00:00"
+    },
+    {
+      "headline": "Palantir\u2019s stock stages best week since 2024, showing it\u2019s an 'AI loser' no more",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=002f208d-744e-456d-9e0d-38fc980bd99a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-08T00:20:03+00:00"
+    },
+    {
+      "headline": "July's soft jobs report removes some of the urgency for a September rate hike",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9b1df54b-20f4-4e81-ba96-13811566c2d8&mod=mw_rss_bulletins",
+      "published_at": "2026-08-07T23:10:33+00:00"
+    },
     {
       "headline": "Nasdaq 100 consolidates 29,500-29,900 after V-recovery: Live levels",
       "source": "Investing.com",
@@ -743,54 +805,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/alphabet-c-surges-18-into-key-resistance-live-levels-93CH-4833090",
       "published_at": "2026-08-07T14:06:43+00:00"
-    },
-    {
-      "headline": "S&P 500 bulls hold above 7,680 amid flag setup: Live levels",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/sp-500-breaks-7550-with-rsi-at-71-hourly-levels-93CH-4833087",
-      "published_at": "2026-08-07T14:06:37+00:00"
-    },
-    {
-      "headline": "Dow Jones wedged at 54,086 with RSI divergence: Live levels",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/dow-jones-nears-alltime-high-with-double-top-risk-live-levels-93CH-4833088",
-      "published_at": "2026-08-07T14:06:27+00:00"
-    },
-    {
-      "headline": "Shares of this digital medical platform were up more than 100% at one point. Here's what's driving it",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/07/doximity-shares-double-heres-whats-driving-it-.html",
-      "published_at": "2026-08-07T13:49:51+00:00"
-    },
-    {
-      "headline": "S&P 500 starts day in record territory following weak jobs data \u2014 live updates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9da24f99-b3d7-492f-8bf1-84efd6003c98&mod=mw_rss_bulletins",
-      "published_at": "2026-08-07T13:42:56+00:00"
-    },
-    {
-      "headline": "U.S. unemployment rate dips even as economy sheds 23,000 jobs \u2014 live coverage",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2d2ec3e7-90c3-4108-a686-138fdbdecdb0&mod=mw_rss_bulletins",
-      "published_at": "2026-08-07T12:37:01+00:00"
-    },
-    {
-      "headline": "Fed can focus on inflation alone if today\u2019s jobs data cooperate \u2014 live updates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=abf579cd-adf0-47d3-9e33-c542632b67eb&mod=mw_rss_bulletins",
-      "published_at": "2026-08-07T12:08:13+00:00"
-    },
-    {
-      "headline": "Economic calendar: July job report and a Fed talk on the Friday docket",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f7a7e699-fe70-47cf-b0c5-54b6583979de&mod=mw_rss_bulletins",
-      "published_at": "2026-08-07T11:37:50+00:00"
-    },
-    {
-      "headline": "SpaceX shares passed a key test Thursday. Now sophisticated traders are betting the bottom may be in",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/06/spacex-passed-a-key-test-thursday-sophisticated-traders-bet-the-bottom-is-in.html",
-      "published_at": "2026-08-06T19:25:04+00:00"
     }
   ]
 }
