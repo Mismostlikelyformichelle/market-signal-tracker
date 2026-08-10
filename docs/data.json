@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:49:45.714938+00:00",
+  "generated_at": "2026-08-10T14:19:51.659534+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -247,10 +247,10 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-07",
-      "latest_value": 14.899999618530273,
+      "latest_date": "2026-08-10",
+      "latest_value": 15.180000305175781,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -332,6 +332,10 @@
         {
           "date": "2026-08-07",
           "value": 14.899999618530273
+        },
+        {
+          "date": "2026-08-10",
+          "value": 15.180000305175781
         }
       ]
     },
@@ -500,11 +504,11 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-07",
-      "latest_value": 99.5999984741211,
-      "pct_change_20d": null,
+      "latest_date": "2026-08-10",
+      "latest_value": 99.75800323486328,
+      "pct_change_20d": -1.5027602318106583,
       "unit": "",
-      "status": null,
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
         {
@@ -586,16 +590,20 @@
         {
           "date": "2026-08-07",
           "value": 99.5999984741211
+        },
+        {
+          "date": "2026-08-10",
+          "value": 99.75800323486328
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-07",
-      "latest_value": 4399.7001953125,
-      "pct_change_20d": null,
+      "latest_date": "2026-08-10",
+      "latest_value": 4383.2998046875,
+      "pct_change_20d": 9.664743674943708,
       "unit": "$",
-      "status": null,
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -676,7 +684,11 @@
         },
         {
           "date": "2026-08-07",
-          "value": 4399.7001953125
+          "value": 4340.7001953125
+        },
+        {
+          "date": "2026-08-10",
+          "value": 4383.2998046875
         }
       ]
     }
@@ -743,9 +755,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-09T13:49:44.091177+00:00"
+    "last_refreshed": "2026-08-10T14:19:50.068157+00:00"
   },
   "headlines": [
+    {
+      "headline": "Earnings call transcript: Telos tops Q2 2026 revenue guidance, shares fall 12.8%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-telos-tops-q2-2026-revenue-guidance-shares-fall-128-93CH-4849691",
+      "published_at": "2026-08-10T14:17:46+00:00"
+    },
+    {
+      "headline": "Apple teeters near $300 support in bear flag: Live levels",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/apple-teeters-near-300-support-in-bear-flag-live-levels-93CH-4849689",
+      "published_at": "2026-08-10T14:17:40+00:00"
+    },
+    {
+      "headline": "Intel trapped in bear flag below 200 SMA: Live levels",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/intel-trapped-in-bear-flag-below-200-sma-live-levels-93CH-4849688",
+      "published_at": "2026-08-10T14:17:35+00:00"
+    },
+    {
+      "headline": "Microsoft RSI hits 79.8 in parabolic surge: Live levels",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/microsoft-rsi-hits-798-in-parabolic-surge-live-levels-93CH-4849687",
+      "published_at": "2026-08-10T14:17:34+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 and Nasdaq open lower; Treasury yields and oil prices rise",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f5cb7478-e296-4880-8ca0-836fd2e592f5&mod=mw_rss_bulletins",
+      "published_at": "2026-08-10T13:31:48+00:00"
+    },
+    {
+      "headline": "Berkshire Hathaway finally started spending its nearly $400 billion in cash",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=855514ac-613c-490f-8d3a-34c7f9bda69b&mod=mw_rss_bulletins",
+      "published_at": "2026-08-10T12:28:59+00:00"
+    },
+    {
+      "headline": "Mark Zuckerberg takes on the AI doomers in 6,500-word essay",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=291f3a8a-3b7a-4d18-a6a0-ad719d75942f&mod=mw_rss_bulletins",
+      "published_at": "2026-08-10T11:40:26+00:00"
+    },
+    {
+      "headline": "Economic calendar: July inflation data highlights the week",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7d6c889a-4036-4c68-987e-f0e767e9c094&mod=mw_rss_bulletins",
+      "published_at": "2026-08-10T11:12:46+00:00"
+    },
     {
       "headline": "Yemen\u2019s Houthis attack Saudi refinery after kingdom signs defence pact",
       "source": "Investing.com",
@@ -757,54 +817,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-64k-as-payrolls-test-looms-4845206",
       "published_at": "2026-08-09T13:09:27+00:00"
-    },
-    {
-      "headline": "Inflation data to test record-setting US stocks, Fed rate views",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4847738",
-      "published_at": "2026-08-09T13:00:29+00:00"
-    },
-    {
-      "headline": "Which economies and sectors are most exposed to AI earnings bust?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/which-economies-and-sectors-are-most-exposed-to-ai-earnings-bust-4847737",
-      "published_at": "2026-08-09T12:57:12+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts like these 3 stocks for their solid growth potential",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/09/top-analysts-like-these-3-stocks-for-their-solid-growth-potential.html",
-      "published_at": "2026-08-09T12:01:56+00:00"
-    },
-    {
-      "headline": "Abel puts a big chunk of Berkshire's cash to work",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/09/abel-puts-a-big-chunk-of-berkshires-cash-to-work.html",
-      "published_at": "2026-08-09T12:00:33+00:00"
-    },
-    {
-      "headline": "SpaceX\u2019s Nvidia deal may be bad news for neoclouds like Coreweave, analysts say",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c67aa0f5-a4ef-431e-8a4b-c8624839e7de&mod=mw_rss_bulletins",
-      "published_at": "2026-08-08T14:23:10+00:00"
-    },
-    {
-      "headline": "Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=60483d91-8f69-4ffa-bcc3-07b73d8bf186&mod=mw_rss_bulletins",
-      "published_at": "2026-08-08T13:48:59+00:00"
-    },
-    {
-      "headline": "What happens to stocks when the Fed starts hiking? Barclays weighs in",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/what-happens-to-stocks-when-the-fed-starts-hiking-barclays-weighs-in-4847660",
-      "published_at": "2026-08-08T13:22:00+00:00"
-    },
-    {
-      "headline": "Berkshire\u2019s profit doubles as equity holdings surge; buys back $4.5 bln shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/berkshires-profit-doubles-as-equity-holdings-surge-cash-nears-360-billion-4847653",
-      "published_at": "2026-08-08T13:14:36+00:00"
     }
   ]
 }
