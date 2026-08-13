@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T19:38:32.501042+00:00",
+  "generated_at": "2026-08-13T14:22:22.340467+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-11",
+      "latest_date": "2026-08-12",
       "latest_value": 0.48,
       "unit": "pp",
       "status": "Calm",
@@ -131,14 +131,18 @@
         {
           "date": "2026-08-11",
           "value": 0.48
+        },
+        {
+          "date": "2026-08-12",
+          "value": 0.48
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-11",
-      "latest_value": 2.72,
-      "latest_value_bps": 272.0,
+      "latest_date": "2026-08-12",
+      "latest_value": 2.71,
+      "latest_value_bps": 271.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -262,13 +266,17 @@
         {
           "date": "2026-08-11",
           "value": 2.72
+        },
+        {
+          "date": "2026-08-12",
+          "value": 2.71
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-12",
-      "latest_value": 14.869999885559082,
+      "latest_date": "2026-08-13",
+      "latest_value": 14.710000038146973,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -363,17 +371,21 @@
         },
         {
           "date": "2026-08-12",
-          "value": 14.869999885559082
+          "value": 14.550000190734863
+        },
+        {
+          "date": "2026-08-13",
+          "value": 14.710000038146973
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-11",
-      "vix9d": 12.52,
-      "vix": 15.28,
-      "vix3m": 18.91,
-      "spread": 6.390000000000001,
+      "latest_date": "2026-08-12",
+      "vix9d": 11.09,
+      "vix": 14.55,
+      "vix3m": 18.53,
+      "spread": 7.440000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -539,14 +551,20 @@
           "vix9d": 12.52,
           "vix": 15.28,
           "vix3m": 18.91
+        },
+        {
+          "date": "2026-08-12",
+          "vix9d": 11.09,
+          "vix": 14.55,
+          "vix3m": 18.53
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-12",
-      "latest_value": 99.73699951171875,
-      "pct_change_20d": -0.7592044659514925,
+      "latest_date": "2026-08-13",
+      "latest_value": 99.85399627685547,
+      "pct_change_20d": -0.8696585435165941,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -641,15 +659,19 @@
         },
         {
           "date": "2026-08-12",
-          "value": 99.73699951171875
+          "value": 100.01000213623047
+        },
+        {
+          "date": "2026-08-13",
+          "value": 99.85399627685547
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-12",
-      "latest_value": 4490.7001953125,
-      "pct_change_20d": 11.045998894967854,
+      "latest_date": "2026-08-13",
+      "latest_value": 4425.10009765625,
+      "pct_change_20d": 11.027197642293563,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -744,7 +766,11 @@
         },
         {
           "date": "2026-08-12",
-          "value": 4490.7001953125
+          "value": 4408.89990234375
+        },
+        {
+          "date": "2026-08-13",
+          "value": 4425.10009765625
         }
       ]
     }
@@ -773,7 +799,7 @@
       }
     ],
     "session_date": "2026-08-12",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -791,7 +817,7 @@
       {
         "date": "2026-08-12",
         "name": "CPI Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "Inflation remained stubborn in July as wages slowed for workers",
           "source": "nbcnews.com",
@@ -817,9 +843,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-12T14:20:44.095524+00:00"
+    "last_refreshed": "2026-08-13T14:22:20.253202+00:00"
   },
   "headlines": [
+    {
+      "headline": "Dell\u2019s stock has beaten Micron and AMD this year \u2014 and now it\u2019s adding to gains",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=244109fe-741d-4271-80d4-fb16254b0406&mod=mw_rss_bulletins",
+      "published_at": "2026-08-13T14:13:30+00:00"
+    },
+    {
+      "headline": "Walmart shares may move 4.6% on Aug. 20 earnings report",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/walmart-shares-may-move-46-on-aug-20-earnings-report-93CH-4858381",
+      "published_at": "2026-08-13T14:09:55+00:00"
+    },
+    {
+      "headline": "Live Nation Entertainment stock hits all-time high at 188.01 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/live-nation-entertainment-stock-hits-alltime-high-at-18801-usd-93CH-4858380",
+      "published_at": "2026-08-13T14:09:39+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Postbank posts H1 profit as de-risking gains pace in Q2 2026",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-postbank-posts-h1-profit-as-derisking-gains-pace-in-q2-2026-93CH-4858379",
+      "published_at": "2026-08-13T14:09:20+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Yesway posts record q2 2026 as EBITDA guidance rises",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-yesway-posts-record-q2-2026-as-ebitda-guidance-rises-93CH-4858378",
+      "published_at": "2026-08-13T14:08:57+00:00"
+    },
+    {
+      "headline": "S&P 500 opens in record territory; Dow and Nasdaq also rise",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d814768e-c0ee-4c1d-872a-3087b6d32c10&mod=mw_rss_bulletins",
+      "published_at": "2026-08-13T13:33:29+00:00"
+    },
+    {
+      "headline": "The latest readings on inflation could keep Fed from raising interest rates",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6400b5a9-9981-4ab9-927f-2a7476112bf8&mod=mw_rss_bulletins",
+      "published_at": "2026-08-13T12:46:31+00:00"
+    },
+    {
+      "headline": "Economic calendar: producer price index and initial jobless claims",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=90375dc3-ffca-48c7-8626-9ce61a403f69&mod=mw_rss_bulletins",
+      "published_at": "2026-08-13T11:18:12+00:00"
+    },
     {
       "headline": "Tapestry faces earnings test as Coach international in focus",
       "source": "Investing.com",
@@ -831,54 +905,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/apotex-q1-fy27-slides-ipo-strengthens-balance-sheet-canada-up-11-93CH-4855373",
       "published_at": "2026-08-12T14:10:12+00:00"
-    },
-    {
-      "headline": "CAE earnings up next: Transformation progress in focus amid soft market",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/earnings/cae-earnings-up-next-transformation-progress-in-focus-amid-soft-market-93CH-4855371",
-      "published_at": "2026-08-12T14:09:56+00:00"
-    },
-    {
-      "headline": "Meren Q2 2026 slides: guidance raised on strong cash flow, oil pricing",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/meren-q2-2026-slides-guidance-raised-on-strong-cash-flow-oil-pricing-93CH-4855370",
-      "published_at": "2026-08-12T14:09:10+00:00"
-    },
-    {
-      "headline": "S&P 500 opens in record territory, Dow and Nasdaq climb after CPI data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bc7f0569-397a-41a2-9202-103912edb375&mod=mw_rss_bulletins",
-      "published_at": "2026-08-12T13:30:20+00:00"
-    },
-    {
-      "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-      "published_at": "2026-08-12T13:29:29+00:00"
-    },
-    {
-      "headline": "CPI report: July inflation comes in at 0.1% \u2014 live updates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=caac1ee4-ae61-4234-ae90-9b8418750050&mod=mw_rss_bulletins",
-      "published_at": "2026-08-12T12:32:41+00:00"
-    },
-    {
-      "headline": "The latest report on U.S. inflation is just minutes away \u2014 follow live",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9b87ba69-85d6-4328-b822-a360fb8fbf6a&mod=mw_rss_bulletins",
-      "published_at": "2026-08-12T11:57:30+00:00"
-    },
-    {
-      "headline": "Economic calendar: CPI and the monthly U.S. federal budget",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6e473dad-8ad4-4727-8a69-054b10f5962c&mod=mw_rss_bulletins",
-      "published_at": "2026-08-12T11:03:06+00:00"
-    },
-    {
-      "headline": "AGT Foods Q2 2026 slides: packaged foods surge 42%, cash flow jumps",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/agt-foods-q2-2026-slides-packaged-foods-surge-42-cash-flow-jumps-93CH-4852021",
-      "published_at": "2026-08-11T14:14:05+00:00"
     }
   ]
 }
