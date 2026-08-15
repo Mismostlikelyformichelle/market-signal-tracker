@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:31:37.766840+00:00",
+  "generated_at": "2026-08-15T13:29:47.328723+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-13",
-      "latest_value": 0.48,
+      "latest_date": "2026-08-14",
+      "latest_value": 0.51,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -139,6 +139,10 @@
         {
           "date": "2026-08-13",
           "value": 0.48
+        },
+        {
+          "date": "2026-08-14",
+          "value": 0.51
         }
       ]
     },
@@ -284,7 +288,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-08-14",
-      "latest_value": 14.569999694824219,
+      "latest_value": 14.25,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -387,17 +391,17 @@
         },
         {
           "date": "2026-08-14",
-          "value": 14.569999694824219
+          "value": 14.25
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-13",
-      "vix9d": 11.37,
-      "vix": 14.63,
-      "vix3m": 18.61,
-      "spread": 7.24,
+      "latest_date": "2026-08-14",
+      "vix9d": 10.61,
+      "vix": 14.25,
+      "vix3m": 18.46,
+      "spread": 7.850000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -575,14 +579,20 @@
           "vix9d": 11.37,
           "vix": 14.63,
           "vix3m": 18.61
+        },
+        {
+          "date": "2026-08-14",
+          "vix9d": 10.61,
+          "vix": 14.25,
+          "vix3m": 18.46
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-08-14",
-      "latest_value": 99.51399993896484,
-      "pct_change_20d": -1.226799068024969,
+      "latest_value": 99.66999816894531,
+      "pct_change_20d": -1.0719621151907568,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -685,15 +695,15 @@
         },
         {
           "date": "2026-08-14",
-          "value": 99.51399993896484
+          "value": 99.66999816894531
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-08-14",
-      "latest_value": 4448.5,
-      "pct_change_20d": 10.860519204802573,
+      "latest_value": 4380.39990234375,
+      "pct_change_20d": 9.163405080025766,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -796,7 +806,7 @@
         },
         {
           "date": "2026-08-14",
-          "value": 4448.5
+          "value": 4380.39990234375
         }
       ]
     }
@@ -829,21 +839,11 @@
       }
     ],
     "session_date": "2026-08-14",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-08-07",
-        "name": "Employment Situation (Jobs Report)",
-        "is_past": true,
-        "headline": {
-          "text": "July 2026 Jobs Report: Unexpected Turbulence",
-          "source": "Indeed Hiring Lab",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV0xFZ3Vmcm9jWmd2REY5NUNTTE1CRGVHY1JORGRYeDNkeF9aU3FweDlPaFRRVDhKZzUtRnZ5QU03TER3Ul9pcEtuSGhGRDhXR1IwN1VXbUtrZnlKNmlTRi01WUFjSDZNSE9QcFpOSlAxd1NYNnduQW13VEF2ZmJvZXFZcDIzcTVX?oc=5"
-        }
-      },
       {
         "date": "2026-08-12",
         "name": "CPI Release",
@@ -873,68 +873,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-14T14:15:36.605828+00:00"
+    "last_refreshed": "2026-08-15T13:29:45.477057+00:00"
   },
   "headlines": [
+    {
+      "headline": "Ukraine strikes Russian space centre linked to Rassvet satellite network",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/ukraine-strikes-russian-space-centre-linked-to-rassvet-satellite-network-4861785",
+      "published_at": "2026-08-15T13:18:20+00:00"
+    },
+    {
+      "headline": "Hippo CEO Richard McCathron sells $160,000 in company stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/hippo-ceo-richard-mccathron-sells-160000-in-company-stock-93CH-4861784",
+      "published_at": "2026-08-15T13:16:01+00:00"
+    },
+    {
+      "headline": "A decade of internal AI battles is finally catching up to Google",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=22ea0448-0319-482d-a411-0a85d1b0e929&mod=mw_rss_bulletins",
+      "published_at": "2026-08-15T13:11:21+00:00"
+    },
+    {
+      "headline": "Qnity Electronics director Karin de Bondt buys $138,136 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/qnity-electronics-director-karin-de-bondt-buys-138136-in-stock-93CH-4861783",
+      "published_at": "2026-08-15T13:01:03+00:00"
+    },
+    {
+      "headline": "Berkshire adds $17 billion to Alphabet stake",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
+      "published_at": "2026-08-15T12:50:41+00:00"
+    },
+    {
+      "headline": "Via transportation director Arnon Dinur buys $998,984 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/via-transportation-director-arnon-dinur-buys-998984-in-stock-93CH-4861782",
+      "published_at": "2026-08-15T12:46:14+00:00"
+    },
+    {
+      "headline": "16 beaten-down AI stocks that are beloved by BofA analysts",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2f18fa6b-fe63-4fab-b1e1-55de90e3e659&mod=mw_rss_bulletins",
+      "published_at": "2026-08-15T00:10:57+00:00"
+    },
+    {
+      "headline": "How parents putting money into \u2018Trump accounts\u2019 could get a $2,500 tax break",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b7e0a45-4fb9-4d07-9062-51b6d97769e6&mod=mw_rss_bulletins",
+      "published_at": "2026-08-14T22:24:33+00:00"
+    },
+    {
+      "headline": "Berkshire Hathaway doubles down on the housing sector with a fresh stock bet",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=36fdf912-2ea0-483c-a380-9cb159af9232&mod=mw_rss_bulletins",
+      "published_at": "2026-08-14T21:39:30+00:00"
+    },
     {
       "headline": "Why is Space Exploration Technologies stock sliding today?",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4861069",
       "published_at": "2026-08-14T14:04:28+00:00"
-    },
-    {
-      "headline": "Business Inventories Stall, Indicating Potential Demand Concerns",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/business-inventories-stall-indicating-potential-demand-concerns-93CH-4861068",
-      "published_at": "2026-08-14T14:04:13+00:00"
-    },
-    {
-      "headline": "Radiant World sells aluminum to STG Group amid liquidity push - Bloomberg",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/radiant-world-sells-aluminum-to-stg-group-amid-liquidity-push--bloomberg-93CH-4861067",
-      "published_at": "2026-08-14T14:04:10+00:00"
-    },
-    {
-      "headline": "US retail sales drop for first time in nine months",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/us-retail-sales-drop-for-first-time-in-nine-months-93CH-4861066",
-      "published_at": "2026-08-14T14:04:05+00:00"
-    },
-    {
-      "headline": "Dow opens lower as stocks see muted start; S&P 500, Nasdaq aim for winning weeks",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=db392964-6756-4d8f-9374-f350c0a070f8&mod=mw_rss_bulletins",
-      "published_at": "2026-08-14T13:31:10+00:00"
-    },
-    {
-      "headline": "U.S. retail sales fell in July for first time in 14 months",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5f581512-71c0-421a-b44d-bc7affa62982&mod=mw_rss_bulletins",
-      "published_at": "2026-08-14T12:45:15+00:00"
-    },
-    {
-      "headline": "Economic calendar: flash manufacturing and services PMI",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c9787c3e-e841-4985-a310-d219be0b7063&mod=mw_rss_bulletins",
-      "published_at": "2026-08-14T11:46:12+00:00"
-    },
-    {
-      "headline": "Why September is the worst month of the year for the stock market",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6f15d736-ce00-48e1-877a-67990c5fe9c9&mod=mw_rss_bulletins",
-      "published_at": "2026-08-13T23:58:28+00:00"
-    },
-    {
-      "headline": "These charts show why stocks keep rallying. Profit margins are the highest on record",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
-      "published_at": "2026-08-13T20:21:51+00:00"
-    },
-    {
-      "headline": "Dell\u2019s stock has beaten Micron and AMD this year \u2014 and now it\u2019s adding to gains",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=244109fe-741d-4271-80d4-fb16254b0406&mod=mw_rss_bulletins",
-      "published_at": "2026-08-13T14:13:30+00:00"
     }
   ]
 }
