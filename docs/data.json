@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:29:47.328723+00:00",
+  "generated_at": "2026-08-16T13:31:26.568979+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -702,8 +702,8 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-08-14",
-      "latest_value": 4380.39990234375,
-      "pct_change_20d": 9.163405080025766,
+      "latest_value": 4437.2998046875,
+      "pct_change_20d": 10.581400520405824,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -806,7 +806,7 @@
         },
         {
           "date": "2026-08-14",
-          "value": 4380.39990234375
+          "value": 4437.2998046875
         }
       ]
     }
@@ -873,9 +873,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-15T13:29:45.477057+00:00"
+    "last_refreshed": "2026-08-16T13:31:25.429558+00:00"
   },
   "headlines": [
+    {
+      "headline": "With Fed mum on next move, investors look to earnings to keep stocks afloat",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/with-fed-mum-on-next-move-investors-look-to-earnings-to-keep-stocks-afloat-4861978",
+      "published_at": "2026-08-16T13:00:26+00:00"
+    },
+    {
+      "headline": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 0.89%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-089-4861977",
+      "published_at": "2026-08-16T12:45:03+00:00"
+    },
+    {
+      "headline": "Nyli MacKay portfolio manager John Lawlor sells $18,752 in MMD shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/nyli-mackay-portfolio-manager-john-lawlor-sells-18752-in-mmd-shares-93CH-4861975",
+      "published_at": "2026-08-16T12:30:48+00:00"
+    },
+    {
+      "headline": "U.S. said to have negotiated directly with Iran\u2019s IRGC in May",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/us-said-to-have-negotiated-directly-with-irans-irgc-in-may-4861974",
+      "published_at": "2026-08-16T12:19:25+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts like these 3 dividend stocks for steady income",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
+      "published_at": "2026-08-16T11:58:15+00:00"
+    },
+    {
+      "headline": "\u2018Hindenburg Omen\u2019 keeps flashing. Should investors worry about a market crash?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb0d97e2-0640-40cd-8959-5ca5099d073b&mod=mw_rss_bulletins",
+      "published_at": "2026-08-15T15:03:48+00:00"
+    },
+    {
+      "headline": "Ballet-flat trend is so hot even Crocs and Birkenstock can't resist",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0f04d40e-f0d9-45c5-b47d-96759da53740&mod=mw_rss_bulletins",
+      "published_at": "2026-08-15T14:20:21+00:00"
+    },
+    {
+      "headline": "AI inflation is putting more pressure on the Fed. Could higher rates be next?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=41d772f0-c094-4f78-ac27-951ad8dca00f&mod=mw_rss_bulletins",
+      "published_at": "2026-08-15T13:46:24+00:00"
+    },
     {
       "headline": "Ukraine strikes Russian space centre linked to Rassvet satellite network",
       "source": "Investing.com",
@@ -887,54 +935,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/hippo-ceo-richard-mccathron-sells-160000-in-company-stock-93CH-4861784",
       "published_at": "2026-08-15T13:16:01+00:00"
-    },
-    {
-      "headline": "A decade of internal AI battles is finally catching up to Google",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=22ea0448-0319-482d-a411-0a85d1b0e929&mod=mw_rss_bulletins",
-      "published_at": "2026-08-15T13:11:21+00:00"
-    },
-    {
-      "headline": "Qnity Electronics director Karin de Bondt buys $138,136 in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/qnity-electronics-director-karin-de-bondt-buys-138136-in-stock-93CH-4861783",
-      "published_at": "2026-08-15T13:01:03+00:00"
-    },
-    {
-      "headline": "Berkshire adds $17 billion to Alphabet stake",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
-      "published_at": "2026-08-15T12:50:41+00:00"
-    },
-    {
-      "headline": "Via transportation director Arnon Dinur buys $998,984 in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/via-transportation-director-arnon-dinur-buys-998984-in-stock-93CH-4861782",
-      "published_at": "2026-08-15T12:46:14+00:00"
-    },
-    {
-      "headline": "16 beaten-down AI stocks that are beloved by BofA analysts",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2f18fa6b-fe63-4fab-b1e1-55de90e3e659&mod=mw_rss_bulletins",
-      "published_at": "2026-08-15T00:10:57+00:00"
-    },
-    {
-      "headline": "How parents putting money into \u2018Trump accounts\u2019 could get a $2,500 tax break",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b7e0a45-4fb9-4d07-9062-51b6d97769e6&mod=mw_rss_bulletins",
-      "published_at": "2026-08-14T22:24:33+00:00"
-    },
-    {
-      "headline": "Berkshire Hathaway doubles down on the housing sector with a fresh stock bet",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=36fdf912-2ea0-483c-a380-9cb159af9232&mod=mw_rss_bulletins",
-      "published_at": "2026-08-14T21:39:30+00:00"
-    },
-    {
-      "headline": "Why is Space Exploration Technologies stock sliding today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-4861069",
-      "published_at": "2026-08-14T14:04:28+00:00"
     }
   ]
 }
