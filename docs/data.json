@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:31:26.568979+00:00",
+  "generated_at": "2026-08-17T13:38:44.942618+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -287,10 +287,10 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-14",
-      "latest_value": 14.25,
+      "latest_date": "2026-08-17",
+      "latest_value": 15.029999732971191,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -392,6 +392,10 @@
         {
           "date": "2026-08-14",
           "value": 14.25
+        },
+        {
+          "date": "2026-08-17",
+          "value": 15.029999732971191
         }
       ]
     },
@@ -590,9 +594,9 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-14",
-      "latest_value": 99.66999816894531,
-      "pct_change_20d": -1.0719621151907568,
+      "latest_date": "2026-08-17",
+      "latest_value": 99.43599700927734,
+      "pct_change_20d": -1.5387670931416961,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -696,14 +700,18 @@
         {
           "date": "2026-08-14",
           "value": 99.66999816894531
+        },
+        {
+          "date": "2026-08-17",
+          "value": 99.43599700927734
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-14",
-      "latest_value": 4437.2998046875,
-      "pct_change_20d": 10.581400520405824,
+      "latest_date": "2026-08-17",
+      "latest_value": 4442.60009765625,
+      "pct_change_20d": 10.779743250245081,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -806,7 +814,11 @@
         },
         {
           "date": "2026-08-14",
-          "value": 4437.2998046875
+          "value": 4380.39990234375
+        },
+        {
+          "date": "2026-08-17",
+          "value": 4442.60009765625
         }
       ]
     }
@@ -871,11 +883,65 @@
         "name": "CPI Release",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-09-16",
+        "name": "FOMC Rate Decision",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-08-16T13:31:25.429558+00:00"
+    "last_refreshed": "2026-08-17T13:38:43.551937+00:00"
   },
   "headlines": [
+    {
+      "headline": "RVT stock hits 52-week high at 19.05 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/rvt-stock-hits-52week-high-at-1905-usd-93CH-4863358",
+      "published_at": "2026-08-17T13:35:21+00:00"
+    },
+    {
+      "headline": "General Atlantic weighs return to IPO plans after 2023 filing, WSJ reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/general-atlantic-weighs-return-to-ipo-plans-after-2023-filing-wsj-reports-93CH-4863357",
+      "published_at": "2026-08-17T13:34:57+00:00"
+    },
+    {
+      "headline": "Pharos Energy adjourns shareholder vote on Ratio acquisition",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/pharos-energy-adjourns-shareholder-vote-on-ratio-acquisition-93CH-4863355",
+      "published_at": "2026-08-17T13:34:47+00:00"
+    },
+    {
+      "headline": "Argx stock hits all-time high at 954.5 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/argx-stock-hits-alltime-high-at-9545-usd-93CH-4863354",
+      "published_at": "2026-08-17T13:34:41+00:00"
+    },
+    {
+      "headline": "Dow opens lower, S&P 500 and Nasdaq look to push higher in calm start to week",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=344f6108-3ade-42dd-9a53-313a60b56411&mod=mw_rss_bulletins",
+      "published_at": "2026-08-17T13:31:53+00:00"
+    },
+    {
+      "headline": "Economic calendar: Manufacturing and housing data coming this morning",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8449372b-89b1-492a-8c20-29113129f49d&mod=mw_rss_bulletins",
+      "published_at": "2026-08-17T11:39:29+00:00"
+    },
+    {
+      "headline": "5 expensive surprises new homeowners face \u2014 and how to avoid them",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d34b046f-d681-43e5-98f1-d3822fdd7c24&mod=mw_rss_bulletins",
+      "published_at": "2026-08-16T23:14:19+00:00"
+    },
+    {
+      "headline": "U.S. stock futures little changed as investors ponder the Fed\u2019s next move",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=88dce230-f2f2-45c3-baae-ad40bc434076&mod=mw_rss_bulletins",
+      "published_at": "2026-08-16T22:16:19+00:00"
+    },
     {
       "headline": "With Fed mum on next move, investors look to earnings to keep stocks afloat",
       "source": "Investing.com",
@@ -887,54 +953,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-089-4861977",
       "published_at": "2026-08-16T12:45:03+00:00"
-    },
-    {
-      "headline": "Nyli MacKay portfolio manager John Lawlor sells $18,752 in MMD shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/nyli-mackay-portfolio-manager-john-lawlor-sells-18752-in-mmd-shares-93CH-4861975",
-      "published_at": "2026-08-16T12:30:48+00:00"
-    },
-    {
-      "headline": "U.S. said to have negotiated directly with Iran\u2019s IRGC in May",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/us-said-to-have-negotiated-directly-with-irans-irgc-in-may-4861974",
-      "published_at": "2026-08-16T12:19:25+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts like these 3 dividend stocks for steady income",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
-      "published_at": "2026-08-16T11:58:15+00:00"
-    },
-    {
-      "headline": "\u2018Hindenburg Omen\u2019 keeps flashing. Should investors worry about a market crash?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb0d97e2-0640-40cd-8959-5ca5099d073b&mod=mw_rss_bulletins",
-      "published_at": "2026-08-15T15:03:48+00:00"
-    },
-    {
-      "headline": "Ballet-flat trend is so hot even Crocs and Birkenstock can't resist",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0f04d40e-f0d9-45c5-b47d-96759da53740&mod=mw_rss_bulletins",
-      "published_at": "2026-08-15T14:20:21+00:00"
-    },
-    {
-      "headline": "AI inflation is putting more pressure on the Fed. Could higher rates be next?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=41d772f0-c094-4f78-ac27-951ad8dca00f&mod=mw_rss_bulletins",
-      "published_at": "2026-08-15T13:46:24+00:00"
-    },
-    {
-      "headline": "Ukraine strikes Russian space centre linked to Rassvet satellite network",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/ukraine-strikes-russian-space-centre-linked-to-rassvet-satellite-network-4861785",
-      "published_at": "2026-08-15T13:18:20+00:00"
-    },
-    {
-      "headline": "Hippo CEO Richard McCathron sells $160,000 in company stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/hippo-ceo-richard-mccathron-sells-160000-in-company-stock-93CH-4861784",
-      "published_at": "2026-08-15T13:16:01+00:00"
     }
   ]
 }
