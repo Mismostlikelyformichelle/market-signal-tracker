@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:49:43.526643+00:00",
+  "generated_at": "2026-08-19T13:43:40.739188+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -152,9 +152,9 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-14",
-      "latest_value": 2.67,
-      "latest_value_bps": 267.0,
+      "latest_date": "2026-08-17",
+      "latest_value": 2.7,
+      "latest_value_bps": 270.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -290,13 +290,17 @@
         {
           "date": "2026-08-14",
           "value": 2.67
+        },
+        {
+          "date": "2026-08-17",
+          "value": 2.7
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-18",
-      "latest_value": 15.84000015258789,
+      "latest_date": "2026-08-19",
+      "latest_value": 15.15999984741211,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -403,21 +407,25 @@
         },
         {
           "date": "2026-08-17",
-          "value": 15.029999732971191
+          "value": 15.1899995803833
         },
         {
           "date": "2026-08-18",
           "value": 15.84000015258789
+        },
+        {
+          "date": "2026-08-19",
+          "value": 15.15999984741211
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-17",
-      "vix9d": 12.39,
-      "vix": 15.19,
-      "vix3m": 19.04,
-      "spread": 6.649999999999999,
+      "latest_date": "2026-08-18",
+      "vix9d": 13.59,
+      "vix": 15.84,
+      "vix3m": 19.27,
+      "spread": 5.68,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -607,16 +615,22 @@
           "vix9d": 12.39,
           "vix": 15.19,
           "vix3m": 19.04
+        },
+        {
+          "date": "2026-08-18",
+          "vix9d": 13.59,
+          "vix": 15.84,
+          "vix3m": 19.27
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-18",
-      "latest_value": 99.63300323486328,
-      "pct_change_20d": -1.5289553920206547,
+      "latest_date": "2026-08-19",
+      "latest_value": 98.95999908447266,
+      "pct_change_20d": -2.1554284341817995,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
         {
@@ -721,19 +735,23 @@
         },
         {
           "date": "2026-08-17",
-          "value": 99.43599700927734
+          "value": 99.63999938964844
         },
         {
           "date": "2026-08-18",
-          "value": 99.63300323486328
+          "value": 99.6500015258789
+        },
+        {
+          "date": "2026-08-19",
+          "value": 98.95999908447266
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-18",
-      "latest_value": 4448.2998046875,
-      "pct_change_20d": 9.265301711652963,
+      "latest_date": "2026-08-19",
+      "latest_value": 4523.10009765625,
+      "pct_change_20d": 9.07184171722782,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -844,7 +862,11 @@
         },
         {
           "date": "2026-08-18",
-          "value": 4448.2998046875
+          "value": 4366.0
+        },
+        {
+          "date": "2026-08-19",
+          "value": 4523.10009765625
         }
       ]
     }
@@ -881,7 +903,7 @@
       }
     ],
     "session_date": "2026-08-18",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -921,9 +943,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-18T13:42:00.094197+00:00"
+    "last_refreshed": "2026-08-19T13:43:34.178627+00:00"
   },
   "headlines": [
+    {
+      "headline": "Dow, S&P 500, Nasdaq open higher, yields drop on Treasury's bond-buyback plans",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=03b3baab-4f5f-4c7d-be15-63d3e6d84f51&mod=mw_rss_bulletins",
+      "published_at": "2026-08-19T13:30:35+00:00"
+    },
+    {
+      "headline": "20/20 Biolabs adjourns vote on charter amendment, elects directors at annual meeting",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/sec-filings/2020-biolabs-adjourns-vote-on-charter-amendment-elects-directors-at-annual-meeting-93CH-4867615",
+      "published_at": "2026-08-19T13:29:16+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: La-Z-Boy misses Q1 2027 estimates as shares slide",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-lazboy-misses-q1-2027-estimates-as-shares-slide-93CH-4867614",
+      "published_at": "2026-08-19T13:28:49+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Marti Technologies posts revenue beat in H1 2026",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-marti-technologies-posts-revenue-beat-in-h1-2026-93CH-4867613",
+      "published_at": "2026-08-19T13:27:12+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Kingsoft Cloud posts Q2 2026 revenue beat as shares fall",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-kingsoft-cloud-posts-q2-2026-revenue-beat-as-shares-fall-93CH-4867608",
+      "published_at": "2026-08-19T13:26:39+00:00"
+    },
+    {
+      "headline": "Moderna\u2019s stock doubles on promising cancer-vaccine results",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6f6e1895-75cf-4a7b-a14f-ce56ac9c0165&mod=mw_rss_bulletins",
+      "published_at": "2026-08-19T12:17:07+00:00"
+    },
+    {
+      "headline": "Economic calendar: Fed's July minutes under investors\u2019 microscopes",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=80cab8c1-980a-48fe-98bd-0db487be3ce2&mod=mw_rss_bulletins",
+      "published_at": "2026-08-19T11:39:59+00:00"
+    },
+    {
+      "headline": "Trump holds off on new 50% tariffs for Canadian goods",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8698f130-aa2d-4e9f-867e-f53bc210c0a7&mod=mw_rss_bulletins",
+      "published_at": "2026-08-19T02:43:40+00:00"
+    },
     {
       "headline": "FLEX LNG earnings on deck: Can strong quarter offset dividend concerns?",
       "source": "Investing.com",
@@ -935,54 +1005,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/commodities-news/corn-futures-rise-as-usda-lowers-crop-condition-ratings-93CH-4865513",
       "published_at": "2026-08-18T13:34:55+00:00"
-    },
-    {
-      "headline": "Wheat futures ease as Black Sea disruptions limit losses",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/wheat-futures-ease-as-black-sea-disruptions-limit-losses-93CH-4865511",
-      "published_at": "2026-08-18T13:33:49+00:00"
-    },
-    {
-      "headline": "Kura Oncology stock hits 52-week high at 12.49 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/kura-oncology-stock-hits-52week-high-at-1249-usd-93CH-4865510",
-      "published_at": "2026-08-18T13:33:42+00:00"
-    },
-    {
-      "headline": "Nasdaq, Dow and S&P 500 open lower, pointing to third day of declines",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d854d893-29a8-40fb-8b73-5cf1c0954582&mod=mw_rss_bulletins",
-      "published_at": "2026-08-18T13:30:53+00:00"
-    },
-    {
-      "headline": "Contrarian vs. the crowd: One trader made a massive bet against chip stocks",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html",
-      "published_at": "2026-08-18T13:13:13+00:00"
-    },
-    {
-      "headline": "Disney sues FCC over Trump's broadcast-license threat",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b98202ad-18a0-4ab9-a0ca-8e99f3e99e07&mod=mw_rss_bulletins",
-      "published_at": "2026-08-18T13:00:58+00:00"
-    },
-    {
-      "headline": "Fund managers have rarely been this bullish about stocks",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1339f24-0523-490e-ac96-0139dda271ef&mod=mw_rss_bulletins",
-      "published_at": "2026-08-18T12:14:25+00:00"
-    },
-    {
-      "headline": "Economic calendar: housing starts and sales, import prices and more",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=125b570f-ed98-44f4-9e07-616adb9e416a&mod=mw_rss_bulletins",
-      "published_at": "2026-08-18T11:42:08+00:00"
-    },
-    {
-      "headline": "Prediction market traders see roughly 1-in-4 odds Paramount\u2019s bid to buy Warner Bros. Discovery fails",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/17/pskys-wbd-bid-has-1-in-4-odds-of-falling-through-kalshi-traders-say.html",
-      "published_at": "2026-08-17T17:43:40+00:00"
     }
   ]
 }
