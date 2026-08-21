@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:56:42.872680+00:00",
+  "generated_at": "2026-08-21T13:44:36.046295+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-19",
-      "latest_value": 0.46,
+      "latest_date": "2026-08-20",
+      "latest_value": 0.5,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -155,14 +155,18 @@
         {
           "date": "2026-08-19",
           "value": 0.46
+        },
+        {
+          "date": "2026-08-20",
+          "value": 0.5
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-18",
-      "latest_value": 2.75,
-      "latest_value_bps": 275.0,
+      "latest_date": "2026-08-19",
+      "latest_value": 2.73,
+      "latest_value_bps": 273.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -306,13 +310,17 @@
         {
           "date": "2026-08-18",
           "value": 2.75
+        },
+        {
+          "date": "2026-08-19",
+          "value": 2.73
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-20",
-      "latest_value": 15.869999885559082,
+      "latest_date": "2026-08-21",
+      "latest_value": 15.479999542236328,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -431,17 +439,21 @@
         },
         {
           "date": "2026-08-20",
-          "value": 15.869999885559082
+          "value": 16.010000228881836
+        },
+        {
+          "date": "2026-08-21",
+          "value": 15.479999542236328
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-19",
-      "vix9d": 12.66,
-      "vix": 14.89,
-      "vix3m": 18.57,
-      "spread": 5.91,
+      "latest_date": "2026-08-20",
+      "vix9d": 14.39,
+      "vix": 16.01,
+      "vix3m": 19.06,
+      "spread": 4.669999999999998,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -643,14 +655,20 @@
           "vix9d": 12.66,
           "vix": 14.89,
           "vix3m": 18.57
+        },
+        {
+          "date": "2026-08-20",
+          "vix9d": 14.39,
+          "vix": 16.01,
+          "vix3m": 19.06
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-20",
-      "latest_value": 98.76200103759766,
-      "pct_change_20d": -2.630384757518316,
+      "latest_date": "2026-08-21",
+      "latest_value": 98.81099700927734,
+      "pct_change_20d": -2.6204830781880974,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -769,15 +787,19 @@
         },
         {
           "date": "2026-08-20",
-          "value": 98.76200103759766
+          "value": 98.9000015258789
+        },
+        {
+          "date": "2026-08-21",
+          "value": 98.81099700927734
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-20",
-      "latest_value": 4538.2001953125,
-      "pct_change_20d": 12.148472440876473,
+      "latest_date": "2026-08-21",
+      "latest_value": 4632.89990234375,
+      "pct_change_20d": 13.897624916796161,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -896,7 +918,11 @@
         },
         {
           "date": "2026-08-20",
-          "value": 4538.2001953125
+          "value": 4516.2998046875
+        },
+        {
+          "date": "2026-08-21",
+          "value": 4632.89990234375
         }
       ]
     }
@@ -937,7 +963,7 @@
       }
     ],
     "session_date": "2026-08-20",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -967,68 +993,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-20T13:46:00.428888+00:00"
+    "last_refreshed": "2026-08-21T13:44:34.286071+00:00"
   },
   "headlines": [
+    {
+      "headline": "U.S. stocks climb at the open as Treasury bond sell-off eases up slightly",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-st-slides-on-rising-treasury-yields-4870666",
+      "published_at": "2026-08-21T13:33:34+00:00"
+    },
+    {
+      "headline": "Applovin Corp stock hits 52-week low at 303.01 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/applovin-corp-stock-hits-52week-low-at-30301-usd-93CH-4871755",
+      "published_at": "2026-08-21T13:32:22+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Prospect Capital beats Q1 2026 EPS but stock stays flat",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-prospect-capital-beats-q1-2026-eps-but-stock-stays-flat-93CH-4871754",
+      "published_at": "2026-08-21T13:31:53+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 and Nasdaq open higher as Treasury selloff takes a breather",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=279ceff2-c035-4082-8f86-425bbbb6f530&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T13:31:45+00:00"
+    },
+    {
+      "headline": "Osi Systems stock hits 52-week low at 195.0 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/osi-systems-stock-hits-52week-low-at-1950-usd-93CH-4871753",
+      "published_at": "2026-08-21T13:31:35+00:00"
+    },
+    {
+      "headline": "Economic calendar: Flash Manufacturing PMI and Flash Services PMI",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=138c8eb2-467f-4e62-9cbb-7d38ee565374&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T11:17:20+00:00"
+    },
+    {
+      "headline": "Apple has gotten too predictable. Will its new CEO take bigger swings?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=40e1870d-ad22-4c0f-9922-22a1e57f006a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T01:00:10+00:00"
+    },
+    {
+      "headline": "CFTC\u2019s Innovation Advisory Committee meeting addresses emerging prediction market risks",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/20/cftcs-committee-meeting-addresses-prediction-market-risks.html",
+      "published_at": "2026-08-21T00:45:58+00:00"
+    },
+    {
+      "headline": "Opinion: The bond market is going to burst the stock-market bubble",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=39057449-f568-4a2b-9718-f294faca528e&mod=mw_rss_bulletins",
+      "published_at": "2026-08-20T23:46:09+00:00"
+    },
     {
       "headline": "Dow, S&P 500 and Nasdaq open lower as Bessent buybacks fail to calm bond market",
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cecebf9b-b6b3-4898-8496-5bd3522f5564&mod=mw_rss_bulletins",
       "published_at": "2026-08-20T13:31:18+00:00"
-    },
-    {
-      "headline": "Japan Post Holdings, AFLAC 10% owner, sells $1.73m in common stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/japan-post-holdings-aflac-10-owner-sells-173m-in-common-stock-93CH-4869931",
-      "published_at": "2026-08-20T13:31:02+00:00"
-    },
-    {
-      "headline": "Alliance Resource Partners director buys $1,799 in units",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/alliance-resource-partners-director-buys-1799-in-units-93CH-4869930",
-      "published_at": "2026-08-20T13:30:58+00:00"
-    },
-    {
-      "headline": "ARKBRIDGE\u2019s David Mali Highlights AI-Driven Risk Management at the Finance Magnates London Summit",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/arkbridges-david-mali-highlights-aidriven-risk-management-at-the-finance-magnates-london-summit-4869929",
-      "published_at": "2026-08-20T13:30:57+00:00"
-    },
-    {
-      "headline": "Chinese e-commerce giant JD.com offers EU remedies in Ceconomy takeover probe",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/chinese-ecommerce-giant-jdcom-offers-eu-remedies-in-ceconomy-takeover-probe-4869928",
-      "published_at": "2026-08-20T13:30:43+00:00"
-    },
-    {
-      "headline": "Walmart shares slide as U.S. sales hit by falling drug prices",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2a8a453c-69ec-4979-ac19-eb414370f259&mod=mw_rss_bulletins",
-      "published_at": "2026-08-20T11:39:45+00:00"
-    },
-    {
-      "headline": "Economic calendar: business-outlook survey, jobless claims, leading indicators",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=640d4649-acfa-4cb6-a756-4e0cb22904de&mod=mw_rss_bulletins",
-      "published_at": "2026-08-20T11:32:11+00:00"
-    },
-    {
-      "headline": "9 stocks to ride the industrial sector\u2019s blazing rally",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=da95b53a-cafd-4c86-b1ea-739c6081a83a&mod=mw_rss_bulletins",
-      "published_at": "2026-08-20T00:52:51+00:00"
-    },
-    {
-      "headline": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html",
-      "published_at": "2026-08-19T23:57:47+00:00"
-    },
-    {
-      "headline": "Carvana shares are under pressure this week as Mark Walter probe fuels investor jitters",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/19/carvana-shares-on-pace-for-10percent-weekly-loss-as-mark-walter-probe-fuels-investor-jitters.html",
-      "published_at": "2026-08-19T21:05:31+00:00"
     }
   ]
 }
