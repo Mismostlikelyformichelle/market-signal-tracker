@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:48:50.150551+00:00",
+  "generated_at": "2026-08-22T13:31:48.702740+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-20",
+      "latest_date": "2026-08-21",
       "latest_value": 0.5,
       "unit": "pp",
       "status": "Calm",
@@ -159,14 +159,18 @@
         {
           "date": "2026-08-20",
           "value": 0.5
+        },
+        {
+          "date": "2026-08-21",
+          "value": 0.5
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-19",
-      "latest_value": 2.73,
-      "latest_value_bps": 273.0,
+      "latest_date": "2026-08-20",
+      "latest_value": 2.75,
+      "latest_value_bps": 275.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -314,13 +318,17 @@
         {
           "date": "2026-08-19",
           "value": 2.73
+        },
+        {
+          "date": "2026-08-20",
+          "value": 2.75
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-08-21",
-      "latest_value": 15.479999542236328,
+      "latest_value": 15.130000114440918,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -443,17 +451,17 @@
         },
         {
           "date": "2026-08-21",
-          "value": 15.479999542236328
+          "value": 15.130000114440918
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-20",
-      "vix9d": 14.39,
-      "vix": 16.01,
-      "vix3m": 19.06,
-      "spread": 4.669999999999998,
+      "latest_date": "2026-08-21",
+      "vix9d": 12.58,
+      "vix": 15.13,
+      "vix3m": 18.5,
+      "spread": 5.92,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -661,14 +669,20 @@
           "vix9d": 14.39,
           "vix": 16.01,
           "vix3m": 19.06
+        },
+        {
+          "date": "2026-08-21",
+          "vix9d": 12.58,
+          "vix": 15.13,
+          "vix3m": 18.5
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-08-21",
-      "latest_value": 98.81099700927734,
-      "pct_change_20d": -2.6204830781880974,
+      "latest_value": 98.80000305175781,
+      "pct_change_20d": -2.6313177656693942,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -791,15 +805,15 @@
         },
         {
           "date": "2026-08-21",
-          "value": 98.81099700927734
+          "value": 98.80000305175781
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-08-21",
-      "latest_value": 4632.89990234375,
-      "pct_change_20d": 13.897624916796161,
+      "latest_value": 4624.10009765625,
+      "pct_change_20d": 13.681285933704624,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -922,7 +936,7 @@
         },
         {
           "date": "2026-08-21",
-          "value": 4632.89990234375
+          "value": 4624.10009765625
         }
       ]
     }
@@ -963,7 +977,7 @@
       }
     ],
     "session_date": "2026-08-21",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -993,68 +1007,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-21T13:44:34.286071+00:00"
+    "last_refreshed": "2026-08-22T13:31:46.607798+00:00"
   },
   "headlines": [
     {
-      "headline": "U.S. stocks climb at the open as Treasury bond sell-off eases up slightly",
+      "headline": "BofA maintains underperform ratings on six BDC stocks",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-st-slides-on-rising-treasury-yields-4870666",
-      "published_at": "2026-08-21T13:33:34+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361",
+      "published_at": "2026-08-22T12:09:48+00:00"
     },
     {
-      "headline": "Applovin Corp stock hits 52-week low at 303.01 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/applovin-corp-stock-hits-52week-low-at-30301-usd-93CH-4871755",
-      "published_at": "2026-08-21T13:32:22+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Prospect Capital beats Q1 2026 EPS but stock stays flat",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-prospect-capital-beats-q1-2026-eps-but-stock-stays-flat-93CH-4871754",
-      "published_at": "2026-08-21T13:31:53+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 and Nasdaq open higher as Treasury selloff takes a breather",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=279ceff2-c035-4082-8f86-425bbbb6f530&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T13:31:45+00:00"
-    },
-    {
-      "headline": "Osi Systems stock hits 52-week low at 195.0 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/osi-systems-stock-hits-52week-low-at-1950-usd-93CH-4871753",
-      "published_at": "2026-08-21T13:31:35+00:00"
-    },
-    {
-      "headline": "Economic calendar: Flash Manufacturing PMI and Flash Services PMI",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=138c8eb2-467f-4e62-9cbb-7d38ee565374&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T11:17:20+00:00"
-    },
-    {
-      "headline": "Apple has gotten too predictable. Will its new CEO take bigger swings?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=40e1870d-ad22-4c0f-9922-22a1e57f006a&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T01:00:10+00:00"
-    },
-    {
-      "headline": "CFTC\u2019s Innovation Advisory Committee meeting addresses emerging prediction market risks",
+      "headline": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/20/cftcs-committee-meeting-addresses-prediction-market-risks.html",
-      "published_at": "2026-08-21T00:45:58+00:00"
+      "link": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
+      "published_at": "2026-08-22T12:06:37+00:00"
     },
     {
-      "headline": "Opinion: The bond market is going to burst the stock-market bubble",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=39057449-f568-4a2b-9718-f294faca528e&mod=mw_rss_bulletins",
-      "published_at": "2026-08-20T23:46:09+00:00"
+      "headline": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/wolfe-research-sees-cnh-stock-flat-2027-outlook-on-commodity-prices-93CH-4872360",
+      "published_at": "2026-08-22T12:05:56+00:00"
     },
     {
-      "headline": "Dow, S&P 500 and Nasdaq open lower as Bessent buybacks fail to calm bond market",
+      "headline": "Jefferies sees metals breakout on currency concerns",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/jefferies-sees-metals-breakout-on-currency-concerns-93CH-4872341",
+      "published_at": "2026-08-22T11:56:55+00:00"
+    },
+    {
+      "headline": "US hits Canadian goods with 50% tariffs after trade talks fail",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745",
+      "published_at": "2026-08-22T11:48:43+00:00"
+    },
+    {
+      "headline": "How Bessent\u2019s newly activist Treasury Department is undercutting Fed Chair Warsh",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cecebf9b-b6b3-4898-8496-5bd3522f5564&mod=mw_rss_bulletins",
-      "published_at": "2026-08-20T13:31:18+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=27a6276b-8f4e-4e29-be8d-06c32aceed92&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T23:37:26+00:00"
+    },
+    {
+      "headline": "U.S., Canada scramble to avoid new tariffs with a trade deal. What may be in it.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b7f6f6ea-2390-422a-89e8-d675e8c54aa3&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T22:04:09+00:00"
+    },
+    {
+      "headline": "Tesla\u2019s stock jumps after company gets cleared for a Las Vegas robotaxi launch",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e73ed228-31e3-4ed7-9100-e0a61dba39ab&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T20:36:40+00:00"
+    },
+    {
+      "headline": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
+      "published_at": "2026-08-21T20:19:21+00:00"
+    },
+    {
+      "headline": "Dow ends sharply higher, but stocks book weekly losses amid bond-market selloff",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7343ccd1-795f-4d11-8a2a-179ee544252a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-21T20:02:57+00:00"
     }
   ]
 }
