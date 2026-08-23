@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:31:48.702740+00:00",
+  "generated_at": "2026-08-23T13:31:52.606523+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -812,8 +812,8 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-08-21",
-      "latest_value": 4624.10009765625,
-      "pct_change_20d": 13.681285933704624,
+      "latest_value": 4680.60009765625,
+      "pct_change_20d": 15.070311369920814,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -936,7 +936,7 @@
         },
         {
           "date": "2026-08-21",
-          "value": 4624.10009765625
+          "value": 4680.60009765625
         }
       ]
     }
@@ -1007,68 +1007,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-22T13:31:46.607798+00:00"
+    "last_refreshed": "2026-08-23T13:31:51.269785+00:00"
   },
   "headlines": [
+    {
+      "headline": "Up another 12% FRIDAY, this AI-picked energy stock is now up +90%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/up-another-12-friday-this-aipicked-energy-stock-is-now-up-90-4872447",
+      "published_at": "2026-08-23T13:10:59+00:00"
+    },
+    {
+      "headline": "Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428",
+      "published_at": "2026-08-23T12:46:47+00:00"
+    },
+    {
+      "headline": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.13%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-113-4872445",
+      "published_at": "2026-08-23T12:45:03+00:00"
+    },
+    {
+      "headline": "Robots can outrun humans, but can they plug in a cable?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/robots-can-outrun-humans-but-can-they-plug-in-a-cable-4872417",
+      "published_at": "2026-08-23T12:36:28+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts believe in the growth potential of these 3 stocks",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
+      "published_at": "2026-08-23T11:29:05+00:00"
+    },
+    {
+      "headline": "A massive \u2018corporate welfare\u2019 program is underway \u2014 and consumers want a piece",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e9a6c358-673c-4bd4-989d-5e665420f4c4&mod=mw_rss_bulletins",
+      "published_at": "2026-08-22T23:55:06+00:00"
+    },
+    {
+      "headline": "There's surprisingly good news for the stock market this midterm election year",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d45cb3d6-36fc-47f4-8a1b-c6ea377eeb78&mod=mw_rss_bulletins",
+      "published_at": "2026-08-22T22:21:51+00:00"
+    },
+    {
+      "headline": "Why home prices in St. Louis have climbed only 6% over the past 134 years",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=18eba9c7-a53f-4731-aa01-f456142fc14d&mod=mw_rss_bulletins",
+      "published_at": "2026-08-22T20:53:10+00:00"
+    },
+    {
+      "headline": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=aa321188-b992-4354-a90a-7f8e10949c01&mod=mw_rss_bulletins",
+      "published_at": "2026-08-22T19:00:18+00:00"
+    },
     {
       "headline": "BofA maintains underperform ratings on six BDC stocks",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361",
       "published_at": "2026-08-22T12:09:48+00:00"
-    },
-    {
-      "headline": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
-      "published_at": "2026-08-22T12:06:37+00:00"
-    },
-    {
-      "headline": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/wolfe-research-sees-cnh-stock-flat-2027-outlook-on-commodity-prices-93CH-4872360",
-      "published_at": "2026-08-22T12:05:56+00:00"
-    },
-    {
-      "headline": "Jefferies sees metals breakout on currency concerns",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/jefferies-sees-metals-breakout-on-currency-concerns-93CH-4872341",
-      "published_at": "2026-08-22T11:56:55+00:00"
-    },
-    {
-      "headline": "US hits Canadian goods with 50% tariffs after trade talks fail",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745",
-      "published_at": "2026-08-22T11:48:43+00:00"
-    },
-    {
-      "headline": "How Bessent\u2019s newly activist Treasury Department is undercutting Fed Chair Warsh",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=27a6276b-8f4e-4e29-be8d-06c32aceed92&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T23:37:26+00:00"
-    },
-    {
-      "headline": "U.S., Canada scramble to avoid new tariffs with a trade deal. What may be in it.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b7f6f6ea-2390-422a-89e8-d675e8c54aa3&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T22:04:09+00:00"
-    },
-    {
-      "headline": "Tesla\u2019s stock jumps after company gets cleared for a Las Vegas robotaxi launch",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e73ed228-31e3-4ed7-9100-e0a61dba39ab&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T20:36:40+00:00"
-    },
-    {
-      "headline": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-      "published_at": "2026-08-21T20:19:21+00:00"
-    },
-    {
-      "headline": "Dow ends sharply higher, but stocks book weekly losses amid bond-market selloff",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7343ccd1-795f-4d11-8a2a-179ee544252a&mod=mw_rss_bulletins",
-      "published_at": "2026-08-21T20:02:57+00:00"
     }
   ]
 }
