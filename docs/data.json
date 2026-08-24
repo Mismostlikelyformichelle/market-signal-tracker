@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:31:52.606523+00:00",
+  "generated_at": "2026-08-24T13:51:49.425655+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -327,8 +327,8 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-21",
-      "latest_value": 15.130000114440918,
+      "latest_date": "2026-08-24",
+      "latest_value": 15.869999885559082,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -452,6 +452,10 @@
         {
           "date": "2026-08-21",
           "value": 15.130000114440918
+        },
+        {
+          "date": "2026-08-24",
+          "value": 15.869999885559082
         }
       ]
     },
@@ -680,9 +684,9 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-21",
-      "latest_value": 98.80000305175781,
-      "pct_change_20d": -2.6313177656693942,
+      "latest_date": "2026-08-24",
+      "latest_value": 98.94200134277344,
+      "pct_change_20d": -2.529800748118074,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -806,14 +810,18 @@
         {
           "date": "2026-08-21",
           "value": 98.80000305175781
+        },
+        {
+          "date": "2026-08-24",
+          "value": 98.94200134277344
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-21",
-      "latest_value": 4680.60009765625,
-      "pct_change_20d": 15.070311369920814,
+      "latest_date": "2026-08-24",
+      "latest_value": 4730.89990234375,
+      "pct_change_20d": 16.109949744600566,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -936,7 +944,11 @@
         },
         {
           "date": "2026-08-21",
-          "value": 4680.60009765625
+          "value": 4624.10009765625
+        },
+        {
+          "date": "2026-08-24",
+          "value": 4730.89990234375
         }
       ]
     }
@@ -1007,68 +1019,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-23T13:31:51.269785+00:00"
+    "last_refreshed": "2026-08-24T13:51:47.771330+00:00"
   },
   "headlines": [
+    {
+      "headline": "Karo Platinum secures mining lease for Zimbabwe project",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/karo-platinum-secures-mining-lease-for-zimbabwe-project-93CH-4873724",
+      "published_at": "2026-08-24T13:46:18+00:00"
+    },
+    {
+      "headline": "T Stamp CEO Genner buys $3,210 in Class A common stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/t-stamp-ceo-genner-buys-3210-in-class-a-common-stock-93CH-4873722",
+      "published_at": "2026-08-24T13:45:59+00:00"
+    },
+    {
+      "headline": "Heimstaden Bostad issues SEK 1.5 billion in green notes",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/heimstaden-bostad-issues-sek-15-billion-in-green-notes-93CH-4873718",
+      "published_at": "2026-08-24T13:42:58+00:00"
+    },
+    {
+      "headline": "Match Group stock hits 52-week high at $41.43",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/match-group-stock-hits-52week-high-at-4143-93CH-4873717",
+      "published_at": "2026-08-24T13:42:42+00:00"
+    },
+    {
+      "headline": "Stocks open lower as U.S.-Iran and Canada trade tensions heat up before Jackson",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ace1df07-f00c-4c7f-8f40-2d38124c91e7&mod=mw_rss_bulletins",
+      "published_at": "2026-08-24T13:31:36+00:00"
+    },
+    {
+      "headline": "Santoli: Why all the fuss about bond yields is happening now",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/24/why-all-the-fuss-about-bond-yields-is-happening-now.html",
+      "published_at": "2026-08-24T12:31:13+00:00"
+    },
+    {
+      "headline": "Temu owner\u2019s shares rise as results beat estimates despite tumbling profits",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7eab7936-82e8-41a1-9f5c-26e8a6208e85&mod=mw_rss_bulletins",
+      "published_at": "2026-08-24T12:19:24+00:00"
+    },
+    {
+      "headline": "Economic calendar: home prices, consumer confidence and more this week",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=91e4de2b-5825-4ec6-b964-bb66f70fd3ec&mod=mw_rss_bulletins",
+      "published_at": "2026-08-24T10:48:33+00:00"
+    },
+    {
+      "headline": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c7c81701-cb52-4cdb-b77f-877d09a79f2f&mod=mw_rss_bulletins",
+      "published_at": "2026-08-24T00:03:17+00:00"
+    },
     {
       "headline": "Up another 12% FRIDAY, this AI-picked energy stock is now up +90%",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/up-another-12-friday-this-aipicked-energy-stock-is-now-up-90-4872447",
       "published_at": "2026-08-23T13:10:59+00:00"
-    },
-    {
-      "headline": "Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428",
-      "published_at": "2026-08-23T12:46:47+00:00"
-    },
-    {
-      "headline": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.13%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-113-4872445",
-      "published_at": "2026-08-23T12:45:03+00:00"
-    },
-    {
-      "headline": "Robots can outrun humans, but can they plug in a cable?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/robots-can-outrun-humans-but-can-they-plug-in-a-cable-4872417",
-      "published_at": "2026-08-23T12:36:28+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts believe in the growth potential of these 3 stocks",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
-      "published_at": "2026-08-23T11:29:05+00:00"
-    },
-    {
-      "headline": "A massive \u2018corporate welfare\u2019 program is underway \u2014 and consumers want a piece",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e9a6c358-673c-4bd4-989d-5e665420f4c4&mod=mw_rss_bulletins",
-      "published_at": "2026-08-22T23:55:06+00:00"
-    },
-    {
-      "headline": "There's surprisingly good news for the stock market this midterm election year",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d45cb3d6-36fc-47f4-8a1b-c6ea377eeb78&mod=mw_rss_bulletins",
-      "published_at": "2026-08-22T22:21:51+00:00"
-    },
-    {
-      "headline": "Why home prices in St. Louis have climbed only 6% over the past 134 years",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=18eba9c7-a53f-4731-aa01-f456142fc14d&mod=mw_rss_bulletins",
-      "published_at": "2026-08-22T20:53:10+00:00"
-    },
-    {
-      "headline": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=aa321188-b992-4354-a90a-7f8e10949c01&mod=mw_rss_bulletins",
-      "published_at": "2026-08-22T19:00:18+00:00"
-    },
-    {
-      "headline": "BofA maintains underperform ratings on six BDC stocks",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361",
-      "published_at": "2026-08-22T12:09:48+00:00"
     }
   ]
 }
