@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:56:04.474521+00:00",
+  "generated_at": "2026-08-25T13:50:16.765075+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-21",
-      "latest_value": 0.5,
+      "latest_date": "2026-08-24",
+      "latest_value": 0.46,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -163,14 +163,18 @@
         {
           "date": "2026-08-21",
           "value": 0.5
+        },
+        {
+          "date": "2026-08-24",
+          "value": 0.46
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-20",
-      "latest_value": 2.75,
-      "latest_value_bps": 275.0,
+      "latest_date": "2026-08-21",
+      "latest_value": 2.7,
+      "latest_value_bps": 270.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -322,13 +326,17 @@
         {
           "date": "2026-08-20",
           "value": 2.75
+        },
+        {
+          "date": "2026-08-21",
+          "value": 2.7
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-24",
-      "latest_value": 15.869999885559082,
+      "latest_date": "2026-08-25",
+      "latest_value": 15.130000114440918,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -455,17 +463,21 @@
         },
         {
           "date": "2026-08-24",
-          "value": 15.869999885559082
+          "value": 15.850000381469727
+        },
+        {
+          "date": "2026-08-25",
+          "value": 15.130000114440918
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-21",
-      "vix9d": 12.58,
-      "vix": 15.13,
-      "vix3m": 18.5,
-      "spread": 5.92,
+      "latest_date": "2026-08-24",
+      "vix9d": 14.07,
+      "vix": 15.85,
+      "vix3m": 18.56,
+      "spread": 4.489999999999998,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -679,14 +691,20 @@
           "vix9d": 12.58,
           "vix": 15.13,
           "vix3m": 18.5
+        },
+        {
+          "date": "2026-08-24",
+          "vix9d": 14.07,
+          "vix": 15.85,
+          "vix3m": 18.56
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-24",
-      "latest_value": 98.94200134277344,
-      "pct_change_20d": -2.529800748118074,
+      "latest_date": "2026-08-25",
+      "latest_value": 98.94300079345703,
+      "pct_change_20d": -2.403823758121847,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -813,15 +831,19 @@
         },
         {
           "date": "2026-08-24",
-          "value": 98.94200134277344
+          "value": 99.0
+        },
+        {
+          "date": "2026-08-25",
+          "value": 98.94300079345703
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-24",
-      "latest_value": 4730.89990234375,
-      "pct_change_20d": 16.109949744600566,
+      "latest_date": "2026-08-25",
+      "latest_value": 4672.5,
+      "pct_change_20d": 15.761958810683202,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -948,7 +970,11 @@
         },
         {
           "date": "2026-08-24",
-          "value": 4730.89990234375
+          "value": 4640.7998046875
+        },
+        {
+          "date": "2026-08-25",
+          "value": 4672.5
         }
       ]
     }
@@ -989,7 +1015,7 @@
       }
     ],
     "session_date": "2026-08-24",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1019,68 +1045,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-24T13:51:47.771330+00:00"
+    "last_refreshed": "2026-08-25T13:50:14.377378+00:00"
   },
   "headlines": [
     {
-      "headline": "Karo Platinum secures mining lease for Zimbabwe project",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/karo-platinum-secures-mining-lease-for-zimbabwe-project-93CH-4873724",
-      "published_at": "2026-08-24T13:46:18+00:00"
-    },
-    {
-      "headline": "T Stamp CEO Genner buys $3,210 in Class A common stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/t-stamp-ceo-genner-buys-3210-in-class-a-common-stock-93CH-4873722",
-      "published_at": "2026-08-24T13:45:59+00:00"
-    },
-    {
-      "headline": "Heimstaden Bostad issues SEK 1.5 billion in green notes",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/heimstaden-bostad-issues-sek-15-billion-in-green-notes-93CH-4873718",
-      "published_at": "2026-08-24T13:42:58+00:00"
-    },
-    {
-      "headline": "Match Group stock hits 52-week high at $41.43",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/match-group-stock-hits-52week-high-at-4143-93CH-4873717",
-      "published_at": "2026-08-24T13:42:42+00:00"
-    },
-    {
-      "headline": "Stocks open lower as U.S.-Iran and Canada trade tensions heat up before Jackson",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ace1df07-f00c-4c7f-8f40-2d38124c91e7&mod=mw_rss_bulletins",
-      "published_at": "2026-08-24T13:31:36+00:00"
-    },
-    {
-      "headline": "Santoli: Why all the fuss about bond yields is happening now",
+      "headline": "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/24/why-all-the-fuss-about-bond-yields-is-happening-now.html",
-      "published_at": "2026-08-24T12:31:13+00:00"
+      "link": "https://www.cnbc.com/2026/08/25/debasement-trade-debt-gold-bitcoin-dollar.html",
+      "published_at": "2026-08-25T13:44:09+00:00"
     },
     {
-      "headline": "Temu owner\u2019s shares rise as results beat estimates despite tumbling profits",
+      "headline": "Dow, S&P 500 and Nasdaq open higher as Treasury yields fall",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7eab7936-82e8-41a1-9f5c-26e8a6208e85&mod=mw_rss_bulletins",
-      "published_at": "2026-08-24T12:19:24+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=67d816d9-7702-4636-86fc-6cb3d5fc7b4c&mod=mw_rss_bulletins",
+      "published_at": "2026-08-25T13:31:04+00:00"
     },
     {
-      "headline": "Economic calendar: home prices, consumer confidence and more this week",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=91e4de2b-5825-4ec6-b964-bb66f70fd3ec&mod=mw_rss_bulletins",
-      "published_at": "2026-08-24T10:48:33+00:00"
-    },
-    {
-      "headline": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c7c81701-cb52-4cdb-b77f-877d09a79f2f&mod=mw_rss_bulletins",
-      "published_at": "2026-08-24T00:03:17+00:00"
-    },
-    {
-      "headline": "Up another 12% FRIDAY, this AI-picked energy stock is now up +90%",
+      "headline": "Earnings call transcript: Scotiabank tops Q3 2026 estimates on record results",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/up-another-12-friday-this-aipicked-energy-stock-is-now-up-90-4872447",
-      "published_at": "2026-08-23T13:10:59+00:00"
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-scotiabank-tops-q3-2026-estimates-on-record-results-93CH-4875494",
+      "published_at": "2026-08-25T13:30:56+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: SelectQuote Q4 2026 misses estimates, shares fall premarket",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-selectquote-q4-2026-misses-estimates-shares-fall-premarket-93CH-4875485",
+      "published_at": "2026-08-25T13:28:56+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Kanzhun posts stronger Q2 2026 growth, shares slip premarket",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-kanzhun-posts-stronger-q2-2026-growth-shares-slip-premarket-93CH-4875458",
+      "published_at": "2026-08-25T13:23:20+00:00"
+    },
+    {
+      "headline": "Trump administration moves to impose more than $100,000 fee for H-1B worker visas",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/trump-administration-moves-to-impose-more-than-100000-fee-for-h1b-worker-visas-4873633",
+      "published_at": "2026-08-25T13:18:33+00:00"
+    },
+    {
+      "headline": "The debt-fueled AI build-out may already be too big to fail",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ab216758-f18b-43fe-b100-e18af6393d2e&mod=mw_rss_bulletins",
+      "published_at": "2026-08-25T12:20:55+00:00"
+    },
+    {
+      "headline": "Economic calendar: latest data about home sales and consumer mood",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=557b0c32-a6fa-44ac-a969-c662ec7f2380&mod=mw_rss_bulletins",
+      "published_at": "2026-08-25T11:40:17+00:00"
+    },
+    {
+      "headline": "One Wall Street measure of market fragility just hit its highest possible level",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=876a5431-5362-4489-9670-c5dd1ae95638&mod=mw_rss_bulletins",
+      "published_at": "2026-08-25T09:53:16+00:00"
+    },
+    {
+      "headline": "A massive trade just happened in gold. The options market is buzzing",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/24/a-massive-trade-just-happened-in-gold-the-options-market-is-buzzing.html",
+      "published_at": "2026-08-24T18:41:44+00:00"
     }
   ]
 }
