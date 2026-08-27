@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:18:23.666006+00:00",
+  "generated_at": "2026-08-27T22:50:09.530178+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-25",
+      "latest_date": "2026-08-27",
       "latest_value": 0.47,
       "unit": "pp",
       "status": "Calm",
@@ -171,14 +171,22 @@
         {
           "date": "2026-08-25",
           "value": 0.47
+        },
+        {
+          "date": "2026-08-26",
+          "value": 0.47
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0.47
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-24",
-      "latest_value": 2.69,
-      "latest_value_bps": 269.0,
+      "latest_date": "2026-08-26",
+      "latest_value": 2.67,
+      "latest_value_bps": 267.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -338,15 +346,23 @@
         {
           "date": "2026-08-24",
           "value": 2.69
+        },
+        {
+          "date": "2026-08-25",
+          "value": 2.7
+        },
+        {
+          "date": "2026-08-26",
+          "value": 2.67
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-26",
-      "latest_value": 15.579999923706055,
+      "latest_date": "2026-08-27",
+      "latest_value": 14.510000228881836,
       "unit": "",
-      "status": "Normal",
+      "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -479,17 +495,21 @@
         },
         {
           "date": "2026-08-26",
-          "value": 15.579999923706055
+          "value": 15.210000038146973
+        },
+        {
+          "date": "2026-08-27",
+          "value": 14.510000228881836
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-25",
-      "vix9d": 13.45,
-      "vix": 15.45,
-      "vix3m": 18.21,
-      "spread": 4.760000000000002,
+      "latest_date": "2026-08-27",
+      "vix9d": 12.1,
+      "vix": null,
+      "vix3m": 17.56,
+      "spread": 5.459999999999999,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -715,14 +735,26 @@
           "vix9d": 13.45,
           "vix": 15.45,
           "vix3m": 18.21
+        },
+        {
+          "date": "2026-08-26",
+          "vix9d": 13.33,
+          "vix": 15.21,
+          "vix3m": 17.99
+        },
+        {
+          "date": "2026-08-27",
+          "vix9d": 12.1,
+          "vix": null,
+          "vix3m": 17.56
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-26",
-      "latest_value": 99.11699676513672,
-      "pct_change_20d": -1.6696490433208817,
+      "latest_date": "2026-08-27",
+      "latest_value": 99.12899780273438,
+      "pct_change_20d": -0.8809162230553875,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -857,15 +889,19 @@
         },
         {
           "date": "2026-08-26",
-          "value": 99.11699676513672
+          "value": 99.16999816894531
+        },
+        {
+          "date": "2026-08-27",
+          "value": 99.12899780273438
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-26",
-      "latest_value": 4676.89990234375,
-      "pct_change_20d": 15.916919695239013,
+      "latest_date": "2026-08-27",
+      "latest_value": 4662.39990234375,
+      "pct_change_20d": 13.714294560977397,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1000,7 +1036,11 @@
         },
         {
           "date": "2026-08-26",
-          "value": 4676.89990234375
+          "value": 4598.2001953125
+        },
+        {
+          "date": "2026-08-27",
+          "value": 4662.39990234375
         }
       ]
     }
@@ -1025,7 +1065,7 @@
       }
     ],
     "session_date": "2026-08-26",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1033,7 +1073,7 @@
       {
         "date": "2026-08-26",
         "name": "GDP Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "U.S. 2Q GDP Growth Unchanged at 1.5% in Second Estimate",
           "source": "WSJ",
@@ -1059,68 +1099,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-26T13:54:16.237193+00:00"
+    "last_refreshed": "2026-08-27T22:50:07.572331+00:00"
   },
   "headlines": [
+    {
+      "headline": "Earnings call transcript: IREN Q4 2026 revenue misses as AI cloud expands",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-iren-q4-2026-revenue-misses-as-ai-cloud-expands-93CH-4880306",
+      "published_at": "2026-08-27T22:20:33+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Affirm tops Q4 2026 estimates as profit jumps",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-affirm-tops-q4-2026-estimates-as-profit-jumps-93CH-4880305",
+      "published_at": "2026-08-27T22:17:49+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Elastic tops Q1 2026 estimates, shares jump 20%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-elastic-tops-q1-2026-estimates-shares-jump-20-93CH-4880304",
+      "published_at": "2026-08-27T22:17:18+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Autodesk beats Q2 2026 estimates, shares reverse after hours",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-autodesk-beats-q2-2026-estimates-shares-reverse-after-hours-93CH-4880303",
+      "published_at": "2026-08-27T22:16:55+00:00"
+    },
+    {
+      "headline": "Jackson Hole is Warsh\u2019s chance to win over his Fed colleagues \u2014 and investors",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=88056c6d-4116-404d-aa14-d00e778a5565&mod=mw_rss_bulletins",
+      "published_at": "2026-08-27T21:44:04+00:00"
+    },
+    {
+      "headline": "Marvell boosts its forecasts \u2014 but that\u2019s not enough to lift its stock",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=40a40685-8f1e-4154-8a21-4118893fc5fc&mod=mw_rss_bulletins",
+      "published_at": "2026-08-27T21:10:06+00:00"
+    },
+    {
+      "headline": "Nasdaq closes sharply higher as Nvidia earnings trigger tech-fueled stock rally",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=dc180429-06dc-4b84-882c-c44f505d9144&mod=mw_rss_bulletins",
+      "published_at": "2026-08-27T20:01:52+00:00"
+    },
+    {
+      "headline": "Here's how stocks have performed when the Fed chair speaks at Jackson Hole",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c6bf6e3b-8864-44ab-91e3-31ae60962016&mod=mw_rss_bulletins",
+      "published_at": "2026-08-27T19:35:35+00:00"
+    },
+    {
+      "headline": "Las Vegas Sands shares are about to 'catch a heater,' says Mike Khouw",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/26/las-vegas-sands-shares-are-about-to-catch-a-heater-says-mike-khouw.html",
+      "published_at": "2026-08-26T18:17:04+00:00"
+    },
     {
       "headline": "Earnings call transcript: Blu Label posts resilient H2 2026 results as stock slips",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-blu-label-posts-resilient-h2-2026-results-as-stock-slips-93CH-4877337",
       "published_at": "2026-08-26T13:34:51+00:00"
-    },
-    {
-      "headline": "Moody\u2019s upgrades CenterPoint Energy Resources commercial paper rating",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/moodys-upgrades-centerpoint-energy-resources-commercial-paper-rating-93CH-4877336",
-      "published_at": "2026-08-26T13:34:26+00:00"
-    },
-    {
-      "headline": "Corn futures hit highest level since July 2023",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/corn-futures-hit-highest-level-since-july-2023-93CH-4877335",
-      "published_at": "2026-08-26T13:33:24+00:00"
-    },
-    {
-      "headline": "Vanguard to acquire Altruist to expand financial advice reach",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/vanguard-to-acquire-altruist-to-expand-financial-advice-reach-93CH-4877332",
-      "published_at": "2026-08-26T13:32:18+00:00"
-    },
-    {
-      "headline": "S&P 500 and Nasdaq open lower; Dow's winning streak is in jeopardy",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5aec35a1-0e16-4ba6-866a-34db80522c87&mod=mw_rss_bulletins",
-      "published_at": "2026-08-26T13:31:53+00:00"
-    },
-    {
-      "headline": "U.S. inflation rose in July. It is still well above the Fed\u2019s target.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8e11141a-c90a-42db-97cb-66a5d117ea53&mod=mw_rss_bulletins",
-      "published_at": "2026-08-26T12:41:59+00:00"
-    },
-    {
-      "headline": "Wall Street\u2019s biggest optimist has reservations about the AI trade",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3119a75a-811f-4f57-a4c7-0878ba4a3381&mod=mw_rss_bulletins",
-      "published_at": "2026-08-26T12:18:25+00:00"
-    },
-    {
-      "headline": "Economic calendar: PCE, durable goods, income and spending data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9a69041b-0009-4b83-a4a1-f2cfc579dee6&mod=mw_rss_bulletins",
-      "published_at": "2026-08-26T11:11:51+00:00"
-    },
-    {
-      "headline": "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/25/debasement-trade-debt-gold-bitcoin-dollar.html",
-      "published_at": "2026-08-25T13:44:09+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 and Nasdaq open higher as Treasury yields fall",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=67d816d9-7702-4636-86fc-6cb3d5fc7b4c&mod=mw_rss_bulletins",
-      "published_at": "2026-08-25T13:31:04+00:00"
     }
   ]
 }
