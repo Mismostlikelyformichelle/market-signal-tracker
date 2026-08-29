@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:54:15.017731+00:00",
+  "generated_at": "2026-08-29T16:59:32.408039+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -519,7 +519,7 @@
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
       "latest_date": "2026-08-28",
       "vix9d": 11.22,
-      "vix": null,
+      "vix": 14.43,
       "vix3m": 17.48,
       "spread": 6.26,
       "unit": "",
@@ -763,7 +763,7 @@
         {
           "date": "2026-08-28",
           "vix9d": 11.22,
-          "vix": null,
+          "vix": 14.43,
           "vix3m": 17.48
         }
       ]
@@ -921,11 +921,11 @@
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-28",
-      "latest_value": 4504.10009765625,
-      "pct_change_20d": 11.237064755780395,
+      "latest_date": "2026-08-27",
+      "latest_value": 4609.7001953125,
+      "pct_change_20d": 12.428967232959847,
       "unit": "$",
-      "status": "Watch",
+      "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1063,10 +1063,6 @@
         {
           "date": "2026-08-27",
           "value": 4609.7001953125
-        },
-        {
-          "date": "2026-08-28",
-          "value": 4504.10009765625
         }
       ]
     }
@@ -1125,68 +1121,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-28T22:54:13.162895+00:00"
+    "last_refreshed": "2026-08-29T16:59:30.513295+00:00"
   },
   "headlines": [
+    {
+      "headline": "Where are all the new jobs? Why hiring probably won\u2019t speed up anytime soon.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4b51be7b-0804-4398-aa40-5a6794cf408e&mod=mw_rss_bulletins",
+      "published_at": "2026-08-29T16:25:20+00:00"
+    },
+    {
+      "headline": "HDFC Bank CEO Jagdishan to step down in October as governance pressures mount",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/hdfc-bank-ceo-jagdishan-to-step-down-in-october-as-governance-pressures-mount-4881988",
+      "published_at": "2026-08-29T16:04:26+00:00"
+    },
+    {
+      "headline": "Iceland votes in tight referendum on whether to start EU membership talks",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985",
+      "published_at": "2026-08-29T15:48:27+00:00"
+    },
+    {
+      "headline": "The S&P 500 keeps climbing on days when stocks broadly struggle. Here\u2019s why.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=18828ec5-b986-4722-8d8c-f6a419cd1f7a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-29T15:29:33+00:00"
+    },
+    {
+      "headline": "What do households want from the UK Budget?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/what-do-households-want-from-the-uk-budget-4881983",
+      "published_at": "2026-08-29T15:10:02+00:00"
+    },
+    {
+      "headline": "Tim Cook wasn\u2019t a \u2018product guy\u2019 \u2014 so he re-engineered Apple instead",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=93dd7db5-80b1-44d5-b16e-ab26dc848e9a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-29T14:21:07+00:00"
+    },
+    {
+      "headline": "Goldman draws 3 lessons from economic research on U.S. inflation expectations",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/goldman-draws-3-lessons-from-economic-research-on-us-inflation-expectations-4881977",
+      "published_at": "2026-08-29T12:47:09+00:00"
+    },
+    {
+      "headline": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html",
+      "published_at": "2026-08-29T11:53:36+00:00"
+    },
+    {
+      "headline": "Why Americans no longer believe hard work is enough for financial success",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a5bfee41-6a58-4789-a848-967b31165f0a&mod=mw_rss_bulletins",
+      "published_at": "2026-08-29T01:06:53+00:00"
+    },
     {
       "headline": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html",
       "published_at": "2026-08-28T21:57:47+00:00"
-    },
-    {
-      "headline": "Microsoft\u2019s stock seals longest winning streak of 2026 as AI software fears fade",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=77c27a5d-87bc-44e0-9f80-f9f88804169d&mod=mw_rss_bulletins",
-      "published_at": "2026-08-28T21:49:59+00:00"
-    },
-    {
-      "headline": "Bitcoin sheds more than 3% on hawkish Warsh, loses steam after debasement rally",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steadies-near-80k-with-warsh-speech-in-focus-4880563",
-      "published_at": "2026-08-28T21:37:51+00:00"
-    },
-    {
-      "headline": "Kalshi cannot block Nevada oversight of prediction markets, US appeals court rules",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/kalshi-cannot-block-nevada-oversight-of-sports-prediction-markets-us-appeals-court-rules-4881713",
-      "published_at": "2026-08-28T21:31:52+00:00"
-    },
-    {
-      "headline": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496",
-      "published_at": "2026-08-28T21:30:37+00:00"
-    },
-    {
-      "headline": "Mexico stocks lower at close of trade; S&P/BMV IPC down 0.53%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-053-4881851",
-      "published_at": "2026-08-28T21:30:04+00:00"
-    },
-    {
-      "headline": "Nvidia\u2019s revenue forecast is huge. Wall Street wonders if SpaceX is the reason.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=89e5b71d-7026-4329-9734-bd3609154fa6&mod=mw_rss_bulletins",
-      "published_at": "2026-08-28T21:04:36+00:00"
-    },
-    {
-      "headline": "Stocks end lower, seal weekly gains as Fed\u2019s Warsh fuels rate-hike expectations",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=63245138-8f91-4720-953f-fef741f6d6be&mod=mw_rss_bulletins",
-      "published_at": "2026-08-28T20:13:47+00:00"
-    },
-    {
-      "headline": "Warsh gets what every Fed chair hopes for: A bond market that trust his words",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f7f21f6e-5173-4091-b2af-380ad838fe85&mod=mw_rss_bulletins",
-      "published_at": "2026-08-28T19:54:31+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: IREN Q4 2026 revenue misses as AI cloud expands",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-iren-q4-2026-revenue-misses-as-ai-cloud-expands-93CH-4880306",
-      "published_at": "2026-08-27T22:20:33+00:00"
     }
   ]
 }
