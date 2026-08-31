@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:13:43.949633+00:00",
+  "generated_at": "2026-08-31T19:24:45.505030+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -188,9 +188,9 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-27",
-      "latest_value": 2.63,
-      "latest_value_bps": 263.0,
+      "latest_date": "2026-08-28",
+      "latest_value": 2.6,
+      "latest_value_bps": 260.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -362,15 +362,19 @@
         {
           "date": "2026-08-27",
           "value": 2.63
+        },
+        {
+          "date": "2026-08-28",
+          "value": 2.6
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-28",
-      "latest_value": 14.430000305175781,
+      "latest_date": "2026-08-31",
+      "latest_value": 15.029999732971191,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -512,6 +516,10 @@
         {
           "date": "2026-08-28",
           "value": 14.430000305175781
+        },
+        {
+          "date": "2026-08-31",
+          "value": 15.029999732971191
         }
       ]
     },
@@ -770,9 +778,9 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-28",
-      "latest_value": 99.69999694824219,
-      "pct_change_20d": -0.10020651348453397,
+      "latest_date": "2026-08-31",
+      "latest_value": 99.4219970703125,
+      "pct_change_20d": -0.5382173060100869,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -916,14 +924,18 @@
         {
           "date": "2026-08-28",
           "value": 99.69999694824219
+        },
+        {
+          "date": "2026-08-31",
+          "value": 99.4219970703125
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-28",
-      "latest_value": 4529.89990234375,
-      "pct_change_20d": 11.874238549098909,
+      "latest_date": "2026-08-31",
+      "latest_value": 4482.60009765625,
+      "pct_change_20d": 11.12874412867422,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1066,7 +1078,11 @@
         },
         {
           "date": "2026-08-28",
-          "value": 4529.89990234375
+          "value": 4478.10009765625
+        },
+        {
+          "date": "2026-08-31",
+          "value": 4482.60009765625
         }
       ]
     }
@@ -1123,11 +1139,65 @@
         "name": "FOMC Rate Decision",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-09-30",
+        "name": "GDP Release",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-08-30T17:13:41.664165+00:00"
+    "last_refreshed": "2026-08-31T19:24:43.896079+00:00"
   },
   "headlines": [
+    {
+      "headline": "Victory Capital rating affirmed at BB by S&P on acquisition",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/victory-capital-rating-affirmed-at-bb-by-sp-on-acquisition-93CH-4883174",
+      "published_at": "2026-08-31T19:17:36+00:00"
+    },
+    {
+      "headline": "Key Tronic EVP Adam Agress sells $6,654 in common stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/key-tronic-evp-adam-agress-sells-6654-in-common-stock-93CH-4883172",
+      "published_at": "2026-08-31T19:15:57+00:00"
+    },
+    {
+      "headline": "Cheniere Energy options activity skews heavily bullish as calls outpace puts 8-to-1",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/cheniere-energy-options-activity-skews-heavily-bullish-as-calls-outpace-puts-8to1-93CH-4883171",
+      "published_at": "2026-08-31T19:14:34+00:00"
+    },
+    {
+      "headline": "Fitch upgrades Vesta rating to BBB on strong financials",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/fitch-upgrades-vesta-rating-to-bbb-on-strong-financials-93CH-4883170",
+      "published_at": "2026-08-31T19:14:06+00:00"
+    },
+    {
+      "headline": "U.S. stocks stuck on losses in final hour as Trump threatens fresh Iran strikes",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4a915cc8-f342-4d28-94d8-c4ab220ada8f&mod=mw_rss_bulletins",
+      "published_at": "2026-08-31T19:08:01+00:00"
+    },
+    {
+      "headline": "Treasury's Bessent now says U.S. debt-reduction plan could be months away",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=70a2df7f-31eb-4dd1-a2d9-fda9f708c340&mod=mw_rss_bulletins",
+      "published_at": "2026-08-31T18:46:30+00:00"
+    },
+    {
+      "headline": "Trump to meet with oil execs on gas prices, as Venezuela plan faces skepticism",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=95242c3a-9227-4913-8c64-12448f9ae485&mod=mw_rss_bulletins",
+      "published_at": "2026-08-31T18:19:11+00:00"
+    },
+    {
+      "headline": "What sky-high SpaceX share-price targets tell us about investment-bank research",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8f605148-aa75-4662-98ca-41bbbffeab58&mod=mw_rss_bulletins",
+      "published_at": "2026-08-31T17:20:59+00:00"
+    },
     {
       "headline": "Aon nears deal to buy KKR-backed USI Insurance for around $17B \u2013 WSJ",
       "source": "Investing.com",
@@ -1139,54 +1209,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/arrowhead-plans-regulatory-filing-for-plozasiran-in-shtg-93CH-4882061",
       "published_at": "2026-08-30T15:36:38+00:00"
-    },
-    {
-      "headline": "Trump: Venezuelan oil to be used to fill up \u2018virtually emptied\u2019 U.S. reserves",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/venezuelan-oil-to-be-used-to-fill-up-virtually-emptied-us-reserves-says-trump-4882059",
-      "published_at": "2026-08-30T15:24:15+00:00"
-    },
-    {
-      "headline": "USDA cyclospora research projects shelved amid funding cuts and relocations, Politico reports",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/usda-cyclospora-research-projects-shelved-amid-funding-cuts-and-relocations-politico-reports-4882058",
-      "published_at": "2026-08-30T15:18:11+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts suggest these 3 dividend stocks for consistent income",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/08/30/top-analysts-suggest-these-dividend-stocks-for-consistent-income.html",
-      "published_at": "2026-08-30T10:42:13+00:00"
-    },
-    {
-      "headline": "Here's why it could be worth locking up your money by rolling it into a 401(k)",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9b25c7ff-c6c0-4cf9-bf5c-2bb32c7f4251&mod=mw_rss_bulletins",
-      "published_at": "2026-08-29T21:24:27+00:00"
-    },
-    {
-      "headline": "Corporate earnings have grown at a blistering pace. Why that likely won't last.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=298a4b8e-d7a4-40b9-9518-54b024d532a2&mod=mw_rss_bulletins",
-      "published_at": "2026-08-29T19:25:18+00:00"
-    },
-    {
-      "headline": "Where are all the new jobs? Why hiring probably won\u2019t speed up anytime soon.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4b51be7b-0804-4398-aa40-5a6794cf408e&mod=mw_rss_bulletins",
-      "published_at": "2026-08-29T16:25:20+00:00"
-    },
-    {
-      "headline": "HDFC Bank CEO Jagdishan to step down in October as governance pressures mount",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/hdfc-bank-ceo-jagdishan-to-step-down-in-october-as-governance-pressures-mount-4881988",
-      "published_at": "2026-08-29T16:04:26+00:00"
-    },
-    {
-      "headline": "Iceland votes in tight referendum on whether to start EU membership talks",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985",
-      "published_at": "2026-08-29T15:48:27+00:00"
     }
   ]
 }
