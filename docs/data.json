@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:34:30.480853+00:00",
+  "generated_at": "2026-09-01T17:11:09.348175+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-28",
-      "latest_value": 0.39,
+      "latest_date": "2026-08-31",
+      "latest_value": 0.41,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -183,14 +183,18 @@
         {
           "date": "2026-08-28",
           "value": 0.39
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0.41
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-28",
-      "latest_value": 2.6,
-      "latest_value_bps": 260.0,
+      "latest_date": "2026-08-31",
+      "latest_value": 2.63,
+      "latest_value_bps": 263.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -366,13 +370,17 @@
         {
           "date": "2026-08-28",
           "value": 2.6
+        },
+        {
+          "date": "2026-08-31",
+          "value": 2.63
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-08-31",
-      "latest_value": 15.029999732971191,
+      "latest_date": "2026-09-01",
+      "latest_value": 15.850000381469727,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -519,17 +527,21 @@
         },
         {
           "date": "2026-08-31",
-          "value": 15.029999732971191
+          "value": 14.920000076293945
+        },
+        {
+          "date": "2026-09-01",
+          "value": 15.850000381469727
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-28",
-      "vix9d": 11.22,
-      "vix": 14.43,
-      "vix3m": 17.48,
-      "spread": 6.26,
+      "latest_date": "2026-08-31",
+      "vix9d": 12.34,
+      "vix": 14.92,
+      "vix3m": 17.53,
+      "spread": 5.190000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -773,14 +785,20 @@
           "vix9d": 11.22,
           "vix": 14.43,
           "vix3m": 17.48
+        },
+        {
+          "date": "2026-08-31",
+          "vix9d": 12.34,
+          "vix": 14.92,
+          "vix3m": 17.53
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-08-31",
-      "latest_value": 99.4219970703125,
-      "pct_change_20d": -0.5382173060100869,
+      "latest_date": "2026-09-01",
+      "latest_value": 99.7030029296875,
+      "pct_change_20d": -0.18720238372562836,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -927,15 +945,19 @@
         },
         {
           "date": "2026-08-31",
-          "value": 99.4219970703125
+          "value": 99.43000030517578
+        },
+        {
+          "date": "2026-09-01",
+          "value": 99.7030029296875
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-08-31",
-      "latest_value": 4482.60009765625,
-      "pct_change_20d": 11.12874412867422,
+      "latest_date": "2026-09-01",
+      "latest_value": 4398.89990234375,
+      "pct_change_20d": 7.410753705060902,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1082,7 +1104,11 @@
         },
         {
           "date": "2026-08-31",
-          "value": 4482.60009765625
+          "value": 4431.10009765625
+        },
+        {
+          "date": "2026-09-01",
+          "value": 4398.89990234375
         }
       ]
     }
@@ -1099,7 +1125,7 @@
       }
     ],
     "session_date": "2026-08-31",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1139,9 +1165,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-08-31T19:24:43.896079+00:00"
+    "last_refreshed": "2026-09-01T17:11:06.285129+00:00"
   },
   "headlines": [
+    {
+      "headline": "Viriora Announces Enhanced Security and Compliance Infrastructure for Its Trading Platform",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/press-releases/viriora-announces-enhanced-security-and-compliance-infrastructure-for-its-trading-platform-4884421",
+      "published_at": "2026-09-01T17:03:23+00:00"
+    },
+    {
+      "headline": "Interactive Brokers stock falls after UBS neutral rating",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/interactive-brokers-stock-falls-after-ubs-neutral-rating-93CH-4884418",
+      "published_at": "2026-09-01T17:01:57+00:00"
+    },
+    {
+      "headline": "Nestl\u00e9 sells vitamin and supplements unit for $1 billion",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/nestle-sells-vitamin-and-supplements-unit-for-1-billion-93CH-4884415",
+      "published_at": "2026-09-01T17:00:16+00:00"
+    },
+    {
+      "headline": "BTIG raises MiniMed Group stock price target on pipeline progress",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/btig-raises-minimed-group-stock-price-target-on-pipeline-progress-93CH-4884414",
+      "published_at": "2026-09-01T16:58:54+00:00"
+    },
+    {
+      "headline": "Global oil prices are surging after reports of more Hormuz trouble",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e0d0f042-2647-403d-b152-70bf518f7d17&mod=mw_rss_bulletins",
+      "published_at": "2026-09-01T14:02:50+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 and Nasdaq open lower to start September trading",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d31ae3dc-3345-4ed1-aa78-d23d4ead0cd9&mod=mw_rss_bulletins",
+      "published_at": "2026-09-01T13:31:23+00:00"
+    },
+    {
+      "headline": "Apple's new CEO has an immediate challenge. It's not about products.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e7e7db5f-9ca8-48b7-bae7-403eac1475f8&mod=mw_rss_bulletins",
+      "published_at": "2026-09-01T12:23:21+00:00"
+    },
+    {
+      "headline": "Economic calendar: U.S. business PMI, construction and jobs data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=04d2cff6-9d50-407a-a9ec-3776c8e44a3d&mod=mw_rss_bulletins",
+      "published_at": "2026-09-01T11:43:34+00:00"
+    },
     {
       "headline": "Victory Capital rating affirmed at BB by S&P on acquisition",
       "source": "Investing.com",
@@ -1153,54 +1227,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/key-tronic-evp-adam-agress-sells-6654-in-common-stock-93CH-4883172",
       "published_at": "2026-08-31T19:15:57+00:00"
-    },
-    {
-      "headline": "Cheniere Energy options activity skews heavily bullish as calls outpace puts 8-to-1",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/cheniere-energy-options-activity-skews-heavily-bullish-as-calls-outpace-puts-8to1-93CH-4883171",
-      "published_at": "2026-08-31T19:14:34+00:00"
-    },
-    {
-      "headline": "Fitch upgrades Vesta rating to BBB on strong financials",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/fitch-upgrades-vesta-rating-to-bbb-on-strong-financials-93CH-4883170",
-      "published_at": "2026-08-31T19:14:06+00:00"
-    },
-    {
-      "headline": "U.S. stocks stuck on losses in final hour as Trump threatens fresh Iran strikes",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4a915cc8-f342-4d28-94d8-c4ab220ada8f&mod=mw_rss_bulletins",
-      "published_at": "2026-08-31T19:08:01+00:00"
-    },
-    {
-      "headline": "Treasury's Bessent now says U.S. debt-reduction plan could be months away",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=70a2df7f-31eb-4dd1-a2d9-fda9f708c340&mod=mw_rss_bulletins",
-      "published_at": "2026-08-31T18:46:30+00:00"
-    },
-    {
-      "headline": "Trump to meet with oil execs on gas prices, as Venezuela plan faces skepticism",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=95242c3a-9227-4913-8c64-12448f9ae485&mod=mw_rss_bulletins",
-      "published_at": "2026-08-31T18:19:11+00:00"
-    },
-    {
-      "headline": "What sky-high SpaceX share-price targets tell us about investment-bank research",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8f605148-aa75-4662-98ca-41bbbffeab58&mod=mw_rss_bulletins",
-      "published_at": "2026-08-31T17:20:59+00:00"
-    },
-    {
-      "headline": "Aon nears deal to buy KKR-backed USI Insurance for around $17B \u2013 WSJ",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/aon-nears-deal-to-buy-kkrbacked-usi-insurance-for-around-17b--wsj-4882062",
-      "published_at": "2026-08-30T16:51:41+00:00"
-    },
-    {
-      "headline": "Arrowhead plans regulatory filing for plozasiran in sHTG",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/arrowhead-plans-regulatory-filing-for-plozasiran-in-shtg-93CH-4882061",
-      "published_at": "2026-08-30T15:36:38+00:00"
     }
   ]
 }
