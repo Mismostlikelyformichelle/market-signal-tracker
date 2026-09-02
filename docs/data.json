@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:23:21.438092+00:00",
+  "generated_at": "2026-09-02T17:01:46.487553+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -379,8 +379,8 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-01",
-      "latest_value": 15.850000381469727,
+      "latest_date": "2026-09-02",
+      "latest_value": 15.420000076293945,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -531,17 +531,21 @@
         },
         {
           "date": "2026-09-01",
-          "value": 15.850000381469727
+          "value": 16.34000015258789
+        },
+        {
+          "date": "2026-09-02",
+          "value": 15.420000076293945
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-08-31",
-      "vix9d": 12.34,
-      "vix": 14.92,
-      "vix3m": 17.53,
-      "spread": 5.190000000000001,
+      "latest_date": "2026-09-01",
+      "vix9d": 14.33,
+      "vix": 16.34,
+      "vix3m": 18.33,
+      "spread": 3.9999999999999982,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -791,14 +795,20 @@
           "vix9d": 12.34,
           "vix": 14.92,
           "vix3m": 17.53
+        },
+        {
+          "date": "2026-09-01",
+          "vix9d": 14.33,
+          "vix": 16.34,
+          "vix3m": 18.33
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-01",
-      "latest_value": 99.7030029296875,
-      "pct_change_20d": -0.18720238372562836,
+      "latest_date": "2026-09-02",
+      "latest_value": 99.54399871826172,
+      "pct_change_20d": -0.14645773855843403,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -949,17 +959,21 @@
         },
         {
           "date": "2026-09-01",
-          "value": 99.7030029296875
+          "value": 99.66999816894531
+        },
+        {
+          "date": "2026-09-02",
+          "value": 99.54399871826172
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-01",
-      "latest_value": 4398.89990234375,
-      "pct_change_20d": 7.410753705060902,
+      "latest_date": "2026-09-02",
+      "latest_value": 4414.2001953125,
+      "pct_change_20d": 3.9662819344209432,
       "unit": "$",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1108,7 +1122,11 @@
         },
         {
           "date": "2026-09-01",
-          "value": 4398.89990234375
+          "value": 4348.0
+        },
+        {
+          "date": "2026-09-02",
+          "value": 4414.2001953125
         }
       ]
     }
@@ -1125,7 +1143,7 @@
       }
     ],
     "session_date": "2026-09-01",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1163,70 +1181,76 @@
         "name": "GDP Release",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-10-02",
+        "name": "Employment Situation (Jobs Report)",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-09-01T17:11:06.285129+00:00"
+    "last_refreshed": "2026-09-02T17:01:35.248340+00:00"
   },
   "headlines": [
     {
-      "headline": "Viriora Announces Enhanced Security and Compliance Infrastructure for Its Trading Platform",
+      "headline": "American Airlines boosts premium seating on 777 jets as upscale travel grows",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/press-releases/viriora-announces-enhanced-security-and-compliance-infrastructure-for-its-trading-platform-4884421",
-      "published_at": "2026-09-01T17:03:23+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/american-airlines-boosts-premium-seating-on-777-jets-as-upscale-travel-grows-4886376",
+      "published_at": "2026-09-02T16:36:34+00:00"
     },
     {
-      "headline": "Interactive Brokers stock falls after UBS neutral rating",
+      "headline": "Berkshire CEO Abel says AI to help power growth",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/interactive-brokers-stock-falls-after-ubs-neutral-rating-93CH-4884418",
-      "published_at": "2026-09-01T17:01:57+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/berkshire-ceo-abel-sees-opportunity-for-energy-business-from-ai-4885911",
+      "published_at": "2026-09-02T16:31:57+00:00"
     },
     {
-      "headline": "Nestl\u00e9 sells vitamin and supplements unit for $1 billion",
+      "headline": "Stocks rise after recent declines; Japanese yen jumps against US dollar",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/nestle-sells-vitamin-and-supplements-unit-for-1-billion-93CH-4884415",
-      "published_at": "2026-09-01T17:00:16+00:00"
+      "link": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
+      "published_at": "2026-09-02T16:31:15+00:00"
     },
     {
-      "headline": "BTIG raises MiniMed Group stock price target on pipeline progress",
+      "headline": "Nwpx infrastructure director Larson sells $128,966 in stock",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/btig-raises-minimed-group-stock-price-target-on-pipeline-progress-93CH-4884414",
-      "published_at": "2026-09-01T16:58:54+00:00"
+      "link": "https://www.investing.com/news/insider-trading-news/nwpx-infrastructure-director-larson-sells-128966-in-stock-93CH-4886545",
+      "published_at": "2026-09-02T16:30:57+00:00"
     },
     {
-      "headline": "Global oil prices are surging after reports of more Hormuz trouble",
+      "headline": "America\u2019s renter generation is investing in stocks, not homes",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e0d0f042-2647-403d-b152-70bf518f7d17&mod=mw_rss_bulletins",
-      "published_at": "2026-09-01T14:02:50+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5c77eefc-ceea-48e5-a56a-4f2c2e3b3d0a&mod=mw_rss_bulletins",
+      "published_at": "2026-09-02T16:03:35+00:00"
     },
     {
-      "headline": "Dow, S&P 500 and Nasdaq open lower to start September trading",
+      "headline": "There is 'a lot more pushback' on data center construction, Berkshire CEO Greg Abel tells CNBC",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/02/there-is-a-lot-more-pushback-on-data-center-construction-berkshire-ceo-greg-abel-tells-cnbc.html",
+      "published_at": "2026-09-02T15:55:30+00:00"
+    },
+    {
+      "headline": "Tesla\u2019s Cybercab moment is coming. Now Musk needs to prove it's not just hype.",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d31ae3dc-3345-4ed1-aa78-d23d4ead0cd9&mod=mw_rss_bulletins",
-      "published_at": "2026-09-01T13:31:23+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fc8e5f60-a659-442e-95a7-8f330cf8379f&mod=mw_rss_bulletins",
+      "published_at": "2026-09-02T15:10:15+00:00"
     },
     {
-      "headline": "Apple's new CEO has an immediate challenge. It's not about products.",
+      "headline": "Dow opens higher after three-day drop as climb in bond yields pauses",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e7e7db5f-9ca8-48b7-bae7-403eac1475f8&mod=mw_rss_bulletins",
-      "published_at": "2026-09-01T12:23:21+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=43e647c7-9a7c-4f15-b9a4-d470b17287ea&mod=mw_rss_bulletins",
+      "published_at": "2026-09-02T13:31:04+00:00"
     },
     {
-      "headline": "Economic calendar: U.S. business PMI, construction and jobs data",
+      "headline": "ADP says businesses created the fewest new jobs in 7 months",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=04d2cff6-9d50-407a-a9ec-3776c8e44a3d&mod=mw_rss_bulletins",
-      "published_at": "2026-09-01T11:43:34+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d893a19c-dd3a-44e1-9c48-cbafaef1b557&mod=mw_rss_bulletins",
+      "published_at": "2026-09-02T12:28:04+00:00"
     },
     {
-      "headline": "Victory Capital rating affirmed at BB by S&P on acquisition",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/victory-capital-rating-affirmed-at-bb-by-sp-on-acquisition-93CH-4883174",
-      "published_at": "2026-08-31T19:17:36+00:00"
-    },
-    {
-      "headline": "Key Tronic EVP Adam Agress sells $6,654 in common stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/key-tronic-evp-adam-agress-sells-6654-in-common-stock-93CH-4883172",
-      "published_at": "2026-08-31T19:15:57+00:00"
+      "headline": "Prediction market traders think job creation rebounded in August",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/01/prediction-market-traders-think-job-creation-rebounded-in-august.html",
+      "published_at": "2026-09-01T18:57:14+00:00"
     }
   ]
 }
