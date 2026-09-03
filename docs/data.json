@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:15:26.577024+00:00",
+  "generated_at": "2026-09-03T16:57:05.236627+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-08-31",
-      "latest_value": 0.41,
+      "latest_date": "2026-09-02",
+      "latest_value": 0.4,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -187,14 +187,22 @@
         {
           "date": "2026-08-31",
           "value": 0.41
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0.4
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0.4
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-08-31",
-      "latest_value": 2.63,
-      "latest_value_bps": 263.0,
+      "latest_date": "2026-09-02",
+      "latest_value": 2.66,
+      "latest_value_bps": 266.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -374,15 +382,23 @@
         {
           "date": "2026-08-31",
           "value": 2.63
+        },
+        {
+          "date": "2026-09-01",
+          "value": 2.65
+        },
+        {
+          "date": "2026-09-02",
+          "value": 2.66
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-02",
-      "latest_value": 15.420000076293945,
+      "latest_date": "2026-09-03",
+      "latest_value": 14.579999923706055,
       "unit": "",
-      "status": "Normal",
+      "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -535,17 +551,21 @@
         },
         {
           "date": "2026-09-02",
-          "value": 15.420000076293945
+          "value": 15.199999809265137
+        },
+        {
+          "date": "2026-09-03",
+          "value": 14.579999923706055
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-01",
-      "vix9d": 14.33,
-      "vix": 16.34,
-      "vix3m": 18.33,
-      "spread": 3.9999999999999982,
+      "latest_date": "2026-09-02",
+      "vix9d": 12.57,
+      "vix": 15.2,
+      "vix3m": 17.73,
+      "spread": 5.16,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -801,14 +821,20 @@
           "vix9d": 14.33,
           "vix": 16.34,
           "vix3m": 18.33
+        },
+        {
+          "date": "2026-09-02",
+          "vix9d": 12.57,
+          "vix": 15.2,
+          "vix3m": 17.73
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-02",
-      "latest_value": 99.54399871826172,
-      "pct_change_20d": -0.14645773855843403,
+      "latest_date": "2026-09-03",
+      "latest_value": 98.85099792480469,
+      "pct_change_20d": -1.1193390839598183,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -963,17 +989,21 @@
         },
         {
           "date": "2026-09-02",
-          "value": 99.54399871826172
+          "value": 99.55999755859375
+        },
+        {
+          "date": "2026-09-03",
+          "value": 98.85099792480469
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-02",
-      "latest_value": 4414.2001953125,
-      "pct_change_20d": 3.9662819344209432,
+      "latest_date": "2026-09-03",
+      "latest_value": 4537.60009765625,
+      "pct_change_20d": 6.968413428954502,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1126,7 +1156,11 @@
         },
         {
           "date": "2026-09-02",
-          "value": 4414.2001953125
+          "value": 4366.2998046875
+        },
+        {
+          "date": "2026-09-03",
+          "value": 4537.60009765625
         }
       ]
     }
@@ -1143,21 +1177,11 @@
       }
     ],
     "session_date": "2026-09-02",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-08-26",
-        "name": "GDP Release",
-        "is_past": true,
-        "headline": {
-          "text": "U.S. 2Q GDP Growth Unchanged at 1.5% in Second Estimate",
-          "source": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFlwTExTQzN5X2FPMlY2M0VZQWFlUmVCYTVreTdvV2xJY2FzaFVXdDVaSFcyYlRGems1WWhILTJuTFF4WHc4c2lfRnE2RWNrMmVTRTNZdXdrRnlHNGRzQ2p5MEFYX3dnNWNnWUhWdV9BRGJTX1p4dUZRbTlraFM2LXdyeFIwcE1KN0J2b3VmN3B6VG1B?oc=5"
-        }
-      },
       {
         "date": "2026-09-04",
         "name": "Employment Situation (Jobs Report)",
@@ -1189,68 +1213,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-02T17:01:35.248340+00:00"
+    "last_refreshed": "2026-09-03T16:57:03.208973+00:00"
   },
   "headlines": [
     {
-      "headline": "American Airlines boosts premium seating on 777 jets as upscale travel grows",
+      "headline": "Aptargroup CHRO Shiela Vinczeller sells $99,732 in company stock",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/american-airlines-boosts-premium-seating-on-777-jets-as-upscale-travel-grows-4886376",
-      "published_at": "2026-09-02T16:36:34+00:00"
+      "link": "https://www.investing.com/news/insider-trading-news/aptargroup-chro-shiela-vinczeller-sells-99732-in-company-stock-93CH-4888338",
+      "published_at": "2026-09-03T16:46:32+00:00"
     },
     {
-      "headline": "Berkshire CEO Abel says AI to help power growth",
+      "headline": "Primis Financial director Margaret Weichert buys $1,575 in stock",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/berkshire-ceo-abel-sees-opportunity-for-energy-business-from-ai-4885911",
-      "published_at": "2026-09-02T16:31:57+00:00"
+      "link": "https://www.investing.com/news/insider-trading-news/primis-financial-director-margaret-weichert-buys-1575-in-stock-93CH-4888337",
+      "published_at": "2026-09-03T16:46:03+00:00"
     },
     {
-      "headline": "Stocks rise after recent declines; Japanese yen jumps against US dollar",
+      "headline": "Moody\u2019s assigns A2/P-1 rating to Landsbankinn",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230",
-      "published_at": "2026-09-02T16:31:15+00:00"
+      "link": "https://www.investing.com/news/company-news/moodys-assigns-a2p1-rating-to-landsbankinn-93CH-4888336",
+      "published_at": "2026-09-03T16:38:32+00:00"
     },
     {
-      "headline": "Nwpx infrastructure director Larson sells $128,966 in stock",
+      "headline": "Revolut wins conditional US banking license",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/nwpx-infrastructure-director-larson-sells-128966-in-stock-93CH-4886545",
-      "published_at": "2026-09-02T16:30:57+00:00"
+      "link": "https://www.investing.com/news/economy-news/revolut-wins-conditional-us-banking-license-4888334",
+      "published_at": "2026-09-03T16:36:38+00:00"
     },
     {
-      "headline": "America\u2019s renter generation is investing in stocks, not homes",
+      "headline": "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5c77eefc-ceea-48e5-a56a-4f2c2e3b3d0a&mod=mw_rss_bulletins",
-      "published_at": "2026-09-02T16:03:35+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=aac81cfe-de06-4343-aeb4-11076e083ae1&mod=mw_rss_bulletins",
+      "published_at": "2026-09-03T15:35:06+00:00"
     },
     {
-      "headline": "There is 'a lot more pushback' on data center construction, Berkshire CEO Greg Abel tells CNBC",
+      "headline": "Dow, S&P 500, Nasdaq open higher as Treasury yields decline",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=097a8f31-8470-45ae-ad51-cf41370fc565&mod=mw_rss_bulletins",
+      "published_at": "2026-09-03T13:30:51+00:00"
+    },
+    {
+      "headline": "Here\u2019s what Nvidia\u2019s $13 billion Hugging Face deal means for the world of AI",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9e75a366-63d2-4ba7-af34-9d1aa22f0a9f&mod=mw_rss_bulletins",
+      "published_at": "2026-09-03T12:34:30+00:00"
+    },
+    {
+      "headline": "Economic calendar: weekly jobless claims, services data, Waller speaks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=51034267-367d-4bb3-9c63-c4b84e1f4014&mod=mw_rss_bulletins",
+      "published_at": "2026-09-03T11:52:32+00:00"
+    },
+    {
+      "headline": "New Jersey asks the Supreme Court to take on prediction markets ",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/02/there-is-a-lot-more-pushback-on-data-center-construction-berkshire-ceo-greg-abel-tells-cnbc.html",
-      "published_at": "2026-09-02T15:55:30+00:00"
+      "link": "https://www.cnbc.com/2026/09/02/new-jersey-asks-the-supreme-court-to-take-on-prediction-markets-.html",
+      "published_at": "2026-09-02T21:15:30+00:00"
     },
     {
-      "headline": "Tesla\u2019s Cybercab moment is coming. Now Musk needs to prove it's not just hype.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fc8e5f60-a659-442e-95a7-8f330cf8379f&mod=mw_rss_bulletins",
-      "published_at": "2026-09-02T15:10:15+00:00"
-    },
-    {
-      "headline": "Dow opens higher after three-day drop as climb in bond yields pauses",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=43e647c7-9a7c-4f15-b9a4-d470b17287ea&mod=mw_rss_bulletins",
-      "published_at": "2026-09-02T13:31:04+00:00"
-    },
-    {
-      "headline": "ADP says businesses created the fewest new jobs in 7 months",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d893a19c-dd3a-44e1-9c48-cbafaef1b557&mod=mw_rss_bulletins",
-      "published_at": "2026-09-02T12:28:04+00:00"
-    },
-    {
-      "headline": "Prediction market traders think job creation rebounded in August",
+      "headline": "Traders are piling into this international stock market that just pulled ahead of the Nasdaq",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/01/prediction-market-traders-think-job-creation-rebounded-in-august.html",
-      "published_at": "2026-09-01T18:57:14+00:00"
+      "link": "https://www.cnbc.com/2026/09/02/traders-pile-into-this-international-stock-market-thats-beating-the-nasdaq.html",
+      "published_at": "2026-09-02T19:11:07+00:00"
     }
   ]
 }
