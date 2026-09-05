@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:47:55.041971+00:00",
+  "generated_at": "2026-09-05T15:49:04.186844+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-03",
-      "latest_value": 0.43,
+      "latest_date": "2026-09-04",
+      "latest_value": 0.41,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -199,6 +199,10 @@
         {
           "date": "2026-09-03",
           "value": 0.43
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0.41
         }
       ]
     },
@@ -404,7 +408,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-09-04",
-      "latest_value": 14.020000457763672,
+      "latest_value": 14.529999732971191,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -567,17 +571,17 @@
         },
         {
           "date": "2026-09-04",
-          "value": 14.020000457763672
+          "value": 14.529999732971191
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-03",
-      "vix9d": 11.68,
-      "vix": 14.32,
-      "vix3m": 17.42,
-      "spread": 5.740000000000002,
+      "latest_date": "2026-09-04",
+      "vix9d": 11.97,
+      "vix": 14.53,
+      "vix3m": 17.61,
+      "spread": 5.639999999999999,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -845,14 +849,20 @@
           "vix9d": 11.68,
           "vix": 14.32,
           "vix3m": 17.42
+        },
+        {
+          "date": "2026-09-04",
+          "vix9d": 11.97,
+          "vix": 14.53,
+          "vix3m": 17.61
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-09-04",
-      "latest_value": 99.08000183105469,
-      "pct_change_20d": -0.5220849909967782,
+      "latest_value": 99.16000366210938,
+      "pct_change_20d": -0.44176186621733926,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1015,15 +1025,15 @@
         },
         {
           "date": "2026-09-04",
-          "value": 99.08000183105469
+          "value": 99.16000366210938
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-09-04",
-      "latest_value": 4485.2001953125,
-      "pct_change_20d": 3.3289560093563897,
+      "latest_value": 4429.7998046875,
+      "pct_change_20d": 2.052655225330195,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1186,7 +1196,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 4485.2001953125
+          "value": 4429.7998046875
         }
       ]
     }
@@ -1207,7 +1217,7 @@
       }
     ],
     "session_date": "2026-09-04",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1215,7 +1225,7 @@
       {
         "date": "2026-09-04",
         "name": "Employment Situation (Jobs Report)",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
           "source": "cnbc.com",
@@ -1247,68 +1257,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-04T16:45:10.625505+00:00"
+    "last_refreshed": "2026-09-05T15:49:02.551871+00:00"
   },
   "headlines": [
     {
-      "headline": "Wall St slides after strong jobs report bolsters hawkish Fed bets",
+      "headline": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/nasdaq-sp-500-futures-climb-ahead-of-key-jobs-report-4889040",
-      "published_at": "2026-09-04T16:24:52+00:00"
+      "link": "https://www.investing.com/news/economy-news/irans-oil-blockade-leverage-weakens-as-us-keeps-gulf-crude-flowing-4890160",
+      "published_at": "2026-09-05T15:15:21+00:00"
     },
     {
-      "headline": "Why is Aclara Resources stock climbing today?",
+      "headline": "OpenAI acknowledges \u2019wiki incident\u2019 and need for more transparency around unintended AI behavior",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-aclara-resources-stock-climbing-today-93CH-4889852",
-      "published_at": "2026-09-04T16:24:50+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/openai-acknowledges-wiki-incident-and-need-for-more-transparency-around-unintended-ai-behavior-4890213",
+      "published_at": "2026-09-05T15:00:31+00:00"
     },
     {
-      "headline": "One year after its founder\u2019s death, Armani faces challenge of \u2019inevitable evolution\u2019",
+      "headline": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/one-year-after-its-founders-death-armani-faces-challenge-of-inevitable-evolution-4888840",
-      "published_at": "2026-09-04T16:24:27+00:00"
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-set-for-weekly-gain-as-usiran-hostilities-intensify-4888883",
+      "published_at": "2026-09-05T14:54:25+00:00"
     },
     {
-      "headline": "Zscaler earnings analysis: questions answered and next catalysts",
+      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/zscaler-earnings-analysis-questions-answered-and-next-catalysts-93CH-4889851",
-      "published_at": "2026-09-04T16:23:30+00:00"
+      "link": "https://www.investing.com/news/commodities-news/us-strikes-three-iranian-oil-tankers-after-irgc-attack-on-american-naval-ships-central-command-says-4890210",
+      "published_at": "2026-09-05T14:42:30+00:00"
     },
     {
-      "headline": "S&P 500 changes are coming soon. These stocks could be named to the index today.",
+      "headline": "Scams by fake job recruiters are getting smarter, and AI is making it worse",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e8479e37-bac8-4668-acf0-6cbf2052c05a&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T15:47:56+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1711bf79-5f8c-4fba-8ebf-55aad604f977&mod=mw_rss_bulletins",
+      "published_at": "2026-09-05T14:11:12+00:00"
     },
     {
-      "headline": "Tesla\u2019s stock falls as Cybercab launch lands with a thud",
+      "headline": "Humanoid robots could upend life as we know it \u2014 if only they had better brains",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6540f8ae-a7e9-4e9e-b1a5-1913bd1b2e5d&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T13:37:59+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f94da17b-2bf3-4485-af99-550fd029f56f&mod=mw_rss_bulletins",
+      "published_at": "2026-09-05T13:23:05+00:00"
     },
     {
-      "headline": "S&P 500, Dow open lower but Nasdaq edges up as jobs data raises rate-hike odds",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=951e27b8-202d-4eb5-8e7a-d2335d447c94&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T13:37:43+00:00"
-    },
-    {
-      "headline": "U.S. added 162,000 jobs in August, unemployment rate stays at 4.1%",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1388b83d-7181-4b59-9fdb-22293e9444dc&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T12:34:27+00:00"
-    },
-    {
-      "headline": "Piper Sandler expects Robinhood to kickstart football season with a win",
+      "headline": "Abel: Two ways Berkshire hopes to cash in on AI",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/03/piper-sandler-expects-robinhood-to-start-football-season-with-a-win.html",
-      "published_at": "2026-09-03T19:01:36+00:00"
+      "link": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html",
+      "published_at": "2026-09-05T12:45:44+00:00"
     },
     {
-      "headline": "Aptargroup CHRO Shiela Vinczeller sells $99,732 in company stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/aptargroup-chro-shiela-vinczeller-sells-99732-in-company-stock-93CH-4888338",
-      "published_at": "2026-09-03T16:46:32+00:00"
+      "headline": "This enhanced geothermal project aims to unlock gigawatts of power to fuel the data center boom",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html",
+      "published_at": "2026-09-05T12:20:42+00:00"
+    },
+    {
+      "headline": "Will a data center hurt your home\u2019s value? Research says no. Sellers disagree.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=49d16ede-8f6a-4c50-8a1e-f5cca2511928&mod=mw_rss_bulletins",
+      "published_at": "2026-09-04T23:36:05+00:00"
+    },
+    {
+      "headline": "Micron is doubling down on AI memory chips. It could pay off big for investors.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3efa4c7b-a565-4894-8fe2-8b2e95abe958&mod=mw_rss_bulletins",
+      "published_at": "2026-09-04T22:23:51+00:00"
     }
   ]
 }
