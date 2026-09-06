@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:49:04.186844+00:00",
+  "generated_at": "2026-09-06T15:59:53.271575+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1032,8 +1032,8 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-09-04",
-      "latest_value": 4429.7998046875,
-      "pct_change_20d": 2.052655225330195,
+      "latest_value": 4476.60009765625,
+      "pct_change_20d": 3.1308290420634814,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1196,7 +1196,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 4429.7998046875
+          "value": 4476.60009765625
         }
       ]
     }
@@ -1257,9 +1257,39 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-05T15:49:02.551871+00:00"
+    "last_refreshed": "2026-09-06T15:59:51.540137+00:00"
   },
   "headlines": [
+    {
+      "headline": "Is U.S. losing its safe-haven status? Why global central banks are pulling gold.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=edca1059-6f72-4594-b273-1f595199a2d3&mod=mw_rss_bulletins",
+      "published_at": "2026-09-06T15:44:10+00:00"
+    },
+    {
+      "headline": "HSBC cuts Carlsberg stock price target on execution concerns",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/hsbc-cuts-carlsberg-stock-price-target-on-execution-concerns-93CH-4890310",
+      "published_at": "2026-09-06T15:32:43+00:00"
+    },
+    {
+      "headline": "BNP Paribas Exane raises Samsara stock price target on growth",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/bnp-paribas-exane-raises-samsara-stock-price-target-on-growth-93CH-4890308",
+      "published_at": "2026-09-06T15:26:54+00:00"
+    },
+    {
+      "headline": "Brazilian court suspends licenses for Sigma Lithium mine",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/brazilian-court-suspends-licenses-for-sigma-lithium-mine-4890307",
+      "published_at": "2026-09-06T15:12:44+00:00"
+    },
+    {
+      "headline": "Bitcoin down but holds near $80,000 as corporate buying, U.S. crypto vote in focus",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272",
+      "published_at": "2026-09-06T14:35:55+00:00"
+    },
     {
       "headline": "U.S. strikes three Iranian oil tankers near Kharg Island, CENTCOM says",
       "source": "Investing.com",
@@ -1289,36 +1319,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1711bf79-5f8c-4fba-8ebf-55aad604f977&mod=mw_rss_bulletins",
       "published_at": "2026-09-05T14:11:12+00:00"
-    },
-    {
-      "headline": "Humanoid robots could upend life as we know it \u2014 if only they had better brains",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f94da17b-2bf3-4485-af99-550fd029f56f&mod=mw_rss_bulletins",
-      "published_at": "2026-09-05T13:23:05+00:00"
-    },
-    {
-      "headline": "Abel: Two ways Berkshire hopes to cash in on AI",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html",
-      "published_at": "2026-09-05T12:45:44+00:00"
-    },
-    {
-      "headline": "This enhanced geothermal project aims to unlock gigawatts of power to fuel the data center boom",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html",
-      "published_at": "2026-09-05T12:20:42+00:00"
-    },
-    {
-      "headline": "Will a data center hurt your home\u2019s value? Research says no. Sellers disagree.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=49d16ede-8f6a-4c50-8a1e-f5cca2511928&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T23:36:05+00:00"
-    },
-    {
-      "headline": "Micron is doubling down on AI memory chips. It could pay off big for investors.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3efa4c7b-a565-4894-8fe2-8b2e95abe958&mod=mw_rss_bulletins",
-      "published_at": "2026-09-04T22:23:51+00:00"
     }
   ]
 }
