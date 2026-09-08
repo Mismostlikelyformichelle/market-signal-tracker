@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:20:00.969454+00:00",
+  "generated_at": "2026-09-08T17:05:58.327484+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -208,9 +208,9 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-03",
-      "latest_value": 2.65,
-      "latest_value_bps": 265.0,
+      "latest_date": "2026-09-07",
+      "latest_value": 2.68,
+      "latest_value_bps": 268.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -402,13 +402,21 @@
         {
           "date": "2026-09-03",
           "value": 2.65
+        },
+        {
+          "date": "2026-09-04",
+          "value": 2.68
+        },
+        {
+          "date": "2026-09-07",
+          "value": 2.68
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-07",
-      "latest_value": 15.300000190734863,
+      "latest_date": "2026-09-08",
+      "latest_value": 15.229999542236328,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -576,18 +584,22 @@
         {
           "date": "2026-09-07",
           "value": 15.300000190734863
+        },
+        {
+          "date": "2026-09-08",
+          "value": 15.229999542236328
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-04",
-      "vix9d": 11.97,
-      "vix": 14.53,
-      "vix3m": 17.61,
-      "spread": 5.639999999999999,
+      "latest_date": "2026-09-07",
+      "vix9d": null,
+      "vix": 15.3,
+      "vix3m": null,
+      "spread": null,
       "unit": "",
-      "status": "Calm",
+      "status": null,
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
         {
@@ -859,14 +871,20 @@
           "vix9d": 11.97,
           "vix": 14.53,
           "vix3m": 17.61
+        },
+        {
+          "date": "2026-09-07",
+          "vix9d": null,
+          "vix": 15.3,
+          "vix3m": null
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-07",
-      "latest_value": 98.90299987792969,
-      "pct_change_20d": -0.9087242789797754,
+      "latest_date": "2026-09-08",
+      "latest_value": 98.89399719238281,
+      "pct_change_20d": -0.9276723154402299,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1034,14 +1052,18 @@
         {
           "date": "2026-09-07",
           "value": 98.90299987792969
+        },
+        {
+          "date": "2026-09-08",
+          "value": 98.89399719238281
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-07",
-      "latest_value": 4476.60009765625,
-      "pct_change_20d": 2.631947776360058,
+      "latest_date": "2026-09-08",
+      "latest_value": 4439.60009765625,
+      "pct_change_20d": 1.2913551826659824,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1209,6 +1231,10 @@
         {
           "date": "2026-09-07",
           "value": 4476.60009765625
+        },
+        {
+          "date": "2026-09-08",
+          "value": 4439.60009765625
         }
       ]
     }
@@ -1225,7 +1251,7 @@
       }
     ],
     "session_date": "2026-09-07",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1265,9 +1291,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-07T18:07:31.973171+00:00"
+    "last_refreshed": "2026-09-08T17:05:56.414017+00:00"
   },
   "headlines": [
+    {
+      "headline": "B.Riley reiterates Buy on IonQ stock, $100 target on revenue boost",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/briley-reiterates-buy-on-ionq-stock-100-target-on-revenue-boost-93CH-4892120",
+      "published_at": "2026-09-08T16:32:56+00:00"
+    },
+    {
+      "headline": "Conduit Holdings names Christian Dunleavy as next CEO",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/conduit-holdings-names-christian-dunleavy-as-next-ceo-93CH-4892119",
+      "published_at": "2026-09-08T16:32:53+00:00"
+    },
+    {
+      "headline": "Factbox-Venezuela\u2019s mining sector: more data needed on geological potential",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/factboxvenezuelas-mining-sector-more-data-needed-on-geological-potential-4892118",
+      "published_at": "2026-09-08T16:30:57+00:00"
+    },
+    {
+      "headline": "Chile inflation quickens in August, testing rate-cut hopes",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economic-indicators/chiles-consumer-prices-rise-more-than-expected-in-august-4891879",
+      "published_at": "2026-09-08T16:30:38+00:00"
+    },
+    {
+      "headline": "New American Playbook: Young people must navigate changing paths to build wealth",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fe5afd91-0e0a-448f-b331-c59b827873c7&mod=mw_rss_bulletins",
+      "published_at": "2026-09-08T16:23:23+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 open lower with global oil prices back above $97 a barrel",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0874d974-9582-4e53-a5ae-83775fb039fe&mod=mw_rss_bulletins",
+      "published_at": "2026-09-08T13:30:34+00:00"
+    },
+    {
+      "headline": "Economic calendar: NFIB index of small-business optimism; consumer credit data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fe118b43-a8af-44e4-904e-7d0161c3f814&mod=mw_rss_bulletins",
+      "published_at": "2026-09-08T11:33:43+00:00"
+    },
+    {
+      "headline": "A $2,000 iPhone is coming soon as Apple aims for high-end buyers",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d94ba551-41a3-4f83-8b5e-4e91b17c5c9f&mod=mw_rss_bulletins",
+      "published_at": "2026-09-07T23:16:18+00:00"
+    },
     {
       "headline": "Oil prices rise to six-week highs on worsening Middle East conflict",
       "source": "Investing.com",
@@ -1279,54 +1353,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/commodities-news/haiti-gangs-shift-operations-into-countryside-report-says-4890712",
       "published_at": "2026-09-07T17:06:27+00:00"
-    },
-    {
-      "headline": "NTSB to give updates on deadly Amazon Prime Air cargo plane crash in Miami",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/ntsb-to-give-updates-on-deadly-amazon-prime-air-cargo-plane-crash-in-miami-4890711",
-      "published_at": "2026-09-07T17:01:02+00:00"
-    },
-    {
-      "headline": "At least five killed in Amazon Prime Air cargo plane crash in Miami",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/amazon-prime-air-boeing-767-overruns-runway-at-miami-airport-4890317",
-      "published_at": "2026-09-07T17:00:39+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts like these 3 stocks for the long haul",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
-      "published_at": "2026-09-07T10:37:16+00:00"
-    },
-    {
-      "headline": "Is U.S. losing its safe-haven status? Why global central banks are pulling gold.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=edca1059-6f72-4594-b273-1f595199a2d3&mod=mw_rss_bulletins",
-      "published_at": "2026-09-06T15:44:10+00:00"
-    },
-    {
-      "headline": "HSBC cuts Carlsberg stock price target on execution concerns",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/hsbc-cuts-carlsberg-stock-price-target-on-execution-concerns-93CH-4890310",
-      "published_at": "2026-09-06T15:32:43+00:00"
-    },
-    {
-      "headline": "BNP Paribas Exane raises Samsara stock price target on growth",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/bnp-paribas-exane-raises-samsara-stock-price-target-on-growth-93CH-4890308",
-      "published_at": "2026-09-06T15:26:54+00:00"
-    },
-    {
-      "headline": "Brazilian court suspends licenses for Sigma Lithium mine",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/brazilian-court-suspends-licenses-for-sigma-lithium-mine-4890307",
-      "published_at": "2026-09-06T15:12:44+00:00"
-    },
-    {
-      "headline": "Bitcoin down but holds near $80,000 as corporate buying, U.S. crypto vote in focus",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-near-80000-as-corporate-demand-and-us-crypto-policy-stay-in-focus-4890272",
-      "published_at": "2026-09-06T14:35:55+00:00"
     }
   ]
 }
