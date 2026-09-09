@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:21:37.597307+00:00",
+  "generated_at": "2026-09-09T17:03:28.256486+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-04",
+      "latest_date": "2026-09-08",
       "latest_value": 0.41,
       "unit": "pp",
       "status": "Calm",
@@ -203,14 +203,18 @@
         {
           "date": "2026-09-04",
           "value": 0.41
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0.41
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-07",
-      "latest_value": 2.68,
-      "latest_value_bps": 268.0,
+      "latest_date": "2026-09-08",
+      "latest_value": 2.67,
+      "latest_value_bps": 267.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -410,13 +414,17 @@
         {
           "date": "2026-09-07",
           "value": 2.68
+        },
+        {
+          "date": "2026-09-08",
+          "value": 2.67
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-08",
-      "latest_value": 15.229999542236328,
+      "latest_date": "2026-09-09",
+      "latest_value": 16.309999465942383,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -587,19 +595,23 @@
         },
         {
           "date": "2026-09-08",
-          "value": 15.229999542236328
+          "value": 15.720000267028809
+        },
+        {
+          "date": "2026-09-09",
+          "value": 16.309999465942383
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-07",
-      "vix9d": null,
-      "vix": 15.3,
-      "vix3m": null,
-      "spread": null,
+      "latest_date": "2026-09-08",
+      "vix9d": 14.81,
+      "vix": 15.72,
+      "vix3m": 18.39,
+      "spread": 3.58,
       "unit": "",
-      "status": null,
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
         {
@@ -877,14 +889,20 @@
           "vix9d": null,
           "vix": 15.3,
           "vix3m": null
+        },
+        {
+          "date": "2026-09-08",
+          "vix9d": 14.81,
+          "vix": 15.72,
+          "vix3m": 18.39
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-08",
-      "latest_value": 98.89399719238281,
-      "pct_change_20d": -0.9276723154402299,
+      "latest_date": "2026-09-09",
+      "latest_value": 98.75900268554688,
+      "pct_change_20d": -1.250874336528382,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1055,15 +1073,19 @@
         },
         {
           "date": "2026-09-08",
-          "value": 98.89399719238281
+          "value": 98.83999633789062
+        },
+        {
+          "date": "2026-09-09",
+          "value": 98.75900268554688
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-08",
-      "latest_value": 4439.60009765625,
-      "pct_change_20d": 1.2913551826659824,
+      "latest_date": "2026-09-09",
+      "latest_value": 4451.10009765625,
+      "pct_change_20d": 0.9571592970406649,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1234,7 +1256,11 @@
         },
         {
           "date": "2026-09-08",
-          "value": 4439.60009765625
+          "value": 4393.89990234375
+        },
+        {
+          "date": "2026-09-09",
+          "value": 4451.10009765625
         }
       ]
     }
@@ -1251,7 +1277,7 @@
       }
     ],
     "session_date": "2026-09-08",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1291,68 +1317,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-08T17:05:56.414017+00:00"
+    "last_refreshed": "2026-09-09T17:03:12.048397+00:00"
   },
   "headlines": [
+    {
+      "headline": "Oil\u2019s surge above $100 fuels inflation fears at crucial time for interest rates",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bf87125c-a943-4685-81f5-fd81d0d27b15&mod=mw_rss_bulletins",
+      "published_at": "2026-09-09T16:56:49+00:00"
+    },
+    {
+      "headline": "Coca-Cola HBC at Barclays conference: growth holds amid headwinds",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/cocacola-hbc-at-barclays-conference-growth-holds-amid-headwinds-93CH-4894232",
+      "published_at": "2026-09-09T16:56:21+00:00"
+    },
+    {
+      "headline": "Scotiabank prefers Uber, DoorDash over Lyft in ride-hailing coverage",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/scotiabank-prefers-uber-doordash-over-lyft-in-ridehailing-coverage-4894231",
+      "published_at": "2026-09-09T16:55:24+00:00"
+    },
+    {
+      "headline": "Needham reiterates Buy on Barnes & Noble Education stock at $16",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/needham-reiterates-buy-on-barnes--noble-education-stock-at-16-93CH-4894230",
+      "published_at": "2026-09-09T16:54:45+00:00"
+    },
+    {
+      "headline": "GoDaddy at Goldman Sachs Communacopia + Technology Conference 2026: ai push",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/godaddy-at-goldman-sachs-communacopia--technology-conference-2026-ai-push-93CH-4894229",
+      "published_at": "2026-09-09T16:54:38+00:00"
+    },
+    {
+      "headline": "Treasury to buy back more government bonds than previously announced",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8ac50b4d-cba9-4373-9d47-70e917f3c782&mod=mw_rss_bulletins",
+      "published_at": "2026-09-09T15:21:52+00:00"
+    },
+    {
+      "headline": "GameStop now generates more revenue from collectibles than videogames",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4011a502-0009-44b0-acea-aee8233a7e18&mod=mw_rss_bulletins",
+      "published_at": "2026-09-09T14:39:28+00:00"
+    },
+    {
+      "headline": "What Bessent's latest yen comments mean for U.S. stocks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c712f18b-a27b-434d-885c-8cb0eadbc6e5&mod=mw_rss_bulletins",
+      "published_at": "2026-09-09T13:50:34+00:00"
+    },
+    {
+      "headline": "These dividend stocks could catch a tailwind from data center pushback",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/08/these-dividend-stocks-could-catch-a-tailwind-from-data-center-pushback.html",
+      "published_at": "2026-09-08T19:29:41+00:00"
+    },
     {
       "headline": "B.Riley reiterates Buy on IonQ stock, $100 target on revenue boost",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/analyst-ratings/briley-reiterates-buy-on-ionq-stock-100-target-on-revenue-boost-93CH-4892120",
       "published_at": "2026-09-08T16:32:56+00:00"
-    },
-    {
-      "headline": "Conduit Holdings names Christian Dunleavy as next CEO",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/conduit-holdings-names-christian-dunleavy-as-next-ceo-93CH-4892119",
-      "published_at": "2026-09-08T16:32:53+00:00"
-    },
-    {
-      "headline": "Factbox-Venezuela\u2019s mining sector: more data needed on geological potential",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/factboxvenezuelas-mining-sector-more-data-needed-on-geological-potential-4892118",
-      "published_at": "2026-09-08T16:30:57+00:00"
-    },
-    {
-      "headline": "Chile inflation quickens in August, testing rate-cut hopes",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/chiles-consumer-prices-rise-more-than-expected-in-august-4891879",
-      "published_at": "2026-09-08T16:30:38+00:00"
-    },
-    {
-      "headline": "New American Playbook: Young people must navigate changing paths to build wealth",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fe5afd91-0e0a-448f-b331-c59b827873c7&mod=mw_rss_bulletins",
-      "published_at": "2026-09-08T16:23:23+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 open lower with global oil prices back above $97 a barrel",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0874d974-9582-4e53-a5ae-83775fb039fe&mod=mw_rss_bulletins",
-      "published_at": "2026-09-08T13:30:34+00:00"
-    },
-    {
-      "headline": "Economic calendar: NFIB index of small-business optimism; consumer credit data",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fe118b43-a8af-44e4-904e-7d0161c3f814&mod=mw_rss_bulletins",
-      "published_at": "2026-09-08T11:33:43+00:00"
-    },
-    {
-      "headline": "A $2,000 iPhone is coming soon as Apple aims for high-end buyers",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d94ba551-41a3-4f83-8b5e-4e91b17c5c9f&mod=mw_rss_bulletins",
-      "published_at": "2026-09-07T23:16:18+00:00"
-    },
-    {
-      "headline": "Oil prices rise to six-week highs on worsening Middle East conflict",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/oil-extends-gains-after-us-and-iran-strike-ships-4890330",
-      "published_at": "2026-09-07T17:06:47+00:00"
-    },
-    {
-      "headline": "Haiti gangs shift operations into countryside, report says",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/haiti-gangs-shift-operations-into-countryside-report-says-4890712",
-      "published_at": "2026-09-07T17:06:27+00:00"
     }
   ]
 }
