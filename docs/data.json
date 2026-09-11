@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:58:12.223307+00:00",
+  "generated_at": "2026-09-11T16:55:35.345821+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-09",
-      "latest_value": 0.4,
+      "latest_date": "2026-09-10",
+      "latest_value": 0.39,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -211,14 +211,18 @@
         {
           "date": "2026-09-09",
           "value": 0.4
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0.39
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-09",
-      "latest_value": 2.71,
-      "latest_value_bps": 271.0,
+      "latest_date": "2026-09-10",
+      "latest_value": 2.7,
+      "latest_value_bps": 270.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -426,13 +430,17 @@
         {
           "date": "2026-09-09",
           "value": 2.71
+        },
+        {
+          "date": "2026-09-10",
+          "value": 2.7
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-10",
-      "latest_value": 17.6200008392334,
+      "latest_date": "2026-09-11",
+      "latest_value": 15.869999885559082,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -611,17 +619,21 @@
         },
         {
           "date": "2026-09-10",
-          "value": 17.6200008392334
+          "value": 17.84000015258789
+        },
+        {
+          "date": "2026-09-11",
+          "value": 15.869999885559082
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-09",
-      "vix9d": 15.59,
-      "vix": 16.46,
-      "vix3m": 18.87,
-      "spread": 3.280000000000001,
+      "latest_date": "2026-09-10",
+      "vix9d": 17.7,
+      "vix": 17.84,
+      "vix3m": 19.73,
+      "spread": 2.030000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -913,14 +925,20 @@
           "vix9d": 15.59,
           "vix": 16.46,
           "vix3m": 18.87
+        },
+        {
+          "date": "2026-09-10",
+          "vix9d": 17.7,
+          "vix": 17.84,
+          "vix3m": 19.73
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-10",
-      "latest_value": 98.98300170898438,
-      "pct_change_20d": -0.9773883397724478,
+      "latest_date": "2026-09-11",
+      "latest_value": 99.09500122070312,
+      "pct_change_20d": -0.5769007312185767,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1099,15 +1117,19 @@
         },
         {
           "date": "2026-09-10",
-          "value": 98.98300170898438
+          "value": 99.08999633789062
+        },
+        {
+          "date": "2026-09-11",
+          "value": 99.09500122070312
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-10",
-      "latest_value": 4399.89990234375,
-      "pct_change_20d": 0.8318774377834743,
+      "latest_date": "2026-09-11",
+      "latest_value": 4405.89990234375,
+      "pct_change_20d": 0.582138630456003,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1286,7 +1308,11 @@
         },
         {
           "date": "2026-09-10",
-          "value": 4399.89990234375
+          "value": 4364.5
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4405.89990234375
         }
       ]
     }
@@ -1307,7 +1333,7 @@
       }
     ],
     "session_date": "2026-09-10",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1326,7 +1352,11 @@
         "date": "2026-09-11",
         "name": "CPI Release",
         "is_past": false,
-        "headline": null
+        "headline": {
+          "text": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45NWtYSmQ5R05raVhQakVkMUdmLWJVTmlCR0R3WWZBbmVsVVQ3SEpnS181Wk5qRUt1cWJhelI4cEZtUDVwb0c5U2dNN0hiZVd0NkdQU1Y0SWRrMlJnQjlXZ1BtdlBHbzF2WkswVFhUVTNXQ3dkcmc5WtIBfkFVX3lxTE9FQ0o0emFuVFUxWFIyNEpyaXpvaS0wVVlydUtLSHhBVDh1blJ6LTdreGozdjZjdmo5eXF5cFdYc05xQjFCMVhnQzFMRkpJVkk2VWwzUlJ3a3F6bjZXTEt4dW1aUDdEWFdHek9FSTVUVTAxdmNSVk8xa0dUMXk5dw?oc=5"
+        }
       },
       {
         "date": "2026-09-16",
@@ -1347,9 +1377,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-10T16:54:29.527149+00:00"
+    "last_refreshed": "2026-09-11T16:55:32.316750+00:00"
   },
   "headlines": [
+    {
+      "headline": "Dar\u00e9 Bioscience at H.C. Wainwright conference: turning to sales",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/dare-bioscience-at-hc-wainwright-conference-turning-to-sales-93CH-4898256",
+      "published_at": "2026-09-11T16:47:29+00:00"
+    },
+    {
+      "headline": "AMD at Goldman Sachs Communacopia + Technology Conference: ai strategy widens",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/amd-at-goldman-sachs-communacopia--technology-conference-ai-strategy-widens-93CH-4898254",
+      "published_at": "2026-09-11T16:42:46+00:00"
+    },
+    {
+      "headline": "Bayer faces pivotal test of $7.25 billion Roundup settlement in Missouri court",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/bayer-faces-pivotal-test-of-725-billion-roundup-settlement-in-missouri-court-4897509",
+      "published_at": "2026-09-11T16:42:31+00:00"
+    },
+    {
+      "headline": "Oracle earnings analysis: questions answered and next catalysts",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/oracle-earnings-analysis-questions-answered-and-next-catalysts-93CH-4898253",
+      "published_at": "2026-09-11T16:42:24+00:00"
+    },
+    {
+      "headline": "August CPI report shows core inflation was hotter than expected \u2014 live updates",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=66950cdb-9c61-4db3-a3cb-2cf6bc42a2fd&mod=mw_rss_bulletins",
+      "published_at": "2026-09-11T12:34:00+00:00"
+    },
+    {
+      "headline": "The August CPI report is moments away. Find live updates here.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=94af6da9-0bde-45d3-adf9-f7e23b6b5611&mod=mw_rss_bulletins",
+      "published_at": "2026-09-11T12:07:53+00:00"
+    },
+    {
+      "headline": "Economic calendar: U.S. inflation and consumer-sentiment data coming up",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=609a752c-a2f1-4124-aec4-b98c7092d25b&mod=mw_rss_bulletins",
+      "published_at": "2026-09-11T11:44:36+00:00"
+    },
+    {
+      "headline": "How rising diesel and gas prices are about to make your life more expensive",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=49a78991-3947-4d72-af5a-11e5c8842e74&mod=mw_rss_bulletins",
+      "published_at": "2026-09-11T00:24:47+00:00"
+    },
     {
       "headline": "CrowdStrike at Citi\u2019s 2026 Global TMT Conference: AI fuels growth",
       "source": "Investing.com",
@@ -1361,54 +1439,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/skyward-at-kbw-insurance-conference-2026-niche-strategy-in-a-softening-market-93CH-4896546",
       "published_at": "2026-09-10T16:43:40+00:00"
-    },
-    {
-      "headline": "Cooper Companies earnings analysis: questions answered and next catalysts",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/cooper-companies-earnings-analysis-questions-answered-and-next-catalysts-93CH-4896544",
-      "published_at": "2026-09-10T16:43:01+00:00"
-    },
-    {
-      "headline": "Washington nonprofit Better Markets sues Federal Reserve over capital rule overhaul",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/washington-nonprofit-better-markets-sues-federal-reserve-over-capital-rule-overhaul-4896543",
-      "published_at": "2026-09-10T16:42:28+00:00"
-    },
-    {
-      "headline": "Treasury yields surge toward danger zone for stocks as inflation pressures rise",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=df2ee1d0-3cc5-4f5e-a6f2-55b4490fc000&mod=mw_rss_bulletins",
-      "published_at": "2026-09-10T16:27:11+00:00"
-    },
-    {
-      "headline": "Now\u2019s your chance to profit from the best bond market for yields in decades",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ec7128cd-3172-4f50-867b-642cacfbd9ca&mod=mw_rss_bulletins",
-      "published_at": "2026-09-10T15:39:32+00:00"
-    },
-    {
-      "headline": "Housing inventory is at a 7-year high, but home sales are cratering",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a4d1e87c-05b6-4100-8156-14b33cec992e&mod=mw_rss_bulletins",
-      "published_at": "2026-09-10T14:25:23+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500, Nasdaq open lower as U.S. oil surges to $100 a barrel",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b7e82fcc-7397-4fd9-a19e-35956e287b78&mod=mw_rss_bulletins",
-      "published_at": "2026-09-10T13:31:21+00:00"
-    },
-    {
-      "headline": "Oil\u2019s surge above $100 fuels inflation fears at crucial time for interest rates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bf87125c-a943-4685-81f5-fd81d0d27b15&mod=mw_rss_bulletins",
-      "published_at": "2026-09-09T16:56:49+00:00"
-    },
-    {
-      "headline": "Coca-Cola HBC at Barclays conference: growth holds amid headwinds",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/cocacola-hbc-at-barclays-conference-growth-holds-amid-headwinds-93CH-4894232",
-      "published_at": "2026-09-09T16:56:21+00:00"
     }
   ]
 }
