@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:01:00.739757+00:00",
+  "generated_at": "2026-09-13T16:51:02.849758+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-10",
-      "latest_value": 0.39,
+      "latest_date": "2026-09-11",
+      "latest_value": 0.33,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -215,6 +215,10 @@
         {
           "date": "2026-09-10",
           "value": 0.39
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.33
         }
       ]
     },
@@ -1134,8 +1138,8 @@
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-09-11",
-      "latest_value": 4366.2001953125,
-      "pct_change_20d": -0.3241646276097393,
+      "latest_value": 4408.89990234375,
+      "pct_change_20d": 0.6506255281567093,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1318,7 +1322,7 @@
         },
         {
           "date": "2026-09-11",
-          "value": 4366.2001953125
+          "value": 4408.89990234375
         }
       ]
     }
@@ -1373,9 +1377,39 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-12T16:00:43.979619+00:00"
+    "last_refreshed": "2026-09-13T16:51:00.561360+00:00"
   },
   "headlines": [
+    {
+      "headline": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.30%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-130-4898732",
+      "published_at": "2026-09-13T12:45:03+00:00"
+    },
+    {
+      "headline": "U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-equity-etfs-see-outflows-of-45-billion-as-traders-price-in-fed-rate-hike-4898731",
+      "published_at": "2026-09-13T12:37:03+00:00"
+    },
+    {
+      "headline": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply-4898730",
+      "published_at": "2026-09-13T12:30:24+00:00"
+    },
+    {
+      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-4898701",
+      "published_at": "2026-09-13T12:12:24+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts recommend these 3 dividend stocks for higher returns",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/13/top-wall-street-analysts-recommend-these-3-dividend-stocks-for-higher-returns.html",
+      "published_at": "2026-09-13T11:53:35+00:00"
+    },
     {
       "headline": "US judge rules that Trump plan to halve\u00a0FEMA workforce violated law",
       "source": "Investing.com",
@@ -1405,36 +1439,6 @@
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/09/12/buffetts-confidence-in-troubled-decade-old-acquisition-finally-pays-off.html",
       "published_at": "2026-09-12T13:20:04+00:00"
-    },
-    {
-      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
-      "published_at": "2026-09-12T12:40:05+00:00"
-    },
-    {
-      "headline": "Why data centers could be the next big market for catastrophe bonds",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/12/ai-data-centers-catastrophe-bonds-insurance.html",
-      "published_at": "2026-09-12T05:00:01+00:00"
-    },
-    {
-      "headline": "Want to land more job interviews? Stop letting AI write your r\u00e9sum\u00e9.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d218147d-b6e6-4a73-a178-97527309412f&mod=mw_rss_bulletins",
-      "published_at": "2026-09-11T23:49:18+00:00"
-    },
-    {
-      "headline": "Why Social Security's COLA for 2027 may mean bad news for the U.S. economy",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=09552c07-7a0d-4ace-b403-772646419c50&mod=mw_rss_bulletins",
-      "published_at": "2026-09-11T22:18:37+00:00"
-    },
-    {
-      "headline": "How Tesla could transform trucking \u2014 and capitalize on high diesel prices",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0a94e5e3-39fc-4e6f-bacd-e442a93163f6&mod=mw_rss_bulletins",
-      "published_at": "2026-09-11T21:25:18+00:00"
     }
   ]
 }
