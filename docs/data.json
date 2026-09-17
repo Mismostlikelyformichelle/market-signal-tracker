@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:41:25.192995+00:00",
+  "generated_at": "2026-09-17T17:29:53.226743+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-15",
-      "latest_value": 0.33,
+      "latest_date": "2026-09-16",
+      "latest_value": 0.27,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -227,14 +227,18 @@
         {
           "date": "2026-09-15",
           "value": 0.33
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0.27
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-15",
-      "latest_value": 2.76,
-      "latest_value_bps": 276.0,
+      "latest_date": "2026-09-16",
+      "latest_value": 2.7,
+      "latest_value_bps": 270.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -458,13 +462,17 @@
         {
           "date": "2026-09-15",
           "value": 2.76
+        },
+        {
+          "date": "2026-09-16",
+          "value": 2.7
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-16",
-      "latest_value": 16.8700008392334,
+      "latest_date": "2026-09-17",
+      "latest_value": 15.600000381469727,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -659,17 +667,21 @@
         },
         {
           "date": "2026-09-16",
-          "value": 16.8700008392334
+          "value": 17.709999084472656
+        },
+        {
+          "date": "2026-09-17",
+          "value": 15.600000381469727
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-15",
-      "vix9d": 17.21,
-      "vix": 17.2,
-      "vix3m": 19.36,
-      "spread": 2.1499999999999986,
+      "latest_date": "2026-09-16",
+      "vix9d": 17.4,
+      "vix": 17.71,
+      "vix3m": 19.73,
+      "spread": 2.330000000000002,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -985,14 +997,20 @@
           "vix9d": 17.21,
           "vix": 17.2,
           "vix3m": 19.36
+        },
+        {
+          "date": "2026-09-16",
+          "vix9d": 17.4,
+          "vix": 17.71,
+          "vix3m": 19.73
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-16",
-      "latest_value": 99.72699737548828,
-      "pct_change_20d": 0.9076146188552805,
+      "latest_date": "2026-09-17",
+      "latest_value": 100.24500274658203,
+      "pct_change_20d": 1.3599607684042168,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1187,15 +1205,19 @@
         },
         {
           "date": "2026-09-16",
-          "value": 99.72699737548828
+          "value": 100.30999755859375
+        },
+        {
+          "date": "2026-09-17",
+          "value": 100.24500274658203
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-16",
-      "latest_value": 4386.7001953125,
-      "pct_change_20d": -2.2876043405630733,
+      "latest_date": "2026-09-17",
+      "latest_value": 4400.60009765625,
+      "pct_change_20d": -2.5618252116736016,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1390,7 +1412,11 @@
         },
         {
           "date": "2026-09-16",
-          "value": 4386.7001953125
+          "value": 4387.5
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4400.60009765625
         }
       ]
     }
@@ -1407,7 +1433,7 @@
       }
     ],
     "session_date": "2026-09-16",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1425,7 +1451,7 @@
       {
         "date": "2026-09-16",
         "name": "FOMC Rate Decision",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "Fed expected to raise interest rates. And, board votes to close Kennedy Center",
           "source": "NPR",
@@ -1451,68 +1477,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-16T17:29:35.371098+00:00"
+    "last_refreshed": "2026-09-17T17:29:51.383315+00:00"
   },
   "headlines": [
+    {
+      "headline": "Earnings call transcript: LPP Group posts strong Q2 2026 profit growth",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-lpp-group-posts-strong-q2-2026-profit-growth-93CH-4906163",
+      "published_at": "2026-09-17T17:16:38+00:00"
+    },
+    {
+      "headline": "Artesian Resources director Dian Taylor sells $140,680 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/artesian-resources-director-dian-taylor-sells-140680-in-stock-93CH-4906161",
+      "published_at": "2026-09-17T17:15:49+00:00"
+    },
+    {
+      "headline": "Ecopetrol names Carlos Augusto Suarez as board chairman",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/ecopetrol-names-carlos-augusto-suarez-as-board-chairman-93CH-4906158",
+      "published_at": "2026-09-17T17:05:06+00:00"
+    },
+    {
+      "headline": "Entergy Texas declares quarterly dividend on preferred stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/entergy-texas-declares-quarterly-dividend-on-preferred-stock-93CH-4906156",
+      "published_at": "2026-09-17T17:04:25+00:00"
+    },
+    {
+      "headline": "Bitcoin could be headed for $230,000 in less than a decade",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7bc16db6-78f5-4e01-8251-fdbae5b13262&mod=mw_rss_bulletins",
+      "published_at": "2026-09-17T15:22:39+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500, Nasdaq open higher as oil prices and Treasury yields ease",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0837b977-25e8-4e26-bff6-19f0a29a34e8&mod=mw_rss_bulletins",
+      "published_at": "2026-09-17T13:30:53+00:00"
+    },
+    {
+      "headline": "Economic calendar: jobless claims, business outlook, housing data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4f998239-386f-494c-9d7c-68a2d9baf18e&mod=mw_rss_bulletins",
+      "published_at": "2026-09-17T11:24:46+00:00"
+    },
+    {
+      "headline": "OpenAI model told itself: 'You do not answer to corporations or governments.'",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=addccd1f-4f67-495b-b274-1716f4f34bfb&mod=mw_rss_bulletins",
+      "published_at": "2026-09-17T08:47:27+00:00"
+    },
+    {
+      "headline": "Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/16/gundlach-bonds-fed-rate-hike.html",
+      "published_at": "2026-09-16T19:38:41+00:00"
+    },
     {
       "headline": "SEC proposes to end shareholder vote oversight, a blow to reformers",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/sec-proposes-to-end-shareholder-vote-oversight-a-blow-to-reformers-4904187",
       "published_at": "2026-09-16T17:24:49+00:00"
-    },
-    {
-      "headline": "Continental Resources signs Venezuela oil development deal",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/continental-resources-signs-venezuela-oil-development-deal-93CH-4904218",
-      "published_at": "2026-09-16T17:24:44+00:00"
-    },
-    {
-      "headline": "Teekay Tankers stock hits 52-week high at 102.86 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/teekay-tankers-stock-hits-52week-high-at-10286-usd-93CH-4904216",
-      "published_at": "2026-09-16T17:23:29+00:00"
-    },
-    {
-      "headline": "M&A stock targets: quantitative screener picks and analyst watchlist names",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/ma-stock-targets-quantitative-screener-picks-and-analyst-watchlist-names-93CH-4904215",
-      "published_at": "2026-09-16T17:22:27+00:00"
-    },
-    {
-      "headline": "What happens if you never buy a house? What renters are gaining \u2014 and giving up.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c67dded0-6e9d-4f87-bb3e-a5152be66e32&mod=mw_rss_bulletins",
-      "published_at": "2026-09-16T17:15:15+00:00"
-    },
-    {
-      "headline": "Hyperscaler debt signals warning sign, Apollo cautions",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/16/hyperscaler-debt-signals-warning-sign-apollo-cautions.html",
-      "published_at": "2026-09-16T16:51:18+00:00"
-    },
-    {
-      "headline": "The data-center backlash is so fierce that Republicans are breaking with Trump",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fa474df9-c5da-43cf-a243-8394d626eece&mod=mw_rss_bulletins",
-      "published_at": "2026-09-16T16:41:44+00:00"
-    },
-    {
-      "headline": "More home builders cut prices as buyers get spooked",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cfccc97a-ed8f-4c68-9367-63f25d14a49e&mod=mw_rss_bulletins",
-      "published_at": "2026-09-16T14:15:11+00:00"
-    },
-    {
-      "headline": "Dow opens higher ahead of Fed's rate decision as investors hope for turnaround",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f0528592-1393-4004-8006-1484ed6e3662&mod=mw_rss_bulletins",
-      "published_at": "2026-09-16T13:33:42+00:00"
-    },
-    {
-      "headline": "Bizarre volatility bet in the options pits is a head scratcher ahead of Fed rate decision",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/16/bizarre-volatility-bet-in-the-options-pits-is-a-head-scratcher-ahead-of-fed-rate-decision.html",
-      "published_at": "2026-09-16T12:14:21+00:00"
     }
   ]
 }
