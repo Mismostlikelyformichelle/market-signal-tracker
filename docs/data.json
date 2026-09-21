@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:41:56.350099+00:00",
+  "generated_at": "2026-09-21T18:29:59.273185+00:00",
   "composite": {
     "status": "Mild Watch",
     "watches": 1,
@@ -244,9 +244,9 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-17",
-      "latest_value": 2.7,
-      "latest_value_bps": 270.0,
+      "latest_date": "2026-09-18",
+      "latest_value": 2.68,
+      "latest_value_bps": 268.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -478,15 +478,19 @@
         {
           "date": "2026-09-17",
           "value": 2.7
+        },
+        {
+          "date": "2026-09-18",
+          "value": 2.68
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-18",
-      "latest_value": 14.8100004196167,
+      "latest_date": "2026-09-21",
+      "latest_value": 15.029999732971191,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -688,6 +692,10 @@
         {
           "date": "2026-09-18",
           "value": 14.8100004196167
+        },
+        {
+          "date": "2026-09-21",
+          "value": 15.029999732971191
         }
       ]
     },
@@ -1036,9 +1044,9 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-18",
-      "latest_value": 100.22000122070312,
-      "pct_change_20d": 1.4372450658745686,
+      "latest_date": "2026-09-21",
+      "latest_value": 100.40899658203125,
+      "pct_change_20d": 1.4232288707386365,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1242,14 +1250,18 @@
         {
           "date": "2026-09-18",
           "value": 100.22000122070312
+        },
+        {
+          "date": "2026-09-21",
+          "value": 100.40899658203125
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-18",
-      "latest_value": 4424.89990234375,
-      "pct_change_20d": -4.307869447148553,
+      "latest_date": "2026-09-21",
+      "latest_value": 4388.7001953125,
+      "pct_change_20d": -5.432244871247485,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1453,6 +1465,10 @@
         {
           "date": "2026-09-18",
           "value": 4424.89990234375
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4388.7001953125
         }
       ]
     }
@@ -1507,68 +1523,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-20T16:41:54.384818+00:00"
+    "last_refreshed": "2026-09-21T18:29:57.060151+00:00"
   },
   "headlines": [
+    {
+      "headline": "Intel options flow analysis: 1.78M contracts traded as stock surges 11.69%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/intel-options-flow-analysis-178m-contracts-traded-as-stock-surges-1169-93CH-4909506",
+      "published_at": "2026-09-21T18:13:56+00:00"
+    },
+    {
+      "headline": "Nasdaq soars 2%, S&P up 1.5% as AI stocks rally, led by surge in Meta Platforms",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-index-futures-rise-with-china-summit-iran-escalation-in-focus-4908205",
+      "published_at": "2026-09-21T18:13:06+00:00"
+    },
+    {
+      "headline": "Post Holdings stock hits 52-week low at 75.38 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/post-holdings-stock-hits-52week-low-at-7538-usd-93CH-4909503",
+      "published_at": "2026-09-21T18:10:02+00:00"
+    },
+    {
+      "headline": "Meta options market activity surges on Muse AI optimism",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/meta-options-market-activity-surges-on-muse-ai-optimism-93CH-4909500",
+      "published_at": "2026-09-21T18:07:04+00:00"
+    },
+    {
+      "headline": "Meta\u2019s stock enjoying best month in 13 years thanks to new personal AI assistant",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1a706b6-dadc-4b7b-834f-c92efa33922a&mod=mw_rss_bulletins",
+      "published_at": "2026-09-21T17:50:08+00:00"
+    },
+    {
+      "headline": "Historic lawsuit sparks flurry of option activity in this stock",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/21/historic-lawsuit-sparks-flurry-of-option-activity-in-ny-times-stock.html",
+      "published_at": "2026-09-21T16:55:41+00:00"
+    },
+    {
+      "headline": "AMD flirting with $1 trillion market-cap milestone as AI stocks surge Monday",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f155b162-d60e-440a-809c-1c66d97b3092&mod=mw_rss_bulletins",
+      "published_at": "2026-09-21T16:12:24+00:00"
+    },
+    {
+      "headline": "Paramount Skydance and Warner Bros. shares surge on state antitrust settlement",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=746b9772-0878-4ebe-a3b6-9a197467d960&mod=mw_rss_bulletins",
+      "published_at": "2026-09-21T15:19:36+00:00"
+    },
+    {
+      "headline": "Nasdaq rallies to within 1% of all-time high \u2014 follow live MarketWatch coverage",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b7765757-2e4e-4b04-a0fd-4eed8f549eed&mod=mw_rss_bulletins",
+      "published_at": "2026-09-21T14:39:48+00:00"
+    },
     {
       "headline": "Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141",
       "published_at": "2026-09-20T16:08:07+00:00"
-    },
-    {
-      "headline": "US Treasury\u2019s Bessent and China\u2019s He launch talks on AI, trade and critical minerals",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/us-treasurys-bessent-chinas-he-to-launch-talks-on-ai-trade-critical-minerals-4908142",
-      "published_at": "2026-09-20T16:06:25+00:00"
-    },
-    {
-      "headline": "Fed\u2019s Kashkari says inflation is still too high across US economy, in Fox News interview",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-to-fox-news-interview-4908180",
-      "published_at": "2026-09-20T15:36:22+00:00"
-    },
-    {
-      "headline": "CIBC stands out as the value pick among Canada\u2019s major bank stocks",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/cibc-stands-out-as-the-value-pick-among-canadas-major-bank-stocks-93CH-4908183",
-      "published_at": "2026-09-20T15:29:23+00:00"
-    },
-    {
-      "headline": "Record diesel prices are exposing pain points in the stock market and economy",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a371e3b5-6f34-480f-bf6a-6f2bdfedbd65&mod=mw_rss_bulletins",
-      "published_at": "2026-09-20T13:54:46+00:00"
-    },
-    {
-      "headline": "End of Iran war will undercut oil price and energy stocks. Insiders are buying.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1578ff96-c6c3-4875-a521-da835436f55c&mod=mw_rss_bulletins",
-      "published_at": "2026-09-20T13:28:49+00:00"
-    },
-    {
-      "headline": "Midterm voters overwhelmingly say they\u2018re worried about the national debt",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=90229d70-e57e-4269-b52f-427b771fc6b5&mod=mw_rss_bulletins",
-      "published_at": "2026-09-20T13:01:20+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/20/top-wall-street-analysts-find-these-3-stocks-attractive-as-long-term-investments.html",
-      "published_at": "2026-09-20T12:01:35+00:00"
-    },
-    {
-      "headline": "Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/20/caruso-cabrera-the-investing-tailwinds-for-latin-america-are-the-best-in-decades.html",
-      "published_at": "2026-09-20T11:59:45+00:00"
-    },
-    {
-      "headline": "Why the Fed hiked into a supply shock?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/why-the-fed-hiked-into-a-supply-shock-4908102",
-      "published_at": "2026-09-19T15:50:18+00:00"
     }
   ]
 }
