@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:52:04.809432+00:00",
+  "generated_at": "2026-09-22T17:32:11.670622+00:00",
   "composite": {
     "status": "Mild Watch",
     "watches": 1,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-18",
-      "latest_value": 0.25,
+      "latest_date": "2026-09-21",
+      "latest_value": 0.2,
       "unit": "pp",
       "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -239,6 +239,10 @@
         {
           "date": "2026-09-18",
           "value": 0.25
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.2
         }
       ]
     },
@@ -487,10 +491,10 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-21",
-      "latest_value": 15.029999732971191,
+      "latest_date": "2026-09-22",
+      "latest_value": 14.279999732971191,
       "unit": "",
-      "status": "Normal",
+      "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -695,17 +699,21 @@
         },
         {
           "date": "2026-09-21",
-          "value": 15.029999732971191
+          "value": 14.869999885559082
+        },
+        {
+          "date": "2026-09-22",
+          "value": 14.279999732971191
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-18",
-      "vix9d": 12.27,
-      "vix": 14.81,
-      "vix3m": 18.24,
-      "spread": 5.969999999999999,
+      "latest_date": "2026-09-21",
+      "vix9d": 13.14,
+      "vix": 14.87,
+      "vix3m": 18.08,
+      "spread": 4.939999999999998,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1039,14 +1047,20 @@
           "vix9d": 12.27,
           "vix": 14.81,
           "vix3m": 18.24
+        },
+        {
+          "date": "2026-09-21",
+          "vix9d": 13.14,
+          "vix": 14.87,
+          "vix3m": 18.08
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-21",
-      "latest_value": 100.40899658203125,
-      "pct_change_20d": 1.4232288707386365,
+      "latest_date": "2026-09-22",
+      "latest_value": 100.68599700927734,
+      "pct_change_20d": 1.7852798958971718,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1253,15 +1267,19 @@
         },
         {
           "date": "2026-09-21",
-          "value": 100.40899658203125
+          "value": 100.43000030517578
+        },
+        {
+          "date": "2026-09-22",
+          "value": 100.68599700927734
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-21",
-      "latest_value": 4388.7001953125,
-      "pct_change_20d": -5.432244871247485,
+      "latest_date": "2026-09-22",
+      "latest_value": 4376.5,
+      "pct_change_20d": -5.640242602535533,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1468,7 +1486,11 @@
         },
         {
           "date": "2026-09-21",
-          "value": 4388.7001953125
+          "value": 4383.89990234375
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4376.5
         }
       ]
     }
@@ -1485,7 +1507,7 @@
       }
     ],
     "session_date": "2026-09-21",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1519,68 +1541,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-21T18:29:57.060151+00:00"
+    "last_refreshed": "2026-09-22T17:32:09.383133+00:00"
   },
   "headlines": [
     {
-      "headline": "Intel options flow analysis: 1.78M contracts traded as stock surges 11.69%",
+      "headline": "UK PM Burnham says he and US President Trump have established \u2019good connection\u2019",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/intel-options-flow-analysis-178m-contracts-traded-as-stock-surges-1169-93CH-4909506",
-      "published_at": "2026-09-21T18:13:56+00:00"
+      "link": "https://www.investing.com/news/economy-news/uk-pm-burnham-says-he-and-us-president-trump-have-established-good-connection-4911381",
+      "published_at": "2026-09-22T17:25:09+00:00"
     },
     {
-      "headline": "Nasdaq soars 2%, S&P up 1.5% as AI stocks rally, led by surge in Meta Platforms",
+      "headline": "Why is Aecon stock surging today?",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-index-futures-rise-with-china-summit-iran-escalation-in-focus-4908205",
-      "published_at": "2026-09-21T18:13:06+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/why-is-aecon-stock-surging-today-93CH-4911384",
+      "published_at": "2026-09-22T17:23:53+00:00"
     },
     {
-      "headline": "Post Holdings stock hits 52-week low at 75.38 USD",
+      "headline": "Lockheed Martin to supply Denmark with helicopters for $425m",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/post-holdings-stock-hits-52week-low-at-7538-usd-93CH-4909503",
-      "published_at": "2026-09-21T18:10:02+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/lockheed-martin-to-supply-denmark-with-helicopters-for-425m-93CH-4911383",
+      "published_at": "2026-09-22T17:23:37+00:00"
     },
     {
-      "headline": "Meta options market activity surges on Muse AI optimism",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/meta-options-market-activity-surges-on-muse-ai-optimism-93CH-4909500",
-      "published_at": "2026-09-21T18:07:04+00:00"
-    },
-    {
-      "headline": "Meta\u2019s stock enjoying best month in 13 years thanks to new personal AI assistant",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1a706b6-dadc-4b7b-834f-c92efa33922a&mod=mw_rss_bulletins",
-      "published_at": "2026-09-21T17:50:08+00:00"
-    },
-    {
-      "headline": "Historic lawsuit sparks flurry of option activity in this stock",
+      "headline": "No new stock highs, no problem: Options traders bet they're coming in these names",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/21/historic-lawsuit-sparks-flurry-of-option-activity-in-ny-times-stock.html",
-      "published_at": "2026-09-21T16:55:41+00:00"
+      "link": "https://www.cnbc.com/2026/09/22/no-new-stock-highs-no-problem-options-traders-bet-theyre-coming-in-these-names.html",
+      "published_at": "2026-09-22T17:22:27+00:00"
     },
     {
-      "headline": "AMD flirting with $1 trillion market-cap milestone as AI stocks surge Monday",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f155b162-d60e-440a-809c-1c66d97b3092&mod=mw_rss_bulletins",
-      "published_at": "2026-09-21T16:12:24+00:00"
-    },
-    {
-      "headline": "Paramount Skydance and Warner Bros. shares surge on state antitrust settlement",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=746b9772-0878-4ebe-a3b6-9a197467d960&mod=mw_rss_bulletins",
-      "published_at": "2026-09-21T15:19:36+00:00"
-    },
-    {
-      "headline": "Nasdaq rallies to within 1% of all-time high \u2014 follow live MarketWatch coverage",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b7765757-2e4e-4b04-a0fd-4eed8f549eed&mod=mw_rss_bulletins",
-      "published_at": "2026-09-21T14:39:48+00:00"
-    },
-    {
-      "headline": "Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand",
+      "headline": "Nike vs Deckers: a head-to-head fundamental comparison",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141",
-      "published_at": "2026-09-20T16:08:07+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/nike-vs-deckers-a-headtohead-fundamental-comparison-93CH-4911382",
+      "published_at": "2026-09-22T17:20:32+00:00"
+    },
+    {
+      "headline": "Could Meta\u2019s viral Muse AI app be the company\u2019s ChatGPT moment?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bbadb869-4727-41ca-b7f6-f3d6fd716a3b&mod=mw_rss_bulletins",
+      "published_at": "2026-09-22T17:06:23+00:00"
+    },
+    {
+      "headline": "Dow opens higher, S&P 500 and Nasdaq climb after stocks' big rally",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9cced78a-f886-43bf-85fa-c2f0bf6d390c&mod=mw_rss_bulletins",
+      "published_at": "2026-09-22T13:32:03+00:00"
+    },
+    {
+      "headline": "Economic calendar: Fed's Barkin kicks off latest round of speeches",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=42df2c02-6d6d-47e6-8013-792b1f2f4264&mod=mw_rss_bulletins",
+      "published_at": "2026-09-22T12:19:02+00:00"
+    },
+    {
+      "headline": "Oil could top $150 a barrel if supplies further tighten, Bank of America warns",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=88a994a1-1f1a-463f-904a-767080a1da57&mod=mw_rss_bulletins",
+      "published_at": "2026-09-22T11:39:44+00:00"
+    },
+    {
+      "headline": "Investors discover their new favorite consumer AI play in Meta. Options volume is surging",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/21/meta-investors-discover-new-ai-play.html",
+      "published_at": "2026-09-21T20:13:33+00:00"
     }
   ]
 }
