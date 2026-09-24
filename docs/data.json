@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T17:55:02.822934+00:00",
+  "generated_at": "2026-09-24T17:45:34.780120+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
+    "status": "Calm",
+    "watches": 0,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,10 +10,10 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-22",
-      "latest_value": 0.25,
+      "latest_date": "2026-09-23",
+      "latest_value": 0.26,
       "unit": "pp",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
         {
@@ -247,14 +247,18 @@
         {
           "date": "2026-09-22",
           "value": 0.25
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.26
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-22",
-      "latest_value": 2.68,
-      "latest_value_bps": 268.0,
+      "latest_date": "2026-09-23",
+      "latest_value": 2.73,
+      "latest_value_bps": 273.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -498,13 +502,17 @@
         {
           "date": "2026-09-22",
           "value": 2.68
+        },
+        {
+          "date": "2026-09-23",
+          "value": 2.73
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-23",
-      "latest_value": 15.329999923706055,
+      "latest_date": "2026-09-24",
+      "latest_value": 15.670000076293945,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -719,7 +727,11 @@
         },
         {
           "date": "2026-09-23",
-          "value": 15.329999923706055
+          "value": 15.180000305175781
+        },
+        {
+          "date": "2026-09-24",
+          "value": 15.670000076293945
         }
       ]
     },
@@ -1080,9 +1092,9 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-23",
-      "latest_value": 101.18099975585938,
-      "pct_change_20d": 2.027832634914578,
+      "latest_date": "2026-09-24",
+      "latest_value": 101.302001953125,
+      "pct_change_20d": 2.16014341660832,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1297,15 +1309,19 @@
         },
         {
           "date": "2026-09-23",
-          "value": 101.18099975585938
+          "value": 101.0999984741211
+        },
+        {
+          "date": "2026-09-24",
+          "value": 101.302001953125
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-23",
-      "latest_value": 4316.7001953125,
-      "pct_change_20d": -6.121960507221214,
+      "latest_date": "2026-09-24",
+      "latest_value": 4298.2998046875,
+      "pct_change_20d": -6.755328490595897,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1520,7 +1536,11 @@
         },
         {
           "date": "2026-09-23",
-          "value": 4316.7001953125
+          "value": 4318.39990234375
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4298.2998046875
         }
       ]
     }
@@ -1537,21 +1557,11 @@
       }
     ],
     "session_date": "2026-09-23",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-09-16",
-        "name": "FOMC Rate Decision",
-        "is_past": true,
-        "headline": {
-          "text": "Fed expected to raise interest rates. And, board votes to close Kennedy Center",
-          "source": "NPR",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUZadmVPRlNNSmR2dHdnQkxBYXRsLUl2aVF5Wkdjd0ZZWlljbTI0RjRiaUV0MW9wenVEYng1d1FpeWozU05YVW5DNlFwN3ZETHhXWTNwYl9SYVRVOVA4SGczQ2NGZXdiN0tqcVpWdVpxbnVwdktGcXdMUmU1bEtGeDAzM0ZpOHJ4XzB1US1fekVhSTQxM2NLVkp1b0hfVGx0NDVaTjFPZ05lNlRwR3J6dG9IaWJzd19ucVhfa2xMRWx1VkNuVVE?oc=5"
-        }
-      },
       {
         "date": "2026-09-30",
         "name": "GDP Release",
@@ -1571,9 +1581,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-23T17:44:15.026919+00:00"
+    "last_refreshed": "2026-09-24T17:45:32.718705+00:00"
   },
   "headlines": [
+    {
+      "headline": "Repsol warns 90% of crude supplies may not meet EU methane rules",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/repsol-warns-90-of-crude-supplies-may-not-meet-eu-methane-rules-4915971",
+      "published_at": "2026-09-24T17:34:45+00:00"
+    },
+    {
+      "headline": "Clorox stock hits 52-week low at 82.47 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/clorox-stock-hits-52week-low-at-8247-usd-93CH-4915969",
+      "published_at": "2026-09-24T17:34:06+00:00"
+    },
+    {
+      "headline": "S&P downgrades Paramount Skydance rating on higher leverage",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/sp-downgrades-paramount-skydance-rating-on-higher-leverage-93CH-4915967",
+      "published_at": "2026-09-24T17:33:18+00:00"
+    },
+    {
+      "headline": "moomoo sees 50% jump in crypto buyers as retail demand broadens",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/cryptocurrency-news/moomoo-sees-50-jump-in-crypto-buyers-as-retail-demand-broadens-4915966",
+      "published_at": "2026-09-24T17:33:12+00:00"
+    },
+    {
+      "headline": "Stocks bounce off lows, Treasury yields pull back on reports of U.S.-Iran talks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0cae3496-6112-43d4-aa7a-33f583e02ec2&mod=mw_rss_bulletins",
+      "published_at": "2026-09-24T16:59:09+00:00"
+    },
+    {
+      "headline": "Stocks open lower, with S&P 500 heading for a third straight day of declines",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=095e4351-da99-484d-814d-e3fa834fac61&mod=mw_rss_bulletins",
+      "published_at": "2026-09-24T13:30:42+00:00"
+    },
+    {
+      "headline": "Oracle\u2019s stock is falling as investors fear a data-center setback",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=41f8ed9b-c98d-4f5d-b052-343b27d3322b&mod=mw_rss_bulletins",
+      "published_at": "2026-09-24T13:05:45+00:00"
+    },
+    {
+      "headline": "Economic calendar: jobless claims, new-home sales, Fed speakers",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ced9b1d8-202d-4270-b8ef-04b55ab56393&mod=mw_rss_bulletins",
+      "published_at": "2026-09-24T11:38:37+00:00"
+    },
     {
       "headline": "Earnings call transcript: BQE Water misses Q2 2026 estimates as growth build-out continues",
       "source": "Investing.com",
@@ -1585,54 +1643,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/fiveyear-us-treasury-yield-tops-5-for-first-time-since-2007-4913665",
       "published_at": "2026-09-23T17:23:35+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Quadient H1 2026 gains on digital growth and cash flow",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-quadient-h1-2026-gains-on-digital-growth-and-cash-flow-93CH-4913664",
-      "published_at": "2026-09-23T17:22:08+00:00"
-    },
-    {
-      "headline": "Okta at oktane call 2026 investor summit: push to secure ai agents",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/okta-at-oktane-call-2026-investor-summit-push-to-secure-ai-agents-93CH-4913663",
-      "published_at": "2026-09-23T17:20:13+00:00"
-    },
-    {
-      "headline": "Bond yields surge as Wall Street fears more potential Federal Reserve rate hikes",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7e14e34c-be66-4b47-9c95-7b8cfdfeb02b&mod=mw_rss_bulletins",
-      "published_at": "2026-09-23T16:29:15+00:00"
-    },
-    {
-      "headline": "Meta's Muse reignites AI disruption fears. Traders are targeting this brokerage stock as next casualty",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/23/metas-muse-ai-causes-schwab-selloff.html",
-      "published_at": "2026-09-23T15:30:23+00:00"
-    },
-    {
-      "headline": "Social Security checks are projected to be cut by $540 a month in just six years",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1a827cb7-7316-4cd1-a34a-8654625a7583&mod=mw_rss_bulletins",
-      "published_at": "2026-09-23T15:15:52+00:00"
-    },
-    {
-      "headline": "These stocks are the 'four horsemen of AI.' They\u2019re not the ones you\u2019d think.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=dd3fe48b-1ddb-4d7d-a1d6-9e92192518ea&mod=mw_rss_bulletins",
-      "published_at": "2026-09-23T13:59:45+00:00"
-    },
-    {
-      "headline": "Nasdaq opens lower, putting a four-session win streak on the line",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4b107abb-9330-4f04-802b-a688d1afbb48&mod=mw_rss_bulletins",
-      "published_at": "2026-09-23T13:32:39+00:00"
-    },
-    {
-      "headline": "Lennar shares pop as Berkshire builds almost a 10% stake in beleaguered homebuilder",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/22/lennar-shares-pop-as-berkshire-builds-almost-a-10percent-stake-in-beleaguered-homebuilder.html",
-      "published_at": "2026-09-22T22:35:50+00:00"
     }
   ]
 }
