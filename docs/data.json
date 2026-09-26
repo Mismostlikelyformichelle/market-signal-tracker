@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:02:07.381553+00:00",
+  "generated_at": "2026-09-26T16:53:15.216076+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-24",
-      "latest_value": 0.31,
+      "latest_date": "2026-09-25",
+      "latest_value": 0.36,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -255,6 +255,10 @@
         {
           "date": "2026-09-24",
           "value": 0.31
+        },
+        {
+          "date": "2026-09-25",
+          "value": 0.36
         }
       ]
     },
@@ -520,9 +524,9 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-09-25",
-      "latest_value": 15.0,
+      "latest_value": 14.869999885559082,
       "unit": "",
-      "status": "Normal",
+      "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -743,17 +747,17 @@
         },
         {
           "date": "2026-09-25",
-          "value": 15.0
+          "value": 14.869999885559082
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-24",
-      "vix9d": 14.11,
-      "vix": 15.67,
-      "vix3m": 18.43,
-      "spread": 4.32,
+      "latest_date": "2026-09-25",
+      "vix9d": 12.76,
+      "vix": 14.87,
+      "vix3m": 17.93,
+      "spread": 5.17,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1111,14 +1115,20 @@
           "vix9d": 14.11,
           "vix": 15.67,
           "vix3m": 18.43
+        },
+        {
+          "date": "2026-09-25",
+          "vix9d": 12.76,
+          "vix": 14.87,
+          "vix3m": 17.93
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-09-25",
-      "latest_value": 101.06999969482422,
-      "pct_change_20d": 1.3741251640090304,
+      "latest_value": 100.97000122070312,
+      "pct_change_20d": 1.273825788701119,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1341,15 +1351,15 @@
         },
         {
           "date": "2026-09-25",
-          "value": 101.06999969482422
+          "value": 100.97000122070312
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-09-25",
-      "latest_value": 4315.60009765625,
-      "pct_change_20d": -3.628771051478937,
+      "latest_value": 4321.2001953125,
+      "pct_change_20d": -3.503715837568444,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1572,7 +1582,7 @@
         },
         {
           "date": "2026-09-25",
-          "value": 4315.60009765625
+          "value": 4321.2001953125
         }
       ]
     }
@@ -1589,7 +1599,7 @@
       }
     ],
     "session_date": "2026-09-25",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1613,68 +1623,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-25T17:47:22.127831+00:00"
+    "last_refreshed": "2026-09-26T16:53:13.947067+00:00"
   },
   "headlines": [
+    {
+      "headline": "Trump predicts Cuba and US will make a deal",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/trump-predicts-cuba-and-us-will-make-a-deal-4918594",
+      "published_at": "2026-09-26T16:24:29+00:00"
+    },
+    {
+      "headline": "Is River Cruise at long term risk from climate change?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/is-river-cruise-at-long-term-risk-from-climate-change-4918601",
+      "published_at": "2026-09-26T16:07:30+00:00"
+    },
+    {
+      "headline": "Aramco weighs standalone gas unit with potential $100 bln valuation - Bloomberg",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/aramco-weighs-standalone-gas-unit-with-potential-100-bln-valuation--bloomberg-4918599",
+      "published_at": "2026-09-26T15:41:51+00:00"
+    },
+    {
+      "headline": "Trump says he spoke with Venezuela\u2019s Rodriguez about elections",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/trump-says-he-spoke-with-venezuelas-rodriguez-about-elections-4918595",
+      "published_at": "2026-09-26T14:54:32+00:00"
+    },
+    {
+      "headline": "Meta turned Muse into a viral hit. Now comes the hard part.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=90749500-e4fe-4fc4-9b57-d14b4f9dd07a&mod=mw_rss_bulletins",
+      "published_at": "2026-09-26T14:26:27+00:00"
+    },
+    {
+      "headline": "China is playing a different game when it comes to AI",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=591e6e85-9d29-4dd3-bf6a-022e6dbd64c8&mod=mw_rss_bulletins",
+      "published_at": "2026-09-26T13:54:58+00:00"
+    },
+    {
+      "headline": "Why bond-market volatility hasn\u2019t spilled over into stocks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=948f5b7f-1073-4d60-81b6-a1a9164f0f37&mod=mw_rss_bulletins",
+      "published_at": "2026-09-26T13:19:31+00:00"
+    },
+    {
+      "headline": "Appeals court rules that states can regulate Kalshi\u2019s sports prediction markets, dealing another legal blow to platforms",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html",
+      "published_at": "2026-09-25T23:28:42+00:00"
+    },
+    {
+      "headline": "Trump\u2019s ban on Canadian alcohol starts Tuesday, but these brands will avoid it",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f71b5cb9-60d2-4c24-bec6-76af948e73f7&mod=mw_rss_bulletins",
+      "published_at": "2026-09-25T22:55:50+00:00"
+    },
     {
       "headline": "Meta misled consumers in case over Cambridge Analytica scandal, New Mexico jury says",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/meta-misled-consumers-in-case-over-cambridge-analytica-scandal-new-mexico-jury-says-4917926",
       "published_at": "2026-09-25T17:36:34+00:00"
-    },
-    {
-      "headline": "Leader\u2019s Advantage completes $150 million SPAC IPO on Nasdaq",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/leaders-advantage-completes-150-million-spac-ipo-on-nasdaq-93CH-4917927",
-      "published_at": "2026-09-25T17:36:34+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Alten H1 2026 revenue beats forecast as shares rise 6.5%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-alten-h1-2026-revenue-beats-forecast-as-shares-rise-65-93CH-4917925",
-      "published_at": "2026-09-25T17:35:17+00:00"
-    },
-    {
-      "headline": "CrowdStrike probe closed by US prosecutors without charges",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/crowdstrike-probe-closed-by-us-prosecutors-without-charges-4917924",
-      "published_at": "2026-09-25T17:35:08+00:00"
-    },
-    {
-      "headline": "From $6 eggs to $50,000 cars, here's how inflation has defined the past 5 years",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0fb031d6-eea1-41e2-a9bd-81a016778c8e&mod=mw_rss_bulletins",
-      "published_at": "2026-09-25T17:01:56+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 and Nasdaq open higher as oil prices ease, Treasury yields slip",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5d4c5bd5-a0c4-43a4-8849-385b035372d0&mod=mw_rss_bulletins",
-      "published_at": "2026-09-25T13:31:59+00:00"
-    },
-    {
-      "headline": "Economic calendar: durable-goods and consumer-sentiment survey",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9bd35bc8-d776-48c1-b2d9-f62bf90b6803&mod=mw_rss_bulletins",
-      "published_at": "2026-09-25T11:13:36+00:00"
-    },
-    {
-      "headline": "Akamai stock is rallying on a $12 billion cloud deal with Anthropic",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=66674bed-bb2d-4fa2-910f-88e6acd22f88&mod=mw_rss_bulletins",
-      "published_at": "2026-09-25T08:49:12+00:00"
-    },
-    {
-      "headline": "Repsol warns 90% of crude supplies may not meet EU methane rules",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/repsol-warns-90-of-crude-supplies-may-not-meet-eu-methane-rules-4915971",
-      "published_at": "2026-09-24T17:34:45+00:00"
-    },
-    {
-      "headline": "Clorox stock hits 52-week low at 82.47 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/clorox-stock-hits-52week-low-at-8247-usd-93CH-4915969",
-      "published_at": "2026-09-24T17:34:06+00:00"
     }
   ]
 }
