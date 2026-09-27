@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:53:15.216076+00:00",
+  "generated_at": "2026-09-27T17:32:38.195214+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1623,9 +1623,39 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-09-26T16:53:13.947067+00:00"
+    "last_refreshed": "2026-09-27T17:32:36.506873+00:00"
   },
   "headlines": [
+    {
+      "headline": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information-reports-4919047",
+      "published_at": "2026-09-27T17:06:46+00:00"
+    },
+    {
+      "headline": "Foreign banks have expressed UBS merger interest, Swiss newspaper reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/foreign-banks-have-expressed-ubs-merger-interest-swiss-newspaper-reports-4919063",
+      "published_at": "2026-09-27T17:06:31+00:00"
+    },
+    {
+      "headline": "What are the bond yield effects on European equities? UBS answers",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/what-are-the-bond-yield-effects-on-european-equities-ubs-answers-4919062",
+      "published_at": "2026-09-27T17:04:33+00:00"
+    },
+    {
+      "headline": "China may permit Alibaba, ByteDance to buy new Nvidia chips \u2013 The Information",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/china-may-permit-alibaba-bytedance-to-buy-new-nvidia-chips--the-information-4919061",
+      "published_at": "2026-09-27T17:00:17+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts like these 3 dividend stocks for steady income",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/27/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
+      "published_at": "2026-09-27T11:33:15+00:00"
+    },
     {
       "headline": "Trump predicts Cuba and US will make a deal",
       "source": "Investing.com",
@@ -1655,36 +1685,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=90749500-e4fe-4fc4-9b57-d14b4f9dd07a&mod=mw_rss_bulletins",
       "published_at": "2026-09-26T14:26:27+00:00"
-    },
-    {
-      "headline": "China is playing a different game when it comes to AI",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=591e6e85-9d29-4dd3-bf6a-022e6dbd64c8&mod=mw_rss_bulletins",
-      "published_at": "2026-09-26T13:54:58+00:00"
-    },
-    {
-      "headline": "Why bond-market volatility hasn\u2019t spilled over into stocks",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=948f5b7f-1073-4d60-81b6-a1a9164f0f37&mod=mw_rss_bulletins",
-      "published_at": "2026-09-26T13:19:31+00:00"
-    },
-    {
-      "headline": "Appeals court rules that states can regulate Kalshi\u2019s sports prediction markets, dealing another legal blow to platforms",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html",
-      "published_at": "2026-09-25T23:28:42+00:00"
-    },
-    {
-      "headline": "Trump\u2019s ban on Canadian alcohol starts Tuesday, but these brands will avoid it",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f71b5cb9-60d2-4c24-bec6-76af948e73f7&mod=mw_rss_bulletins",
-      "published_at": "2026-09-25T22:55:50+00:00"
-    },
-    {
-      "headline": "Meta misled consumers in case over Cambridge Analytica scandal, New Mexico jury says",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/meta-misled-consumers-in-case-over-cambridge-analytica-scandal-new-mexico-jury-says-4917926",
-      "published_at": "2026-09-25T17:36:34+00:00"
     }
   ]
 }
