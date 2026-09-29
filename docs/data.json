@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:32:38.195214+00:00",
+  "generated_at": "2026-09-29T18:28:22.190223+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-25",
-      "latest_value": 0.36,
+      "latest_date": "2026-09-28",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -259,14 +259,18 @@
         {
           "date": "2026-09-25",
           "value": 0.36
+        },
+        {
+          "date": "2026-09-28",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-24",
-      "latest_value": 2.8,
-      "latest_value_bps": 280.0,
+      "latest_date": "2026-09-28",
+      "latest_value": 3.02,
+      "latest_value_bps": 302.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -518,15 +522,23 @@
         {
           "date": "2026-09-24",
           "value": 2.8
+        },
+        {
+          "date": "2026-09-25",
+          "value": 2.93
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.02
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-09-25",
-      "latest_value": 14.869999885559082,
+      "latest_date": "2026-09-29",
+      "latest_value": 16.270000457763672,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -748,16 +760,24 @@
         {
           "date": "2026-09-25",
           "value": 14.869999885559082
+        },
+        {
+          "date": "2026-09-28",
+          "value": 16.06999969482422
+        },
+        {
+          "date": "2026-09-29",
+          "value": 16.270000457763672
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-25",
-      "vix9d": 12.76,
-      "vix": 14.87,
-      "vix3m": 17.93,
-      "spread": 5.17,
+      "latest_date": "2026-09-28",
+      "vix9d": 14.39,
+      "vix": 16.07,
+      "vix3m": 18.23,
+      "spread": 3.84,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1121,14 +1141,20 @@
           "vix9d": 12.76,
           "vix": 14.87,
           "vix3m": 17.93
+        },
+        {
+          "date": "2026-09-28",
+          "vix9d": 14.39,
+          "vix": 16.07,
+          "vix3m": 18.23
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-09-25",
-      "latest_value": 100.97000122070312,
-      "pct_change_20d": 1.273825788701119,
+      "latest_date": "2026-09-29",
+      "latest_value": 101.40299987792969,
+      "pct_change_20d": 1.738739581440401,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1352,14 +1378,22 @@
         {
           "date": "2026-09-25",
           "value": 100.97000122070312
+        },
+        {
+          "date": "2026-09-28",
+          "value": 101.19999694824219
+        },
+        {
+          "date": "2026-09-29",
+          "value": 101.40299987792969
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-09-25",
-      "latest_value": 4321.2001953125,
-      "pct_change_20d": -3.503715837568444,
+      "latest_date": "2026-09-29",
+      "latest_value": 4201.39990234375,
+      "pct_change_20d": -3.3716673793985743,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1583,6 +1617,14 @@
         {
           "date": "2026-09-25",
           "value": 4321.2001953125
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4168.39990234375
+        },
+        {
+          "date": "2026-09-29",
+          "value": 4201.39990234375
         }
       ]
     }
@@ -1621,70 +1663,82 @@
         "name": "CPI Release",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-10-28",
+        "name": "FOMC Rate Decision",
+        "is_past": false,
+        "headline": null
+      },
+      {
+        "date": "2026-10-29",
+        "name": "GDP Release",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-09-27T17:32:36.506873+00:00"
+    "last_refreshed": "2026-09-29T18:28:20.657146+00:00"
   },
   "headlines": [
     {
-      "headline": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
+      "headline": "White House urges EU to draw down diesel inventories, sources say",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information-reports-4919047",
-      "published_at": "2026-09-27T17:06:46+00:00"
+      "link": "https://www.investing.com/news/commodities-news/white-house-urges-eu-to-draw-down-diesel-inventories-sources-say-4923232",
+      "published_at": "2026-09-29T18:12:58+00:00"
     },
     {
-      "headline": "Foreign banks have expressed UBS merger interest, Swiss newspaper reports",
+      "headline": "US consumer confidence near 12-1/2-year low amid labor market fears",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/foreign-banks-have-expressed-ubs-merger-interest-swiss-newspaper-reports-4919063",
-      "published_at": "2026-09-27T17:06:31+00:00"
+      "link": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-dives-to-more-than-12year-low-in-september-4923037",
+      "published_at": "2026-09-29T18:12:37+00:00"
     },
     {
-      "headline": "What are the bond yield effects on European equities? UBS answers",
+      "headline": "Fed\u2019s Goolsbee says prolonged inflation above target is \"playing with fire\"",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/what-are-the-bond-yield-effects-on-european-equities-ubs-answers-4919062",
-      "published_at": "2026-09-27T17:04:33+00:00"
+      "link": "https://www.investing.com/news/economy-news/feds-goolsbee-says-prolonged-inflation-above-target-is-playing-with-fire-4923305",
+      "published_at": "2026-09-29T18:11:28+00:00"
     },
     {
-      "headline": "China may permit Alibaba, ByteDance to buy new Nvidia chips \u2013 The Information",
+      "headline": "Paramount Skydance  options activity clusters around $12 deal-close target",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/china-may-permit-alibaba-bytedance-to-buy-new-nvidia-chips--the-information-4919061",
-      "published_at": "2026-09-27T17:00:17+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/paramount-skydance--options-activity-clusters-around-12-dealclose-target-93CH-4923304",
+      "published_at": "2026-09-29T18:10:15+00:00"
     },
     {
-      "headline": "Top Wall Street analysts like these 3 dividend stocks for steady income",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/09/27/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
-      "published_at": "2026-09-27T11:33:15+00:00"
-    },
-    {
-      "headline": "Trump predicts Cuba and US will make a deal",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/trump-predicts-cuba-and-us-will-make-a-deal-4918594",
-      "published_at": "2026-09-26T16:24:29+00:00"
-    },
-    {
-      "headline": "Is River Cruise at long term risk from climate change?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/is-river-cruise-at-long-term-risk-from-climate-change-4918601",
-      "published_at": "2026-09-26T16:07:30+00:00"
-    },
-    {
-      "headline": "Aramco weighs standalone gas unit with potential $100 bln valuation - Bloomberg",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/aramco-weighs-standalone-gas-unit-with-potential-100-bln-valuation--bloomberg-4918599",
-      "published_at": "2026-09-26T15:41:51+00:00"
-    },
-    {
-      "headline": "Trump says he spoke with Venezuela\u2019s Rodriguez about elections",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/trump-says-he-spoke-with-venezuelas-rodriguez-about-elections-4918595",
-      "published_at": "2026-09-26T14:54:32+00:00"
-    },
-    {
-      "headline": "Meta turned Muse into a viral hit. Now comes the hard part.",
+      "headline": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it closer.",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=90749500-e4fe-4fc4-9b57-d14b4f9dd07a&mod=mw_rss_bulletins",
-      "published_at": "2026-09-26T14:26:27+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bdf15b60-c29f-4753-a719-e29700d65caa&mod=mw_rss_bulletins",
+      "published_at": "2026-09-29T17:19:33+00:00"
+    },
+    {
+      "headline": "Job openings are low, hiring is weak: The U.S. labor market won\u2019t improve soon",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ff82f379-34dd-4e4e-ad96-cce23c944544&mod=mw_rss_bulletins",
+      "published_at": "2026-09-29T15:39:26+00:00"
+    },
+    {
+      "headline": "Nasdaq opens higher as chip stocks lead; oil, bond yields hold steady",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9d3b4f92-a5e0-42d4-9548-9fd84c3e9298&mod=mw_rss_bulletins",
+      "published_at": "2026-09-29T13:30:50+00:00"
+    },
+    {
+      "headline": "Economic calendar: data on home prices, consumer confidence and job openings",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0e4286f7-3940-4b49-9813-6236857cfbdf&mod=mw_rss_bulletins",
+      "published_at": "2026-09-29T11:31:21+00:00"
+    },
+    {
+      "headline": "Higher rates are wreaking havoc on these two ETFs. Traders see one bouncing back",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/29/higher-rates-are-wreaking-havoc-on-these-two-etfs-traders-see-one-bouncing-back.html",
+      "published_at": "2026-09-29T11:28:27+00:00"
+    },
+    {
+      "headline": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
+      "published_at": "2026-09-28T17:53:31+00:00"
     }
   ]
 }
