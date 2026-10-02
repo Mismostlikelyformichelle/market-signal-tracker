@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:58:46.118028+00:00",
+  "generated_at": "2026-10-02T18:13:49.369411+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-09-30",
-      "latest_value": 0.41,
+      "latest_date": "2026-10-01",
+      "latest_value": 0.46,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -263,22 +263,22 @@
         {
           "date": "2026-09-30",
           "value": 0.41
+        },
+        {
+          "date": "2026-10-01",
+          "value": 0.46
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-09-30",
-      "latest_value": 3.12,
-      "latest_value_bps": 312.0,
+      "latest_date": "2026-10-01",
+      "latest_value": 3.24,
+      "latest_value_bps": 324.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-03",
-          "value": 2.74
-        },
         {
           "date": "2026-07-06",
           "value": 2.72
@@ -530,13 +530,17 @@
         {
           "date": "2026-09-30",
           "value": 3.12
+        },
+        {
+          "date": "2026-10-01",
+          "value": 3.24
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-01",
-      "latest_value": 16.530000686645508,
+      "latest_date": "2026-10-02",
+      "latest_value": 15.760000228881836,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -775,17 +779,21 @@
         },
         {
           "date": "2026-10-01",
-          "value": 16.530000686645508
+          "value": 16.389999389648438
+        },
+        {
+          "date": "2026-10-02",
+          "value": 15.760000228881836
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-09-30",
-      "vix9d": 14.2,
-      "vix": 16.34,
-      "vix3m": 18.37,
-      "spread": 4.170000000000002,
+      "latest_date": "2026-10-01",
+      "vix9d": 14.0,
+      "vix": 16.39,
+      "vix3m": 18.58,
+      "spread": 4.579999999999998,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1167,14 +1175,20 @@
           "vix9d": 14.2,
           "vix": 16.34,
           "vix3m": 18.37
+        },
+        {
+          "date": "2026-10-01",
+          "vix9d": 14.0,
+          "vix": 16.39,
+          "vix3m": 18.58
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-01",
-      "latest_value": 102.14600372314453,
-      "pct_change_20d": 3.1777815385298296,
+      "latest_date": "2026-10-02",
+      "latest_value": 101.91999816894531,
+      "pct_change_20d": 2.7833747528294777,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1413,17 +1427,21 @@
         },
         {
           "date": "2026-10-01",
-          "value": 102.14600372314453
+          "value": 102.0999984741211
+        },
+        {
+          "date": "2026-10-02",
+          "value": 101.91999816894531
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-01",
-      "latest_value": 4204.2998046875,
-      "pct_change_20d": -6.3984767043207516,
+      "latest_date": "2026-10-02",
+      "latest_value": 4165.60009765625,
+      "pct_change_20d": -5.964145529820121,
       "unit": "$",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1660,7 +1678,11 @@
         },
         {
           "date": "2026-10-01",
-          "value": 4204.2998046875
+          "value": 4202.2998046875
+        },
+        {
+          "date": "2026-10-02",
+          "value": 4165.60009765625
         }
       ]
     }
@@ -1677,7 +1699,7 @@
       }
     ],
     "session_date": "2026-10-01",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1696,7 +1718,11 @@
         "date": "2026-10-02",
         "name": "Employment Situation (Jobs Report)",
         "is_past": false,
-        "headline": null
+        "headline": {
+          "text": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjc1c3eWxhak03S19wOWloT192VXI2UGhzeHJLZDBMRnZxdGNwaEhxQ2Y1LWNqZFQtc2o5bk9BeW5uSnI5WVVNcDJMeXRmblA0aTloYlAzQUFYTzFJMW1Wc0ZrVkpLZFUwbGRfNmpjOWjSAXZBVV95cUxOUnZ1bXVuT3Y0RHBfSHFjVkJiWnhYb3J2ajZ6Qkd6UlQ1a2xEejMwVG9tdzRNbDJSU1gtcEJ1UXNVTWFFWC1XVFdxazlWTl9FcUxwdXNZeExGRUo0QnVTbHMwVmZLQy1zNEEzM3JqYnNmZUpvazR3?oc=5"
+        }
       },
       {
         "date": "2026-10-14",
@@ -1717,68 +1743,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-01T18:42:35.408050+00:00"
+    "last_refreshed": "2026-10-02T18:13:47.422397+00:00"
   },
   "headlines": [
+    {
+      "headline": "Investing.com\u2019s stocks of the week",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/investingcoms-stocks-of-the-week-4930275",
+      "published_at": "2026-10-02T18:04:16+00:00"
+    },
+    {
+      "headline": "Why is Teradyne stock surging today?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-teradyne-stock-surging-today-93CH-4930274",
+      "published_at": "2026-10-02T18:03:17+00:00"
+    },
+    {
+      "headline": "Why investors quickly lost enthusiam for jobs data that sparked a Treasury rally",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6e9dcd8b-cb0e-45b1-a18d-c14013ca85de&mod=mw_rss_bulletins",
+      "published_at": "2026-10-02T18:01:07+00:00"
+    },
+    {
+      "headline": "Services PMI and ISM non-manufacturing PMI due Monday",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/services-pmi-and-ism-nonmanufacturing-pmi-due-monday-93CH-4930272",
+      "published_at": "2026-10-02T18:00:39+00:00"
+    },
+    {
+      "headline": "PCG technical analysis: bearish trend continues with oversold signals",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/pcg-technical-analysis-bearish-trend-continues-with-oversold-signals-93CH-4930267",
+      "published_at": "2026-10-02T17:59:32+00:00"
+    },
+    {
+      "headline": "The critical, hard-to-find machine part at the heart of the humanoid-robots race",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=df9aef6a-18a9-41d8-93ac-c6dbd76cbc9e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-02T16:29:48+00:00"
+    },
+    {
+      "headline": "Europe\u2019s leaders agree to release diesel stockpiles after pressure from Trump",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ed65190b-9b38-4402-a12c-f5b87b130f7c&mod=mw_rss_bulletins",
+      "published_at": "2026-10-02T15:51:03+00:00"
+    },
+    {
+      "headline": "The U.S. needs this rare machine part to win the humanoid-robot race",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=be7365c6-22fb-4cfe-b3a9-9e78113abcdd&mod=mw_rss_bulletins",
+      "published_at": "2026-10-02T14:29:40+00:00"
+    },
+    {
+      "headline": "Europe\u2019s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
+      "published_at": "2026-10-01T20:41:38+00:00"
+    },
     {
       "headline": "Mattel attracts takeover interest from Authentic Brands Group, the Wall Street Journal reports",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/mattel-attracts-takeover-interest-from-authentic-brands-group-the-wall-street-journal-reports-4928092",
       "published_at": "2026-10-01T18:24:31+00:00"
-    },
-    {
-      "headline": "Rogers completes acquisition of remaining 25% stake in MLSE",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/rogers-completes-acquisition-of-remaining-25-stake-in-mlse-93CH-4928091",
-      "published_at": "2026-10-01T18:24:28+00:00"
-    },
-    {
-      "headline": "Putin says the world is living through a dangerous moment, warns West not to escalate",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/putin-says-the-world-is-living-through-a-dangerous-moment-warns-west-not-to-escalate-4928087",
-      "published_at": "2026-10-01T18:18:48+00:00"
-    },
-    {
-      "headline": "XOM vs CVX: scale, value, and income compared",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/xom-vs-cvx-scale-value-and-income-compared-93CH-4928078",
-      "published_at": "2026-10-01T18:14:43+00:00"
-    },
-    {
-      "headline": "The latest oil-price shock rippling through the economy is a refining crisis",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=00be39fb-88b7-4996-b2d1-c3bf74a1d4f7&mod=mw_rss_bulletins",
-      "published_at": "2026-10-01T17:12:44+00:00"
-    },
-    {
-      "headline": "30-year mortgage rate posts biggest jump in 4 years \u2014 to nearly 7.3%",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=070ff3bb-865d-4bcd-b046-eb0241cb33dc&mod=mw_rss_bulletins",
-      "published_at": "2026-10-01T16:08:30+00:00"
-    },
-    {
-      "headline": "Inflation in the U.S. is bad, say manufacturers \u2014 and it\u2019s not getting better",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=faca1002-abe6-4987-9a90-e96b42f863a3&mod=mw_rss_bulletins",
-      "published_at": "2026-10-01T15:27:03+00:00"
-    },
-    {
-      "headline": "Why the stock market wasn\u2019t wowed by Micron\u2019s earnings report",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e41a882f-0dbc-4896-ad2b-da6ec1ef90ea&mod=mw_rss_bulletins",
-      "published_at": "2026-10-01T15:19:32+00:00"
-    },
-    {
-      "headline": "FICO stock options flow signals bearish bets after regulatory blow",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/fico-stock-options-flow-signals-bearish-bets-after-regulatory-blow-93CH-4925712",
-      "published_at": "2026-09-30T18:11:05+00:00"
-    },
-    {
-      "headline": "Mcdonald\u2019s stock hits 52-week low at 232.05 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/mcdonalds-stock-hits-52week-low-at-23205-usd-93CH-4925711",
-      "published_at": "2026-09-30T18:07:20+00:00"
     }
   ]
 }
