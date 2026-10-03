@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:36:50.198756+00:00",
+  "generated_at": "2026-10-03T17:00:25.247264+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-01",
-      "latest_value": 0.46,
+      "latest_date": "2026-10-02",
+      "latest_value": 0.45,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -267,6 +267,10 @@
         {
           "date": "2026-10-01",
           "value": 0.46
+        },
+        {
+          "date": "2026-10-02",
+          "value": 0.45
         }
       ]
     },
@@ -540,7 +544,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-10-02",
-      "latest_value": 15.760000228881836,
+      "latest_value": 15.3100004196167,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -783,17 +787,17 @@
         },
         {
           "date": "2026-10-02",
-          "value": 15.760000228881836
+          "value": 15.3100004196167
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-01",
-      "vix9d": 14.0,
-      "vix": 16.39,
-      "vix3m": 18.58,
-      "spread": 4.579999999999998,
+      "latest_date": "2026-10-02",
+      "vix9d": 12.06,
+      "vix": 15.31,
+      "vix3m": 18.01,
+      "spread": 5.950000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1181,14 +1185,20 @@
           "vix9d": 14.0,
           "vix": 16.39,
           "vix3m": 18.58
+        },
+        {
+          "date": "2026-10-02",
+          "vix9d": 12.06,
+          "vix": 15.31,
+          "vix3m": 18.01
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-10-02",
-      "latest_value": 101.91999816894531,
-      "pct_change_20d": 2.7833747528294777,
+      "latest_value": 101.93000030517578,
+      "pct_change_20d": 2.793461618361019,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1431,17 +1441,17 @@
         },
         {
           "date": "2026-10-02",
-          "value": 101.91999816894531
+          "value": 101.93000030517578
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-10-02",
-      "latest_value": 4165.60009765625,
-      "pct_change_20d": -5.964145529820121,
+      "latest_value": 4162.2998046875,
+      "pct_change_20d": -6.038647609242711,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1682,7 +1692,7 @@
         },
         {
           "date": "2026-10-02",
-          "value": 4165.60009765625
+          "value": 4162.2998046875
         }
       ]
     }
@@ -1699,7 +1709,7 @@
       }
     ],
     "session_date": "2026-10-02",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1717,7 +1727,7 @@
       {
         "date": "2026-10-02",
         "name": "Employment Situation (Jobs Report)",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
           "source": "CNBC",
@@ -1743,68 +1753,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-02T18:13:47.422397+00:00"
+    "last_refreshed": "2026-10-03T17:00:20.650015+00:00"
   },
   "headlines": [
     {
-      "headline": "Investing.com\u2019s stocks of the week",
+      "headline": "Bessent says rising Treasury yields reflect global trend, not cause for alarm",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/investingcoms-stocks-of-the-week-4930275",
-      "published_at": "2026-10-02T18:04:16+00:00"
+      "link": "https://www.investing.com/news/economy-news/bessent-says-rising-treasury-yields-reflect-global-trend-not-cause-for-alarm-4930869",
+      "published_at": "2026-10-03T16:49:38+00:00"
     },
     {
-      "headline": "Why is Teradyne stock surging today?",
+      "headline": "Turkey extends lower margin trading requirement to Oct. 30",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-teradyne-stock-surging-today-93CH-4930274",
-      "published_at": "2026-10-02T18:03:17+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/turkey-extends-lower-margin-trading-requirement-to-oct-30-93CH-4930868",
+      "published_at": "2026-10-03T16:32:50+00:00"
     },
     {
-      "headline": "Why investors quickly lost enthusiam for jobs data that sparked a Treasury rally",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6e9dcd8b-cb0e-45b1-a18d-c14013ca85de&mod=mw_rss_bulletins",
-      "published_at": "2026-10-02T18:01:07+00:00"
-    },
-    {
-      "headline": "Services PMI and ISM non-manufacturing PMI due Monday",
+      "headline": "Exclusive-Key ShinyHunters hacker detained in Jordan, is cooperating, sources say",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/services-pmi-and-ism-nonmanufacturing-pmi-due-monday-93CH-4930272",
-      "published_at": "2026-10-02T18:00:39+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/exclusivekey-shinyhunters-hacker-detained-in-jordan-is-cooperating-sources-say-4930864",
+      "published_at": "2026-10-03T15:18:33+00:00"
     },
     {
-      "headline": "PCG technical analysis: bearish trend continues with oversold signals",
+      "headline": "As Treasury yields touch generational highs, investors brace for market fallout",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d19b3fe9-3ac7-4eac-a560-e383c85615d6&mod=mw_rss_bulletins",
+      "published_at": "2026-10-03T15:11:42+00:00"
+    },
+    {
+      "headline": "PennyMac Mortgage CAO Hendry disposes of $19,209 in shares",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/pcg-technical-analysis-bearish-trend-continues-with-oversold-signals-93CH-4930267",
-      "published_at": "2026-10-02T17:59:32+00:00"
+      "link": "https://www.investing.com/news/insider-trading-news/pennymac-mortgage-cao-hendry-disposes-of-19209-in-shares-93CH-4930860",
+      "published_at": "2026-10-03T14:46:14+00:00"
     },
     {
-      "headline": "The critical, hard-to-find machine part at the heart of the humanoid-robots race",
+      "headline": "The U.S. jobs market just took a turn for the worse. Or did it?",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=df9aef6a-18a9-41d8-93ac-c6dbd76cbc9e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-02T16:29:48+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cb133994-9fc0-4c5a-bd51-50a44bb64645&mod=mw_rss_bulletins",
+      "published_at": "2026-10-03T14:32:21+00:00"
     },
     {
-      "headline": "Europe\u2019s leaders agree to release diesel stockpiles after pressure from Trump",
+      "headline": "The next big AI battle is all about cuteness",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ed65190b-9b38-4402-a12c-f5b87b130f7c&mod=mw_rss_bulletins",
-      "published_at": "2026-10-02T15:51:03+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a9b04c99-2bd3-411a-b02c-d313afb80127&mod=mw_rss_bulletins",
+      "published_at": "2026-10-03T13:44:09+00:00"
     },
     {
-      "headline": "The U.S. needs this rare machine part to win the humanoid-robot race",
+      "headline": "These companies look set to face hearings, scrutiny if Democrats win the House",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=be7365c6-22fb-4cfe-b3a9-9e78113abcdd&mod=mw_rss_bulletins",
-      "published_at": "2026-10-02T14:29:40+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7b777dd9-feae-4c2c-9968-5b9b3fd6f2b0&mod=mw_rss_bulletins",
+      "published_at": "2026-10-03T13:15:08+00:00"
     },
     {
-      "headline": "Europe\u2019s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
+      "headline": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
-      "published_at": "2026-10-01T20:41:38+00:00"
+      "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+      "published_at": "2026-10-03T13:12:27+00:00"
     },
     {
-      "headline": "Mattel attracts takeover interest from Authentic Brands Group, the Wall Street Journal reports",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/mattel-attracts-takeover-interest-from-authentic-brands-group-the-wall-street-journal-reports-4928092",
-      "published_at": "2026-10-01T18:24:31+00:00"
+      "headline": "Berkshire buys more Lennar shares, but pace of purchases slows",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
+      "published_at": "2026-10-03T12:55:31+00:00"
     }
   ]
 }
