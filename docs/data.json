@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:00:25.247264+00:00",
+  "generated_at": "2026-10-04T17:19:22.201268+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1753,9 +1753,45 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-03T17:00:20.650015+00:00"
+    "last_refreshed": "2026-10-04T17:19:20.391227+00:00"
   },
   "headlines": [
+    {
+      "headline": "Musk says he will rename SpaceXAI to SpaceXSI",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/musk-says-he-will-rename-spacexai-to-spacexsi-4930944",
+      "published_at": "2026-10-04T16:48:26+00:00"
+    },
+    {
+      "headline": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory-4930932",
+      "published_at": "2026-10-04T16:36:56+00:00"
+    },
+    {
+      "headline": "Woman at center of Cornell rape allegations targeted with threats, lawyer says",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/woman-at-center-of-cornell-rape-allegations-targeted-with-threats-lawyer-says-4930942",
+      "published_at": "2026-10-04T16:36:32+00:00"
+    },
+    {
+      "headline": "Trump adviser Hassett urges Powell to leave Fed board after renovation report",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/trump-adviser-hassett-urges-powell-to-leave-fed-board-after-renovation-report-4930943",
+      "published_at": "2026-10-04T16:36:20+00:00"
+    },
+    {
+      "headline": "Corporate America has never been this upbeat about future profits",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ea4e6f93-ca11-43ef-90bd-088ef92e4a74&mod=mw_rss_bulletins",
+      "published_at": "2026-10-04T14:21:20+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+      "published_at": "2026-10-04T13:24:16+00:00"
+    },
     {
       "headline": "Bessent says rising Treasury yields reflect global trend, not cause for alarm",
       "source": "Investing.com",
@@ -1779,42 +1815,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d19b3fe9-3ac7-4eac-a560-e383c85615d6&mod=mw_rss_bulletins",
       "published_at": "2026-10-03T15:11:42+00:00"
-    },
-    {
-      "headline": "PennyMac Mortgage CAO Hendry disposes of $19,209 in shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/pennymac-mortgage-cao-hendry-disposes-of-19209-in-shares-93CH-4930860",
-      "published_at": "2026-10-03T14:46:14+00:00"
-    },
-    {
-      "headline": "The U.S. jobs market just took a turn for the worse. Or did it?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cb133994-9fc0-4c5a-bd51-50a44bb64645&mod=mw_rss_bulletins",
-      "published_at": "2026-10-03T14:32:21+00:00"
-    },
-    {
-      "headline": "The next big AI battle is all about cuteness",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a9b04c99-2bd3-411a-b02c-d313afb80127&mod=mw_rss_bulletins",
-      "published_at": "2026-10-03T13:44:09+00:00"
-    },
-    {
-      "headline": "These companies look set to face hearings, scrutiny if Democrats win the House",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7b777dd9-feae-4c2c-9968-5b9b3fd6f2b0&mod=mw_rss_bulletins",
-      "published_at": "2026-10-03T13:15:08+00:00"
-    },
-    {
-      "headline": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
-      "published_at": "2026-10-03T13:12:27+00:00"
-    },
-    {
-      "headline": "Berkshire buys more Lennar shares, but pace of purchases slows",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
-      "published_at": "2026-10-03T12:55:31+00:00"
     }
   ]
 }
