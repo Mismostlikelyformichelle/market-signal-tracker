@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:59:49.976198+00:00",
+  "generated_at": "2026-10-07T19:13:22.418290+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-05",
-      "latest_value": 0.47,
+      "latest_date": "2026-10-06",
+      "latest_value": 0.48,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-08",
-          "value": 0.35
-        },
         {
           "date": "2026-07-09",
           "value": 0.38
@@ -267,22 +263,22 @@
         {
           "date": "2026-10-05",
           "value": 0.47
+        },
+        {
+          "date": "2026-10-06",
+          "value": 0.48
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-05",
-      "latest_value": 3.12,
-      "latest_value_bps": 312.0,
+      "latest_date": "2026-10-06",
+      "latest_value": 3.03,
+      "latest_value_bps": 303.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-08",
-          "value": 2.7
-        },
         {
           "date": "2026-07-09",
           "value": 2.7
@@ -534,13 +530,17 @@
         {
           "date": "2026-10-05",
           "value": 3.12
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.03
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-06",
-      "latest_value": 15.050000190734863,
+      "latest_date": "2026-10-07",
+      "latest_value": 15.069999694824219,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -791,27 +791,25 @@
         },
         {
           "date": "2026-10-06",
-          "value": 15.050000190734863
+          "value": 15.010000228881836
+        },
+        {
+          "date": "2026-10-07",
+          "value": 15.069999694824219
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-05",
-      "vix9d": 12.85,
-      "vix": 15.52,
-      "vix3m": 18.0,
-      "spread": 5.15,
+      "latest_date": "2026-10-06",
+      "vix9d": 12.03,
+      "vix": 15.01,
+      "vix3m": 17.64,
+      "spread": 5.610000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-08",
-          "vix9d": 14.41,
-          "vix": 16.9,
-          "vix3m": 19.46
-        },
         {
           "date": "2026-07-09",
           "vix9d": 12.5,
@@ -1189,14 +1187,20 @@
           "vix9d": 12.85,
           "vix": 15.52,
           "vix3m": 18.0
+        },
+        {
+          "date": "2026-10-06",
+          "vix9d": 12.03,
+          "vix": 15.01,
+          "vix3m": 17.64
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-06",
-      "latest_value": 101.85700225830078,
-      "pct_change_20d": 3.052414034998884,
+      "latest_date": "2026-10-07",
+      "latest_value": 102.23400115966797,
+      "pct_change_20d": 3.5071424869231613,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1447,17 +1451,21 @@
         },
         {
           "date": "2026-10-06",
-          "value": 101.85700225830078
+          "value": 101.83000183105469
+        },
+        {
+          "date": "2026-10-07",
+          "value": 102.23400115966797
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-06",
-      "latest_value": 4196.2001953125,
-      "pct_change_20d": -4.499413082346164,
+      "latest_date": "2026-10-07",
+      "latest_value": 4133.7998046875,
+      "pct_change_20d": -6.390402973562047,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1706,7 +1714,11 @@
         },
         {
           "date": "2026-10-06",
-          "value": 4196.2001953125
+          "value": 4187.10009765625
+        },
+        {
+          "date": "2026-10-07",
+          "value": 4133.7998046875
         }
       ]
     }
@@ -1723,7 +1735,7 @@
       }
     ],
     "session_date": "2026-10-06",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1765,11 +1777,65 @@
         "name": "GDP Release",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-11-06",
+        "name": "Employment Situation (Jobs Report)",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-10-06T18:48:19.862252+00:00"
+    "last_refreshed": "2026-10-07T19:13:20.731481+00:00"
   },
   "headlines": [
+    {
+      "headline": "Former star US bond manager Leech fined by SEC, following guilty plea in \u2019cherry-picking\u2019 case",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/former-star-us-bond-manager-leech-fined-by-sec-following-guilty-plea-in-cherrypicking-case-4935388",
+      "published_at": "2026-10-07T19:08:01+00:00"
+    },
+    {
+      "headline": "Trump says Federal Reserve Board would like to see the country do badly",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/trump-says-federal-reserve-board-would-like-to-see-the-country-do-badly-4937361",
+      "published_at": "2026-10-07T19:07:09+00:00"
+    },
+    {
+      "headline": "US FCC to vote to ban Chinese labs from testing US electronics",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/us-fcc-to-vote-to-ban-chinese-labs-from-testing-us-electronics-4937360",
+      "published_at": "2026-10-07T19:06:52+00:00"
+    },
+    {
+      "headline": "Microsoft brings more AI to PCs as it challenges Apple",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/microsoft-nvidia-ceos-to-unveil-new-ai-laptop-at-san-francisco-event-4936051",
+      "published_at": "2026-10-07T19:06:36+00:00"
+    },
+    {
+      "headline": "U.S. stocks off lows in final hour as Treasury yields drop after strong auction",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8acdbebf-d082-45bd-ad5b-d2ed480fb14f&mod=mw_rss_bulletins",
+      "published_at": "2026-10-07T19:02:44+00:00"
+    },
+    {
+      "headline": "Fed's minutes show no appetite for a series of interest-rate hikes",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eaadcd3a-1008-440b-9b8a-bc5287a0b532&mod=mw_rss_bulletins",
+      "published_at": "2026-10-07T18:10:13+00:00"
+    },
+    {
+      "headline": "More college students are using credit cards just to cover basic living expenses",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b96bc61d-48a9-47a4-b4a8-ba34b2c13c79&mod=mw_rss_bulletins",
+      "published_at": "2026-10-07T16:22:28+00:00"
+    },
+    {
+      "headline": "Why Micron\u2019s ridiculously cheap stock could triple from here",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b9286d7c-7e11-45ac-8654-76312502be05&mod=mw_rss_bulletins",
+      "published_at": "2026-10-07T15:31:26+00:00"
+    },
     {
       "headline": "Why is CoreWeave stock rallying today?",
       "source": "Investing.com",
@@ -1781,54 +1847,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/strikepoint-completes-70m-nevada-gold-project-acquisition-93CH-4935076",
       "published_at": "2026-10-06T18:24:39+00:00"
-    },
-    {
-      "headline": "Why is Broadcom stock rallying today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-broadcom-stock-rallying-today-93CH-4935075",
-      "published_at": "2026-10-06T18:24:29+00:00"
-    },
-    {
-      "headline": "Why is Birchcliff Energy stock rallying today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-birchcliff-energy-stock-rallying-today-93CH-4935074",
-      "published_at": "2026-10-06T18:22:37+00:00"
-    },
-    {
-      "headline": "America\u2019s renters are emerging as a political movement",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=23844853-03dd-4f23-97b4-1bda09819b32&mod=mw_rss_bulletins",
-      "published_at": "2026-10-06T15:14:59+00:00"
-    },
-    {
-      "headline": "Dow rises, S&P 500 and Nasdaq open in record territory",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cf95eed4-a9f4-46f5-9c4d-08564fdc6307&mod=mw_rss_bulletins",
-      "published_at": "2026-10-06T13:30:48+00:00"
-    },
-    {
-      "headline": "Google is making a fresh bet on nuclear power",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b8ee8bd7-7df5-4034-9222-9af1879a661a&mod=mw_rss_bulletins",
-      "published_at": "2026-10-06T12:23:37+00:00"
-    },
-    {
-      "headline": "Economic calendar: U.S. trade balance is the data highlight",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1a67ab0b-ca93-4440-a166-1ec28c6787be&mod=mw_rss_bulletins",
-      "published_at": "2026-10-06T11:52:33+00:00"
-    },
-    {
-      "headline": "Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/06/unsure-how-long-this-ai-bull-has-bonds-now-offer-a-cushion-at-the-best-values-in-years.html",
-      "published_at": "2026-10-06T11:08:28+00:00"
-    },
-    {
-      "headline": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/stocks-upbeat-dollar-wobbles-as-fed-hike-bets-recede-4930982",
-      "published_at": "2026-10-05T20:43:38+00:00"
     }
   ]
 }
