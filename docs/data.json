@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:55:45.192459+00:00",
+  "generated_at": "2026-10-10T17:39:46.539453+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-08",
-      "latest_value": 0.47,
+      "latest_date": "2026-10-09",
+      "latest_value": 0.44,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -267,6 +267,10 @@
         {
           "date": "2026-10-08",
           "value": 0.47
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0.44
         }
       ]
     },
@@ -540,7 +544,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-10-09",
-      "latest_value": 14.859999656677246,
+      "latest_value": 14.84000015258789,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -803,17 +807,17 @@
         },
         {
           "date": "2026-10-09",
-          "value": 14.859999656677246
+          "value": 14.84000015258789
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-08",
-      "vix9d": 12.21,
-      "vix": 15.41,
-      "vix3m": 18.08,
-      "spread": 5.869999999999997,
+      "latest_date": "2026-10-09",
+      "vix9d": 11.26,
+      "vix": 14.84,
+      "vix3m": 17.77,
+      "spread": 6.51,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1201,14 +1205,20 @@
           "vix9d": 12.21,
           "vix": 15.41,
           "vix3m": 18.08
+        },
+        {
+          "date": "2026-10-09",
+          "vix9d": 11.26,
+          "vix": 14.84,
+          "vix3m": 17.77
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-10-09",
-      "latest_value": 102.25199890136719,
-      "pct_change_20d": 3.1598023284892993,
+      "latest_value": 102.20999908447266,
+      "pct_change_20d": 3.1174296330386024,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1471,15 +1481,15 @@
         },
         {
           "date": "2026-10-09",
-          "value": 102.25199890136719
+          "value": 102.20999908447266
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-10-09",
-      "latest_value": 4221.2998046875,
-      "pct_change_20d": -4.25503190844779,
+      "latest_value": 4216.2998046875,
+      "pct_change_20d": -4.368438883220386,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1742,7 +1752,7 @@
         },
         {
           "date": "2026-10-09",
-          "value": 4221.2998046875
+          "value": 4216.2998046875
         }
       ]
     }
@@ -1759,21 +1769,11 @@
       }
     ],
     "session_date": "2026-10-09",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-10-02",
-        "name": "Employment Situation (Jobs Report)",
-        "is_past": true,
-        "headline": {
-          "text": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjc1c3eWxhak03S19wOWloT192VXI2UGhzeHJLZDBMRnZxdGNwaEhxQ2Y1LWNqZFQtc2o5bk9BeW5uSnI5WVVNcDJMeXRmblA0aTloYlAzQUFYTzFJMW1Wc0ZrVkpLZFUwbGRfNmpjOWjSAXZBVV95cUxOUnZ1bXVuT3Y0RHBfSHFjVkJiWnhYb3J2ajZ6Qkd6UlQ1a2xEejMwVG9tdzRNbDJSU1gtcEJ1UXNVTWFFWC1XVFdxazlWTl9FcUxwdXNZeExGRUo0QnVTbHMwVmZLQy1zNEEzM3JqYnNmZUpvazR3?oc=5"
-        }
-      },
       {
         "date": "2026-10-14",
         "name": "CPI Release",
@@ -1799,68 +1799,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-09T18:40:11.655387+00:00"
+    "last_refreshed": "2026-10-10T17:39:44.989925+00:00"
   },
   "headlines": [
+    {
+      "headline": "Everpure director Mallun Yen sells $1.75m in shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/everpure-director-mallun-yen-sells-175m-in-shares-93CH-4942179",
+      "published_at": "2026-10-10T17:31:07+00:00"
+    },
+    {
+      "headline": "Rapport Therapeutics CEO Abraham Ceesay sells $143,272 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/rapport-therapeutics-ceo-abraham-ceesay-sells-143272-in-stock-93CH-4942178",
+      "published_at": "2026-10-10T17:31:06+00:00"
+    },
+    {
+      "headline": "Pacific Biosciences CFO reports $2.05m stock sale",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/pacific-biosciences-cfo-reports-205m-stock-sale-93CH-4942177",
+      "published_at": "2026-10-10T17:31:05+00:00"
+    },
+    {
+      "headline": "Analog devices director Ray Stata sells $1.17 million in shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/analog-devices-director-ray-stata-sells-117-million-in-shares-93CH-4942163",
+      "published_at": "2026-10-10T17:01:35+00:00"
+    },
+    {
+      "headline": "How hedge funder Ray Dalio would build a portfolio to withstand an AI bubble",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=30a9d8bd-29c1-4a00-8b81-270e1ada2b83&mod=mw_rss_bulletins",
+      "published_at": "2026-10-10T16:33:09+00:00"
+    },
+    {
+      "headline": "S&P 500 at 10,000 or bust? New ETF offers investors all-or-nothing bet on index.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a30443ad-9a93-4bdc-be04-71ebfe25f646&mod=mw_rss_bulletins",
+      "published_at": "2026-10-10T15:18:46+00:00"
+    },
+    {
+      "headline": "Hurricane Isaias to \u2018stress test\u2019 oil markets already hobbled by tight supplies",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e4ca7f75-8f1f-4176-a703-452f4a922f9a&mod=mw_rss_bulletins",
+      "published_at": "2026-10-09T23:00:47+00:00"
+    },
+    {
+      "headline": "Flu season is already here. Here\u2019s what to know about this year\u2019s flu shots.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=48485c78-68d2-4a7b-aefc-a131707902a0&mod=mw_rss_bulletins",
+      "published_at": "2026-10-09T21:57:11+00:00"
+    },
+    {
+      "headline": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+      "published_at": "2026-10-09T20:51:25+00:00"
+    },
     {
       "headline": "Katie Zacharia reportedly named new White House press secretary",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/katie-zacharia-reportedly-named-new-white-house-press-secretary-4941585",
       "published_at": "2026-10-09T18:32:57+00:00"
-    },
-    {
-      "headline": "Trump to issue directive on diesel, sources say, after he promises \u2019big announcement\u2019",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/trump-big-announcement-coming-up-on-diesel-4941467",
-      "published_at": "2026-10-09T18:30:39+00:00"
-    },
-    {
-      "headline": "Magnitude 7.6 earthquake hits Panama\u2019s southern coast",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/magnitude-76-earthquake-hits-panamas-southern-coast-93CH-4941583",
-      "published_at": "2026-10-09T18:28:48+00:00"
-    },
-    {
-      "headline": "Northwest European gasoline margins jump on low inventories",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/northwest-european-gasoline-margins-jump-on-low-inventories-93CH-4941582",
-      "published_at": "2026-10-09T18:26:25+00:00"
-    },
-    {
-      "headline": "Trump ramps up battle to fire Fed\u2019s Cook. Her lawyers say there\u2019s no basis.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2d9251b9-004f-441f-90f0-dc6407249ca2&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T18:24:29+00:00"
-    },
-    {
-      "headline": "How taxing stocks, estates and employee benefits could save Social Security",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8ab111b1-48a6-4af9-a230-7f911ef786b1&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T16:31:29+00:00"
-    },
-    {
-      "headline": "As AT&T, Verizon and T-Mobile shares fall, Wall Street weighs the SpaceX threat",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=20b7f236-1b50-4860-abfb-54f6ead71e1c&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T15:06:14+00:00"
-    },
-    {
-      "headline": "Nvidia and Micron shares bounce as investors get clarity on a key OpenAI matter",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3d17bbb0-f74b-472e-9883-38948532fa41&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T14:17:53+00:00"
-    },
-    {
-      "headline": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
-      "published_at": "2026-10-09T13:03:19+00:00"
-    },
-    {
-      "headline": "Nasdaq down sharply in final hour as tech stocks struggle; Dow pares losses",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=95bd3cf6-c8d9-4075-89ba-54c7f997290b&mod=mw_rss_bulletins",
-      "published_at": "2026-10-08T19:06:07+00:00"
     }
   ]
 }
