@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:39:46.539453+00:00",
+  "generated_at": "2026-10-11T17:54:51.435237+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1797,70 +1797,76 @@
         "name": "Employment Situation (Jobs Report)",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-11-10",
+        "name": "CPI Release",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-10-10T17:39:44.989925+00:00"
+    "last_refreshed": "2026-10-11T17:54:49.809276+00:00"
   },
   "headlines": [
+    {
+      "headline": "Sonic Automotive director Paul Rusnak buys $1.29m in shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/sonic-automotive-director-paul-rusnak-buys-129m-in-shares-93CH-4942789",
+      "published_at": "2026-10-11T17:31:02+00:00"
+    },
+    {
+      "headline": "Stellantis bets on small affordable EVs for European comeback",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/stellantis-bets-on-small-affordable-evs-for-european-comeback-4942779",
+      "published_at": "2026-10-11T17:06:23+00:00"
+    },
+    {
+      "headline": "UL Solutions president and CEO Jennifer Scanlon sells $876k in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/ul-solutions-president-and-ceo-jennifer-scanlon-sells-876k-in-stock-93CH-4942777",
+      "published_at": "2026-10-11T17:01:06+00:00"
+    },
+    {
+      "headline": "SentinelOne CFO Sonalee Parekh sells $413,291 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/sentinelone-cfo-sonalee-parekh-sells-413291-in-stock-93CH-4942770",
+      "published_at": "2026-10-11T16:46:04+00:00"
+    },
+    {
+      "headline": "We\u2019re about to get a huge read on whether earnings can keep propping up stocks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=55821f74-9428-42cd-b21b-e7045cf46f31&mod=mw_rss_bulletins",
+      "published_at": "2026-10-11T14:11:00+00:00"
+    },
+    {
+      "headline": "The bull market is turning 4 years old \u2014 but yields could crash the party",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9e1b09c-436e-4a20-8d75-15245a5e6f9a&mod=mw_rss_bulletins",
+      "published_at": "2026-10-11T13:25:46+00:00"
+    },
+    {
+      "headline": "Bank earnings to shed first light on how higher yields are affecting the economy",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0e284e54-dc9a-46d3-a385-f557790516e4&mod=mw_rss_bulletins",
+      "published_at": "2026-10-11T12:51:30+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
+      "published_at": "2026-10-11T11:42:31+00:00"
+    },
+    {
+      "headline": "Why Nvidia\u2019s stock is dodging the AI credit scare crushing Broadcom and Oracle",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=86943cbd-eda0-412f-a0eb-ba16560e41f4&mod=mw_rss_bulletins",
+      "published_at": "2026-10-10T20:06:24+00:00"
+    },
     {
       "headline": "Everpure director Mallun Yen sells $1.75m in shares",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/everpure-director-mallun-yen-sells-175m-in-shares-93CH-4942179",
       "published_at": "2026-10-10T17:31:07+00:00"
-    },
-    {
-      "headline": "Rapport Therapeutics CEO Abraham Ceesay sells $143,272 in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/rapport-therapeutics-ceo-abraham-ceesay-sells-143272-in-stock-93CH-4942178",
-      "published_at": "2026-10-10T17:31:06+00:00"
-    },
-    {
-      "headline": "Pacific Biosciences CFO reports $2.05m stock sale",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/pacific-biosciences-cfo-reports-205m-stock-sale-93CH-4942177",
-      "published_at": "2026-10-10T17:31:05+00:00"
-    },
-    {
-      "headline": "Analog devices director Ray Stata sells $1.17 million in shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/analog-devices-director-ray-stata-sells-117-million-in-shares-93CH-4942163",
-      "published_at": "2026-10-10T17:01:35+00:00"
-    },
-    {
-      "headline": "How hedge funder Ray Dalio would build a portfolio to withstand an AI bubble",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=30a9d8bd-29c1-4a00-8b81-270e1ada2b83&mod=mw_rss_bulletins",
-      "published_at": "2026-10-10T16:33:09+00:00"
-    },
-    {
-      "headline": "S&P 500 at 10,000 or bust? New ETF offers investors all-or-nothing bet on index.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a30443ad-9a93-4bdc-be04-71ebfe25f646&mod=mw_rss_bulletins",
-      "published_at": "2026-10-10T15:18:46+00:00"
-    },
-    {
-      "headline": "Hurricane Isaias to \u2018stress test\u2019 oil markets already hobbled by tight supplies",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e4ca7f75-8f1f-4176-a703-452f4a922f9a&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T23:00:47+00:00"
-    },
-    {
-      "headline": "Flu season is already here. Here\u2019s what to know about this year\u2019s flu shots.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=48485c78-68d2-4a7b-aefc-a131707902a0&mod=mw_rss_bulletins",
-      "published_at": "2026-10-09T21:57:11+00:00"
-    },
-    {
-      "headline": "Junk bonds are 'flashing yellow.' Watch these warning signs",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
-      "published_at": "2026-10-09T20:51:25+00:00"
-    },
-    {
-      "headline": "Katie Zacharia reportedly named new White House press secretary",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/katie-zacharia-reportedly-named-new-white-house-press-secretary-4941585",
-      "published_at": "2026-10-09T18:32:57+00:00"
     }
   ]
 }
