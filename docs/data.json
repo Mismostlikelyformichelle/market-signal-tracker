@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:54:51.435237+00:00",
+  "generated_at": "2026-10-12T21:34:39.889127+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 0.36
-        },
         {
           "date": "2026-07-14",
           "value": 0.4
@@ -284,10 +280,6 @@
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
         {
-          "date": "2026-07-13",
-          "value": 2.69
-        },
-        {
           "date": "2026-07-14",
           "value": 2.72
         },
@@ -543,16 +535,12 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-09",
-      "latest_value": 14.84000015258789,
+      "latest_date": "2026-10-12",
+      "latest_value": 15.210000038146973,
       "unit": "",
-      "status": "Calm",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 17.15999984741211
-        },
         {
           "date": "2026-07-14",
           "value": 16.5
@@ -808,6 +796,10 @@
         {
           "date": "2026-10-09",
           "value": 14.84000015258789
+        },
+        {
+          "date": "2026-10-12",
+          "value": 15.210000038146973
         }
       ]
     },
@@ -822,12 +814,6 @@
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-13",
-          "vix9d": 15.13,
-          "vix": 17.16,
-          "vix3m": 19.64
-        },
         {
           "date": "2026-07-14",
           "vix9d": 13.46,
@@ -1216,17 +1202,13 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-09",
-      "latest_value": 102.20999908447266,
-      "pct_change_20d": 3.1174296330386024,
+      "latest_date": "2026-10-12",
+      "latest_value": 102.5790023803711,
+      "pct_change_20d": 3.1359373864958795,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 101.27999877929688
-        },
         {
           "date": "2026-07-14",
           "value": 100.94000244140625
@@ -1482,22 +1464,22 @@
         {
           "date": "2026-10-09",
           "value": 102.20999908447266
+        },
+        {
+          "date": "2026-10-12",
+          "value": 102.5790023803711
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-09",
-      "latest_value": 4216.2998046875,
-      "pct_change_20d": -4.368438883220386,
+      "latest_date": "2026-10-12",
+      "latest_value": 4195.89990234375,
+      "pct_change_20d": -3.5846412716428744,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 3997.0
-        },
         {
           "date": "2026-07-14",
           "value": 4061.10009765625
@@ -1753,6 +1735,10 @@
         {
           "date": "2026-10-09",
           "value": 4216.2998046875
+        },
+        {
+          "date": "2026-10-12",
+          "value": 4195.89990234375
         }
       ]
     }
@@ -1805,68 +1791,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-11T17:54:49.809276+00:00"
+    "last_refreshed": "2026-10-12T21:34:38.226522+00:00"
   },
   "headlines": [
     {
-      "headline": "Sonic Automotive director Paul Rusnak buys $1.29m in shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/sonic-automotive-director-paul-rusnak-buys-129m-in-shares-93CH-4942789",
-      "published_at": "2026-10-11T17:31:02+00:00"
-    },
-    {
-      "headline": "Stellantis bets on small affordable EVs for European comeback",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/stellantis-bets-on-small-affordable-evs-for-european-comeback-4942779",
-      "published_at": "2026-10-11T17:06:23+00:00"
-    },
-    {
-      "headline": "UL Solutions president and CEO Jennifer Scanlon sells $876k in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/ul-solutions-president-and-ceo-jennifer-scanlon-sells-876k-in-stock-93CH-4942777",
-      "published_at": "2026-10-11T17:01:06+00:00"
-    },
-    {
-      "headline": "SentinelOne CFO Sonalee Parekh sells $413,291 in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/sentinelone-cfo-sonalee-parekh-sells-413291-in-stock-93CH-4942770",
-      "published_at": "2026-10-11T16:46:04+00:00"
-    },
-    {
-      "headline": "We\u2019re about to get a huge read on whether earnings can keep propping up stocks",
+      "headline": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=55821f74-9428-42cd-b21b-e7045cf46f31&mod=mw_rss_bulletins",
-      "published_at": "2026-10-11T14:11:00+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5c208685-c112-49c3-a094-9ea6cad0bfc9&mod=mw_rss_bulletins",
+      "published_at": "2026-10-12T21:28:24+00:00"
     },
     {
-      "headline": "The bull market is turning 4 years old \u2014 but yields could crash the party",
+      "headline": "Trading Day: Fog of war",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/trading-day-fog-of-war-4945239",
+      "published_at": "2026-10-12T21:24:34+00:00"
+    },
+    {
+      "headline": "Russia stocks higher at close of trade; MOEX Russia Index up 3.07%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-307-4945237",
+      "published_at": "2026-10-12T21:20:03+00:00"
+    },
+    {
+      "headline": "Mueller Water Products stock falls on CFO transition announcement",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/mueller-water-products-stock-falls-on-cfo-transition-announcement-4945236",
+      "published_at": "2026-10-12T21:19:26+00:00"
+    },
+    {
+      "headline": "S&P Dow Jones Indices launches joint index with HKEX",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/sp-dow-jones-indices-launches-joint-index-with-hkex-93CH-4945234",
+      "published_at": "2026-10-12T21:18:46+00:00"
+    },
+    {
+      "headline": "Why Ciena, Lumentum and optical stocks were the market\u2019s biggest losers Monday",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9e1b09c-436e-4a20-8d75-15245a5e6f9a&mod=mw_rss_bulletins",
-      "published_at": "2026-10-11T13:25:46+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=77ed8826-1c24-4ad1-be4a-d1169a6624dd&mod=mw_rss_bulletins",
+      "published_at": "2026-10-12T21:04:55+00:00"
     },
     {
-      "headline": "Bank earnings to shed first light on how higher yields are affecting the economy",
+      "headline": "Dow finishes on nearly 200-point gain, but Nasdaq pulls back as tech struggles",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0e284e54-dc9a-46d3-a385-f557790516e4&mod=mw_rss_bulletins",
-      "published_at": "2026-10-11T12:51:30+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9fe9bd4-9189-42a1-a42e-307e005a95aa&mod=mw_rss_bulletins",
+      "published_at": "2026-10-12T20:03:55+00:00"
     },
     {
-      "headline": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
+      "headline": "Meta gets back on the AI leaderboard with its new family of Wonder models",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0b643e48-e485-4239-a490-99e84a89941e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-12T19:47:17+00:00"
+    },
+    {
+      "headline": "A massive trade just happened in surging shares of Snap",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
-      "published_at": "2026-10-11T11:42:31+00:00"
+      "link": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+      "published_at": "2026-10-12T18:43:44+00:00"
     },
     {
-      "headline": "Why Nvidia\u2019s stock is dodging the AI credit scare crushing Broadcom and Oracle",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=86943cbd-eda0-412f-a0eb-ba16560e41f4&mod=mw_rss_bulletins",
-      "published_at": "2026-10-10T20:06:24+00:00"
-    },
-    {
-      "headline": "Everpure director Mallun Yen sells $1.75m in shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/everpure-director-mallun-yen-sells-175m-in-shares-93CH-4942179",
-      "published_at": "2026-10-10T17:31:07+00:00"
+      "headline": "UnitedHealth shares are doing something unusual ahead of earnings",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
+      "published_at": "2026-10-12T16:42:13+00:00"
     }
   ]
 }
