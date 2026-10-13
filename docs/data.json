@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:34:39.889127+00:00",
+  "generated_at": "2026-10-13T19:45:39.487630+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 0.4
-        },
         {
           "date": "2026-07-15",
           "value": 0.42
@@ -272,17 +268,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-08",
-      "latest_value": 3.15,
-      "latest_value_bps": 315.0,
+      "latest_date": "2026-10-12",
+      "latest_value": 3.11,
+      "latest_value_bps": 311.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 2.72
-        },
         {
           "date": "2026-07-15",
           "value": 2.71
@@ -530,21 +522,25 @@
         {
           "date": "2026-10-08",
           "value": 3.15
+        },
+        {
+          "date": "2026-10-09",
+          "value": 3.11
+        },
+        {
+          "date": "2026-10-12",
+          "value": 3.11
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-12",
-      "latest_value": 15.210000038146973,
+      "latest_date": "2026-10-13",
+      "latest_value": 15.390000343322754,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 16.5
-        },
         {
           "date": "2026-07-15",
           "value": 15.670000076293945
@@ -800,26 +796,24 @@
         {
           "date": "2026-10-12",
           "value": 15.210000038146973
+        },
+        {
+          "date": "2026-10-13",
+          "value": 15.390000343322754
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-09",
-      "vix9d": 11.26,
-      "vix": 14.84,
-      "vix3m": 17.77,
-      "spread": 6.51,
+      "latest_date": "2026-10-12",
+      "vix9d": 11.68,
+      "vix": 15.21,
+      "vix3m": 17.93,
+      "spread": 6.25,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-14",
-          "vix9d": 13.46,
-          "vix": 16.5,
-          "vix3m": 19.3
-        },
         {
           "date": "2026-07-15",
           "vix9d": 12.06,
@@ -1197,22 +1191,24 @@
           "vix9d": 11.26,
           "vix": 14.84,
           "vix3m": 17.77
+        },
+        {
+          "date": "2026-10-12",
+          "vix9d": 11.68,
+          "vix": 15.21,
+          "vix3m": 17.93
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-12",
-      "latest_value": 102.5790023803711,
-      "pct_change_20d": 3.1359373864958795,
+      "latest_date": "2026-10-13",
+      "latest_value": 102.18399810791016,
+      "pct_change_20d": 2.54289668161538,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 100.94000244140625
-        },
         {
           "date": "2026-07-15",
           "value": 100.5
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-12",
-          "value": 102.5790023803711
+          "value": 102.58000183105469
+        },
+        {
+          "date": "2026-10-13",
+          "value": 102.18399810791016
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-12",
-      "latest_value": 4195.89990234375,
-      "pct_change_20d": -3.5846412716428744,
+      "latest_date": "2026-10-13",
+      "latest_value": 4189.10009765625,
+      "pct_change_20d": -3.3165554262577857,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 4061.10009765625
-        },
         {
           "date": "2026-07-15",
           "value": 4044.0
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-10-12",
-          "value": 4195.89990234375
+          "value": 4190.60009765625
+        },
+        {
+          "date": "2026-10-13",
+          "value": 4189.10009765625
         }
       ]
     }
@@ -1791,9 +1791,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-12T21:34:38.226522+00:00"
+    "last_refreshed": "2026-10-13T19:45:37.640541+00:00"
   },
   "headlines": [
+    {
+      "headline": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
+      "published_at": "2026-10-13T19:24:24+00:00"
+    },
+    {
+      "headline": "AbbVie reports positive Crohn\u2019s disease trial results for Skyrizi",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/abbvie-reports-positive-crohns-disease-trial-results-for-skyrizi-93CH-4947398",
+      "published_at": "2026-10-13T19:20:41+00:00"
+    },
+    {
+      "headline": "First Phosphate at Precious Metals & Critical Minerals Virtual Investor Conference: supply chain push",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/first-phosphate-at-precious-metals--critical-minerals-virtual-investor-conference-supply-chain-push-93CH-4947397",
+      "published_at": "2026-10-13T19:20:07+00:00"
+    },
+    {
+      "headline": "Brent Oil coils in tight range at $105.90: Live levels",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/brent-oil-stuck-in-1025010600-range-live-levels-93CH-4943298",
+      "published_at": "2026-10-13T19:18:54+00:00"
+    },
+    {
+      "headline": "Stocks remain mostly lower in final hour of trading, weighed down by healthcare",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb18f94d-ea02-4081-9c93-38136af3402e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-13T19:18:17+00:00"
+    },
+    {
+      "headline": "For Gen Z, investing feels more important than buying a house",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d59a3923-68fb-4f37-89cb-c6e2d3561db1&mod=mw_rss_bulletins",
+      "published_at": "2026-10-13T18:27:20+00:00"
+    },
+    {
+      "headline": "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4afc0c0d-54b6-4977-8103-0f1e42654561&mod=mw_rss_bulletins",
+      "published_at": "2026-10-13T17:44:04+00:00"
+    },
+    {
+      "headline": "AI fatigue grips market, driving chip stocks to their worst stretch in 16 months",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb5512a9-96e2-42ad-b5ca-30af49c5863e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-13T17:04:58+00:00"
+    },
     {
       "headline": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
       "source": "MarketWatch",
@@ -1805,54 +1853,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/trading-day-fog-of-war-4945239",
       "published_at": "2026-10-12T21:24:34+00:00"
-    },
-    {
-      "headline": "Russia stocks higher at close of trade; MOEX Russia Index up 3.07%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-307-4945237",
-      "published_at": "2026-10-12T21:20:03+00:00"
-    },
-    {
-      "headline": "Mueller Water Products stock falls on CFO transition announcement",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/mueller-water-products-stock-falls-on-cfo-transition-announcement-4945236",
-      "published_at": "2026-10-12T21:19:26+00:00"
-    },
-    {
-      "headline": "S&P Dow Jones Indices launches joint index with HKEX",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/sp-dow-jones-indices-launches-joint-index-with-hkex-93CH-4945234",
-      "published_at": "2026-10-12T21:18:46+00:00"
-    },
-    {
-      "headline": "Why Ciena, Lumentum and optical stocks were the market\u2019s biggest losers Monday",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=77ed8826-1c24-4ad1-be4a-d1169a6624dd&mod=mw_rss_bulletins",
-      "published_at": "2026-10-12T21:04:55+00:00"
-    },
-    {
-      "headline": "Dow finishes on nearly 200-point gain, but Nasdaq pulls back as tech struggles",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9fe9bd4-9189-42a1-a42e-307e005a95aa&mod=mw_rss_bulletins",
-      "published_at": "2026-10-12T20:03:55+00:00"
-    },
-    {
-      "headline": "Meta gets back on the AI leaderboard with its new family of Wonder models",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0b643e48-e485-4239-a490-99e84a89941e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-12T19:47:17+00:00"
-    },
-    {
-      "headline": "A massive trade just happened in surging shares of Snap",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
-      "published_at": "2026-10-12T18:43:44+00:00"
-    },
-    {
-      "headline": "UnitedHealth shares are doing something unusual ahead of earnings",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
-      "published_at": "2026-10-12T16:42:13+00:00"
     }
   ]
 }
