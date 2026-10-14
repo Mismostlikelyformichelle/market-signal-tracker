@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:55:57.376959+00:00",
+  "generated_at": "2026-10-14T17:48:16.707429+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-09",
-      "latest_value": 0.44,
+      "latest_date": "2026-10-13",
+      "latest_value": 0.42,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-15",
-          "value": 0.42
-        },
         {
           "date": "2026-07-16",
           "value": 0.41
@@ -263,22 +259,22 @@
         {
           "date": "2026-10-09",
           "value": 0.44
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0.42
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-12",
-      "latest_value": 3.11,
-      "latest_value_bps": 311.0,
+      "latest_date": "2026-10-13",
+      "latest_value": 3.16,
+      "latest_value_bps": 316.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-15",
-          "value": 2.71
-        },
         {
           "date": "2026-07-16",
           "value": 2.71
@@ -530,21 +526,21 @@
         {
           "date": "2026-10-12",
           "value": 3.11
+        },
+        {
+          "date": "2026-10-13",
+          "value": 3.16
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-13",
-      "latest_value": 15.390000343322754,
+      "latest_date": "2026-10-14",
+      "latest_value": 16.860000610351562,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-15",
-          "value": 15.670000076293945
-        },
         {
           "date": "2026-07-16",
           "value": 16.729999542236328
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-10-13",
-          "value": 15.390000343322754
+          "value": 15.270000457763672
+        },
+        {
+          "date": "2026-10-14",
+          "value": 16.860000610351562
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-12",
-      "vix9d": 11.68,
-      "vix": 15.21,
-      "vix3m": 17.93,
-      "spread": 6.25,
+      "latest_date": "2026-10-13",
+      "vix9d": 11.99,
+      "vix": 15.27,
+      "vix3m": 17.96,
+      "spread": 5.970000000000001,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-15",
-          "vix9d": 12.06,
-          "vix": 15.67,
-          "vix3m": 18.91
-        },
         {
           "date": "2026-07-16",
           "vix9d": 13.98,
@@ -1197,22 +1191,24 @@
           "vix9d": 11.68,
           "vix": 15.21,
           "vix3m": 17.93
+        },
+        {
+          "date": "2026-10-13",
+          "vix9d": 11.99,
+          "vix": 15.27,
+          "vix3m": 17.96
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-13",
-      "latest_value": 102.18399810791016,
-      "pct_change_20d": 2.54289668161538,
+      "latest_date": "2026-10-14",
+      "latest_value": 102.69000244140625,
+      "pct_change_20d": 2.3726497265861015,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-15",
-          "value": 100.5
-        },
         {
           "date": "2026-07-16",
           "value": 100.7300033569336
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-13",
-          "value": 102.18399810791016
+          "value": 102.18000030517578
+        },
+        {
+          "date": "2026-10-14",
+          "value": 102.69000244140625
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-13",
-      "latest_value": 4189.10009765625,
-      "pct_change_20d": -3.3165554262577857,
+      "latest_date": "2026-10-14",
+      "latest_value": 4108.0,
+      "pct_change_20d": -6.37037037037037,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-15",
-          "value": 4044.0
-        },
         {
           "date": "2026-07-16",
           "value": 3985.60009765625
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-10-13",
-          "value": 4189.10009765625
+          "value": 4177.2998046875
+        },
+        {
+          "date": "2026-10-14",
+          "value": 4108.0
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       }
     ],
     "session_date": "2026-10-13",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1764,7 +1764,11 @@
         "date": "2026-10-14",
         "name": "CPI Release",
         "is_past": false,
-        "headline": null
+        "headline": {
+          "text": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZEUyWDE5aTVyU1VTMEhhNW9LV3pZdUkwcFI4WVlIOEhHUzBmUTZGbUlWTDVfN05zdzhFTlR4RERqUHROMDJ2T3dCN2I0UDI2dmZhOTBVTVRIYVlIYjRKQ2RZcjdNQWdWTTkyV0owQU1Xekt4U2ZHUFc4NnPSAYIBQVVfeXFMT3U1UnZTdHN4U2tIM1lZcHlGRGZLUXNaYjhDTHl4bllqdzY3ek9XYl9ZdzNBaUdJQjNndF9HSm1yci15X3ZnMEdaazNzMjVTZ204TzJ1cFJEOE81bUF0RFBJWTR6RWF2YU9BWm1PMnhTVGNWVnc5bkxNWlRpT0RuU2t2Zw?oc=5"
+        }
       },
       {
         "date": "2026-10-28",
@@ -1791,68 +1795,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-13T19:45:37.640541+00:00"
+    "last_refreshed": "2026-10-14T17:48:14.287049+00:00"
   },
   "headlines": [
     {
-      "headline": "Fed\u2019s Williams sees no need for rate hike in 2027, Bloomberg News reports",
+      "headline": "Kootenay Silver at Precious Metals & Critical Minerals Virtual Investor Conference: growth push",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379",
-      "published_at": "2026-10-13T19:24:24+00:00"
+      "link": "https://www.investing.com/news/transcripts/kootenay-silver-at-precious-metals--critical-minerals-virtual-investor-conference-growth-push-93CH-4949833",
+      "published_at": "2026-10-14T17:44:58+00:00"
     },
     {
-      "headline": "AbbVie reports positive Crohn\u2019s disease trial results for Skyrizi",
+      "headline": "Trump administration cuts ACA subsidies for 189,000 enrollees",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/abbvie-reports-positive-crohns-disease-trial-results-for-skyrizi-93CH-4947398",
-      "published_at": "2026-10-13T19:20:41+00:00"
+      "link": "https://www.investing.com/news/economy-news/trump-administration-cuts-aca-subsidies-for-189000-enrollees-93CH-4949830",
+      "published_at": "2026-10-14T17:35:10+00:00"
     },
     {
-      "headline": "First Phosphate at Precious Metals & Critical Minerals Virtual Investor Conference: supply chain push",
+      "headline": "Uganda central bank raises rates to 12% to support shilling",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/first-phosphate-at-precious-metals--critical-minerals-virtual-investor-conference-supply-chain-push-93CH-4947397",
-      "published_at": "2026-10-13T19:20:07+00:00"
+      "link": "https://www.investing.com/news/economy-news/uganda-central-bank-raises-rates-to-12-to-support-shilling-93CH-4949829",
+      "published_at": "2026-10-14T17:34:37+00:00"
     },
     {
-      "headline": "Brent Oil coils in tight range at $105.90: Live levels",
+      "headline": "The S&P 500\u2019s remarkable resilience is being tested today \u2014 live updates",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eaa37fa1-5a98-44f5-8542-d78731f0b3ac&mod=mw_rss_bulletins",
+      "published_at": "2026-10-14T17:30:49+00:00"
+    },
+    {
+      "headline": "Container ship sinks in Strait of Hormuz amid Iran attacks",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/brent-oil-stuck-in-1025010600-range-live-levels-93CH-4943298",
-      "published_at": "2026-10-13T19:18:54+00:00"
+      "link": "https://www.investing.com/news/economy-news/container-ship-sinks-in-strait-of-hormuz-amid-iran-attacks-4949823",
+      "published_at": "2026-10-14T17:27:10+00:00"
     },
     {
-      "headline": "Stocks remain mostly lower in final hour of trading, weighed down by healthcare",
+      "headline": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
+      "published_at": "2026-10-14T17:10:59+00:00"
+    },
+    {
+      "headline": "Don't let inflation bite \u2014 how to hedge with TIPS, commodities and infrastructure funds",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+      "published_at": "2026-10-14T15:20:04+00:00"
+    },
+    {
+      "headline": "Social Security\u2019s COLA will be 3.6% in 2027 as inflation persists",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb18f94d-ea02-4081-9c93-38136af3402e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-13T19:18:17+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4feb4107-a997-4599-83a9-efa3c2773af0&mod=mw_rss_bulletins",
+      "published_at": "2026-10-14T14:00:13+00:00"
     },
     {
-      "headline": "For Gen Z, investing feels more important than buying a house",
+      "headline": "Stocks open lower as bond yields surge after hot inflation report",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d59a3923-68fb-4f37-89cb-c6e2d3561db1&mod=mw_rss_bulletins",
-      "published_at": "2026-10-13T18:27:20+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=013876aa-fcfd-4acd-9bf4-e0ddfcdbdfec&mod=mw_rss_bulletins",
+      "published_at": "2026-10-14T13:32:10+00:00"
     },
     {
-      "headline": "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.",
+      "headline": "CPI report: Core inflation is higher than expected \u2014 live updates",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4afc0c0d-54b6-4977-8103-0f1e42654561&mod=mw_rss_bulletins",
-      "published_at": "2026-10-13T17:44:04+00:00"
-    },
-    {
-      "headline": "AI fatigue grips market, driving chip stocks to their worst stretch in 16 months",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb5512a9-96e2-42ad-b5ca-30af49c5863e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-13T17:04:58+00:00"
-    },
-    {
-      "headline": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5c208685-c112-49c3-a094-9ea6cad0bfc9&mod=mw_rss_bulletins",
-      "published_at": "2026-10-12T21:28:24+00:00"
-    },
-    {
-      "headline": "Trading Day: Fog of war",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/trading-day-fog-of-war-4945239",
-      "published_at": "2026-10-12T21:24:34+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e96936d1-9f47-4abf-ba0e-09ae4bee9ef5&mod=mw_rss_bulletins",
+      "published_at": "2026-10-14T12:34:06+00:00"
     }
   ]
 }
