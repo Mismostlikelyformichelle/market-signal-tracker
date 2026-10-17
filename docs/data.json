@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:37:51.263104+00:00",
+  "generated_at": "2026-10-17T16:09:07.354836+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-15",
-      "latest_value": 0.33,
+      "latest_date": "2026-10-16",
+      "latest_value": 0.35,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -263,6 +263,10 @@
         {
           "date": "2026-10-15",
           "value": 0.33
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0.35
         }
       ]
     },
@@ -536,7 +540,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-10-16",
-      "latest_value": 18.40999984741211,
+      "latest_value": 19.989999771118164,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -799,19 +803,19 @@
         },
         {
           "date": "2026-10-16",
-          "value": 18.40999984741211
+          "value": 19.989999771118164
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-15",
-      "vix9d": 13.97,
-      "vix": 16.46,
-      "vix3m": 18.49,
-      "spread": 4.519999999999998,
+      "latest_date": "2026-10-16",
+      "vix9d": 20.12,
+      "vix": 19.99,
+      "vix3m": 20.5,
+      "spread": 0.379999999999999,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
         {
@@ -1197,14 +1201,20 @@
           "vix9d": 13.97,
           "vix": 16.46,
           "vix3m": 18.49
+        },
+        {
+          "date": "2026-10-16",
+          "vix9d": 20.12,
+          "vix": 19.99,
+          "vix3m": 20.5
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-10-16",
-      "latest_value": 101.9469985961914,
-      "pct_change_20d": 1.7232063005917464,
+      "latest_value": 101.83999633789062,
+      "pct_change_20d": 1.6164389318056072,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1467,15 +1477,15 @@
         },
         {
           "date": "2026-10-16",
-          "value": 101.9469985961914
+          "value": 101.83999633789062
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-10-16",
-      "latest_value": 4180.60009765625,
-      "pct_change_20d": -5.521024431718805,
+      "latest_value": 4181.10009765625,
+      "pct_change_20d": -5.509724741080941,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1738,7 +1748,7 @@
         },
         {
           "date": "2026-10-16",
-          "value": 4180.60009765625
+          "value": 4181.10009765625
         }
       ]
     }
@@ -1755,7 +1765,7 @@
       }
     ],
     "session_date": "2026-10-16",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1795,68 +1805,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-16T17:11:00.392462+00:00"
+    "last_refreshed": "2026-10-17T16:09:05.263921+00:00"
   },
   "headlines": [
+    {
+      "headline": "GIC Private Ltd sells $274.8 million in Medline (MDLN) shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/gic-private-ltd-sells-2748-million-in-medline-mdln-shares-93CH-4955458",
+      "published_at": "2026-10-17T15:16:10+00:00"
+    },
+    {
+      "headline": "Analysis-High debt, growing strains put focus on need for new development approaches",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/analysishigh-debt-growing-strains-put-focus-on-need-for-new-development-approaches-4955453",
+      "published_at": "2026-10-17T15:06:19+00:00"
+    },
+    {
+      "headline": "Microsoft and 4 more AI stocks that are favorite Wall Street earnings plays",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cf03a4d5-5fc8-488d-8964-895fefa46a3e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-17T15:01:25+00:00"
+    },
+    {
+      "headline": "Saba Capital sells $675,333 in BlackRock ECAT shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/saba-capital-sells-675333-in-blackrock-ecat-shares-93CH-4955451",
+      "published_at": "2026-10-17T14:46:01+00:00"
+    },
+    {
+      "headline": "DeepSeek releases AI model update, opens search APIs to all users",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/deepseek-releases-ai-model-update-opens-search-apis-to-all-users-4955445",
+      "published_at": "2026-10-17T14:33:21+00:00"
+    },
+    {
+      "headline": "Fed's interest-rate decision this month is a closer call than markets think",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5f1a8077-d773-42ce-a003-32017fe7a894&mod=mw_rss_bulletins",
+      "published_at": "2026-10-17T13:38:00+00:00"
+    },
+    {
+      "headline": "Can a $55,000 humanoid robot load your dishwasher? Our reporter finds out.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a9ca3028-c7c7-4354-8190-02d679e08ff7&mod=mw_rss_bulletins",
+      "published_at": "2026-10-16T22:48:49+00:00"
+    },
+    {
+      "headline": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4912debc-165a-43e4-97fb-ca6aa92cc980&mod=mw_rss_bulletins",
+      "published_at": "2026-10-16T22:04:27+00:00"
+    },
+    {
+      "headline": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+      "published_at": "2026-10-16T18:24:35+00:00"
+    },
     {
       "headline": "David Taylor from Ohio\u2019s 2nd District makes multiple stock transactions",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/david-taylor-from-ohios-2nd-district-makes-multiple-stock-transactions-93CH-4954653",
       "published_at": "2026-10-16T17:08:04+00:00"
-    },
-    {
-      "headline": "Plug Power stock hits 52-week low at 1.4 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/plug-power-stock-hits-52week-low-at-14-usd-93CH-4954652",
-      "published_at": "2026-10-16T17:07:07+00:00"
-    },
-    {
-      "headline": "Scott Peters makes significant trades in California State Government and Charlotte-Mecklenburg Health",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/scott-peters-makes-significant-trades-in-california-state-government-and-charlottemecklenburg-health-93CH-4954651",
-      "published_at": "2026-10-16T17:06:56+00:00"
-    },
-    {
-      "headline": "Oil prices gain more than 3%, heading for weekly gain with focus on Middle East supply",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/oil-edges-down-as-investors-weigh-possible-us-sanctions-on-shadow-fleet-4952926",
-      "published_at": "2026-10-16T17:06:16+00:00"
-    },
-    {
-      "headline": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
-      "published_at": "2026-10-16T17:02:40+00:00"
-    },
-    {
-      "headline": "Elon Musk may have just taken a major step toward consolidating his empire",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=933fd243-9e19-4818-8ea2-418aa9af7890&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T16:42:35+00:00"
-    },
-    {
-      "headline": "Is Apple\u2019s foldable iPhone Duo really worth $2,000? Here's how it stacks up.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=68ba0b7b-4fce-461d-9ff4-0de916f1a64e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T13:53:14+00:00"
-    },
-    {
-      "headline": "S&P 500 opens higher, but heads for weekly drop",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=588518fc-fd08-4c88-bade-4e86e5f2baa2&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T13:32:30+00:00"
-    },
-    {
-      "headline": "Economic calendar: Industrial data and Treasury balance coming up",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3a546f0b-4083-4fa4-8445-3e71a3143ff0&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T11:37:28+00:00"
-    },
-    {
-      "headline": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
-      "published_at": "2026-10-15T21:33:24+00:00"
     }
   ]
 }
