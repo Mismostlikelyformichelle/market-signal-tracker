@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:09:07.354836+00:00",
+  "generated_at": "2026-10-18T16:22:56.229548+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1805,68 +1805,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-17T16:09:05.263921+00:00"
+    "last_refreshed": "2026-10-18T16:22:54.148479+00:00"
   },
   "headlines": [
+    {
+      "headline": "These surprising stocks could be the biggest drivers of S&P 500 earnings growth",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eb72bb29-19f0-4cb0-8ceb-1f46f6ace570&mod=mw_rss_bulletins",
+      "published_at": "2026-10-18T16:06:07+00:00"
+    },
+    {
+      "headline": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+      "published_at": "2026-10-18T15:50:56+00:00"
+    },
+    {
+      "headline": "Stocks head for a high-stakes showdown: Strong earnings vs. high borrowing costs",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=41f1c92f-5846-45ae-bfb4-5fc926ee2cf9&mod=mw_rss_bulletins",
+      "published_at": "2026-10-18T15:01:43+00:00"
+    },
+    {
+      "headline": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/midterms-ubs-assigns-a-50-probability-to-a-democratic-sweep-4955971",
+      "published_at": "2026-10-18T14:58:10+00:00"
+    },
+    {
+      "headline": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+      "published_at": "2026-10-18T14:35:04+00:00"
+    },
+    {
+      "headline": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+      "published_at": "2026-10-18T14:00:30+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "published_at": "2026-10-18T12:34:51+00:00"
+    },
+    {
+      "headline": "It was a great week for the average stock, as market leadership shifts from tech",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4d9d6c2a-d81b-42d8-ad16-e88388073b59&mod=mw_rss_bulletins",
+      "published_at": "2026-10-17T19:53:31+00:00"
+    },
+    {
+      "headline": "Why silver\u2019s recent 50% drop from a record high is hinting an economic slowdown",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e3d319f8-ccf9-4a8f-add9-0bfb0cd6b89f&mod=mw_rss_bulletins",
+      "published_at": "2026-10-17T18:21:05+00:00"
+    },
     {
       "headline": "GIC Private Ltd sells $274.8 million in Medline (MDLN) shares",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/gic-private-ltd-sells-2748-million-in-medline-mdln-shares-93CH-4955458",
       "published_at": "2026-10-17T15:16:10+00:00"
-    },
-    {
-      "headline": "Analysis-High debt, growing strains put focus on need for new development approaches",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/analysishigh-debt-growing-strains-put-focus-on-need-for-new-development-approaches-4955453",
-      "published_at": "2026-10-17T15:06:19+00:00"
-    },
-    {
-      "headline": "Microsoft and 4 more AI stocks that are favorite Wall Street earnings plays",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cf03a4d5-5fc8-488d-8964-895fefa46a3e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-17T15:01:25+00:00"
-    },
-    {
-      "headline": "Saba Capital sells $675,333 in BlackRock ECAT shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/saba-capital-sells-675333-in-blackrock-ecat-shares-93CH-4955451",
-      "published_at": "2026-10-17T14:46:01+00:00"
-    },
-    {
-      "headline": "DeepSeek releases AI model update, opens search APIs to all users",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/deepseek-releases-ai-model-update-opens-search-apis-to-all-users-4955445",
-      "published_at": "2026-10-17T14:33:21+00:00"
-    },
-    {
-      "headline": "Fed's interest-rate decision this month is a closer call than markets think",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5f1a8077-d773-42ce-a003-32017fe7a894&mod=mw_rss_bulletins",
-      "published_at": "2026-10-17T13:38:00+00:00"
-    },
-    {
-      "headline": "Can a $55,000 humanoid robot load your dishwasher? Our reporter finds out.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a9ca3028-c7c7-4354-8190-02d679e08ff7&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T22:48:49+00:00"
-    },
-    {
-      "headline": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4912debc-165a-43e4-97fb-ca6aa92cc980&mod=mw_rss_bulletins",
-      "published_at": "2026-10-16T22:04:27+00:00"
-    },
-    {
-      "headline": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
-      "published_at": "2026-10-16T18:24:35+00:00"
-    },
-    {
-      "headline": "David Taylor from Ohio\u2019s 2nd District makes multiple stock transactions",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/david-taylor-from-ohios-2nd-district-makes-multiple-stock-transactions-93CH-4954653",
-      "published_at": "2026-10-16T17:08:04+00:00"
     }
   ]
 }
