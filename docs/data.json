@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:22:56.229548+00:00",
+  "generated_at": "2026-10-19T19:03:20.645486+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-20",
-          "value": 0.39
-        },
         {
           "date": "2026-07-21",
           "value": 0.37
@@ -272,17 +268,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-15",
-      "latest_value": 3.23,
-      "latest_value_bps": 323.0,
+      "latest_date": "2026-10-16",
+      "latest_value": 3.31,
+      "latest_value_bps": 331.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-20",
-          "value": 2.69
-        },
         {
           "date": "2026-07-21",
           "value": 2.69
@@ -534,21 +526,21 @@
         {
           "date": "2026-10-15",
           "value": 3.23
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3.31
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-16",
-      "latest_value": 19.989999771118164,
+      "latest_date": "2026-10-19",
+      "latest_value": 18.270000457763672,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-20",
-          "value": 18.649999618530273
-        },
         {
           "date": "2026-07-21",
           "value": 17.049999237060547
@@ -804,6 +796,10 @@
         {
           "date": "2026-10-16",
           "value": 19.989999771118164
+        },
+        {
+          "date": "2026-10-19",
+          "value": 18.270000457763672
         }
       ]
     },
@@ -818,12 +814,6 @@
       "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-20",
-          "vix9d": 17.78,
-          "vix": 18.65,
-          "vix3m": 20.4
-        },
         {
           "date": "2026-07-21",
           "vix9d": 15.48,
@@ -1212,17 +1202,13 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-16",
-      "latest_value": 101.83999633789062,
-      "pct_change_20d": 1.6164389318056072,
+      "latest_date": "2026-10-19",
+      "latest_value": 101.9739990234375,
+      "pct_change_20d": 1.5373879454047426,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-20",
-          "value": 100.98999786376953
-        },
         {
           "date": "2026-07-21",
           "value": 101.18000030517578
@@ -1478,22 +1464,22 @@
         {
           "date": "2026-10-16",
           "value": 101.83999633789062
+        },
+        {
+          "date": "2026-10-19",
+          "value": 101.9739990234375
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-16",
-      "latest_value": 4181.10009765625,
-      "pct_change_20d": -5.509724741080941,
+      "latest_date": "2026-10-19",
+      "latest_value": 4166.7998046875,
+      "pct_change_20d": -4.952213839102085,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-20",
-          "value": 4010.300048828125
-        },
         {
           "date": "2026-07-21",
           "value": 4071.10009765625
@@ -1749,6 +1735,10 @@
         {
           "date": "2026-10-16",
           "value": 4181.10009765625
+        },
+        {
+          "date": "2026-10-19",
+          "value": 4166.7998046875
         }
       ]
     }
@@ -1805,9 +1795,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-18T16:22:54.148479+00:00"
+    "last_refreshed": "2026-10-19T19:03:16.957578+00:00"
   },
   "headlines": [
+    {
+      "headline": "S&P rises and Nasdaq jumps over 1%, rebounding after their worst week since June",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-climb-as-investors-return-to-ai-trade-after-selloff-4956195",
+      "published_at": "2026-10-19T18:48:37+00:00"
+    },
+    {
+      "headline": "Anthropic, Musk outline dueling approaches to AI-era philanthropy",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-commits-5-stake-to-new-public-benefit-fund-musk-argues-for-direct-share-donations-to-kids-4958151",
+      "published_at": "2026-10-19T18:48:24+00:00"
+    },
+    {
+      "headline": "Top US building products stocks according to Jefferies",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/top-us-building-products-stocks-according-to-jefferies-4958154",
+      "published_at": "2026-10-19T18:43:09+00:00"
+    },
+    {
+      "headline": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
+      "published_at": "2026-10-19T18:42:20+00:00"
+    },
+    {
+      "headline": "This important relationship in global financial markets is falling apart",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4e6324b9-97f5-4d5c-a7b8-bda7c986ff9f&mod=mw_rss_bulletins",
+      "published_at": "2026-10-19T17:53:08+00:00"
+    },
+    {
+      "headline": "Micron and other chip stocks spring back to life after bruising selloff",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b46a395c-f002-4635-a90b-3ffca9b86866&mod=mw_rss_bulletins",
+      "published_at": "2026-10-19T17:15:46+00:00"
+    },
+    {
+      "headline": "Builders are slashing prices on new homes as buyer traffic drops to 14-year low",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0a97e288-c041-4f6e-bfe4-3d28f00f8608&mod=mw_rss_bulletins",
+      "published_at": "2026-10-19T15:47:01+00:00"
+    },
+    {
+      "headline": "The computer-science-degree boom is turning into a bust for colleges",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a6a3e512-4583-4c30-bede-033acf8da675&mod=mw_rss_bulletins",
+      "published_at": "2026-10-19T14:38:12+00:00"
+    },
     {
       "headline": "These surprising stocks could be the biggest drivers of S&P 500 earnings growth",
       "source": "MarketWatch",
@@ -1819,54 +1857,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
       "published_at": "2026-10-18T15:50:56+00:00"
-    },
-    {
-      "headline": "Stocks head for a high-stakes showdown: Strong earnings vs. high borrowing costs",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=41f1c92f-5846-45ae-bfb4-5fc926ee2cf9&mod=mw_rss_bulletins",
-      "published_at": "2026-10-18T15:01:43+00:00"
-    },
-    {
-      "headline": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/midterms-ubs-assigns-a-50-probability-to-a-democratic-sweep-4955971",
-      "published_at": "2026-10-18T14:58:10+00:00"
-    },
-    {
-      "headline": "JPMorgan raises ICICI Bank stock price target on strong earnings",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
-      "published_at": "2026-10-18T14:35:04+00:00"
-    },
-    {
-      "headline": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-      "published_at": "2026-10-18T14:00:30+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
-      "published_at": "2026-10-18T12:34:51+00:00"
-    },
-    {
-      "headline": "It was a great week for the average stock, as market leadership shifts from tech",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4d9d6c2a-d81b-42d8-ad16-e88388073b59&mod=mw_rss_bulletins",
-      "published_at": "2026-10-17T19:53:31+00:00"
-    },
-    {
-      "headline": "Why silver\u2019s recent 50% drop from a record high is hinting an economic slowdown",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e3d319f8-ccf9-4a8f-add9-0bfb0cd6b89f&mod=mw_rss_bulletins",
-      "published_at": "2026-10-17T18:21:05+00:00"
-    },
-    {
-      "headline": "GIC Private Ltd sells $274.8 million in Medline (MDLN) shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/gic-private-ltd-sells-2748-million-in-medline-mdln-shares-93CH-4955458",
-      "published_at": "2026-10-17T15:16:10+00:00"
     }
   ]
 }
