@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:25:38.539510+00:00",
+  "generated_at": "2026-10-20T17:47:44.277204+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-16",
-      "latest_value": 0.35,
+      "latest_date": "2026-10-19",
+      "latest_value": 0.38,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 0.37
-        },
         {
           "date": "2026-07-22",
           "value": 0.36
@@ -263,22 +259,22 @@
         {
           "date": "2026-10-16",
           "value": 0.35
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0.38
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-16",
-      "latest_value": 3.31,
-      "latest_value_bps": 331.0,
+      "latest_date": "2026-10-19",
+      "latest_value": 3.29,
+      "latest_value_bps": 329.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 2.69
-        },
         {
           "date": "2026-07-22",
           "value": 2.68
@@ -530,21 +526,21 @@
         {
           "date": "2026-10-16",
           "value": 3.31
+        },
+        {
+          "date": "2026-10-19",
+          "value": 3.29
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-19",
-      "latest_value": 18.270000457763672,
+      "latest_date": "2026-10-20",
+      "latest_value": 17.489999771118164,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 17.049999237060547
-        },
         {
           "date": "2026-07-22",
           "value": 16.639999389648438
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-10-19",
-          "value": 18.270000457763672
+          "value": 18.440000534057617
+        },
+        {
+          "date": "2026-10-20",
+          "value": 17.489999771118164
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-16",
-      "vix9d": 20.12,
-      "vix": 19.99,
-      "vix3m": 20.5,
-      "spread": 0.379999999999999,
+      "latest_date": "2026-10-19",
+      "vix9d": 17.93,
+      "vix": 18.44,
+      "vix3m": 19.6,
+      "spread": 1.6700000000000017,
       "unit": "",
       "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-21",
-          "vix9d": 15.48,
-          "vix": 17.05,
-          "vix3m": 19.59
-        },
         {
           "date": "2026-07-22",
           "vix9d": 14.88,
@@ -1197,22 +1191,24 @@
           "vix9d": 20.12,
           "vix": 19.99,
           "vix3m": 20.5
+        },
+        {
+          "date": "2026-10-19",
+          "vix9d": 17.93,
+          "vix": 18.44,
+          "vix3m": 19.6
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-19",
-      "latest_value": 101.9739990234375,
-      "pct_change_20d": 1.5373879454047426,
+      "latest_date": "2026-10-20",
+      "latest_value": 101.70999908447266,
+      "pct_change_20d": 1.1033803451171078,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 101.18000030517578
-        },
         {
           "date": "2026-07-22",
           "value": 101.13999938964844
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-19",
-          "value": 101.9739990234375
+          "value": 101.9800033569336
+        },
+        {
+          "date": "2026-10-20",
+          "value": 101.70999908447266
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-19",
-      "latest_value": 4166.7998046875,
-      "pct_change_20d": -4.952213839102085,
+      "latest_date": "2026-10-20",
+      "latest_value": 4142.10009765625,
+      "pct_change_20d": -5.35371103911282,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 4071.10009765625
-        },
         {
           "date": "2026-07-22",
           "value": 4146.89990234375
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-10-19",
-          "value": 4166.7998046875
+          "value": 4160.10009765625
+        },
+        {
+          "date": "2026-10-20",
+          "value": 4142.10009765625
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       }
     ],
     "session_date": "2026-10-19",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1795,9 +1795,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-19T19:03:16.957578+00:00"
+    "last_refreshed": "2026-10-20T17:47:42.797929+00:00"
   },
   "headlines": [
+    {
+      "headline": "Agenus at Chardan\u2019s 10th annual healthcare conference: pivot to ROBIN",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/agenus-at-chardans-10th-annual-healthcare-conference-pivot-to-robin-93CH-4960788",
+      "published_at": "2026-10-20T17:23:46+00:00"
+    },
+    {
+      "headline": "Andrada Mining converts \u00a3577,845 in loan notes to equity",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/andrada-mining-converts-577845-in-loan-notes-to-equity-93CH-4960787",
+      "published_at": "2026-10-20T17:23:29+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: EssilorLuxottica posts strong Q3 2026 growth as wearables gain",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-essilorluxottica-posts-strong-q3-2026-growth-as-wearables-gain-93CH-4960786",
+      "published_at": "2026-10-20T17:22:16+00:00"
+    },
+    {
+      "headline": "Healios at Chardan\u2019s 10th Annual Healthcare Conference: japan-first push",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/healios-at-chardans-10th-annual-healthcare-conference-japanfirst-push-93CH-4960785",
+      "published_at": "2026-10-20T17:21:00+00:00"
+    },
+    {
+      "headline": "Not just California: Wealth taxes are on the ballot across America this November",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=33839c70-4413-4d06-810b-e8a5daa72a00&mod=mw_rss_bulletins",
+      "published_at": "2026-10-20T17:07:37+00:00"
+    },
+    {
+      "headline": "The college students who want to reverse an obscure ban on trading onion futures",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c476b94f-f72b-44aa-a28b-a986e7f63f65&mod=mw_rss_bulletins",
+      "published_at": "2026-10-20T15:02:47+00:00"
+    },
+    {
+      "headline": "Contracts to buy homes have fallen to a 25-year low",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=749c2c5e-4bd8-4fed-8f6c-cc43f5f19015&mod=mw_rss_bulletins",
+      "published_at": "2026-10-20T14:09:49+00:00"
+    },
+    {
+      "headline": "S&P 500, Nasdaq open lower as tech stocks fall, oil prices jump",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=691a50ef-4b5c-48fc-867d-b383b2573593&mod=mw_rss_bulletins",
+      "published_at": "2026-10-20T13:31:40+00:00"
+    },
     {
       "headline": "S&P rises and Nasdaq jumps over 1%, rebounding after their worst week since June",
       "source": "Investing.com",
@@ -1809,54 +1857,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/anthropic-commits-5-stake-to-new-public-benefit-fund-musk-argues-for-direct-share-donations-to-kids-4958151",
       "published_at": "2026-10-19T18:48:24+00:00"
-    },
-    {
-      "headline": "Top US building products stocks according to Jefferies",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/top-us-building-products-stocks-according-to-jefferies-4958154",
-      "published_at": "2026-10-19T18:43:09+00:00"
-    },
-    {
-      "headline": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
-      "published_at": "2026-10-19T18:42:20+00:00"
-    },
-    {
-      "headline": "This important relationship in global financial markets is falling apart",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4e6324b9-97f5-4d5c-a7b8-bda7c986ff9f&mod=mw_rss_bulletins",
-      "published_at": "2026-10-19T17:53:08+00:00"
-    },
-    {
-      "headline": "Micron and other chip stocks spring back to life after bruising selloff",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b46a395c-f002-4635-a90b-3ffca9b86866&mod=mw_rss_bulletins",
-      "published_at": "2026-10-19T17:15:46+00:00"
-    },
-    {
-      "headline": "Builders are slashing prices on new homes as buyer traffic drops to 14-year low",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0a97e288-c041-4f6e-bfe4-3d28f00f8608&mod=mw_rss_bulletins",
-      "published_at": "2026-10-19T15:47:01+00:00"
-    },
-    {
-      "headline": "The computer-science-degree boom is turning into a bust for colleges",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a6a3e512-4583-4c30-bede-033acf8da675&mod=mw_rss_bulletins",
-      "published_at": "2026-10-19T14:38:12+00:00"
-    },
-    {
-      "headline": "These surprising stocks could be the biggest drivers of S&P 500 earnings growth",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eb72bb29-19f0-4cb0-8ceb-1f46f6ace570&mod=mw_rss_bulletins",
-      "published_at": "2026-10-18T16:06:07+00:00"
-    },
-    {
-      "headline": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
-      "published_at": "2026-10-18T15:50:56+00:00"
     }
   ]
 }
