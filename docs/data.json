@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:04:26.850909+00:00",
+  "generated_at": "2026-10-21T18:10:37.150368+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-22",
-          "value": 0.36
-        },
         {
           "date": "2026-07-23",
           "value": 0.34
@@ -275,10 +271,6 @@
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-22",
-          "value": 2.68
-        },
         {
           "date": "2026-07-23",
           "value": 2.77
@@ -541,10 +533,6 @@
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-22",
-          "value": 16.639999389648438
-        },
         {
           "date": "2026-07-23",
           "value": 18.700000762939453
@@ -814,12 +802,6 @@
       "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-22",
-          "vix9d": 14.88,
-          "vix": 16.64,
-          "vix3m": 19.54
-        },
         {
           "date": "2026-07-23",
           "vix9d": 18.15,
@@ -1210,10 +1192,6 @@
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
         {
-          "date": "2026-07-22",
-          "value": 101.13999938964844
-        },
-        {
           "date": "2026-07-23",
           "value": 101.43000030517578
         },
@@ -1481,10 +1459,6 @@
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
-          "date": "2026-07-22",
-          "value": 4146.89990234375
-        },
-        {
           "date": "2026-07-23",
           "value": 4046.60009765625
         },
@@ -1745,16 +1719,16 @@
   },
   "vix_intraday": {
     "latest": {
-      "timestamp": "2026-10-20T17:49:00+00:00",
-      "value": 17.360000610351562
+      "timestamp": "2026-10-21T17:55:00+00:00",
+      "value": 16.610000610351562
     },
     "series": [
       {
-        "timestamp": "2026-10-20T17:49:00+00:00",
-        "value": 17.360000610351562
+        "timestamp": "2026-10-21T17:55:00+00:00",
+        "value": 16.610000610351562
       }
     ],
-    "session_date": "2026-10-20",
+    "session_date": "2026-10-21",
     "is_stale": false
   },
   "econ_calendar": {
