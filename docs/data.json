@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:10:37.150368+00:00",
+  "generated_at": "2026-10-22T17:51:49.926285+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-19",
-      "latest_value": 0.38,
+      "latest_date": "2026-10-21",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-23",
-          "value": 0.34
-        },
         {
           "date": "2026-07-24",
           "value": 0.36
@@ -259,22 +255,26 @@
         {
           "date": "2026-10-19",
           "value": 0.38
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-19",
-      "latest_value": 3.29,
-      "latest_value_bps": 329.0,
+      "latest_date": "2026-10-21",
+      "latest_value": 3.27,
+      "latest_value_bps": 327.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-23",
-          "value": 2.77
-        },
         {
           "date": "2026-07-24",
           "value": 2.79
@@ -522,21 +522,25 @@
         {
           "date": "2026-10-19",
           "value": 3.29
+        },
+        {
+          "date": "2026-10-20",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.27
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-20",
-      "latest_value": 17.489999771118164,
+      "latest_date": "2026-10-22",
+      "latest_value": 18.899999618530273,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-23",
-          "value": 18.700000762939453
-        },
         {
           "date": "2026-07-24",
           "value": 18.579999923706055
@@ -787,27 +791,29 @@
         },
         {
           "date": "2026-10-20",
-          "value": 17.489999771118164
+          "value": 17.309999465942383
+        },
+        {
+          "date": "2026-10-21",
+          "value": 16.68000030517578
+        },
+        {
+          "date": "2026-10-22",
+          "value": 18.899999618530273
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-19",
-      "vix9d": 17.93,
-      "vix": 18.44,
-      "vix3m": 19.6,
-      "spread": 1.6700000000000017,
+      "latest_date": "2026-10-21",
+      "vix9d": 15.49,
+      "vix": 16.68,
+      "vix3m": 18.72,
+      "spread": 3.2299999999999986,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-23",
-          "vix9d": 18.15,
-          "vix": 18.7,
-          "vix3m": 20.6
-        },
         {
           "date": "2026-07-24",
           "vix9d": 17.62,
@@ -1179,22 +1185,30 @@
           "vix9d": 17.93,
           "vix": 18.44,
           "vix3m": 19.6
+        },
+        {
+          "date": "2026-10-20",
+          "vix9d": 16.27,
+          "vix": 17.31,
+          "vix3m": 18.99
+        },
+        {
+          "date": "2026-10-21",
+          "vix9d": 15.49,
+          "vix": 16.68,
+          "vix3m": 18.72
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-20",
-      "latest_value": 101.70999908447266,
-      "pct_change_20d": 1.1033803451171078,
+      "latest_date": "2026-10-22",
+      "latest_value": 101.625,
+      "pct_change_20d": 0.3307326305111152,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-23",
-          "value": 101.43000030517578
-        },
         {
           "date": "2026-07-24",
           "value": 101.47000122070312
@@ -1445,23 +1459,27 @@
         },
         {
           "date": "2026-10-20",
-          "value": 101.70999908447266
+          "value": 101.7300033569336
+        },
+        {
+          "date": "2026-10-21",
+          "value": 101.77999877929688
+        },
+        {
+          "date": "2026-10-22",
+          "value": 101.625
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-20",
-      "latest_value": 4142.10009765625,
-      "pct_change_20d": -5.35371103911282,
+      "latest_date": "2026-10-22",
+      "latest_value": 4060.39990234375,
+      "pct_change_20d": -5.528154901262215,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-23",
-          "value": 4046.60009765625
-        },
         {
           "date": "2026-07-24",
           "value": 4067.60009765625
@@ -1712,7 +1730,15 @@
         },
         {
           "date": "2026-10-20",
-          "value": 4142.10009765625
+          "value": 4142.60009765625
+        },
+        {
+          "date": "2026-10-21",
+          "value": 4150.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4060.39990234375
         }
       ]
     }
@@ -1729,21 +1755,11 @@
       }
     ],
     "session_date": "2026-10-21",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-10-14",
-        "name": "CPI Release",
-        "is_past": true,
-        "headline": {
-          "text": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZEUyWDE5aTVyU1VTMEhhNW9LV3pZdUkwcFI4WVlIOEhHUzBmUTZGbUlWTDVfN05zdzhFTlR4RERqUHROMDJ2T3dCN2I0UDI2dmZhOTBVTVRIYVlIYjRKQ2RZcjdNQWdWTTkyV0owQU1Xekt4U2ZHUFc4NnPSAYIBQVVfeXFMT3U1UnZTdHN4U2tIM1lZcHlGRGZLUXNaYjhDTHl4bllqdzY3ek9XYl9ZdzNBaUdJQjNndF9HSm1yci15X3ZnMEdaazNzMjVTZ204TzJ1cFJEOE81bUF0RFBJWTR6RWF2YU9BWm1PMnhTVGNWVnc5bkxNWlRpT0RuU2t2Zw?oc=5"
-        }
-      },
       {
         "date": "2026-10-28",
         "name": "FOMC Rate Decision",
@@ -1769,68 +1785,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-20T17:47:42.797929+00:00"
+    "last_refreshed": "2026-10-22T17:51:48.392022+00:00"
   },
   "headlines": [
     {
-      "headline": "Agenus at Chardan\u2019s 10th annual healthcare conference: pivot to ROBIN",
+      "headline": "Canaccord reiterates Spotify stock rating on solid Q3 results",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/agenus-at-chardans-10th-annual-healthcare-conference-pivot-to-robin-93CH-4960788",
-      "published_at": "2026-10-20T17:23:46+00:00"
+      "link": "https://www.investing.com/news/analyst-ratings/canaccord-reiterates-spotify-stock-rating-on-solid-q3-results-93CH-4967111",
+      "published_at": "2026-10-22T17:34:47+00:00"
     },
     {
-      "headline": "Andrada Mining converts \u00a3577,845 in loan notes to equity",
+      "headline": "Earnings call transcript: Gruma\u2019s Q3 2026 profit pressure offsets share gains",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/andrada-mining-converts-577845-in-loan-notes-to-equity-93CH-4960787",
-      "published_at": "2026-10-20T17:23:29+00:00"
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-grumas-q3-2026-profit-pressure-offsets-share-gains-93CH-4967110",
+      "published_at": "2026-10-22T17:32:56+00:00"
     },
     {
-      "headline": "Earnings call transcript: EssilorLuxottica posts strong Q3 2026 growth as wearables gain",
+      "headline": "Regulators grant early termination of antitrust review for MarketAxess merger",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-essilorluxottica-posts-strong-q3-2026-growth-as-wearables-gain-93CH-4960786",
-      "published_at": "2026-10-20T17:22:16+00:00"
+      "link": "https://www.investing.com/news/sec-filings/regulators-grant-early-termination-of-antitrust-review-for-marketaxess-merger-93CH-4967109",
+      "published_at": "2026-10-22T17:32:48+00:00"
     },
     {
-      "headline": "Healios at Chardan\u2019s 10th Annual Healthcare Conference: japan-first push",
+      "headline": "SD Bullion Announces Co-Branded Gold Bar Collection in Partnership With Argor-Heraeus",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/healios-at-chardans-10th-annual-healthcare-conference-japanfirst-push-93CH-4960785",
-      "published_at": "2026-10-20T17:21:00+00:00"
+      "link": "https://www.investing.com/news/press-releases/sd-bullion-announces-cobranded-gold-bar-collection-in-partnership-with-argorheraeus-4967108",
+      "published_at": "2026-10-22T17:32:32+00:00"
     },
     {
-      "headline": "Not just California: Wealth taxes are on the ballot across America this November",
+      "headline": "\u2018AI is on trial\u2019: Bond yields sink below 5% as investors look for safety",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=33839c70-4413-4d06-810b-e8a5daa72a00&mod=mw_rss_bulletins",
-      "published_at": "2026-10-20T17:07:37+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5576c39d-75df-482c-b023-fb5b621fbe2d&mod=mw_rss_bulletins",
+      "published_at": "2026-10-22T16:40:20+00:00"
     },
     {
-      "headline": "The college students who want to reverse an obscure ban on trading onion futures",
+      "headline": "Inside the Meta deal that kept Mark Zuckerberg from fleeing California",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c476b94f-f72b-44aa-a28b-a986e7f63f65&mod=mw_rss_bulletins",
-      "published_at": "2026-10-20T15:02:47+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=11fdb45e-9142-4435-a4b7-439b251495bd&mod=mw_rss_bulletins",
+      "published_at": "2026-10-22T15:30:47+00:00"
     },
     {
-      "headline": "Contracts to buy homes have fallen to a 25-year low",
+      "headline": "This strategist thinks the stock market\u2019s tailspin might have run its course",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=749c2c5e-4bd8-4fed-8f6c-cc43f5f19015&mod=mw_rss_bulletins",
-      "published_at": "2026-10-20T14:09:49+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8ca7b36b-2178-45a2-b90e-bdbe6dfa6433&mod=mw_rss_bulletins",
+      "published_at": "2026-10-22T14:39:35+00:00"
     },
     {
-      "headline": "S&P 500, Nasdaq open lower as tech stocks fall, oil prices jump",
+      "headline": "Dow, S&P 500, Nasdaq open lower as tech stocks come under pressure",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=691a50ef-4b5c-48fc-867d-b383b2573593&mod=mw_rss_bulletins",
-      "published_at": "2026-10-20T13:31:40+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9b9d43a-33a4-4832-921f-73fb8984e6fb&mod=mw_rss_bulletins",
+      "published_at": "2026-10-22T13:30:42+00:00"
     },
     {
-      "headline": "S&P rises and Nasdaq jumps over 1%, rebounding after their worst week since June",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-climb-as-investors-return-to-ai-trade-after-selloff-4956195",
-      "published_at": "2026-10-19T18:48:37+00:00"
+      "headline": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "published_at": "2026-10-21T19:54:16+00:00"
     },
     {
-      "headline": "Anthropic, Musk outline dueling approaches to AI-era philanthropy",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-commits-5-stake-to-new-public-benefit-fund-musk-argues-for-direct-share-donations-to-kids-4958151",
-      "published_at": "2026-10-19T18:48:24+00:00"
+      "headline": "This Janus Henderson fund manager owns CoreWeave debt \u2014 here's why he's sticking with it",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
+      "published_at": "2026-10-21T00:12:44+00:00"
     }
   ]
 }
