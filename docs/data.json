@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T18:07:07.512924+00:00",
+  "generated_at": "2026-10-23T17:44:13.283826+00:00",
   "composite": {
-    "status": "Calm",
-    "watches": 0,
+    "status": "Mild Watch",
+    "watches": 1,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-21",
-      "latest_value": 0.32,
+      "latest_date": "2026-10-22",
+      "latest_value": 0.31,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 0.36
-        },
         {
           "date": "2026-07-27",
           "value": 0.34
@@ -263,22 +259,22 @@
         {
           "date": "2026-10-21",
           "value": 0.32
+        },
+        {
+          "date": "2026-10-22",
+          "value": 0.31
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-21",
-      "latest_value": 3.27,
-      "latest_value_bps": 327.0,
+      "latest_date": "2026-10-22",
+      "latest_value": 3.4,
+      "latest_value_bps": 340.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 2.79
-        },
         {
           "date": "2026-07-27",
           "value": 2.81
@@ -530,21 +526,21 @@
         {
           "date": "2026-10-21",
           "value": 3.27
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.4
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-22",
-      "latest_value": 18.899999618530273,
+      "latest_date": "2026-10-23",
+      "latest_value": 20.229999542236328,
       "unit": "",
-      "status": "Normal",
+      "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 18.579999923706055
-        },
         {
           "date": "2026-07-27",
           "value": 18.670000076293945
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-10-22",
-          "value": 18.899999618530273
+          "value": 19.030000686645508
+        },
+        {
+          "date": "2026-10-23",
+          "value": 20.229999542236328
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-21",
-      "vix9d": 15.49,
-      "vix": 16.68,
-      "vix3m": 18.72,
-      "spread": 3.2299999999999986,
+      "latest_date": "2026-10-22",
+      "vix9d": 18.86,
+      "vix": 19.03,
+      "vix3m": 20.12,
+      "spread": 1.2600000000000016,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-24",
-          "vix9d": 17.62,
-          "vix": 18.58,
-          "vix3m": 20.51
-        },
         {
           "date": "2026-07-27",
           "vix9d": 18.13,
@@ -1197,22 +1191,24 @@
           "vix9d": 15.49,
           "vix": 16.68,
           "vix3m": 18.72
+        },
+        {
+          "date": "2026-10-22",
+          "vix9d": 18.86,
+          "vix": 19.03,
+          "vix3m": 20.12
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-22",
-      "latest_value": 101.625,
-      "pct_change_20d": 0.3307326305111152,
+      "latest_date": "2026-10-23",
+      "latest_value": 101.822998046875,
+      "pct_change_20d": 0.8448022341877267,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 101.47000122070312
-        },
         {
           "date": "2026-07-27",
           "value": 101.51000213623047
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-22",
-          "value": 101.625
+          "value": 101.61000061035156
+        },
+        {
+          "date": "2026-10-23",
+          "value": 101.822998046875
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-22",
-      "latest_value": 4060.39990234375,
-      "pct_change_20d": -5.528154901262215,
+      "latest_date": "2026-10-23",
+      "latest_value": 4009.89990234375,
+      "pct_change_20d": -7.2040238567618005,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-24",
-          "value": 4067.60009765625
-        },
         {
           "date": "2026-07-27",
           "value": 4074.5
@@ -1739,6 +1735,10 @@
         {
           "date": "2026-10-22",
           "value": 4060.39990234375
+        },
+        {
+          "date": "2026-10-23",
+          "value": 4009.89990234375
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       }
     ],
     "session_date": "2026-10-22",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1785,9 +1785,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-22T17:51:48.392022+00:00"
+    "last_refreshed": "2026-10-23T17:44:11.243477+00:00"
   },
   "headlines": [
+    {
+      "headline": "Jana Small Finance Bank Q2 FY27 slides: record profit drives guidance upgrade",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/jana-small-finance-bank-q2-fy27-slides-record-profit-drives-guidance-upgrade-93CH-4970174",
+      "published_at": "2026-10-23T17:22:23+00:00"
+    },
+    {
+      "headline": "Exclusive-First Russian diesel from Putin-Trump deal heading for US, data shows",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economic-indicators/exclusivetanker-carrying-40000-t-of-russian-diesel-heads-to-new-york-after-putintrump-deal-data-shows-4968099",
+      "published_at": "2026-10-23T17:18:30+00:00"
+    },
+    {
+      "headline": "GTT Q3 2026 slides: order surge drives record backlog despite revenue dip",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/gtt-q3-2026-slides-order-surge-drives-record-backlog-despite-revenue-dip-93CH-4970173",
+      "published_at": "2026-10-23T17:17:19+00:00"
+    },
+    {
+      "headline": "BP, Louisiana agree to resolve Deepwater Horizon disputes",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/bp-louisiana-agree-to-resolve-deepwater-horizon-disputes-4970169",
+      "published_at": "2026-10-23T17:12:55+00:00"
+    },
+    {
+      "headline": "Surging economy gets off to good start in 4th quarter, but there\u2019s a big problem",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a772ee85-05a0-4e51-bf51-8a61e5622099&mod=mw_rss_bulletins",
+      "published_at": "2026-10-23T16:49:28+00:00"
+    },
+    {
+      "headline": "Over 40% of Americans are heading toward retirement with no plan",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1b755e9d-b463-4d8e-886d-370ddb73f15d&mod=mw_rss_bulletins",
+      "published_at": "2026-10-23T15:17:51+00:00"
+    },
+    {
+      "headline": "Economic calendar: Factory and services data due, plus consumer mood",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=01f3894e-0239-4b3e-ba75-cbc76453e960&mod=mw_rss_bulletins",
+      "published_at": "2026-10-23T11:44:25+00:00"
+    },
+    {
+      "headline": "Young Americans are giving up their cars. It can be a path to financial freedom.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1767a25e-50c4-43ae-8096-315c9f49c862&mod=mw_rss_bulletins",
+      "published_at": "2026-10-22T23:25:29+00:00"
+    },
     {
       "headline": "Canaccord reiterates Spotify stock rating on solid Q3 results",
       "source": "Investing.com",
@@ -1799,54 +1847,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-grumas-q3-2026-profit-pressure-offsets-share-gains-93CH-4967110",
       "published_at": "2026-10-22T17:32:56+00:00"
-    },
-    {
-      "headline": "Regulators grant early termination of antitrust review for MarketAxess merger",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/sec-filings/regulators-grant-early-termination-of-antitrust-review-for-marketaxess-merger-93CH-4967109",
-      "published_at": "2026-10-22T17:32:48+00:00"
-    },
-    {
-      "headline": "SD Bullion Announces Co-Branded Gold Bar Collection in Partnership With Argor-Heraeus",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/press-releases/sd-bullion-announces-cobranded-gold-bar-collection-in-partnership-with-argorheraeus-4967108",
-      "published_at": "2026-10-22T17:32:32+00:00"
-    },
-    {
-      "headline": "\u2018AI is on trial\u2019: Bond yields sink below 5% as investors look for safety",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5576c39d-75df-482c-b023-fb5b621fbe2d&mod=mw_rss_bulletins",
-      "published_at": "2026-10-22T16:40:20+00:00"
-    },
-    {
-      "headline": "Inside the Meta deal that kept Mark Zuckerberg from fleeing California",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=11fdb45e-9142-4435-a4b7-439b251495bd&mod=mw_rss_bulletins",
-      "published_at": "2026-10-22T15:30:47+00:00"
-    },
-    {
-      "headline": "This strategist thinks the stock market\u2019s tailspin might have run its course",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8ca7b36b-2178-45a2-b90e-bdbe6dfa6433&mod=mw_rss_bulletins",
-      "published_at": "2026-10-22T14:39:35+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500, Nasdaq open lower as tech stocks come under pressure",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9b9d43a-33a4-4832-921f-73fb8984e6fb&mod=mw_rss_bulletins",
-      "published_at": "2026-10-22T13:30:42+00:00"
-    },
-    {
-      "headline": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
-      "published_at": "2026-10-21T19:54:16+00:00"
-    },
-    {
-      "headline": "This Janus Henderson fund manager owns CoreWeave debt \u2014 here's why he's sticking with it",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
-      "published_at": "2026-10-21T00:12:44+00:00"
     }
   ]
 }
