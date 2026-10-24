@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T17:55:55.235687+00:00",
+  "generated_at": "2026-10-24T16:26:57.210665+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
+    "status": "Calm",
+    "watches": 0,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,7 +10,7 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-22",
+      "latest_date": "2026-10-23",
       "latest_value": 0.31,
       "unit": "pp",
       "status": "Calm",
@@ -262,6 +262,10 @@
         },
         {
           "date": "2026-10-22",
+          "value": 0.31
+        },
+        {
+          "date": "2026-10-23",
           "value": 0.31
         }
       ]
@@ -536,9 +540,9 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-10-23",
-      "latest_value": 20.229999542236328,
+      "latest_value": 19.450000762939453,
       "unit": "",
-      "status": "Elevated",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -799,17 +803,17 @@
         },
         {
           "date": "2026-10-23",
-          "value": 20.229999542236328
+          "value": 19.450000762939453
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-22",
-      "vix9d": 18.86,
-      "vix": 19.03,
-      "vix3m": 20.12,
-      "spread": 1.2600000000000016,
+      "latest_date": "2026-10-23",
+      "vix9d": 18.7,
+      "vix": 19.45,
+      "vix3m": 20.48,
+      "spread": 1.7800000000000011,
       "unit": "",
       "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1197,14 +1201,20 @@
           "vix9d": 18.86,
           "vix": 19.03,
           "vix3m": 20.12
+        },
+        {
+          "date": "2026-10-23",
+          "vix9d": 18.7,
+          "vix": 19.45,
+          "vix3m": 20.48
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-10-23",
-      "latest_value": 101.822998046875,
-      "pct_change_20d": 0.8448022341877267,
+      "latest_value": 101.80999755859375,
+      "pct_change_20d": 0.8319266393337333,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1467,15 +1477,15 @@
         },
         {
           "date": "2026-10-23",
-          "value": 101.822998046875
+          "value": 101.80999755859375
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-10-23",
-      "latest_value": 4009.89990234375,
-      "pct_change_20d": -7.2040238567618005,
+      "latest_value": 4007.89990234375,
+      "pct_change_20d": -7.250307294455095,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1738,7 +1748,7 @@
         },
         {
           "date": "2026-10-23",
-          "value": 4009.89990234375
+          "value": 4007.89990234375
         }
       ]
     }
@@ -1755,7 +1765,7 @@
       }
     ],
     "session_date": "2026-10-23",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1785,9 +1795,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-23T17:44:11.243477+00:00"
+    "last_refreshed": "2026-10-24T16:26:54.880280+00:00"
   },
   "headlines": [
+    {
+      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/iran-has-ramped-up-efforts-to-target-us-personnel-intelligence-memo-warns-4970887",
+      "published_at": "2026-10-24T16:06:41+00:00"
+    },
+    {
+      "headline": "Pfizer reports phase 2 data for 25-valent pneumococcal vaccine",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/pfizer-reports-phase-2-data-for-25valent-pneumococcal-vaccine-93CH-4970863",
+      "published_at": "2026-10-24T15:24:42+00:00"
+    },
+    {
+      "headline": "IDFC First Bank Q2 FY27 slides: profit crosses Rs. 1,000 Cr milestone",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/idfc-first-bank-q2-fy27-slides-profit-crosses-rs-1000-cr-milestone-93CH-4970851",
+      "published_at": "2026-10-24T14:48:38+00:00"
+    },
+    {
+      "headline": "Do machines have feelings? AI has many rethinking consciousness.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5bc0659f-05be-4c5b-879e-bf49b98915d3&mod=mw_rss_bulletins",
+      "published_at": "2026-10-24T14:39:30+00:00"
+    },
+    {
+      "headline": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/couchetard-proposes-up-to-8-billion-offer-for-cumberland-farms-the-times-reports-4970845",
+      "published_at": "2026-10-24T14:30:26+00:00"
+    },
+    {
+      "headline": "AI fever ignites a boom in thematic ETFs as fund managers hunt for next big hit",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c2646188-9e32-4b72-bd7a-f00bf6b670fc&mod=mw_rss_bulletins",
+      "published_at": "2026-10-24T13:54:45+00:00"
+    },
+    {
+      "headline": "\u2018Non-answers\u2019 aren\u2019t working. This is what investors really need from the Fed.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6bdb0d14-3084-40cf-b20e-075bd0b29ed3&mod=mw_rss_bulletins",
+      "published_at": "2026-10-24T13:17:24+00:00"
+    },
+    {
+      "headline": "Will Anthropic pull off a November IPO? Time is running out.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=65d001e5-c598-4d0b-bad7-39050021ad5c&mod=mw_rss_bulletins",
+      "published_at": "2026-10-23T22:21:56+00:00"
+    },
     {
       "headline": "Jana Small Finance Bank Q2 FY27 slides: record profit drives guidance upgrade",
       "source": "Investing.com",
@@ -1799,54 +1857,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economic-indicators/exclusivetanker-carrying-40000-t-of-russian-diesel-heads-to-new-york-after-putintrump-deal-data-shows-4968099",
       "published_at": "2026-10-23T17:18:30+00:00"
-    },
-    {
-      "headline": "GTT Q3 2026 slides: order surge drives record backlog despite revenue dip",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/gtt-q3-2026-slides-order-surge-drives-record-backlog-despite-revenue-dip-93CH-4970173",
-      "published_at": "2026-10-23T17:17:19+00:00"
-    },
-    {
-      "headline": "BP, Louisiana agree to resolve Deepwater Horizon disputes",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/bp-louisiana-agree-to-resolve-deepwater-horizon-disputes-4970169",
-      "published_at": "2026-10-23T17:12:55+00:00"
-    },
-    {
-      "headline": "Surging economy gets off to good start in 4th quarter, but there\u2019s a big problem",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a772ee85-05a0-4e51-bf51-8a61e5622099&mod=mw_rss_bulletins",
-      "published_at": "2026-10-23T16:49:28+00:00"
-    },
-    {
-      "headline": "Over 40% of Americans are heading toward retirement with no plan",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1b755e9d-b463-4d8e-886d-370ddb73f15d&mod=mw_rss_bulletins",
-      "published_at": "2026-10-23T15:17:51+00:00"
-    },
-    {
-      "headline": "Economic calendar: Factory and services data due, plus consumer mood",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=01f3894e-0239-4b3e-ba75-cbc76453e960&mod=mw_rss_bulletins",
-      "published_at": "2026-10-23T11:44:25+00:00"
-    },
-    {
-      "headline": "Young Americans are giving up their cars. It can be a path to financial freedom.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1767a25e-50c4-43ae-8096-315c9f49c862&mod=mw_rss_bulletins",
-      "published_at": "2026-10-22T23:25:29+00:00"
-    },
-    {
-      "headline": "Canaccord reiterates Spotify stock rating on solid Q3 results",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/canaccord-reiterates-spotify-stock-rating-on-solid-q3-results-93CH-4967111",
-      "published_at": "2026-10-22T17:34:47+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Gruma\u2019s Q3 2026 profit pressure offsets share gains",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-grumas-q3-2026-profit-pressure-offsets-share-gains-93CH-4967110",
-      "published_at": "2026-10-22T17:32:56+00:00"
     }
   ]
 }
