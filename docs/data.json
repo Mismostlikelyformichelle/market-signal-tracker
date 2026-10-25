@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:26:57.210665+00:00",
+  "generated_at": "2026-10-25T16:58:30.377440+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1795,9 +1795,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-24T16:26:54.880280+00:00"
+    "last_refreshed": "2026-10-25T16:58:28.240903+00:00"
   },
   "headlines": [
+    {
+      "headline": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+      "published_at": "2026-10-25T15:54:23+00:00"
+    },
+    {
+      "headline": "Jefferies upgrades Dr. Reddy\u2019s stock rating on margin outlook",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/jefferies-upgrades-dr-reddys-stock-rating-on-margin-outlook-93CH-4971223",
+      "published_at": "2026-10-25T15:32:57+00:00"
+    },
+    {
+      "headline": "Does enough capital exist to finance everyone\u2019s ambitious AI spending plans?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/does-enough-capital-exist-to-finance-everyones-ambitious-ai-spending-plans-4971221",
+      "published_at": "2026-10-25T15:27:32+00:00"
+    },
+    {
+      "headline": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+      "published_at": "2026-10-25T14:32:13+00:00"
+    },
+    {
+      "headline": "Economic calendar: Week begins with wave of housing-market data",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cd1bae00-790c-43f5-a44b-70d6a0438c0a&mod=mw_rss_bulletins",
+      "published_at": "2026-10-25T14:22:13+00:00"
+    },
+    {
+      "headline": "Thirty-six percent of the S&P 500 scheduled to report earnings this week",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=416473b1-dc8f-4264-b4fe-8a9248da7386&mod=mw_rss_bulletins",
+      "published_at": "2026-10-25T14:12:32+00:00"
+    },
+    {
+      "headline": "Look for stock-market relief after the midterms \u2014 no matter who wins",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a0659e58-16bd-4b48-a1f7-6af0774251e7&mod=mw_rss_bulletins",
+      "published_at": "2026-10-25T13:31:48+00:00"
+    },
+    {
+      "headline": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "published_at": "2026-10-24T18:56:29+00:00"
+    },
     {
       "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns",
       "source": "Investing.com",
@@ -1809,54 +1857,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/pfizer-reports-phase-2-data-for-25valent-pneumococcal-vaccine-93CH-4970863",
       "published_at": "2026-10-24T15:24:42+00:00"
-    },
-    {
-      "headline": "IDFC First Bank Q2 FY27 slides: profit crosses Rs. 1,000 Cr milestone",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/idfc-first-bank-q2-fy27-slides-profit-crosses-rs-1000-cr-milestone-93CH-4970851",
-      "published_at": "2026-10-24T14:48:38+00:00"
-    },
-    {
-      "headline": "Do machines have feelings? AI has many rethinking consciousness.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5bc0659f-05be-4c5b-879e-bf49b98915d3&mod=mw_rss_bulletins",
-      "published_at": "2026-10-24T14:39:30+00:00"
-    },
-    {
-      "headline": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/couchetard-proposes-up-to-8-billion-offer-for-cumberland-farms-the-times-reports-4970845",
-      "published_at": "2026-10-24T14:30:26+00:00"
-    },
-    {
-      "headline": "AI fever ignites a boom in thematic ETFs as fund managers hunt for next big hit",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c2646188-9e32-4b72-bd7a-f00bf6b670fc&mod=mw_rss_bulletins",
-      "published_at": "2026-10-24T13:54:45+00:00"
-    },
-    {
-      "headline": "\u2018Non-answers\u2019 aren\u2019t working. This is what investors really need from the Fed.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6bdb0d14-3084-40cf-b20e-075bd0b29ed3&mod=mw_rss_bulletins",
-      "published_at": "2026-10-24T13:17:24+00:00"
-    },
-    {
-      "headline": "Will Anthropic pull off a November IPO? Time is running out.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=65d001e5-c598-4d0b-bad7-39050021ad5c&mod=mw_rss_bulletins",
-      "published_at": "2026-10-23T22:21:56+00:00"
-    },
-    {
-      "headline": "Jana Small Finance Bank Q2 FY27 slides: record profit drives guidance upgrade",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/jana-small-finance-bank-q2-fy27-slides-record-profit-drives-guidance-upgrade-93CH-4970174",
-      "published_at": "2026-10-23T17:22:23+00:00"
-    },
-    {
-      "headline": "Exclusive-First Russian diesel from Putin-Trump deal heading for US, data shows",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/exclusivetanker-carrying-40000-t-of-russian-diesel-heads-to-new-york-after-putintrump-deal-data-shows-4968099",
-      "published_at": "2026-10-23T17:18:30+00:00"
     }
   ]
 }
