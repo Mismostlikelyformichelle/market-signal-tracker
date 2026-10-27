@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:29:52.441288+00:00",
+  "generated_at": "2026-10-27T18:33:54.487334+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-23",
-      "latest_value": 0.31,
+      "latest_date": "2026-10-26",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-28",
-          "value": 0.35
-        },
         {
           "date": "2026-07-29",
           "value": 0.45
@@ -263,22 +259,22 @@
         {
           "date": "2026-10-23",
           "value": 0.31
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-23",
-      "latest_value": 3.38,
-      "latest_value_bps": 338.0,
+      "latest_date": "2026-10-26",
+      "latest_value": 3.3,
+      "latest_value_bps": 330.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-28",
-          "value": 2.84
-        },
         {
           "date": "2026-07-29",
           "value": 2.87
@@ -530,21 +526,21 @@
         {
           "date": "2026-10-23",
           "value": 3.38
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.3
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-26",
-      "latest_value": 18.420000076293945,
+      "latest_date": "2026-10-27",
+      "latest_value": 17.770000457763672,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-28",
-          "value": 18.209999084472656
-        },
         {
           "date": "2026-07-29",
           "value": 20.65999984741211
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-10-26",
-          "value": 18.420000076293945
+          "value": 18.389999389648438
+        },
+        {
+          "date": "2026-10-27",
+          "value": 17.770000457763672
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-23",
-      "vix9d": 18.7,
-      "vix": 19.45,
-      "vix3m": 20.48,
-      "spread": 1.7800000000000011,
+      "latest_date": "2026-10-26",
+      "vix9d": 17.92,
+      "vix": 18.39,
+      "vix3m": 19.94,
+      "spread": 2.0199999999999996,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-28",
-          "vix9d": 17.25,
-          "vix": 18.21,
-          "vix3m": 19.86
-        },
         {
           "date": "2026-07-29",
           "vix9d": 20.38,
@@ -1197,22 +1191,24 @@
           "vix9d": 18.7,
           "vix": 19.45,
           "vix3m": 20.48
+        },
+        {
+          "date": "2026-10-26",
+          "vix9d": 17.92,
+          "vix": 18.39,
+          "vix3m": 19.94
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-26",
-      "latest_value": 101.94300079345703,
-      "pct_change_20d": 0.7341935450796964,
+      "latest_date": "2026-10-27",
+      "latest_value": 102.3280029296875,
+      "pct_change_20d": 0.9450529319806795,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-28",
-          "value": 101.37999725341797
-        },
         {
           "date": "2026-07-29",
           "value": 100.80000305175781
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-26",
-          "value": 101.94300079345703
+          "value": 101.95999908447266
+        },
+        {
+          "date": "2026-10-27",
+          "value": 102.3280029296875
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-26",
-      "latest_value": 4027.39990234375,
-      "pct_change_20d": -3.3825929206245413,
+      "latest_date": "2026-10-27",
+      "latest_value": 4069.199951171875,
+      "pct_change_20d": -2.643736128838861,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-28",
-          "value": 4036.300048828125
-        },
         {
           "date": "2026-07-29",
           "value": 4034.699951171875
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-10-26",
-          "value": 4027.39990234375
+          "value": 4038.39990234375
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4069.199951171875
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       }
     ],
     "session_date": "2026-10-26",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1791,68 +1791,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-26T19:02:19.890963+00:00"
+    "last_refreshed": "2026-10-27T18:33:52.915382+00:00"
   },
   "headlines": [
+    {
+      "headline": "Crusoe CEO defends CoreWeave amid selloff",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/crusoe-ceo-defends-coreweave-amid-selloff-4976608",
+      "published_at": "2026-10-27T18:22:54+00:00"
+    },
+    {
+      "headline": "Exclusive-US agency is again probing if Polymarket broke 2022 settlement, sources says",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/exclusiveus-agency-is-again-probing-if-polymarket-broke-2022-settlement-sources-says-4976558",
+      "published_at": "2026-10-27T18:18:49+00:00"
+    },
+    {
+      "headline": "Hasbro stock hits 52-week high at $119.01",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/hasbro-stock-hits-52week-high-at-11901-93CH-4976607",
+      "published_at": "2026-10-27T18:18:42+00:00"
+    },
+    {
+      "headline": "Williams raises quarterly dividend 5% to $0.525 per share",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/williams-raises-quarterly-dividend-5-to-0525-per-share-93CH-4976606",
+      "published_at": "2026-10-27T18:16:38+00:00"
+    },
+    {
+      "headline": "The big reason Boeing\u2019s stock is falling so hard after earnings",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1c98c7a0-22d9-43a6-98c6-f3a89da1dd9d&mod=mw_rss_bulletins",
+      "published_at": "2026-10-27T18:02:50+00:00"
+    },
+    {
+      "headline": "When will Anthropic go public? Here\u2019s what to know about the IPO timeline.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bb255eba-c59a-4f27-8f03-a334626a3576&mod=mw_rss_bulletins",
+      "published_at": "2026-10-27T17:15:07+00:00"
+    },
+    {
+      "headline": "Ripple strikes deal with Robinhood to expand its RLUSD digital dollar",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/27/ripple-strikes-deal-with-robinhood-to-expand-its-rlusd-digital-dollar.html",
+      "published_at": "2026-10-27T16:35:45+00:00"
+    },
+    {
+      "headline": "The U.S. economy is gathering steam. This is the chief reason why.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d80906d5-874e-411e-a141-294d3e6cb12d&mod=mw_rss_bulletins",
+      "published_at": "2026-10-27T16:19:30+00:00"
+    },
+    {
+      "headline": "What a bigger-than-expected Democratic midterm win would mean for stocks",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b367fc5-933b-4e0a-a122-7f47087b0db3&mod=mw_rss_bulletins",
+      "published_at": "2026-10-27T15:36:14+00:00"
+    },
     {
       "headline": "Bank of Hawaii Q3 2026 slides: margin expands for 10th quarter",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/bank-of-hawaii-q3-2026-slides-margin-expands-for-10th-quarter-93CH-4973436",
       "published_at": "2026-10-26T18:55:09+00:00"
-    },
-    {
-      "headline": "Factbox-Anthropic\u2019s potential mega IPO joins ranks of world\u2019s biggest listings",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/factboxanthropic-moves-closer-to-blockbuster-listing-with-us-ipo-filing-4972888",
-      "published_at": "2026-10-26T18:54:39+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: River City Bank tops Q3 2026 estimates as shares rise",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-river-city-bank-tops-q3-2026-estimates-as-shares-rise-93CH-4973435",
-      "published_at": "2026-10-26T18:53:23+00:00"
-    },
-    {
-      "headline": "CNL Strategic Capital board sets new net asset value and declares distributions",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/sec-filings/cnl-strategic-capital-board-sets-new-net-asset-value-and-declares-distributions-93CH-4973434",
-      "published_at": "2026-10-26T18:52:33+00:00"
-    },
-    {
-      "headline": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC ",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
-      "published_at": "2026-10-26T16:51:52+00:00"
-    },
-    {
-      "headline": "The issues in the midterm elections that will impact your wallet",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0e28d798-e052-41b3-b961-e49c7ee2d365&mod=mw_rss_bulletins",
-      "published_at": "2026-10-26T15:42:57+00:00"
-    },
-    {
-      "headline": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
-      "published_at": "2026-10-26T15:39:55+00:00"
-    },
-    {
-      "headline": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
-      "published_at": "2026-10-26T15:19:41+00:00"
-    },
-    {
-      "headline": "Dow, S&P and Nasdaq climb in morning trading as Anthropic files for IPO",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=59624406-7ef1-42be-9453-cca85e755eed&mod=mw_rss_bulletins",
-      "published_at": "2026-10-26T14:31:44+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/top-wall-street-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
-      "published_at": "2026-10-26T13:41:13+00:00"
     }
   ]
 }
