@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T19:07:33.081278+00:00",
+  "generated_at": "2026-10-30T18:26:18.586704+00:00",
   "composite": {
-    "status": "Calm",
-    "watches": 0,
+    "status": "Mild Watch",
+    "watches": 1,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-28",
-      "latest_value": 0.38,
+      "latest_date": "2026-10-29",
+      "latest_value": 0.37,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-07-31",
-          "value": 0.47
-        },
         {
           "date": "2026-08-03",
           "value": 0.45
@@ -263,22 +259,22 @@
         {
           "date": "2026-10-28",
           "value": 0.38
+        },
+        {
+          "date": "2026-10-29",
+          "value": 0.37
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-28",
-      "latest_value": 3.14,
-      "latest_value_bps": 314.0,
+      "latest_date": "2026-10-29",
+      "latest_value": 3.26,
+      "latest_value_bps": 326.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-07-31",
-          "value": 2.85
-        },
         {
           "date": "2026-08-03",
           "value": 2.78
@@ -530,21 +526,21 @@
         {
           "date": "2026-10-28",
           "value": 3.14
+        },
+        {
+          "date": "2026-10-29",
+          "value": 3.26
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-29",
-      "latest_value": 17.079999923706055,
+      "latest_date": "2026-10-30",
+      "latest_value": 21.989999771118164,
       "unit": "",
-      "status": "Normal",
+      "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-07-31",
-          "value": 15.989999771118164
-        },
         {
           "date": "2026-08-03",
           "value": 15.859999656677246
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-10-29",
-          "value": 17.079999923706055
+          "value": 17.200000762939453
+        },
+        {
+          "date": "2026-10-30",
+          "value": 21.989999771118164
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-28",
-      "vix9d": 15.6,
-      "vix": 16.91,
-      "vix3m": 19.22,
-      "spread": 3.619999999999999,
+      "latest_date": "2026-10-29",
+      "vix9d": 15.87,
+      "vix": 17.2,
+      "vix3m": 19.37,
+      "spread": 3.5000000000000018,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-07-31",
-          "vix9d": 13.05,
-          "vix": 15.99,
-          "vix3m": 19.02
-        },
         {
           "date": "2026-08-03",
           "vix9d": 13.28,
@@ -1197,22 +1191,24 @@
           "vix9d": 15.6,
           "vix": 16.91,
           "vix3m": 19.22
+        },
+        {
+          "date": "2026-10-29",
+          "vix9d": 15.87,
+          "vix": 17.2,
+          "vix3m": 19.37
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-29",
-      "latest_value": 102.02799987792969,
-      "pct_change_20d": -0.07051772504154881,
+      "latest_date": "2026-10-30",
+      "latest_value": 101.93399810791016,
+      "pct_change_20d": 0.003922106075155187,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-07-31",
-          "value": 99.80000305175781
-        },
         {
           "date": "2026-08-03",
           "value": 99.95999908447266
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-10-29",
-          "value": 102.02799987792969
+          "value": 102.04000091552734
+        },
+        {
+          "date": "2026-10-30",
+          "value": 101.93399810791016
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-29",
-      "latest_value": 4020.300048828125,
-      "pct_change_20d": -4.33095600785935,
+      "latest_date": "2026-10-30",
+      "latest_value": 3889.60009765625,
+      "pct_change_20d": -6.551659414925877,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-07-31",
-          "value": 4049.10009765625
-        },
         {
           "date": "2026-08-03",
           "value": 4033.699951171875
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-10-29",
-          "value": 4020.300048828125
+          "value": 4031.39990234375
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3889.60009765625
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       }
     ],
     "session_date": "2026-10-29",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1773,7 +1773,7 @@
       {
         "date": "2026-10-29",
         "name": "GDP Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "Consumers and A.I. Spending Push U.S. Economic Growth Higher",
           "source": "The New York Times",
@@ -1799,68 +1799,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-29T18:48:40.383412+00:00"
+    "last_refreshed": "2026-10-30T18:26:16.833120+00:00"
   },
   "headlines": [
     {
-      "headline": "Dollar dips and euro rises after Fed, ECB rate decisions; pound extends gains",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-steadies-after-fed-hold-pce-eyed-4981446",
-      "published_at": "2026-10-29T18:45:17+00:00"
-    },
-    {
-      "headline": "Why is Hyperliquid Strategies stock surging today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-hyperliquid-strategies-stock-surging-today-93CH-4984890",
-      "published_at": "2026-10-29T18:44:51+00:00"
-    },
-    {
-      "headline": "Why is Trane Technologies stock sliding today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-trane-technologies-stock-sliding-today-93CH-4984889",
-      "published_at": "2026-10-29T18:43:50+00:00"
-    },
-    {
-      "headline": "Why is O\u2019Reilly Automotive stock sliding today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-oreilly-automotive-stock-sliding-today-93CH-4984888",
-      "published_at": "2026-10-29T18:43:44+00:00"
-    },
-    {
-      "headline": "Was the Fed's October rate pause a mistake? The Treasury could provide cover.",
+      "headline": "After Intel\u2019s historic stock drop, analysts say there\u2019s no reason to buy the dip",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=610cbfe8-e44d-494c-a472-2f280338af49&mod=mw_rss_bulletins",
-      "published_at": "2026-10-29T18:08:39+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b1de4a1-0480-4479-a2ca-3fc375b9931e&mod=mw_rss_bulletins",
+      "published_at": "2026-10-30T18:05:17+00:00"
     },
     {
-      "headline": "All the reasons Marvell investors are \u2019freaking out\u2019 amid Lumentum deal rumors",
+      "headline": "US SEC\u2019s top cop says agency is monitoring AI corporate disclosures",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-4988480",
+      "published_at": "2026-10-30T18:00:25+00:00"
+    },
+    {
+      "headline": "Investing.com\u2019s stocks of the week",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/investingcoms-stocks-of-the-week-4988477",
+      "published_at": "2026-10-30T17:58:21+00:00"
+    },
+    {
+      "headline": "SEC examining AI companies\u2019 disclosures amid bubble concerns",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/sec-examining-ai-companies-disclosures-amid-bubble-concerns-93CH-4988476",
+      "published_at": "2026-10-30T17:55:33+00:00"
+    },
+    {
+      "headline": "Oil prices set for fourth straight monthly gains as tanker attack highlights supply risks",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia-4985735",
+      "published_at": "2026-10-30T17:54:42+00:00"
+    },
+    {
+      "headline": "Data centers are a political third rail. West Virginia is grabbing it anyway.",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7e7d53d0-c563-4754-b919-76211056a02f&mod=mw_rss_bulletins",
-      "published_at": "2026-10-29T17:47:01+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=95464059-371f-42c7-af68-7cb7f6a20e3b&mod=mw_rss_bulletins",
+      "published_at": "2026-10-30T17:20:26+00:00"
     },
     {
-      "headline": "The midterms are crucial to Social Security's future \u2013 no matter how old you are",
+      "headline": "What AMD investors learned from Intel\u2019s earnings",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2dba7acd-cf7f-4ed7-a98a-6abd8a08785a&mod=mw_rss_bulletins",
-      "published_at": "2026-10-29T16:36:27+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=76d0e380-81c0-426c-8673-6b6184b79fee&mod=mw_rss_bulletins",
+      "published_at": "2026-10-30T16:13:51+00:00"
     },
     {
-      "headline": "It\u2019s the strangest job market the U.S. has ever seen",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=55848726-4cc7-4e16-81ab-8ace50ffb82a&mod=mw_rss_bulletins",
-      "published_at": "2026-10-29T14:47:12+00:00"
-    },
-    {
-      "headline": " As AI becomes more fractured, one name stands out: AMD",
+      "headline": "$6.3 billion Binance hack is largest crypto theft on record",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/-as-ai-becomes-more-fractured-one-names-stands-out-amd.html",
-      "published_at": "2026-10-29T13:37:38+00:00"
+      "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+      "published_at": "2026-10-30T16:01:51+00:00"
     },
     {
-      "headline": "Warsh speaks after Federal Reserve leaves interest rates unchanged \u2014 follow live",
+      "headline": "These are the biggest winners and losers during the stock market\u2019s wild October",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ebba8190-7912-4735-b467-fe05de94ad91&mod=mw_rss_bulletins",
-      "published_at": "2026-10-28T18:35:03+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d4cac0b6-aa58-4fda-81bc-8f92d27df185&mod=mw_rss_bulletins",
+      "published_at": "2026-10-30T15:33:40+00:00"
+    },
+    {
+      "headline": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
+      "published_at": "2026-10-29T21:38:16+00:00"
     }
   ]
 }
