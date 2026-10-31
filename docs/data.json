@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T18:46:04.437511+00:00",
+  "generated_at": "2026-10-31T17:31:11.327916+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
+    "status": "Calm",
+    "watches": 0,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-29",
-      "latest_value": 0.37,
+      "latest_date": "2026-10-30",
+      "latest_value": 0.38,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -263,6 +263,10 @@
         {
           "date": "2026-10-29",
           "value": 0.37
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.38
         }
       ]
     },
@@ -536,9 +540,9 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-10-30",
-      "latest_value": 21.989999771118164,
+      "latest_value": 19.420000076293945,
       "unit": "",
-      "status": "Elevated",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
         {
@@ -799,19 +803,19 @@
         },
         {
           "date": "2026-10-30",
-          "value": 21.989999771118164
+          "value": 19.420000076293945
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-29",
-      "vix9d": 15.87,
-      "vix": 17.2,
-      "vix3m": 19.37,
-      "spread": 3.5000000000000018,
+      "latest_date": "2026-10-30",
+      "vix9d": 19.25,
+      "vix": 19.42,
+      "vix3m": 20.78,
+      "spread": 1.5300000000000011,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
         {
@@ -1197,14 +1201,20 @@
           "vix9d": 15.87,
           "vix": 17.2,
           "vix3m": 19.37
+        },
+        {
+          "date": "2026-10-30",
+          "vix9d": 19.25,
+          "vix": 19.42,
+          "vix3m": 20.78
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-10-30",
-      "latest_value": 101.93399810791016,
-      "pct_change_20d": 0.003922106075155187,
+      "latest_value": 101.87999725341797,
+      "pct_change_20d": -0.049056265680471556,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1467,15 +1477,15 @@
         },
         {
           "date": "2026-10-30",
-          "value": 101.93399810791016
+          "value": 101.87999725341797
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-10-30",
-      "latest_value": 3889.60009765625,
-      "pct_change_20d": -6.551659414925877,
+      "latest_value": 3898.89990234375,
+      "pct_change_20d": -6.328229937860656,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1738,7 +1748,7 @@
         },
         {
           "date": "2026-10-30",
-          "value": 3889.60009765625
+          "value": 3898.89990234375
         }
       ]
     }
@@ -1755,7 +1765,7 @@
       }
     ],
     "session_date": "2026-10-30",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1799,9 +1809,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-30T18:26:16.833120+00:00"
+    "last_refreshed": "2026-10-31T17:31:09.831012+00:00"
   },
   "headlines": [
+    {
+      "headline": "Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/cryptocurrency-news/binance-says-it-has-replaced-90-of-63-billion-stolen-in-record-crypto-hack-4989304",
+      "published_at": "2026-10-31T16:56:46+00:00"
+    },
+    {
+      "headline": "OPEC+ set to keep production targets unchanged in December, source says",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/opec-set-to-keep-production-targets-unchanged-in-december-source-says-4989301",
+      "published_at": "2026-10-31T16:42:19+00:00"
+    },
+    {
+      "headline": "Reliance Q2 FY27 slides: record EBITDA on O2C surge, Jio IPO milestone",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/reliance-q2-fy27-slides-record-ebitda-on-o2c-surge-jio-ipo-milestone-93CH-4989300",
+      "published_at": "2026-10-31T16:39:08+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Reliance posts Q2 2026 beat as energy drives record profit",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-reliance-posts-q2-2026-beat-as-energy-drives-record-profit-93CH-4989298",
+      "published_at": "2026-10-31T16:21:56+00:00"
+    },
+    {
+      "headline": "Your stock portfolio increasingly hinges on the bond market \u2014 and the midterms",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e019e3c9-1fe1-474c-8454-0b0604e94a0b&mod=mw_rss_bulletins",
+      "published_at": "2026-10-31T16:17:54+00:00"
+    },
+    {
+      "headline": "Here\u2019s where the smart money is moving after the market's front runners stumbled",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=438b7b1e-b3bf-4a02-a889-72b26eae0bcb&mod=mw_rss_bulletins",
+      "published_at": "2026-10-31T14:52:35+00:00"
+    },
+    {
+      "headline": "Here's where the smart money is moving after the stock market",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=778ecbde-1828-4200-8f14-40480463eae8&mod=mw_rss_bulletins",
+      "published_at": "2026-10-31T14:48:09+00:00"
+    },
+    {
+      "headline": "Google taught the world how to search. Now it faces a revolution it can\u2019t lose.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=863c546f-25c6-42a6-8910-a9bd2064b873&mod=mw_rss_bulletins",
+      "published_at": "2026-10-31T14:13:30+00:00"
+    },
     {
       "headline": "After Intel\u2019s historic stock drop, analysts say there\u2019s no reason to buy the dip",
       "source": "MarketWatch",
@@ -1813,54 +1871,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economy-news/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-4988480",
       "published_at": "2026-10-30T18:00:25+00:00"
-    },
-    {
-      "headline": "Investing.com\u2019s stocks of the week",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/investingcoms-stocks-of-the-week-4988477",
-      "published_at": "2026-10-30T17:58:21+00:00"
-    },
-    {
-      "headline": "SEC examining AI companies\u2019 disclosures amid bubble concerns",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/sec-examining-ai-companies-disclosures-amid-bubble-concerns-93CH-4988476",
-      "published_at": "2026-10-30T17:55:33+00:00"
-    },
-    {
-      "headline": "Oil prices set for fourth straight monthly gains as tanker attack highlights supply risks",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia-4985735",
-      "published_at": "2026-10-30T17:54:42+00:00"
-    },
-    {
-      "headline": "Data centers are a political third rail. West Virginia is grabbing it anyway.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=95464059-371f-42c7-af68-7cb7f6a20e3b&mod=mw_rss_bulletins",
-      "published_at": "2026-10-30T17:20:26+00:00"
-    },
-    {
-      "headline": "What AMD investors learned from Intel\u2019s earnings",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=76d0e380-81c0-426c-8673-6b6184b79fee&mod=mw_rss_bulletins",
-      "published_at": "2026-10-30T16:13:51+00:00"
-    },
-    {
-      "headline": "$6.3 billion Binance hack is largest crypto theft on record",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "published_at": "2026-10-30T16:01:51+00:00"
-    },
-    {
-      "headline": "These are the biggest winners and losers during the stock market\u2019s wild October",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d4cac0b6-aa58-4fda-81bc-8f92d27df185&mod=mw_rss_bulletins",
-      "published_at": "2026-10-30T15:33:40+00:00"
-    },
-    {
-      "headline": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
-      "published_at": "2026-10-29T21:38:16+00:00"
     }
   ]
 }
