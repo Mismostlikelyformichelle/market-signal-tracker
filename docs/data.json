@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:31:11.327916+00:00",
+  "generated_at": "2026-11-01T18:16:23.645365+00:00",
   "composite": {
     "status": "Calm",
     "watches": 0,
@@ -1809,9 +1809,45 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-10-31T17:31:09.831012+00:00"
+    "last_refreshed": "2026-11-01T18:16:22.420395+00:00"
   },
   "headlines": [
+    {
+      "headline": "Serbians mark railway disaster that led to rise of victorious student movement",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/serbians-mark-railway-disaster-that-led-to-rise-of-victorious-student-movement-4989758",
+      "published_at": "2026-11-01T17:36:19+00:00"
+    },
+    {
+      "headline": "New Zealand\u2019s two-speed economy poses election dilemma for ruling National party \u00a0",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economic-indicators/new-zealands-twospeed-economy-poses-election-dilemma-for-ruling-national-party-4989769",
+      "published_at": "2026-11-01T17:12:19+00:00"
+    },
+    {
+      "headline": "Binance sees spike in customers pulling funds out after covering bulk of stolen $6.3 billion",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/binance-to-resume-withdrawals-after-recovering-bulk-of-6-billion-in-stolen-funds-4989388",
+      "published_at": "2026-11-01T15:54:19+00:00"
+    },
+    {
+      "headline": "Raymond James cuts Oil States stock price target on guidance outlook",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/raymond-james-cuts-oil-states-stock-price-target-on-guidance-outlook-93CH-4989767",
+      "published_at": "2026-11-01T15:41:00+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
+      "published_at": "2026-11-01T12:33:53+00:00"
+    },
+    {
+      "headline": "The midterm election could reshape the muni bond market. Here\u2019s what investors need to know",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
+      "published_at": "2026-11-01T12:30:48+00:00"
+    },
     {
       "headline": "Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack",
       "source": "Investing.com",
@@ -1835,42 +1871,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-reliance-posts-q2-2026-beat-as-energy-drives-record-profit-93CH-4989298",
       "published_at": "2026-10-31T16:21:56+00:00"
-    },
-    {
-      "headline": "Your stock portfolio increasingly hinges on the bond market \u2014 and the midterms",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e019e3c9-1fe1-474c-8454-0b0604e94a0b&mod=mw_rss_bulletins",
-      "published_at": "2026-10-31T16:17:54+00:00"
-    },
-    {
-      "headline": "Here\u2019s where the smart money is moving after the market's front runners stumbled",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=438b7b1e-b3bf-4a02-a889-72b26eae0bcb&mod=mw_rss_bulletins",
-      "published_at": "2026-10-31T14:52:35+00:00"
-    },
-    {
-      "headline": "Here's where the smart money is moving after the stock market",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=778ecbde-1828-4200-8f14-40480463eae8&mod=mw_rss_bulletins",
-      "published_at": "2026-10-31T14:48:09+00:00"
-    },
-    {
-      "headline": "Google taught the world how to search. Now it faces a revolution it can\u2019t lose.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=863c546f-25c6-42a6-8910-a9bd2064b873&mod=mw_rss_bulletins",
-      "published_at": "2026-10-31T14:13:30+00:00"
-    },
-    {
-      "headline": "After Intel\u2019s historic stock drop, analysts say there\u2019s no reason to buy the dip",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8b1de4a1-0480-4479-a2ca-3fc375b9931e&mod=mw_rss_bulletins",
-      "published_at": "2026-10-30T18:05:17+00:00"
-    },
-    {
-      "headline": "US SEC\u2019s top cop says agency is monitoring AI corporate disclosures",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-4988480",
-      "published_at": "2026-10-30T18:00:25+00:00"
     }
   ]
 }
