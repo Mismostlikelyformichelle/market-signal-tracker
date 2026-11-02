@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T18:16:23.645365+00:00",
+  "generated_at": "2026-11-02T22:10:54.987376+00:00",
   "composite": {
-    "status": "Calm",
-    "watches": 0,
+    "status": "Mild Watch",
+    "watches": 1,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-10-30",
-      "latest_value": 0.38,
+      "latest_date": "2026-11-02",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 0.45
-        },
         {
           "date": "2026-08-04",
           "value": 0.43
@@ -267,22 +263,22 @@
         {
           "date": "2026-10-30",
           "value": 0.38
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-29",
-      "latest_value": 3.26,
-      "latest_value_bps": 326.0,
+      "latest_date": "2026-10-30",
+      "latest_value": 3.44,
+      "latest_value_bps": 344.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 2.78
-        },
         {
           "date": "2026-08-04",
           "value": 2.73
@@ -534,21 +530,21 @@
         {
           "date": "2026-10-29",
           "value": 3.26
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3.44
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-10-30",
-      "latest_value": 19.420000076293945,
+      "latest_date": "2026-11-02",
+      "latest_value": 21.149999618530273,
       "unit": "",
-      "status": "Normal",
+      "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 15.859999656677246
-        },
         {
           "date": "2026-08-04",
           "value": 16.5
@@ -804,6 +800,10 @@
         {
           "date": "2026-10-30",
           "value": 19.420000076293945
+        },
+        {
+          "date": "2026-11-02",
+          "value": 21.149999618530273
         }
       ]
     },
@@ -818,12 +818,6 @@
       "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-03",
-          "vix9d": 13.28,
-          "vix": 15.86,
-          "vix3m": 18.93
-        },
         {
           "date": "2026-08-04",
           "vix9d": 15.04,
@@ -1212,17 +1206,13 @@
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-10-30",
-      "latest_value": 101.87999725341797,
-      "pct_change_20d": -0.049056265680471556,
+      "latest_date": "2026-11-02",
+      "latest_value": 101.80000305175781,
+      "pct_change_20d": -0.3621367562086934,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 99.95999908447266
-        },
         {
           "date": "2026-08-04",
           "value": 99.88999938964844
@@ -1478,22 +1468,22 @@
         {
           "date": "2026-10-30",
           "value": 101.87999725341797
+        },
+        {
+          "date": "2026-11-02",
+          "value": 101.80000305175781
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-10-30",
-      "latest_value": 3898.89990234375,
-      "pct_change_20d": -6.328229937860656,
+      "latest_date": "2026-11-02",
+      "latest_value": 3956.60009765625,
+      "pct_change_20d": -4.816197951257858,
       "unit": "$",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 4033.699951171875
-        },
         {
           "date": "2026-08-04",
           "value": 4095.39990234375
@@ -1749,6 +1739,10 @@
         {
           "date": "2026-10-30",
           "value": 3898.89990234375
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3956.60009765625
         }
       ]
     }
@@ -1809,9 +1803,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-01T18:16:22.420395+00:00"
+    "last_refreshed": "2026-11-02T22:10:53.230333+00:00"
   },
   "headlines": [
+    {
+      "headline": "Hartree Partners, Hudson Technologies director, buys $1.3M in shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/hartree-partners-hudson-technologies-director-buys-13m-in-shares-93CH-4992989",
+      "published_at": "2026-11-02T22:01:00+00:00"
+    },
+    {
+      "headline": "Major automakers urge US Congress to pass permanent ban on Chinese vehicles",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/major-automakers-urge-us-congress-to-pass-permanent-ban-on-chinese-vehicles-4992433",
+      "published_at": "2026-11-02T22:00:59+00:00"
+    },
+    {
+      "headline": "New Mountain Finance earnings matched, revenue fell short of estimates",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/earnings/new-mountain-finance-earnings-matched-revenue-fell-short-of-estimates-4992987",
+      "published_at": "2026-11-02T22:00:36+00:00"
+    },
+    {
+      "headline": "Apple beats quarterly estimates for profit and revenue",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/earnings/apple-beats-quarterly-estimates-for-profit-and-revenue-4992790",
+      "published_at": "2026-11-02T22:00:32+00:00"
+    },
+    {
+      "headline": "Apple's stock seesaws as John Ternus helms first earnings call as CEO \u2014 live",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1aa420a3-f62b-46c1-a40b-b69a0d96653e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-02T22:00:31+00:00"
+    },
+    {
+      "headline": "Apple earnings are out, and they beat expectations. Here's what to know.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bf62160e-5fa5-4ac8-9c2c-8f269fee9a54&mod=mw_rss_bulletins",
+      "published_at": "2026-11-02T21:35:04+00:00"
+    },
+    {
+      "headline": "Palantir reports Q3 earnings beat, and a big turning point in its business model",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b5419fd0-8bf0-4744-8a5f-aec7176e9f6e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-02T21:20:37+00:00"
+    },
+    {
+      "headline": "Palantir earnings are out \u2014 and they reveal a major AI turning point",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=30718482-d11f-4a95-84b4-878c7333a81b&mod=mw_rss_bulletins",
+      "published_at": "2026-11-02T21:10:25+00:00"
+    },
     {
       "headline": "Serbians mark railway disaster that led to rise of victorious student movement",
       "source": "Investing.com",
@@ -1823,54 +1865,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/economic-indicators/new-zealands-twospeed-economy-poses-election-dilemma-for-ruling-national-party-4989769",
       "published_at": "2026-11-01T17:12:19+00:00"
-    },
-    {
-      "headline": "Binance sees spike in customers pulling funds out after covering bulk of stolen $6.3 billion",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/binance-to-resume-withdrawals-after-recovering-bulk-of-6-billion-in-stolen-funds-4989388",
-      "published_at": "2026-11-01T15:54:19+00:00"
-    },
-    {
-      "headline": "Raymond James cuts Oil States stock price target on guidance outlook",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/raymond-james-cuts-oil-states-stock-price-target-on-guidance-outlook-93CH-4989767",
-      "published_at": "2026-11-01T15:41:00+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
-      "published_at": "2026-11-01T12:33:53+00:00"
-    },
-    {
-      "headline": "The midterm election could reshape the muni bond market. Here\u2019s what investors need to know",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
-      "published_at": "2026-11-01T12:30:48+00:00"
-    },
-    {
-      "headline": "Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/cryptocurrency-news/binance-says-it-has-replaced-90-of-63-billion-stolen-in-record-crypto-hack-4989304",
-      "published_at": "2026-10-31T16:56:46+00:00"
-    },
-    {
-      "headline": "OPEC+ set to keep production targets unchanged in December, source says",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/opec-set-to-keep-production-targets-unchanged-in-december-source-says-4989301",
-      "published_at": "2026-10-31T16:42:19+00:00"
-    },
-    {
-      "headline": "Reliance Q2 FY27 slides: record EBITDA on O2C surge, Jio IPO milestone",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/reliance-q2-fy27-slides-record-ebitda-on-o2c-surge-jio-ipo-milestone-93CH-4989300",
-      "published_at": "2026-10-31T16:39:08+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Reliance posts Q2 2026 beat as energy drives record profit",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-reliance-posts-q2-2026-beat-as-energy-drives-record-profit-93CH-4989298",
-      "published_at": "2026-10-31T16:21:56+00:00"
     }
   ]
 }
