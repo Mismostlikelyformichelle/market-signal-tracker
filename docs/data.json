@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T22:10:54.987376+00:00",
+  "generated_at": "2026-11-03T19:58:10.324830+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
-    "alerts": 0,
-    "vix_term_note": null,
+    "status": "Elevated",
+    "watches": 0,
+    "alerts": 1,
+    "vix_term_note": "VIX term structure is inverted (VIX9D > VIX3M), confirming acute stress \u2014 escalated the VIX flag from watch to alert in the composite.",
     "crisis_override_note": null
   },
   "indicators": {
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-04",
-          "value": 0.43
-        },
         {
           "date": "2026-08-05",
           "value": 0.45
@@ -272,17 +268,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-10-30",
-      "latest_value": 3.44,
-      "latest_value_bps": 344.0,
+      "latest_date": "2026-11-02",
+      "latest_value": 3.43,
+      "latest_value_bps": 343.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-04",
-          "value": 2.73
-        },
         {
           "date": "2026-08-05",
           "value": 2.75
@@ -534,21 +526,21 @@
         {
           "date": "2026-10-30",
           "value": 3.44
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3.43
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-02",
-      "latest_value": 21.149999618530273,
+      "latest_date": "2026-11-03",
+      "latest_value": 20.719999313354492,
       "unit": "",
       "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-04",
-          "value": 16.5
-        },
         {
           "date": "2026-08-05",
           "value": 15.8100004196167
@@ -804,26 +796,24 @@
         {
           "date": "2026-11-02",
           "value": 21.149999618530273
+        },
+        {
+          "date": "2026-11-03",
+          "value": 20.719999313354492
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-10-30",
-      "vix9d": 19.25,
-      "vix": 19.42,
-      "vix3m": 20.78,
-      "spread": 1.5300000000000011,
+      "latest_date": "2026-11-02",
+      "vix9d": 22.46,
+      "vix": 21.15,
+      "vix3m": 21.6,
+      "spread": -0.8599999999999994,
       "unit": "",
-      "status": "Watch",
+      "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-04",
-          "vix9d": 15.04,
-          "vix": 16.5,
-          "vix3m": 19.34
-        },
         {
           "date": "2026-08-05",
           "vix9d": 13.79,
@@ -1201,22 +1191,24 @@
           "vix9d": 19.25,
           "vix": 19.42,
           "vix3m": 20.78
+        },
+        {
+          "date": "2026-11-02",
+          "vix9d": 22.46,
+          "vix": 21.15,
+          "vix3m": 21.6
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-02",
-      "latest_value": 101.80000305175781,
-      "pct_change_20d": -0.3621367562086934,
+      "latest_date": "2026-11-03",
+      "latest_value": 101.86299896240234,
+      "pct_change_20d": 0.0324041350823125,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-04",
-          "value": 99.88999938964844
-        },
         {
           "date": "2026-08-05",
           "value": 99.69000244140625
@@ -1471,23 +1463,23 @@
         },
         {
           "date": "2026-11-02",
-          "value": 101.80000305175781
+          "value": 101.75
+        },
+        {
+          "date": "2026-11-03",
+          "value": 101.86299896240234
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-02",
-      "latest_value": 3956.60009765625,
-      "pct_change_20d": -4.816197951257858,
+      "latest_date": "2026-11-03",
+      "latest_value": 3934.60009765625,
+      "pct_change_20d": -6.030426646387989,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-04",
-          "value": 4095.39990234375
-        },
         {
           "date": "2026-08-05",
           "value": 4245.7998046875
@@ -1742,7 +1734,11 @@
         },
         {
           "date": "2026-11-02",
-          "value": 3956.60009765625
+          "value": 3969.60009765625
+        },
+        {
+          "date": "2026-11-03",
+          "value": 3934.60009765625
         }
       ]
     }
@@ -1803,68 +1799,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-02T22:10:53.230333+00:00"
+    "last_refreshed": "2026-11-03T19:58:08.726260+00:00"
   },
   "headlines": [
+    {
+      "headline": "New Jersey governor warns ports against accepting Russian diesel",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/new-jersey-governor-warns-ports-against-accepting-russian-diesel-4996274",
+      "published_at": "2026-11-03T19:42:38+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Unitil beats Q3 2026 EPS forecast, revenue misses",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-unitil-beats-q3-2026-eps-forecast-revenue-misses-93CH-4996272",
+      "published_at": "2026-11-03T19:34:02+00:00"
+    },
+    {
+      "headline": "OpenAI employees warned about operational security lapses for years, sources say",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/openai-employees-warned-about-operational-security-lapses-for-years-sources-say-4996239",
+      "published_at": "2026-11-03T19:31:12+00:00"
+    },
+    {
+      "headline": "Exclusive-Ambani\u2019s Jio explores tech-for-equity talks with Comcast and Charter, sources say",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveambanis-jio-explores-techforequity-talks-with-comcast-and-charter-sources-say-4996271",
+      "published_at": "2026-11-03T19:30:31+00:00"
+    },
+    {
+      "headline": "Why investors shouldn't let today's election results influence their decisions",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cce514a7-08c1-4a64-a39e-50927780fc88&mod=mw_rss_bulletins",
+      "published_at": "2026-11-03T18:48:45+00:00"
+    },
+    {
+      "headline": "U.S. regulators just cleared a path to trade this trendy futures product",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=59c4eeb1-7da4-41a0-84de-18482e3d841f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-03T17:56:04+00:00"
+    },
+    {
+      "headline": "Stocks open mostly higher as investors brace for a volatile Election Day",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ff33899a-f4d2-459d-b85c-37fe3c73f10e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-03T14:30:50+00:00"
+    },
+    {
+      "headline": "Are prediction markets overhyping Democrats\u2019 Election Day odds?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e3a08e7b-73d2-41e4-a7bc-1aefb6f7bf41&mod=mw_rss_bulletins",
+      "published_at": "2026-11-03T13:42:32+00:00"
+    },
+    {
+      "headline": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
+      "published_at": "2026-11-03T13:01:23+00:00"
+    },
     {
       "headline": "Hartree Partners, Hudson Technologies director, buys $1.3M in shares",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/hartree-partners-hudson-technologies-director-buys-13m-in-shares-93CH-4992989",
       "published_at": "2026-11-02T22:01:00+00:00"
-    },
-    {
-      "headline": "Major automakers urge US Congress to pass permanent ban on Chinese vehicles",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/major-automakers-urge-us-congress-to-pass-permanent-ban-on-chinese-vehicles-4992433",
-      "published_at": "2026-11-02T22:00:59+00:00"
-    },
-    {
-      "headline": "New Mountain Finance earnings matched, revenue fell short of estimates",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/earnings/new-mountain-finance-earnings-matched-revenue-fell-short-of-estimates-4992987",
-      "published_at": "2026-11-02T22:00:36+00:00"
-    },
-    {
-      "headline": "Apple beats quarterly estimates for profit and revenue",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/earnings/apple-beats-quarterly-estimates-for-profit-and-revenue-4992790",
-      "published_at": "2026-11-02T22:00:32+00:00"
-    },
-    {
-      "headline": "Apple's stock seesaws as John Ternus helms first earnings call as CEO \u2014 live",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1aa420a3-f62b-46c1-a40b-b69a0d96653e&mod=mw_rss_bulletins",
-      "published_at": "2026-11-02T22:00:31+00:00"
-    },
-    {
-      "headline": "Apple earnings are out, and they beat expectations. Here's what to know.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=bf62160e-5fa5-4ac8-9c2c-8f269fee9a54&mod=mw_rss_bulletins",
-      "published_at": "2026-11-02T21:35:04+00:00"
-    },
-    {
-      "headline": "Palantir reports Q3 earnings beat, and a big turning point in its business model",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b5419fd0-8bf0-4744-8a5f-aec7176e9f6e&mod=mw_rss_bulletins",
-      "published_at": "2026-11-02T21:20:37+00:00"
-    },
-    {
-      "headline": "Palantir earnings are out \u2014 and they reveal a major AI turning point",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=30718482-d11f-4a95-84b4-878c7333a81b&mod=mw_rss_bulletins",
-      "published_at": "2026-11-02T21:10:25+00:00"
-    },
-    {
-      "headline": "Serbians mark railway disaster that led to rise of victorious student movement",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/commodities-news/serbians-mark-railway-disaster-that-led-to-rise-of-victorious-student-movement-4989758",
-      "published_at": "2026-11-01T17:36:19+00:00"
-    },
-    {
-      "headline": "New Zealand\u2019s two-speed economy poses election dilemma for ruling National party \u00a0",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/new-zealands-twospeed-economy-poses-election-dilemma-for-ruling-national-party-4989769",
-      "published_at": "2026-11-01T17:12:19+00:00"
     }
   ]
 }
