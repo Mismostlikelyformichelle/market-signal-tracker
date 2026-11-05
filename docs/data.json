@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-04T20:29:55.623325+00:00",
+  "generated_at": "2026-11-05T20:28:47.004851+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
-    "alerts": 0,
-    "vix_term_note": "VIX term structure is inverted while VIX close is still calm \u2014 flagged as its own standalone watch in the composite, since inversion can occasionally lead a VIX spike.",
+    "status": "Elevated",
+    "watches": 0,
+    "alerts": 1,
+    "vix_term_note": null,
     "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-03",
-      "latest_value": 0.34,
+      "latest_date": "2026-11-04",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-06",
-          "value": 0.44
-        },
         {
           "date": "2026-08-07",
           "value": 0.46
@@ -263,22 +259,22 @@
         {
           "date": "2026-11-03",
           "value": 0.34
+        },
+        {
+          "date": "2026-11-04",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-03",
-      "latest_value": 3.4,
-      "latest_value_bps": 340.0,
+      "latest_date": "2026-11-04",
+      "latest_value": 3.32,
+      "latest_value_bps": 332.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-06",
-          "value": 2.71
-        },
         {
           "date": "2026-08-07",
           "value": 2.7
@@ -530,21 +526,21 @@
         {
           "date": "2026-11-03",
           "value": 3.4
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.32
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-04",
-      "latest_value": 16.799999237060547,
+      "latest_date": "2026-11-05",
+      "latest_value": 26.1200008392334,
       "unit": "",
-      "status": "Normal",
+      "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-06",
-          "value": 15.149999618530273
-        },
         {
           "date": "2026-08-07",
           "value": 14.899999618530273
@@ -799,27 +795,25 @@
         },
         {
           "date": "2026-11-04",
-          "value": 16.799999237060547
+          "value": 16.610000610351562
+        },
+        {
+          "date": "2026-11-05",
+          "value": 26.1200008392334
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-03",
-      "vix9d": 21.96,
-      "vix": 20.83,
-      "vix3m": 21.27,
-      "spread": -0.6900000000000013,
+      "latest_date": "2026-11-04",
+      "vix9d": 15.19,
+      "vix": 16.61,
+      "vix3m": 18.8,
+      "spread": 3.610000000000001,
       "unit": "",
-      "status": "Alert",
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-06",
-          "vix9d": 12.66,
-          "vix": 15.15,
-          "vix3m": 18.69
-        },
         {
           "date": "2026-08-07",
           "vix9d": 11.96,
@@ -1197,22 +1191,24 @@
           "vix9d": 21.96,
           "vix": 20.83,
           "vix3m": 21.27
+        },
+        {
+          "date": "2026-11-04",
+          "vix9d": 15.19,
+          "vix": 16.61,
+          "vix3m": 18.8
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-04",
-      "latest_value": 101.53299713134766,
-      "pct_change_20d": -0.6915109029676658,
+      "latest_date": "2026-11-05",
+      "latest_value": 101.55000305175781,
+      "pct_change_20d": -0.5776349534131867,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-06",
-          "value": 99.97000122070312
-        },
         {
           "date": "2026-08-07",
           "value": 99.5999984741211
@@ -1467,23 +1463,23 @@
         },
         {
           "date": "2026-11-04",
-          "value": 101.53299713134766
+          "value": 101.51000213623047
+        },
+        {
+          "date": "2026-11-05",
+          "value": 101.55000305175781
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-04",
-      "latest_value": 4073.5,
-      "pct_change_20d": -1.6229186403926157,
+      "latest_date": "2026-11-05",
+      "latest_value": 4115.60009765625,
+      "pct_change_20d": -0.9959081631885975,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-06",
-          "value": 4242.0
-        },
         {
           "date": "2026-08-07",
           "value": 4340.7001953125
@@ -1738,7 +1734,11 @@
         },
         {
           "date": "2026-11-04",
-          "value": 4073.5
+          "value": 4073.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4115.60009765625
         }
       ]
     }
@@ -1755,21 +1755,11 @@
       }
     ],
     "session_date": "2026-11-04",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-10-28",
-        "name": "FOMC Rate Decision",
-        "is_past": true,
-        "headline": {
-          "text": "WATCH LIVE: Fed chair Warsh holds briefing after latest interest rate decision",
-          "source": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDRabTk3MGZlX1gzSnlMWEhPLTczT3pUckE2Q3R4cUpHT0lfQnFKRHo1eWdiQ1FiVXBXQlV6RVhpSTROYUZoYlFzRVlxMWlGUFdZcW5jMXpKdlBiZHRJMzNSOGJMTUFMWVdDVS1sbkFNcy12TGlnVE5rclMyREY5SEl6dEEwVE1VdFMyX0V2VWtFLWVVQ05iUWJMT2M1blZPZkNOUi1xLVFCWi1WZGxsZFJhXzDSAboBQVVfeXFMTV9BakhETXRqMkhSSzY5V1hjVHZ2Y1VkVzFMX19ua1BLUTRGQWdLWTI3aEcwMkhROG5tSjlDMHRLbDAtczhuV2djeUl2VHVydUo2NGFxcVk3YmpkdDRNMndOYlRlVzA0X3Y0WWxLU3hTanFreDdqdXA4ZmJPWk1QWU1BbHdocmo4VmVwLXEtTU5GUFhsYkhUN1VmZXB4TnE2SmItLVMtang4Tmd2NDdwanpPVUVpczB5aFZn?oc=5"
-        }
-      },
       {
         "date": "2026-10-29",
         "name": "GDP Release",
@@ -1805,68 +1795,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-04T20:17:45.534217+00:00"
+    "last_refreshed": "2026-11-05T20:28:45.391677+00:00"
   },
   "headlines": [
     {
-      "headline": "Payoneer Global Inc stock hits 52-week high at 7.2 USD",
+      "headline": "Cisco Systems options suggest 7.9% stock move on earnings",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/payoneer-global-inc-stock-hits-52week-high-at-72-usd-93CH-5001124",
-      "published_at": "2026-11-04T20:10:48+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/cisco-systems-options-suggest-79-stock-move-on-earnings-93CH-5005505",
+      "published_at": "2026-11-05T20:21:46+00:00"
     },
     {
-      "headline": "Dow, Nasdaq and S&P 500 soaring in final hour as Wall Street reacts to blue wave",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=eceb020b-204e-4880-886b-db423aed089d&mod=mw_rss_bulletins",
-      "published_at": "2026-11-04T20:10:38+00:00"
-    },
-    {
-      "headline": "Wall Street surges, Dow up 3% as investors cheer removal of midterms uncertainty",
+      "headline": "Coherent earnings analysis: questions answered and next catalysts",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-midterms-in-focus-amd-rallies-on-strong-earnings-4997029",
-      "published_at": "2026-11-04T20:09:05+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/coherent-earnings-analysis-questions-answered-and-next-catalysts-93CH-5005500",
+      "published_at": "2026-11-05T20:19:06+00:00"
     },
     {
-      "headline": "Douglas Emmett Q3 2026 slides: West L.A. focus amid office recovery",
+      "headline": "Snap earnings analysis: questions answered and next catalysts",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/douglas-emmett-q3-2026-slides-west-la-focus-amid-office-recovery-93CH-5001122",
-      "published_at": "2026-11-04T20:08:58+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/snap-earnings-analysis-questions-answered-and-next-catalysts-93CH-5005499",
+      "published_at": "2026-11-05T20:18:49+00:00"
     },
     {
-      "headline": "National Fuel Gas stock hits 52-week low at 75.0 USD",
+      "headline": "Brent crude jumps, settles up over $3 after tanker attacks",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/national-fuel-gas-stock-hits-52week-low-at-750-usd-93CH-5001121",
-      "published_at": "2026-11-04T20:07:59+00:00"
+      "link": "https://www.investing.com/news/commodities-news/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation-5002042",
+      "published_at": "2026-11-05T20:18:44+00:00"
     },
     {
-      "headline": "These stocks are today's big winners and losers after Democrats trounced Trump",
+      "headline": "Dow off 1,700 points, Nasdaq sliding 5% as broad stock selloff rocks Wall Street",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1bc1ffe-74f1-4839-ab00-12c90eb78278&mod=mw_rss_bulletins",
-      "published_at": "2026-11-04T18:46:45+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d6596fff-844d-4220-964f-506e97722e15&mod=mw_rss_bulletins",
+      "published_at": "2026-11-05T20:13:40+00:00"
     },
     {
-      "headline": "The U.S. economy is barreling ahead \u2014 but there\u2019s one big problem",
+      "headline": "\u2018Musk selloff\u2019 deepens as Tesla, SpaceX combine for $450 billion two-day wipeout",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=300c1c15-d2fb-4744-97c1-6df70d538e43&mod=mw_rss_bulletins",
-      "published_at": "2026-11-04T17:26:37+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=14f68ba3-a8be-4f52-8c89-c73228eded1d&mod=mw_rss_bulletins",
+      "published_at": "2026-11-05T19:38:22+00:00"
     },
     {
-      "headline": "Dow jumps 1,500 points, heading for best day of 2026 \u2014 live updates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c62bb8a5-1311-453d-b98b-310eb6fdb245&mod=mw_rss_bulletins",
-      "published_at": "2026-11-04T17:00:02+00:00"
-    },
-    {
-      "headline": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
+      "headline": "CNBC's experts on whether the AI trade is ending and what investors should do next",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
-      "published_at": "2026-11-03T20:52:14+00:00"
+      "link": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+      "published_at": "2026-11-05T19:19:31+00:00"
     },
     {
-      "headline": "Binance breach puts custody at center of crypto infrastructure trade",
+      "headline": "As Nvidia\u2019s stock heads for bear market, bargain hunters see golden opportunity",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=1ee0b1e4-45dc-411c-b1a3-289d9a49b432&mod=mw_rss_bulletins",
+      "published_at": "2026-11-05T19:11:37+00:00"
+    },
+    {
+      "headline": "Is this \u2018the big one\u2019 for the stock market? Wall Street weighs the tech selloff.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ded49252-ef0a-464c-a3af-9884cf62d06f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-05T17:45:42+00:00"
+    },
+    {
+      "headline": "Democratic sweep puts crypto on defensive in Washington",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
-      "published_at": "2026-11-03T20:13:37+00:00"
+      "link": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html",
+      "published_at": "2026-11-05T16:48:34+00:00"
     }
   ]
 }
