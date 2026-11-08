@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:56:59.641711+00:00",
+  "generated_at": "2026-11-08T18:13:37.535615+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
@@ -1799,9 +1799,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-07T17:56:58.239707+00:00"
+    "last_refreshed": "2026-11-08T18:13:36.204426+00:00"
   },
   "headlines": [
+    {
+      "headline": "Demand for standard burial services is in decline. Funeral homes are adapting.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=76efbc77-34ed-442d-9d34-fed91050c7b1&mod=mw_rss_bulletins",
+      "published_at": "2026-11-08T17:48:33+00:00"
+    },
+    {
+      "headline": "Environmental groups embrace AI, even as they warn of data center impacts",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts-5010279",
+      "published_at": "2026-11-08T17:48:23+00:00"
+    },
+    {
+      "headline": "First Financial Bankshares director purchases $24,423 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/first-financial-bankshares-director-purchases-24423-in-stock-93CH-5010278",
+      "published_at": "2026-11-08T17:46:57+00:00"
+    },
+    {
+      "headline": "Golf-BC Partners seeks control of LIV Golf from Saudi wealth fund, FT reports",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/private-equity-firm-bc-partners-seeks-to-take-control-of-liv-golf-from-saudi-wealth-fund-ft-reports-5010245",
+      "published_at": "2026-11-08T17:36:39+00:00"
+    },
+    {
+      "headline": "What to know about Anthropic\u2019s rush to go public before Thanksgiving",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0054c46c-82a2-475c-a7e4-eafae27a1d46&mod=mw_rss_bulletins",
+      "published_at": "2026-11-08T17:33:05+00:00"
+    },
+    {
+      "headline": "Cullen/Frost Bankers chief accounting officer Henson sells $85,290 of stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/cullenfrost-bankers-chief-accounting-officer-henson-sells-85290-of-stock-93CH-5010272",
+      "published_at": "2026-11-08T17:01:15+00:00"
+    },
+    {
+      "headline": "The U.S. stock market has rarely been this unified. It\u2019s not a good thing.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7bc433c2-d23e-45f5-8a27-21538529fed2&mod=mw_rss_bulletins",
+      "published_at": "2026-11-08T14:32:42+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
+      "published_at": "2026-11-08T11:47:24+00:00"
+    },
     {
       "headline": "Clough Global Opportunities Fund director buys $1,996 in GLO shares",
       "source": "Investing.com",
@@ -1813,54 +1861,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/seaport-offers-preliminary-thoughts-on-anthropic-stock-5009973",
       "published_at": "2026-11-07T17:27:53+00:00"
-    },
-    {
-      "headline": "Coca-Cola evp Perez sells $6.4 million in shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/cocacola-evp-perez-sells-64-million-in-shares-93CH-5009971",
-      "published_at": "2026-11-07T17:15:56+00:00"
-    },
-    {
-      "headline": "Binance CFO exits days after catastrophic $6 billion crypto hack",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
-      "published_at": "2026-11-07T17:06:29+00:00"
-    },
-    {
-      "headline": "You follow the rules for smart stock trading. But are they the right rules?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fb051d31-c4ed-443b-b29a-47cd2e47401e&mod=mw_rss_bulletins",
-      "published_at": "2026-11-07T16:08:41+00:00"
-    },
-    {
-      "headline": "The AI trade is counting on Anthropic\u2019s IPO \u2014 but the timing couldn't be worse",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ca491124-f1a8-4fd5-b495-a0595ed1900c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-07T14:15:22+00:00"
-    },
-    {
-      "headline": "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a75ce1ab-b896-40ec-83a3-155cdfbd1296&mod=mw_rss_bulletins",
-      "published_at": "2026-11-06T22:39:55+00:00"
-    },
-    {
-      "headline": "Elon Musk opens the door for a big SpaceX telecom acquisition",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=46284fca-c4cb-4bb3-811a-bb3836052fec&mod=mw_rss_bulletins",
-      "published_at": "2026-11-06T21:53:51+00:00"
-    },
-    {
-      "headline": "vVardis targets IPO at up to $24 per share",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/vvardis-targets-ipo-at-up-to-24-per-share-432SI-5009047",
-      "published_at": "2026-11-06T19:28:02+00:00"
-    },
-    {
-      "headline": "Four things to note from Friday\u2019s US jobs report",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economic-indicators/four-things-to-note-from-fridays-us-jobs-report-5009055",
-      "published_at": "2026-11-06T19:24:26+00:00"
     }
   ]
 }
