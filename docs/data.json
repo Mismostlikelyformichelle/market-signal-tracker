@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-08T18:13:37.535615+00:00",
+  "generated_at": "2026-11-09T22:53:14.741335+00:00",
   "composite": {
-    "status": "Elevated",
+    "status": "Calm",
     "watches": 0,
-    "alerts": 1,
-    "vix_term_note": "VIX term structure inversion confirms already-flagged stress; no further escalation (already at max severity).",
+    "alerts": 0,
+    "vix_term_note": null,
     "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-06",
-      "latest_value": 0.35,
+      "latest_date": "2026-11-09",
+      "latest_value": 0.32,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 0.47
-        },
         {
           "date": "2026-08-11",
           "value": 0.48
@@ -267,22 +263,22 @@
         {
           "date": "2026-11-06",
           "value": 0.35
+        },
+        {
+          "date": "2026-11-09",
+          "value": 0.32
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-05",
-      "latest_value": 3.48,
-      "latest_value_bps": 348.0,
+      "latest_date": "2026-11-06",
+      "latest_value": 3.42,
+      "latest_value_bps": 342.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 2.7
-        },
         {
           "date": "2026-08-11",
           "value": 2.72
@@ -534,21 +530,21 @@
         {
           "date": "2026-11-05",
           "value": 3.48
+        },
+        {
+          "date": "2026-11-06",
+          "value": 3.42
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-06",
-      "latest_value": 25.639999389648438,
+      "latest_date": "2026-11-09",
+      "latest_value": 19.920000076293945,
       "unit": "",
-      "status": "High",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 15.460000038146973
-        },
         {
           "date": "2026-08-11",
           "value": 15.279999732971191
@@ -804,26 +800,24 @@
         {
           "date": "2026-11-06",
           "value": 25.639999389648438
+        },
+        {
+          "date": "2026-11-09",
+          "value": 19.920000076293945
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-06",
-      "vix9d": 27.18,
-      "vix": 25.64,
-      "vix3m": 24.6,
-      "spread": -2.5799999999999983,
+      "latest_date": "2026-11-09",
+      "vix9d": 19.88,
+      "vix": null,
+      "vix3m": 20.85,
+      "spread": 0.9700000000000024,
       "unit": "",
-      "status": "Alert",
+      "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-10",
-          "vix9d": 12.77,
-          "vix": 15.46,
-          "vix3m": 18.98
-        },
         {
           "date": "2026-08-11",
           "vix9d": 12.52,
@@ -1207,22 +1201,24 @@
           "vix9d": 27.18,
           "vix": 25.64,
           "vix3m": 24.6
+        },
+        {
+          "date": "2026-11-09",
+          "vix9d": 19.88,
+          "vix": null,
+          "vix3m": 20.85
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-06",
-      "latest_value": 102.30000305175781,
-      "pct_change_20d": 0.08805788874997583,
+      "latest_date": "2026-11-09",
+      "latest_value": 101.69599914550781,
+      "pct_change_20d": -0.8617690288237598,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 99.80999755859375
-        },
         {
           "date": "2026-08-11",
           "value": 99.81999969482422
@@ -1478,22 +1474,22 @@
         {
           "date": "2026-11-06",
           "value": 102.30000305175781
+        },
+        {
+          "date": "2026-11-09",
+          "value": 101.69599914550781
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-06",
-      "latest_value": 4074.89990234375,
-      "pct_change_20d": -3.353649144838982,
+      "latest_date": "2026-11-09",
+      "latest_value": 4149.5,
+      "pct_change_20d": -0.9807687848629787,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 4361.7998046875
-        },
         {
           "date": "2026-08-11",
           "value": 4383.0
@@ -1749,6 +1745,10 @@
         {
           "date": "2026-11-06",
           "value": 4074.89990234375
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4149.5
         }
       ]
     }
@@ -1797,70 +1797,76 @@
         "name": "Employment Situation (Jobs Report)",
         "is_past": false,
         "headline": null
+      },
+      {
+        "date": "2026-12-09",
+        "name": "FOMC Rate Decision",
+        "is_past": false,
+        "headline": null
       }
     ],
-    "last_refreshed": "2026-11-08T18:13:36.204426+00:00"
+    "last_refreshed": "2026-11-09T22:53:12.928403+00:00"
   },
   "headlines": [
     {
-      "headline": "Demand for standard burial services is in decline. Funeral homes are adapting.",
+      "headline": "Earnings call transcript: Nerdy posts Q3 2026 loss, shares jump on margin gains",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-nerdy-posts-q3-2026-loss-shares-jump-on-margin-gains-93CH-5013576",
+      "published_at": "2026-11-09T22:34:32+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Bakkt misses Q3 2026 EPS forecast as stock slips after hours",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-bakkt-misses-q3-2026-eps-forecast-as-stock-slips-after-hours-93CH-5013574",
+      "published_at": "2026-11-09T22:33:25+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Cannae Holdings posts Q3 2026 revenue miss",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-cannae-holdings-posts-q3-2026-revenue-miss-93CH-5013573",
+      "published_at": "2026-11-09T22:33:23+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Trump Media posts Q3 2026 revenue surge, stock rises 10%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-trump-media-posts-q3-2026-revenue-surge-stock-rises-10-93CH-5013572",
+      "published_at": "2026-11-09T22:33:20+00:00"
+    },
+    {
+      "headline": "Dow sees third 1,000-point swing in four days. Why the volatility isn\u2019t over yet",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=76efbc77-34ed-442d-9d34-fed91050c7b1&mod=mw_rss_bulletins",
-      "published_at": "2026-11-08T17:48:33+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ae6f3a14-ea52-4804-beca-022eac7e3d9a&mod=mw_rss_bulletins",
+      "published_at": "2026-11-09T22:11:16+00:00"
     },
     {
-      "headline": "Environmental groups embrace AI, even as they warn of data center impacts",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts-5010279",
-      "published_at": "2026-11-08T17:48:23+00:00"
-    },
-    {
-      "headline": "First Financial Bankshares director purchases $24,423 in stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/first-financial-bankshares-director-purchases-24423-in-stock-93CH-5010278",
-      "published_at": "2026-11-08T17:46:57+00:00"
-    },
-    {
-      "headline": "Golf-BC Partners seeks control of LIV Golf from Saudi wealth fund, FT reports",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/private-equity-firm-bc-partners-seeks-to-take-control-of-liv-golf-from-saudi-wealth-fund-ft-reports-5010245",
-      "published_at": "2026-11-08T17:36:39+00:00"
-    },
-    {
-      "headline": "What to know about Anthropic\u2019s rush to go public before Thanksgiving",
+      "headline": "As Nvidia shares fall on CEO spy scandal, these chip stocks may be bargains",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0054c46c-82a2-475c-a7e4-eafae27a1d46&mod=mw_rss_bulletins",
-      "published_at": "2026-11-08T17:33:05+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=701b1c43-8b4b-460e-a858-b76f25a5d0c8&mod=mw_rss_bulletins",
+      "published_at": "2026-11-09T21:28:41+00:00"
     },
     {
-      "headline": "Cullen/Frost Bankers chief accounting officer Henson sells $85,290 of stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/cullenfrost-bankers-chief-accounting-officer-henson-sells-85290-of-stock-93CH-5010272",
-      "published_at": "2026-11-08T17:01:15+00:00"
-    },
-    {
-      "headline": "The U.S. stock market has rarely been this unified. It\u2019s not a good thing.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7bc433c2-d23e-45f5-8a27-21538529fed2&mod=mw_rss_bulletins",
-      "published_at": "2026-11-08T14:32:42+00:00"
-    },
-    {
-      "headline": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+      "headline": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
-      "published_at": "2026-11-08T11:47:24+00:00"
+      "link": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+      "published_at": "2026-11-09T21:24:13+00:00"
     },
     {
-      "headline": "Clough Global Opportunities Fund director buys $1,996 in GLO shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/clough-global-opportunities-fund-director-buys-1996-in-glo-shares-93CH-5009976",
-      "published_at": "2026-11-07T17:30:51+00:00"
+      "headline": "Dow ends 1,100 points higher, S&P 500 books best day since April as stocks surge",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=26718b07-7903-412e-a364-a91934f92285&mod=mw_rss_bulletins",
+      "published_at": "2026-11-09T21:05:15+00:00"
     },
     {
-      "headline": "Seaport offers preliminary thoughts on Anthropic stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/seaport-offers-preliminary-thoughts-on-anthropic-stock-5009973",
-      "published_at": "2026-11-07T17:27:53+00:00"
+      "headline": "Dow up 1,200 points in final hour, S&P and Nasdaq surge after last week's swoon",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=67cf0ce0-5b96-4c0b-8d0f-d87a940f628a&mod=mw_rss_bulletins",
+      "published_at": "2026-11-09T20:02:59+00:00"
+    },
+    {
+      "headline": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
+      "published_at": "2026-11-09T19:41:13+00:00"
     }
   ]
 }
