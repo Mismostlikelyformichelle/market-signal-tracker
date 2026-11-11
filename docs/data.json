@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:33:08.937473+00:00",
+  "generated_at": "2026-11-11T20:00:48.033216+00:00",
   "composite": {
     "status": "Mild Watch",
     "watches": 1,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-09",
-      "latest_value": 0.32,
+      "latest_date": "2026-11-10",
+      "latest_value": 0.25,
       "unit": "pp",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-12",
-          "value": 0.48
-        },
         {
           "date": "2026-08-13",
           "value": 0.48
@@ -263,6 +259,10 @@
         {
           "date": "2026-11-09",
           "value": 0.32
+        },
+        {
+          "date": "2026-11-10",
+          "value": 0.25
         }
       ]
     },
@@ -275,10 +275,6 @@
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-12",
-          "value": 2.71
-        },
         {
           "date": "2026-08-13",
           "value": 2.71
@@ -535,16 +531,12 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-10",
-      "latest_value": 20.020000457763672,
+      "latest_date": "2026-11-11",
+      "latest_value": 17.510000228881836,
       "unit": "",
-      "status": "Elevated",
+      "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-12",
-          "value": 14.550000190734863
-        },
         {
           "date": "2026-08-13",
           "value": 14.630000114440918
@@ -799,27 +791,25 @@
         },
         {
           "date": "2026-11-10",
-          "value": 20.020000457763672
+          "value": 19.459999084472656
+        },
+        {
+          "date": "2026-11-11",
+          "value": 17.510000228881836
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-09",
-      "vix9d": 19.88,
-      "vix": 19.92,
-      "vix3m": 20.85,
-      "spread": 0.9700000000000024,
+      "latest_date": "2026-11-10",
+      "vix9d": 18.54,
+      "vix": 19.46,
+      "vix3m": 20.64,
+      "spread": 2.1000000000000014,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-12",
-          "vix9d": 11.09,
-          "vix": 14.55,
-          "vix3m": 18.53
-        },
         {
           "date": "2026-08-13",
           "vix9d": 11.37,
@@ -1197,22 +1187,24 @@
           "vix9d": 19.88,
           "vix": 19.92,
           "vix3m": 20.85
+        },
+        {
+          "date": "2026-11-10",
+          "vix9d": 18.54,
+          "vix": 19.46,
+          "vix3m": 20.64
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-10",
-      "latest_value": 102.26200103759766,
-      "pct_change_20d": 0.08025125482185125,
+      "latest_date": "2026-11-11",
+      "latest_value": 102.90599822998047,
+      "pct_change_20d": 0.34714302060330765,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-12",
-          "value": 100.01000213623047
-        },
         {
           "date": "2026-08-13",
           "value": 99.95999908447266
@@ -1467,23 +1459,23 @@
         },
         {
           "date": "2026-11-10",
-          "value": 102.26200103759766
+          "value": 102.2300033569336
+        },
+        {
+          "date": "2026-11-11",
+          "value": 102.90599822998047
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-10",
-      "latest_value": 4035.699951171875,
-      "pct_change_20d": -3.389746011448129,
+      "latest_date": "2026-11-11",
+      "latest_value": 3994.89990234375,
+      "pct_change_20d": -2.7507973097282186,
       "unit": "$",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-12",
-          "value": 4408.89990234375
-        },
         {
           "date": "2026-08-13",
           "value": 4363.60009765625
@@ -1738,7 +1730,11 @@
         },
         {
           "date": "2026-11-10",
-          "value": 4035.699951171875
+          "value": 4030.199951171875
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3994.89990234375
         }
       ]
     }
@@ -1755,7 +1751,7 @@
       }
     ],
     "session_date": "2026-11-10",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1773,7 +1769,7 @@
       {
         "date": "2026-11-10",
         "name": "CPI Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "Inflation remained elevated in October, CPI report shows, upping odds of Fed interest rate hike",
           "source": "CBS News",
@@ -1805,9 +1801,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-10T20:15:50.565145+00:00"
+    "last_refreshed": "2026-11-11T20:00:46.063424+00:00"
   },
   "headlines": [
+    {
+      "headline": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/google-rolls-out-gemini-ai-voice-assistant-to-apple-carplay-dashboards-5019761",
+      "published_at": "2026-11-11T19:43:40+00:00"
+    },
+    {
+      "headline": "Why is Netflix stock gaining today?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-netflix-stock-gaining-today-93CH-5019760",
+      "published_at": "2026-11-11T19:41:26+00:00"
+    },
+    {
+      "headline": "Atrium Therapeutics at stifel 2026 healthcare conference: cash, pipeline",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/atrium-therapeutics-at-stifel-2026-healthcare-conference-cash-pipeline-93CH-5019759",
+      "published_at": "2026-11-11T19:39:50+00:00"
+    },
+    {
+      "headline": "uniQure at Stifel 2026 Healthcare Conference: AMT-130 nears key test",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/uniqure-at-stifel-2026-healthcare-conference-amt130-nears-key-test-93CH-5019758",
+      "published_at": "2026-11-11T19:39:37+00:00"
+    },
+    {
+      "headline": "Has Nvidia flown too close to the sun? An analyst warns of major scrutiny ahead.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3a73ab56-6eac-4199-8a0a-d4fcb4b5fee9&mod=mw_rss_bulletins",
+      "published_at": "2026-11-11T18:27:38+00:00"
+    },
+    {
+      "headline": "Anthropic has embarked on its pre-IPO road show",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=022a4f94-3eda-43d3-acad-361a6c61317c&mod=mw_rss_bulletins",
+      "published_at": "2026-11-11T16:13:33+00:00"
+    },
+    {
+      "headline": "A single stock is responsible for Dow\u2019s decline amid rally by S&P and Nasdaq",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=601402b5-aced-4c96-8300-9aaab26af858&mod=mw_rss_bulletins",
+      "published_at": "2026-11-11T16:11:20+00:00"
+    },
+    {
+      "headline": "Nasdaq opens sharply higher; S&P 500, Dow rise amid tech rebound",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cc04292d-1986-43f1-8fbf-49b180848151&mod=mw_rss_bulletins",
+      "published_at": "2026-11-11T14:30:38+00:00"
+    },
     {
       "headline": "Oracle breaks ground on Nashville global headquarters campus",
       "source": "Investing.com",
@@ -1819,54 +1863,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/press-releases/ositrustees-examines-how-interest-rate-expectations-affect-technology-and-banking-stocks-5016673",
       "published_at": "2026-11-10T20:02:31+00:00"
-    },
-    {
-      "headline": "Lennox International evp Sessa sells $292,773 of stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/lennox-international-evp-sessa-sells-292773-of-stock-93CH-5016671",
-      "published_at": "2026-11-10T20:01:15+00:00"
-    },
-    {
-      "headline": "Truist reiterates Buy on On Holding stock, cites holiday strength",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/analyst-ratings/truist-reiterates-buy-on-on-holding-stock-cites-holiday-strength-93CH-5016662",
-      "published_at": "2026-11-10T19:56:54+00:00"
-    },
-    {
-      "headline": "Fed could hike rates at each of its next three meetings, Deutsche Bank says",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=7e8d66eb-3764-46ca-90ca-80cd5e6e616c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-10T19:32:41+00:00"
-    },
-    {
-      "headline": "10-year Treasury yield back at 5% as inflation data point to more Fed rate hikes",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9ade5d03-5ac3-4cf0-9d6d-5ef05b44c794&mod=mw_rss_bulletins",
-      "published_at": "2026-11-10T18:53:49+00:00"
-    },
-    {
-      "headline": "Wall Street\u2019s only Nvidia bear says forcing out CEO Huang \u2018would be a mistake\u2019",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=981c1c64-e735-4049-bc05-60fa26241216&mod=mw_rss_bulletins",
-      "published_at": "2026-11-10T18:10:02+00:00"
-    },
-    {
-      "headline": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
-      "published_at": "2026-11-10T15:01:21+00:00"
-    },
-    {
-      "headline": "Stocks set for lower open as bond yields jump after inflation data \u2014 follow live",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c05bed66-3713-4d30-8393-fa348b112099&mod=mw_rss_bulletins",
-      "published_at": "2026-11-10T13:46:53+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Nerdy posts Q3 2026 loss, shares jump on margin gains",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-nerdy-posts-q3-2026-loss-shares-jump-on-margin-gains-93CH-5013576",
-      "published_at": "2026-11-09T22:34:32+00:00"
     }
   ]
 }
