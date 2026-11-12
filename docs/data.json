@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:00:48.033216+00:00",
+  "generated_at": "2026-11-12T20:39:53.953641+00:00",
   "composite": {
     "status": "Mild Watch",
     "watches": 1,
@@ -16,10 +16,6 @@
       "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 0.48
-        },
         {
           "date": "2026-08-14",
           "value": 0.51
@@ -268,17 +264,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-09",
-      "latest_value": 3.34,
-      "latest_value_bps": 334.0,
+      "latest_date": "2026-11-11",
+      "latest_value": 3.3,
+      "latest_value_bps": 330.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 2.71
-        },
         {
           "date": "2026-08-14",
           "value": 2.67
@@ -526,21 +518,21 @@
         {
           "date": "2026-11-09",
           "value": 3.34
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.3
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-11",
-      "latest_value": 17.510000228881836,
+      "latest_date": "2026-11-12",
+      "latest_value": 18.600000381469727,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 14.630000114440918
-        },
         {
           "date": "2026-08-14",
           "value": 14.25
@@ -795,27 +787,25 @@
         },
         {
           "date": "2026-11-11",
-          "value": 17.510000228881836
+          "value": 17.489999771118164
+        },
+        {
+          "date": "2026-11-12",
+          "value": 18.600000381469727
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-10",
-      "vix9d": 18.54,
-      "vix": 19.46,
-      "vix3m": 20.64,
-      "spread": 2.1000000000000014,
+      "latest_date": "2026-11-11",
+      "vix9d": 16.04,
+      "vix": 17.49,
+      "vix3m": 19.24,
+      "spread": 3.1999999999999993,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-13",
-          "vix9d": 11.37,
-          "vix": 14.63,
-          "vix3m": 18.61
-        },
         {
           "date": "2026-08-14",
           "vix9d": 10.61,
@@ -1193,22 +1183,24 @@
           "vix9d": 18.54,
           "vix": 19.46,
           "vix3m": 20.64
+        },
+        {
+          "date": "2026-11-11",
+          "vix9d": 16.04,
+          "vix": 17.49,
+          "vix3m": 19.24
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-11",
-      "latest_value": 102.90599822998047,
-      "pct_change_20d": 0.34714302060330765,
+      "latest_date": "2026-11-12",
+      "latest_value": 103.1729965209961,
+      "pct_change_20d": 1.1499965892118567,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 99.95999908447266
-        },
         {
           "date": "2026-08-14",
           "value": 99.66999816894531
@@ -1463,23 +1455,23 @@
         },
         {
           "date": "2026-11-11",
-          "value": 102.90599822998047
+          "value": 102.91000366210938
+        },
+        {
+          "date": "2026-11-12",
+          "value": 103.1729965209961
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-11",
-      "latest_value": 3994.89990234375,
-      "pct_change_20d": -2.7507973097282186,
+      "latest_date": "2026-11-12",
+      "latest_value": 3888.5,
+      "pct_change_20d": -6.752837847094358,
       "unit": "$",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 4363.60009765625
-        },
         {
           "date": "2026-08-14",
           "value": 4380.39990234375
@@ -1734,7 +1726,11 @@
         },
         {
           "date": "2026-11-11",
-          "value": 3994.89990234375
+          "value": 4000.5
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3888.5
         }
       ]
     }
@@ -1801,9 +1797,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-11T20:00:46.063424+00:00"
+    "last_refreshed": "2026-11-12T20:39:52.303927+00:00"
   },
   "headlines": [
+    {
+      "headline": "Telstra at Deutsche Bank Virtual Investor Conference: ai bets lift outlook",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/telstra-at-deutsche-bank-virtual-investor-conference-ai-bets-lift-outlook-93CH-5023126",
+      "published_at": "2026-11-12T20:32:57+00:00"
+    },
+    {
+      "headline": "Atlantic American shareholders elect directors and approve auditor at annual meeting",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/sec-filings/atlantic-american-shareholders-elect-directors-and-approve-auditor-at-annual-meeting-93CH-5023125",
+      "published_at": "2026-11-12T20:32:44+00:00"
+    },
+    {
+      "headline": "Why is ADI Global Distribution stock crashing today?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-adi-global-distribution-stock-crashing-today-93CH-5023124",
+      "published_at": "2026-11-12T20:31:24+00:00"
+    },
+    {
+      "headline": "Humana director Wayne Frederick sells $193,853 of company stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/humana-director-wayne-frederick-sells-193853-of-company-stock-93CH-5023122",
+      "published_at": "2026-11-12T20:31:14+00:00"
+    },
+    {
+      "headline": "Stocks give up gains, trade lower in final hour after Huang quits Nvidia \u2014 live",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5eaae4fe-4dd0-4ab8-88fd-b3fdaf751417&mod=mw_rss_bulletins",
+      "published_at": "2026-11-12T20:25:33+00:00"
+    },
+    {
+      "headline": "Trump admin hiring debt collectors to go after defaulted student-loan borrowers",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a7329276-faa5-4a14-ad59-7cfd70540163&mod=mw_rss_bulletins",
+      "published_at": "2026-11-12T19:55:35+00:00"
+    },
+    {
+      "headline": "Nvidia stock is on sale after Jensen Huang\u2019s exit. Is the selloff just starting?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=889aa63f-d126-4844-bd1e-edfa4bfa6a4c&mod=mw_rss_bulletins",
+      "published_at": "2026-11-12T18:46:12+00:00"
+    },
+    {
+      "headline": "The 2027 401(k) limits are here. See how much more you can save next year.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5b1c884d-82f4-4b92-8bb1-ebfa8bd8cd85&mod=mw_rss_bulletins",
+      "published_at": "2026-11-12T18:21:50+00:00"
+    },
     {
       "headline": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
       "source": "Investing.com",
@@ -1815,54 +1859,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/stock-market-news/why-is-netflix-stock-gaining-today-93CH-5019760",
       "published_at": "2026-11-11T19:41:26+00:00"
-    },
-    {
-      "headline": "Atrium Therapeutics at stifel 2026 healthcare conference: cash, pipeline",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/atrium-therapeutics-at-stifel-2026-healthcare-conference-cash-pipeline-93CH-5019759",
-      "published_at": "2026-11-11T19:39:50+00:00"
-    },
-    {
-      "headline": "uniQure at Stifel 2026 Healthcare Conference: AMT-130 nears key test",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/uniqure-at-stifel-2026-healthcare-conference-amt130-nears-key-test-93CH-5019758",
-      "published_at": "2026-11-11T19:39:37+00:00"
-    },
-    {
-      "headline": "Has Nvidia flown too close to the sun? An analyst warns of major scrutiny ahead.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3a73ab56-6eac-4199-8a0a-d4fcb4b5fee9&mod=mw_rss_bulletins",
-      "published_at": "2026-11-11T18:27:38+00:00"
-    },
-    {
-      "headline": "Anthropic has embarked on its pre-IPO road show",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=022a4f94-3eda-43d3-acad-361a6c61317c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-11T16:13:33+00:00"
-    },
-    {
-      "headline": "A single stock is responsible for Dow\u2019s decline amid rally by S&P and Nasdaq",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=601402b5-aced-4c96-8300-9aaab26af858&mod=mw_rss_bulletins",
-      "published_at": "2026-11-11T16:11:20+00:00"
-    },
-    {
-      "headline": "Nasdaq opens sharply higher; S&P 500, Dow rise amid tech rebound",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=cc04292d-1986-43f1-8fbf-49b180848151&mod=mw_rss_bulletins",
-      "published_at": "2026-11-11T14:30:38+00:00"
-    },
-    {
-      "headline": "Oracle breaks ground on Nashville global headquarters campus",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/oracle-breaks-ground-on-nashville-global-headquarters-campus-93CH-5016675",
-      "published_at": "2026-11-10T20:04:46+00:00"
-    },
-    {
-      "headline": "Ositrustees Examines How Interest Rate Expectations Affect Technology and Banking Stocks",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/press-releases/ositrustees-examines-how-interest-rate-expectations-affect-technology-and-banking-stocks-5016673",
-      "published_at": "2026-11-10T20:02:31+00:00"
     }
   ]
 }
