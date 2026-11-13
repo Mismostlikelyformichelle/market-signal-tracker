@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:00:19.707316+00:00",
+  "generated_at": "2026-11-13T20:20:54.132427+00:00",
   "composite": {
     "status": "Mild Watch",
     "watches": 1,
@@ -10,16 +10,12 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-10",
-      "latest_value": 0.25,
+      "latest_date": "2026-11-12",
+      "latest_value": 0.24,
       "unit": "pp",
       "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-14",
-          "value": 0.51
-        },
         {
           "date": "2026-08-17",
           "value": 0.53
@@ -259,22 +255,22 @@
         {
           "date": "2026-11-10",
           "value": 0.25
+        },
+        {
+          "date": "2026-11-12",
+          "value": 0.24
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-11",
-      "latest_value": 3.3,
-      "latest_value_bps": 330.0,
+      "latest_date": "2026-11-12",
+      "latest_value": 3.2,
+      "latest_value_bps": 320.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-14",
-          "value": 2.67
-        },
         {
           "date": "2026-08-17",
           "value": 2.7
@@ -522,21 +518,21 @@
         {
           "date": "2026-11-11",
           "value": 3.3
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3.2
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-12",
-      "latest_value": 18.600000381469727,
+      "latest_date": "2026-11-13",
+      "latest_value": 18.979999542236328,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-14",
-          "value": 14.25
-        },
         {
           "date": "2026-08-17",
           "value": 15.1899995803833
@@ -791,27 +787,25 @@
         },
         {
           "date": "2026-11-12",
-          "value": 18.600000381469727
+          "value": 18.700000762939453
+        },
+        {
+          "date": "2026-11-13",
+          "value": 18.979999542236328
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-11",
-      "vix9d": 16.04,
-      "vix": 17.49,
-      "vix3m": 19.24,
-      "spread": 3.1999999999999993,
+      "latest_date": "2026-11-12",
+      "vix9d": 17.51,
+      "vix": 18.7,
+      "vix3m": 20.06,
+      "spread": 2.549999999999997,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-14",
-          "vix9d": 10.61,
-          "vix": 14.25,
-          "vix3m": 18.46
-        },
         {
           "date": "2026-08-17",
           "vix9d": 12.39,
@@ -1189,22 +1183,24 @@
           "vix9d": 16.04,
           "vix": 17.49,
           "vix3m": 19.24
+        },
+        {
+          "date": "2026-11-12",
+          "vix9d": 17.51,
+          "vix": 18.7,
+          "vix3m": 20.06
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-12",
-      "latest_value": 103.1729965209961,
-      "pct_change_20d": 1.1499965892118567,
+      "latest_date": "2026-11-13",
+      "latest_value": 103.40499877929688,
+      "pct_change_20d": 1.5367267259258282,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-14",
-          "value": 99.66999816894531
-        },
         {
           "date": "2026-08-17",
           "value": 99.63999938964844
@@ -1459,23 +1455,23 @@
         },
         {
           "date": "2026-11-12",
-          "value": 103.1729965209961
+          "value": 103.16999816894531
+        },
+        {
+          "date": "2026-11-13",
+          "value": 103.40499877929688
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-12",
-      "latest_value": 3888.5,
-      "pct_change_20d": -6.752837847094358,
+      "latest_date": "2026-11-13",
+      "latest_value": 3879.89990234375,
+      "pct_change_20d": -7.20385038094018,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-14",
-          "value": 4380.39990234375
-        },
         {
           "date": "2026-08-17",
           "value": 4417.7998046875
@@ -1730,7 +1726,11 @@
         },
         {
           "date": "2026-11-12",
-          "value": 3888.5
+          "value": 3885.300048828125
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3879.89990234375
         }
       ]
     }
@@ -1747,7 +1747,7 @@
       }
     ],
     "session_date": "2026-11-12",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
@@ -1797,68 +1797,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-12T20:39:52.303927+00:00"
+    "last_refreshed": "2026-11-13T20:20:52.721235+00:00"
   },
   "headlines": [
     {
-      "headline": "Telstra at Deutsche Bank Virtual Investor Conference: ai bets lift outlook",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/telstra-at-deutsche-bank-virtual-investor-conference-ai-bets-lift-outlook-93CH-5023126",
-      "published_at": "2026-11-12T20:32:57+00:00"
-    },
-    {
-      "headline": "Atlantic American shareholders elect directors and approve auditor at annual meeting",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/sec-filings/atlantic-american-shareholders-elect-directors-and-approve-auditor-at-annual-meeting-93CH-5023125",
-      "published_at": "2026-11-12T20:32:44+00:00"
-    },
-    {
-      "headline": "Why is ADI Global Distribution stock crashing today?",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-adi-global-distribution-stock-crashing-today-93CH-5023124",
-      "published_at": "2026-11-12T20:31:24+00:00"
-    },
-    {
-      "headline": "Humana director Wayne Frederick sells $193,853 of company stock",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/insider-trading-news/humana-director-wayne-frederick-sells-193853-of-company-stock-93CH-5023122",
-      "published_at": "2026-11-12T20:31:14+00:00"
-    },
-    {
-      "headline": "Stocks give up gains, trade lower in final hour after Huang quits Nvidia \u2014 live",
+      "headline": "Nasdaq, S&P 500 down in final hour as tech stocks slide and Nvidia keeps falling",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5eaae4fe-4dd0-4ab8-88fd-b3fdaf751417&mod=mw_rss_bulletins",
-      "published_at": "2026-11-12T20:25:33+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d6acf0f0-1941-43fe-a6b9-d2296163b7ba&mod=mw_rss_bulletins",
+      "published_at": "2026-11-13T20:20:10+00:00"
     },
     {
-      "headline": "Trump admin hiring debt collectors to go after defaulted student-loan borrowers",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a7329276-faa5-4a14-ad59-7cfd70540163&mod=mw_rss_bulletins",
-      "published_at": "2026-11-12T19:55:35+00:00"
-    },
-    {
-      "headline": "Nvidia stock is on sale after Jensen Huang\u2019s exit. Is the selloff just starting?",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=889aa63f-d126-4844-bd1e-edfa4bfa6a4c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-12T18:46:12+00:00"
-    },
-    {
-      "headline": "The 2027 401(k) limits are here. See how much more you can save next year.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5b1c884d-82f4-4b92-8bb1-ebfa8bd8cd85&mod=mw_rss_bulletins",
-      "published_at": "2026-11-12T18:21:50+00:00"
-    },
-    {
-      "headline": "Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards",
+      "headline": "US SEC proposes scaling back rules on\u00a0executive pay disclosure",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/google-rolls-out-gemini-ai-voice-assistant-to-apple-carplay-dashboards-5019761",
-      "published_at": "2026-11-11T19:43:40+00:00"
+      "link": "https://www.investing.com/news/economy-news/us-sec-proposes-scaling-back-rules-onexecutive-pay-disclosure-5026256",
+      "published_at": "2026-11-13T20:12:27+00:00"
     },
     {
-      "headline": "Why is Netflix stock gaining today?",
+      "headline": "Enjoei Q3 2026 slides: record GMV growth masks margin pressure",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-netflix-stock-gaining-today-93CH-5019760",
-      "published_at": "2026-11-11T19:41:26+00:00"
+      "link": "https://www.investing.com/news/company-news/enjoei-q3-2026-slides-record-gmv-growth-masks-margin-pressure-93CH-5026414",
+      "published_at": "2026-11-13T20:09:00+00:00"
+    },
+    {
+      "headline": "Earnings call transcript: Grupo Mateus posts mixed Q3 2026 results as shares jump",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-mateus-posts-mixed-q3-2026-results-as-shares-jump-93CH-5026413",
+      "published_at": "2026-11-13T20:08:16+00:00"
+    },
+    {
+      "headline": "Transcontinental Realty Investors holds annual meeting, elects directors and approves share issuance",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/sec-filings/transcontinental-realty-investors-holds-annual-meeting-elects-directors-and-approves-share-issuance-93CH-5026412",
+      "published_at": "2026-11-13T20:06:35+00:00"
+    },
+    {
+      "headline": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
+      "published_at": "2026-11-13T19:30:36+00:00"
+    },
+    {
+      "headline": "\u2018Strangely calming and unnerving\u2019: How Microsoft\u2019s outage upended the workday",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f4cdc645-ef47-4e32-ad35-4bdba8903a85&mod=mw_rss_bulletins",
+      "published_at": "2026-11-13T19:09:30+00:00"
+    },
+    {
+      "headline": "Nasdaq down sharply, tech leads S&P 500's declines as Nvidia shares fall \u2014 live",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e62073cb-a9c5-485a-b3e1-f28e649a3e08&mod=mw_rss_bulletins",
+      "published_at": "2026-11-13T18:14:27+00:00"
+    },
+    {
+      "headline": "Is a bottom in for the Nasdaq-100? Charts to watch",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
+      "published_at": "2026-11-13T18:00:01+00:00"
+    },
+    {
+      "headline": "Nvidia has now shed $657 billion in market capitalization this week",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=302353a3-69b3-4c15-9535-43e6f605ba39&mod=mw_rss_bulletins",
+      "published_at": "2026-11-13T16:39:07+00:00"
     }
   ]
 }
