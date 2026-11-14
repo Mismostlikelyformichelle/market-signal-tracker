@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T20:36:18.647194+00:00",
+  "generated_at": "2026-11-14T18:39:23.603782+00:00",
   "composite": {
-    "status": "Mild Watch",
-    "watches": 1,
+    "status": "Calm",
+    "watches": 0,
     "alerts": 0,
     "vix_term_note": null,
     "crisis_override_note": null
@@ -10,10 +10,10 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-12",
-      "latest_value": 0.24,
+      "latest_date": "2026-11-13",
+      "latest_value": 0.27,
       "unit": "pp",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
         {
@@ -259,6 +259,10 @@
         {
           "date": "2026-11-12",
           "value": 0.24
+        },
+        {
+          "date": "2026-11-13",
+          "value": 0.27
         }
       ]
     },
@@ -528,7 +532,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-11-13",
-      "latest_value": 18.979999542236328,
+      "latest_value": 19.299999237060547,
       "unit": "",
       "status": "Normal",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -791,17 +795,17 @@
         },
         {
           "date": "2026-11-13",
-          "value": 18.979999542236328
+          "value": 19.299999237060547
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-12",
-      "vix9d": 17.51,
-      "vix": 18.7,
-      "vix3m": 20.06,
-      "spread": 2.549999999999997,
+      "latest_date": "2026-11-13",
+      "vix9d": 17.82,
+      "vix": 19.3,
+      "vix3m": 20.62,
+      "spread": 2.8000000000000007,
       "unit": "",
       "status": "Calm",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1189,14 +1193,20 @@
           "vix9d": 17.51,
           "vix": 18.7,
           "vix3m": 20.06
+        },
+        {
+          "date": "2026-11-13",
+          "vix9d": 17.82,
+          "vix": 19.3,
+          "vix3m": 20.62
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-11-13",
-      "latest_value": 103.40499877929688,
-      "pct_change_20d": 1.5367267259258282,
+      "latest_value": 103.41000366210938,
+      "pct_change_20d": 1.541641182909796,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
@@ -1459,15 +1469,15 @@
         },
         {
           "date": "2026-11-13",
-          "value": 103.40499877929688
+          "value": 103.41000366210938
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-11-13",
-      "latest_value": 3879.89990234375,
-      "pct_change_20d": -7.20385038094018,
+      "latest_value": 3886.300048828125,
+      "pct_change_20d": -7.0507771146971,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1730,7 +1740,7 @@
         },
         {
           "date": "2026-11-13",
-          "value": 3879.89990234375
+          "value": 3886.300048828125
         }
       ]
     }
@@ -1747,21 +1757,11 @@
       }
     ],
     "session_date": "2026-11-13",
-    "is_stale": false
+    "is_stale": true
   },
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-11-06",
-        "name": "Employment Situation (Jobs Report)",
-        "is_past": true,
-        "headline": {
-          "text": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5"
-        }
-      },
       {
         "date": "2026-11-10",
         "name": "CPI Release",
@@ -1797,68 +1797,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-13T20:20:52.721235+00:00"
+    "last_refreshed": "2026-11-14T18:39:21.643798+00:00"
   },
   "headlines": [
     {
-      "headline": "Nasdaq, S&P 500 down in final hour as tech stocks slide and Nvidia keeps falling",
+      "headline": "Amdocs director John MacDonald buys $41,629 in shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/amdocs-director-john-macdonald-buys-41629-in-shares-93CH-5027461",
+      "published_at": "2026-11-14T18:31:19+00:00"
+    },
+    {
+      "headline": "Hasbro EVP & CFO Gina Goetter sells $343,754 in company stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/hasbro-evp--cfo-gina-goetter-sells-343754-in-company-stock-93CH-5027460",
+      "published_at": "2026-11-14T18:31:06+00:00"
+    },
+    {
+      "headline": "Aura Minerals director Sousa Mauad sells $620,940 in common shares",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/aura-minerals-director-sousa-mauad-sells-620940-in-common-shares-93CH-5027459",
+      "published_at": "2026-11-14T18:31:05+00:00"
+    },
+    {
+      "headline": "Cardano Falls 10% In Selloff",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-selloff-5027456",
+      "published_at": "2026-11-14T18:19:55+00:00"
+    },
+    {
+      "headline": "China\u2019s hottest stocks have one thing in common: names that sound like sheep",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d6acf0f0-1941-43fe-a6b9-d2296163b7ba&mod=mw_rss_bulletins",
-      "published_at": "2026-11-13T20:20:10+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=057c3e72-9323-463e-89a9-44d7137c97ef&mod=mw_rss_bulletins",
+      "published_at": "2026-11-14T18:12:03+00:00"
     },
     {
-      "headline": "US SEC proposes scaling back rules on\u00a0executive pay disclosure",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/us-sec-proposes-scaling-back-rules-onexecutive-pay-disclosure-5026256",
-      "published_at": "2026-11-13T20:12:27+00:00"
+      "headline": "These 6 battered AI stocks could bounce back big, analyst says",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5bf81f4c-cecb-447d-9e50-306c6822e3fe&mod=mw_rss_bulletins",
+      "published_at": "2026-11-14T17:08:41+00:00"
     },
     {
-      "headline": "Enjoei Q3 2026 slides: record GMV growth masks margin pressure",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/enjoei-q3-2026-slides-record-gmv-growth-masks-margin-pressure-93CH-5026414",
-      "published_at": "2026-11-13T20:09:00+00:00"
+      "headline": "U.S. air travel could take days to recover after lifting of FAA ground stop",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=33d31d5c-5642-4214-be85-59ecb023f93c&mod=mw_rss_bulletins",
+      "published_at": "2026-11-14T14:19:07+00:00"
     },
     {
-      "headline": "Earnings call transcript: Grupo Mateus posts mixed Q3 2026 results as shares jump",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-mateus-posts-mixed-q3-2026-results-as-shares-jump-93CH-5026413",
-      "published_at": "2026-11-13T20:08:16+00:00"
-    },
-    {
-      "headline": "Transcontinental Realty Investors holds annual meeting, elects directors and approves share issuance",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/sec-filings/transcontinental-realty-investors-holds-annual-meeting-elects-directors-and-approves-share-issuance-93CH-5026412",
-      "published_at": "2026-11-13T20:06:35+00:00"
-    },
-    {
-      "headline": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+      "headline": "Juice your growth and save on taxes in this workplace investment account",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
-      "published_at": "2026-11-13T19:30:36+00:00"
+      "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+      "published_at": "2026-11-14T14:08:17+00:00"
     },
     {
-      "headline": "\u2018Strangely calming and unnerving\u2019: How Microsoft\u2019s outage upended the workday",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f4cdc645-ef47-4e32-ad35-4bdba8903a85&mod=mw_rss_bulletins",
-      "published_at": "2026-11-13T19:09:30+00:00"
-    },
-    {
-      "headline": "Nasdaq down sharply, tech leads S&P 500's declines as Nvidia shares fall \u2014 live",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e62073cb-a9c5-485a-b3e1-f28e649a3e08&mod=mw_rss_bulletins",
-      "published_at": "2026-11-13T18:14:27+00:00"
-    },
-    {
-      "headline": "Is a bottom in for the Nasdaq-100? Charts to watch",
+      "headline": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
-      "published_at": "2026-11-13T18:00:01+00:00"
+      "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+      "published_at": "2026-11-14T14:02:39+00:00"
     },
     {
-      "headline": "Nvidia has now shed $657 billion in market capitalization this week",
+      "headline": "FAA lifts rare nationwide ground stop; flights may take days to recover",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=302353a3-69b3-4c15-9535-43e6f605ba39&mod=mw_rss_bulletins",
-      "published_at": "2026-11-13T16:39:07+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=878bb17c-a0d8-48f5-b7d2-a35c5cc03ac6&mod=mw_rss_bulletins",
+      "published_at": "2026-11-14T02:01:16+00:00"
     }
   ]
 }
