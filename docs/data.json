@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T22:45:12.548828+00:00",
+  "generated_at": "2026-11-17T21:31:19.913380+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
     "alerts": 1,
-    "vix_term_note": "VIX term structure is inverted (VIX9D > VIX3M), confirming acute stress \u2014 escalated the VIX flag from watch to alert in the composite.",
+    "vix_term_note": "VIX term structure inversion confirms already-flagged stress; no further escalation (already at max severity).",
     "crisis_override_note": null
   },
   "indicators": {
@@ -16,10 +16,6 @@
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 0.52
-        },
         {
           "date": "2026-08-19",
           "value": 0.46
@@ -268,17 +264,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-13",
-      "latest_value": 3.23,
-      "latest_value_bps": 323.0,
+      "latest_date": "2026-11-16",
+      "latest_value": 3.34,
+      "latest_value_bps": 334.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 2.75
-        },
         {
           "date": "2026-08-19",
           "value": 2.73
@@ -530,21 +522,21 @@
         {
           "date": "2026-11-13",
           "value": 3.23
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3.34
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-16",
-      "latest_value": 22.90999984741211,
+      "latest_date": "2026-11-17",
+      "latest_value": 25.459999084472656,
       "unit": "",
-      "status": "Elevated",
+      "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 15.84000015258789
-        },
         {
           "date": "2026-08-19",
           "value": 14.890000343322754
@@ -800,6 +792,10 @@
         {
           "date": "2026-11-16",
           "value": 22.90999984741211
+        },
+        {
+          "date": "2026-11-17",
+          "value": 25.459999084472656
         }
       ]
     },
@@ -807,19 +803,13 @@
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
       "latest_date": "2026-11-16",
       "vix9d": 23.15,
-      "vix": null,
+      "vix": 22.91,
       "vix3m": 23.02,
       "spread": -0.129999999999999,
       "unit": "",
       "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-18",
-          "vix9d": 13.59,
-          "vix": 15.84,
-          "vix3m": 19.27
-        },
         {
           "date": "2026-08-19",
           "vix9d": 12.66,
@@ -1201,24 +1191,20 @@
         {
           "date": "2026-11-16",
           "vix9d": 23.15,
-          "vix": null,
+          "vix": 22.91,
           "vix3m": 23.02
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-16",
-      "latest_value": 103.58399963378906,
-      "pct_change_20d": 1.5728537203920514,
+      "latest_date": "2026-11-17",
+      "latest_value": 103.51499938964844,
+      "pct_change_20d": 1.7546406898778344,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 99.6500015258789
-        },
         {
           "date": "2026-08-19",
           "value": 98.83000183105469
@@ -1473,23 +1459,23 @@
         },
         {
           "date": "2026-11-16",
-          "value": 103.58399963378906
+          "value": 103.55000305175781
+        },
+        {
+          "date": "2026-11-17",
+          "value": 103.51499938964844
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-16",
-      "latest_value": 3859.0,
-      "pct_change_20d": -7.237808961036446,
+      "latest_date": "2026-11-17",
+      "latest_value": 3852.0,
+      "pct_change_20d": -7.014920359333314,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 4366.0
-        },
         {
           "date": "2026-08-19",
           "value": 4489.39990234375
@@ -1744,7 +1730,11 @@
         },
         {
           "date": "2026-11-16",
-          "value": 3859.0
+          "value": 3853.0
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3852.0
         }
       ]
     }
@@ -1801,68 +1791,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-16T22:45:10.853411+00:00"
+    "last_refreshed": "2026-11-17T21:31:18.024702+00:00"
   },
   "headlines": [
+    {
+      "headline": "Nvidia's earnings are out. Here\u2019s everything investors need to know.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=230b19b5-d290-414b-a2d9-4e7402b922b5&mod=mw_rss_bulletins",
+      "published_at": "2026-11-17T21:22:29+00:00"
+    },
+    {
+      "headline": "SEC investigating whether Nvidia's disclosures misled investors: WSJ",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=de3ea130-7883-4e57-b24c-13293e008378&mod=mw_rss_bulletins",
+      "published_at": "2026-11-17T21:17:17+00:00"
+    },
+    {
+      "headline": "Wall Street slides on Nvidia earnings day, S&P 500 posts lowest close since July",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-muted-as-nvidia-earnings-loom-amid-ai-jitters-5031353",
+      "published_at": "2026-11-17T21:14:08+00:00"
+    },
+    {
+      "headline": "Amneal receives EU approval for omalizumab biosimilar",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/amneal-receives-eu-approval-for-omalizumab-biosimilar-93CH-5034022",
+      "published_at": "2026-11-17T21:12:43+00:00"
+    },
+    {
+      "headline": "Limoneira, GreenFruit sign avocado packing and supply deal",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/limoneira-greenfruit-sign-avocado-packing-and-supply-deal-93CH-5034019",
+      "published_at": "2026-11-17T21:12:41+00:00"
+    },
+    {
+      "headline": "Akebia Therapeutics receives patent for Vafseo until 2043",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/akebia-therapeutics-receives-patent-for-vafseo-until-2043-93CH-5034020",
+      "published_at": "2026-11-17T21:12:41+00:00"
+    },
+    {
+      "headline": "Dow closes 850 points down, tech stocks keep falling ahead of Nvidia\u2019s results",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4eb007bb-f312-47a9-b4f2-6537100fed1c&mod=mw_rss_bulletins",
+      "published_at": "2026-11-17T21:09:09+00:00"
+    },
+    {
+      "headline": "Dow down 1,000 points in final hour as stocks slide ahead of Nvidia earnings",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ab148237-ecfe-4e2a-bc33-3a6397e46a93&mod=mw_rss_bulletins",
+      "published_at": "2026-11-17T20:04:22+00:00"
+    },
+    {
+      "headline": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+      "published_at": "2026-11-17T13:16:43+00:00"
+    },
     {
       "headline": "Earnings call transcript: Dar\u00e9 Bioscience Q3 2026 misses EPS, shares swing",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-dare-bioscience-q3-2026-misses-eps-shares-swing-93CH-5031145",
       "published_at": "2026-11-16T22:25:10+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Red Cat misses on Q3 2026 revenue, stock sinks 24%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-on-q3-2026-revenue-stock-sinks-24-93CH-5031143",
-      "published_at": "2026-11-16T22:24:50+00:00"
-    },
-    {
-      "headline": "L\u2019Oreal US settles hair relaxer cancer cases during first trial",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/loreal-us-settles-hair-relaxer-cancer-cases-during-first-trial-5031132",
-      "published_at": "2026-11-16T22:24:41+00:00"
-    },
-    {
-      "headline": "United Airlines says technology issue affecting departing flights",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/united-airlines-says-technology-issue-affecting-departing-flights-5031142",
-      "published_at": "2026-11-16T22:24:26+00:00"
-    },
-    {
-      "headline": "Nvidia investors will be clamoring for these answers on a historic earnings call",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4c1dc6ec-24e0-41a4-be43-15c1200bb695&mod=mw_rss_bulletins",
-      "published_at": "2026-11-16T21:49:21+00:00"
-    },
-    {
-      "headline": "Dow closes 700 points down, Nasdaq and S&P 500 slide as tech stocks sell off",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=52042a08-8f14-4307-a654-15dc338934cf&mod=mw_rss_bulletins",
-      "published_at": "2026-11-16T21:03:35+00:00"
-    },
-    {
-      "headline": "Jensen Huang\u2019s fans want him back as Nvidia CEO. This is why that\u2019s unlikely.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=49bf0b6e-018b-4c8d-84ad-4d00e0924e76&mod=mw_rss_bulletins",
-      "published_at": "2026-11-16T20:25:27+00:00"
-    },
-    {
-      "headline": "Dow down 700 points, S&P 500 and Nasdaq sharply lower in final hour of trading",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c5be318b-40b3-4e77-b22c-2757de6524fe&mod=mw_rss_bulletins",
-      "published_at": "2026-11-16T20:01:14+00:00"
-    },
-    {
-      "headline": "This Anthropic proxy play is getting traders' attention \u2013 here's where they see it going",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html",
-      "published_at": "2026-11-16T19:06:11+00:00"
-    },
-    {
-      "headline": "Fed \u2019has some work to do on inflation,\u2019 KC Fed chief says",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
-      "published_at": "2026-11-15T18:48:22+00:00"
     }
   ]
 }
