@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-17T21:31:19.913380+00:00",
+  "generated_at": "2026-11-18T21:07:20.363941+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
     "alerts": 1,
-    "vix_term_note": "VIX term structure inversion confirms already-flagged stress; no further escalation (already at max severity).",
+    "vix_term_note": "VIX term structure is inverted (VIX9D > VIX3M), confirming acute stress \u2014 escalated the VIX flag from watch to alert in the composite.",
     "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-16",
-      "latest_value": 0.29,
+      "latest_date": "2026-11-17",
+      "latest_value": 0.3,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 0.46
-        },
         {
           "date": "2026-08-20",
           "value": 0.5
@@ -259,22 +255,22 @@
         {
           "date": "2026-11-16",
           "value": 0.29
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0.3
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-16",
-      "latest_value": 3.34,
-      "latest_value_bps": 334.0,
+      "latest_date": "2026-11-17",
+      "latest_value": 3.43,
+      "latest_value_bps": 343.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 2.73
-        },
         {
           "date": "2026-08-20",
           "value": 2.75
@@ -526,21 +522,21 @@
         {
           "date": "2026-11-16",
           "value": 3.34
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3.43
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-17",
-      "latest_value": 25.459999084472656,
+      "latest_date": "2026-11-18",
+      "latest_value": 24.600000381469727,
       "unit": "",
-      "status": "High",
+      "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 14.890000343322754
-        },
         {
           "date": "2026-08-20",
           "value": 16.010000228881836
@@ -796,26 +792,24 @@
         {
           "date": "2026-11-17",
           "value": 25.459999084472656
+        },
+        {
+          "date": "2026-11-18",
+          "value": 24.600000381469727
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-16",
-      "vix9d": 23.15,
-      "vix": 22.91,
-      "vix3m": 23.02,
-      "spread": -0.129999999999999,
+      "latest_date": "2026-11-17",
+      "vix9d": 26.7,
+      "vix": 25.46,
+      "vix3m": 24.98,
+      "spread": -1.7199999999999989,
       "unit": "",
       "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-19",
-          "vix9d": 12.66,
-          "vix": 14.89,
-          "vix3m": 18.57
-        },
         {
           "date": "2026-08-20",
           "vix9d": 14.39,
@@ -1193,22 +1187,24 @@
           "vix9d": 23.15,
           "vix": 22.91,
           "vix3m": 23.02
+        },
+        {
+          "date": "2026-11-17",
+          "vix9d": 26.7,
+          "vix": 25.46,
+          "vix3m": 24.98
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-17",
-      "latest_value": 103.51499938964844,
-      "pct_change_20d": 1.7546406898778344,
+      "latest_date": "2026-11-18",
+      "latest_value": 103.77400207519531,
+      "pct_change_20d": 1.9591307917209748,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 98.83000183105469
-        },
         {
           "date": "2026-08-20",
           "value": 98.9000015258789
@@ -1463,23 +1459,23 @@
         },
         {
           "date": "2026-11-17",
-          "value": 103.51499938964844
+          "value": 103.48999786376953
+        },
+        {
+          "date": "2026-11-18",
+          "value": 103.77400207519531
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-17",
-      "latest_value": 3852.0,
-      "pct_change_20d": -7.014920359333314,
+      "latest_date": "2026-11-18",
+      "latest_value": 3732.199951171875,
+      "pct_change_20d": -10.067471056099397,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 4489.39990234375
-        },
         {
           "date": "2026-08-20",
           "value": 4516.2998046875
@@ -1734,7 +1730,11 @@
         },
         {
           "date": "2026-11-17",
-          "value": 3852.0
+          "value": 3864.199951171875
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3732.199951171875
         }
       ]
     }
@@ -1756,16 +1756,6 @@
   "econ_calendar": {
     "days_ahead": 30,
     "events": [
-      {
-        "date": "2026-11-10",
-        "name": "CPI Release",
-        "is_past": true,
-        "headline": {
-          "text": "Inflation remained elevated in October, CPI report shows, upping odds of Fed interest rate hike",
-          "source": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yY1puMmJtSGJhQldvMzg0d2RXa09JdzFnaUZLWkVmdzB3SVV3c2Y1dG1vRk53UlJEQUROUjR3UGFqLVNhOFRHRy1TRVJWWEdGTlNjVHlVR2gyZ0RhMWUzczV6c3R2MkFoYnF2QmZ5b3RBWkRFbUE?oc=5"
-        }
-      },
       {
         "date": "2026-11-25",
         "name": "GDP Release",
@@ -1791,9 +1781,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-17T21:31:18.024702+00:00"
+    "last_refreshed": "2026-11-18T21:07:18.812965+00:00"
   },
   "headlines": [
+    {
+      "headline": "Nexxen at RBC Global Technology conference: growth broadens",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/nexxen-at-rbc-global-technology-conference-growth-broadens-93CH-5036984",
+      "published_at": "2026-11-18T21:02:18+00:00"
+    },
+    {
+      "headline": "Voyix at RBC conference: software push gains traction",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/voyix-at-rbc-conference-software-push-gains-traction-93CH-5036979",
+      "published_at": "2026-11-18T21:01:28+00:00"
+    },
+    {
+      "headline": "Seneca Foods stock hits 52-week low at 35.3 USD",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/seneca-foods-stock-hits-52week-low-at-353-usd-93CH-5036975",
+      "published_at": "2026-11-18T21:01:00+00:00"
+    },
+    {
+      "headline": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-globalrollout-5035485",
+      "published_at": "2026-11-18T21:00:39+00:00"
+    },
+    {
+      "headline": "Dow off 500 points in final hour, but Nasdaq up ahead of Anthropic IPO pricing",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=735dc84f-cfd5-4063-a7b7-0376d67018ad&mod=mw_rss_bulletins",
+      "published_at": "2026-11-18T20:06:54+00:00"
+    },
+    {
+      "headline": "Fed minutes show growing unease about the outlook for inflation",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=caf867bb-e3c1-4591-8080-f6e90cc41592&mod=mw_rss_bulletins",
+      "published_at": "2026-11-18T19:14:56+00:00"
+    },
+    {
+      "headline": "Social Security should be shut down, this Republican senator says",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1e5b6bf-093a-4698-bfd7-834ff9aa93e9&mod=mw_rss_bulletins",
+      "published_at": "2026-11-18T18:28:05+00:00"
+    },
+    {
+      "headline": "Fed\u2019s Waller suggests interest-rate spike to \u2018shock\u2019 inflation",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins",
+      "published_at": "2026-11-18T14:48:21+00:00"
+    },
     {
       "headline": "Nvidia's earnings are out. Here\u2019s everything investors need to know.",
       "source": "MarketWatch",
@@ -1805,54 +1843,6 @@
       "source": "MarketWatch",
       "link": "https://www.marketwatch.com/bulletins/redirect/go?g=de3ea130-7883-4e57-b24c-13293e008378&mod=mw_rss_bulletins",
       "published_at": "2026-11-17T21:17:17+00:00"
-    },
-    {
-      "headline": "Wall Street slides on Nvidia earnings day, S&P 500 posts lowest close since July",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-muted-as-nvidia-earnings-loom-amid-ai-jitters-5031353",
-      "published_at": "2026-11-17T21:14:08+00:00"
-    },
-    {
-      "headline": "Amneal receives EU approval for omalizumab biosimilar",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/amneal-receives-eu-approval-for-omalizumab-biosimilar-93CH-5034022",
-      "published_at": "2026-11-17T21:12:43+00:00"
-    },
-    {
-      "headline": "Limoneira, GreenFruit sign avocado packing and supply deal",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/limoneira-greenfruit-sign-avocado-packing-and-supply-deal-93CH-5034019",
-      "published_at": "2026-11-17T21:12:41+00:00"
-    },
-    {
-      "headline": "Akebia Therapeutics receives patent for Vafseo until 2043",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/akebia-therapeutics-receives-patent-for-vafseo-until-2043-93CH-5034020",
-      "published_at": "2026-11-17T21:12:41+00:00"
-    },
-    {
-      "headline": "Dow closes 850 points down, tech stocks keep falling ahead of Nvidia\u2019s results",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4eb007bb-f312-47a9-b4f2-6537100fed1c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-17T21:09:09+00:00"
-    },
-    {
-      "headline": "Dow down 1,000 points in final hour as stocks slide ahead of Nvidia earnings",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ab148237-ecfe-4e2a-bc33-3a6397e46a93&mod=mw_rss_bulletins",
-      "published_at": "2026-11-17T20:04:22+00:00"
-    },
-    {
-      "headline": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
-      "published_at": "2026-11-17T13:16:43+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Dar\u00e9 Bioscience Q3 2026 misses EPS, shares swing",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-dare-bioscience-q3-2026-misses-eps-shares-swing-93CH-5031145",
-      "published_at": "2026-11-16T22:25:10+00:00"
     }
   ]
 }
