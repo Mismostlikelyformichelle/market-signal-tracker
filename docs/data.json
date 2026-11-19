@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-18T21:07:20.363941+00:00",
+  "generated_at": "2026-11-19T21:12:06.559721+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
     "alerts": 1,
-    "vix_term_note": "VIX term structure is inverted (VIX9D > VIX3M), confirming acute stress \u2014 escalated the VIX flag from watch to alert in the composite.",
+    "vix_term_note": null,
     "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-17",
-      "latest_value": 0.3,
+      "latest_date": "2026-11-18",
+      "latest_value": 0.27,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 0.5
-        },
         {
           "date": "2026-08-21",
           "value": 0.5
@@ -259,22 +255,22 @@
         {
           "date": "2026-11-17",
           "value": 0.3
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0.27
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-17",
-      "latest_value": 3.43,
-      "latest_value_bps": 343.0,
+      "latest_date": "2026-11-18",
+      "latest_value": 3.47,
+      "latest_value_bps": 347.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 2.75
-        },
         {
           "date": "2026-08-21",
           "value": 2.7
@@ -526,21 +522,21 @@
         {
           "date": "2026-11-17",
           "value": 3.43
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3.47
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-18",
-      "latest_value": 24.600000381469727,
+      "latest_date": "2026-11-19",
+      "latest_value": 28.100000381469727,
       "unit": "",
-      "status": "Elevated",
+      "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 16.010000228881836
-        },
         {
           "date": "2026-08-21",
           "value": 15.130000114440918
@@ -795,27 +791,25 @@
         },
         {
           "date": "2026-11-18",
-          "value": 24.600000381469727
+          "value": 24.559999465942383
+        },
+        {
+          "date": "2026-11-19",
+          "value": 28.100000381469727
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-17",
-      "vix9d": 26.7,
-      "vix": 25.46,
-      "vix3m": 24.98,
-      "spread": -1.7199999999999989,
+      "latest_date": "2026-11-18",
+      "vix9d": 23.95,
+      "vix": 24.56,
+      "vix3m": 24.29,
+      "spread": 0.33999999999999986,
       "unit": "",
-      "status": "Alert",
+      "status": "Watch",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-20",
-          "vix9d": 14.39,
-          "vix": 16.01,
-          "vix3m": 19.06
-        },
         {
           "date": "2026-08-21",
           "vix9d": 12.58,
@@ -1193,22 +1187,24 @@
           "vix9d": 26.7,
           "vix": 25.46,
           "vix3m": 24.98
+        },
+        {
+          "date": "2026-11-18",
+          "vix9d": 23.95,
+          "vix": 24.56,
+          "vix3m": 24.29
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-18",
-      "latest_value": 103.77400207519531,
-      "pct_change_20d": 1.9591307917209748,
+      "latest_date": "2026-11-19",
+      "latest_value": 103.9010009765625,
+      "pct_change_20d": 2.2546996874809,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 98.9000015258789
-        },
         {
           "date": "2026-08-21",
           "value": 98.80000305175781
@@ -1463,23 +1459,23 @@
         },
         {
           "date": "2026-11-18",
-          "value": 103.77400207519531
+          "value": 103.86000061035156
+        },
+        {
+          "date": "2026-11-19",
+          "value": 103.9010009765625
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-18",
-      "latest_value": 3732.199951171875,
-      "pct_change_20d": -10.067471056099397,
+      "latest_date": "2026-11-19",
+      "latest_value": 3659.39990234375,
+      "pct_change_20d": -9.875874535622321,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 4516.2998046875
-        },
         {
           "date": "2026-08-21",
           "value": 4624.10009765625
@@ -1734,7 +1730,11 @@
         },
         {
           "date": "2026-11-18",
-          "value": 3732.199951171875
+          "value": 3741.89990234375
+        },
+        {
+          "date": "2026-11-19",
+          "value": 3659.39990234375
         }
       ]
     }
@@ -1781,68 +1781,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-18T21:07:18.812965+00:00"
+    "last_refreshed": "2026-11-19T21:12:04.872400+00:00"
   },
   "headlines": [
+    {
+      "headline": "Intuit reports Q1 revenue up 12%, to sell Mailchimp for $3.68B",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/intuit-reports-q1-revenue-up-12-to-sell-mailchimp-for-368b-93CH-5039930",
+      "published_at": "2026-11-19T21:04:41+00:00"
+    },
+    {
+      "headline": "BayCom declares $0.30 quarterly dividend per share",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/baycom-declares-030-quarterly-dividend-per-share-93CH-5039929",
+      "published_at": "2026-11-19T21:04:38+00:00"
+    },
+    {
+      "headline": "Celldex discontinues atopic dermatitis program after trial miss",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/celldex-discontinues-atopic-dermatitis-program-after-trial-miss-93CH-5039928",
+      "published_at": "2026-11-19T21:04:36+00:00"
+    },
+    {
+      "headline": "Midland States Bancorp to sell six branches, close two",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/midland-states-bancorp-to-sell-six-branches-close-two-93CH-5039926",
+      "published_at": "2026-11-19T21:04:35+00:00"
+    },
+    {
+      "headline": "Dow ends 1,100 points down, S&P 500 and Nasdaq slide after Anthropic goes public",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fa6d8e6f-85c6-45e6-9477-7f2f95ffef4f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-19T21:03:05+00:00"
+    },
+    {
+      "headline": "Nvidia\u2019s stock falls further \u2014 and has lost $611 billion in six trading days",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81730ce0-d6a6-47eb-a19e-3a7fa5770442&mod=mw_rss_bulletins",
+      "published_at": "2026-11-19T20:46:33+00:00"
+    },
+    {
+      "headline": "Dow down 1,000 points, S&P 500 and Nasdaq slide as Anthropic goes public \u2014 live",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2438a995-47f5-48c5-b3da-cfb80cde18fb&mod=mw_rss_bulletins",
+      "published_at": "2026-11-19T20:02:36+00:00"
+    },
+    {
+      "headline": "The surprising reason the economy is speeding up \u2014 and may have more room to run",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3d1d749e-1970-41d4-af12-ac0b974aea16&mod=mw_rss_bulletins",
+      "published_at": "2026-11-19T19:22:35+00:00"
+    },
+    {
+      "headline": "AMD dives on short-seller report of alleged China exposure",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "published_at": "2026-11-19T18:24:54+00:00"
+    },
     {
       "headline": "Nexxen at RBC Global Technology conference: growth broadens",
       "source": "Investing.com",
       "link": "https://www.investing.com/news/transcripts/nexxen-at-rbc-global-technology-conference-growth-broadens-93CH-5036984",
       "published_at": "2026-11-18T21:02:18+00:00"
-    },
-    {
-      "headline": "Voyix at RBC conference: software push gains traction",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/voyix-at-rbc-conference-software-push-gains-traction-93CH-5036979",
-      "published_at": "2026-11-18T21:01:28+00:00"
-    },
-    {
-      "headline": "Seneca Foods stock hits 52-week low at 35.3 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/seneca-foods-stock-hits-52week-low-at-353-usd-93CH-5036975",
-      "published_at": "2026-11-18T21:01:00+00:00"
-    },
-    {
-      "headline": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-globalrollout-5035485",
-      "published_at": "2026-11-18T21:00:39+00:00"
-    },
-    {
-      "headline": "Dow off 500 points in final hour, but Nasdaq up ahead of Anthropic IPO pricing",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=735dc84f-cfd5-4063-a7b7-0376d67018ad&mod=mw_rss_bulletins",
-      "published_at": "2026-11-18T20:06:54+00:00"
-    },
-    {
-      "headline": "Fed minutes show growing unease about the outlook for inflation",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=caf867bb-e3c1-4591-8080-f6e90cc41592&mod=mw_rss_bulletins",
-      "published_at": "2026-11-18T19:14:56+00:00"
-    },
-    {
-      "headline": "Social Security should be shut down, this Republican senator says",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f1e5b6bf-093a-4698-bfd7-834ff9aa93e9&mod=mw_rss_bulletins",
-      "published_at": "2026-11-18T18:28:05+00:00"
-    },
-    {
-      "headline": "Fed\u2019s Waller suggests interest-rate spike to \u2018shock\u2019 inflation",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins",
-      "published_at": "2026-11-18T14:48:21+00:00"
-    },
-    {
-      "headline": "Nvidia's earnings are out. Here\u2019s everything investors need to know.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=230b19b5-d290-414b-a2d9-4e7402b922b5&mod=mw_rss_bulletins",
-      "published_at": "2026-11-17T21:22:29+00:00"
-    },
-    {
-      "headline": "SEC investigating whether Nvidia's disclosures misled investors: WSJ",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=de3ea130-7883-4e57-b24c-13293e008378&mod=mw_rss_bulletins",
-      "published_at": "2026-11-17T21:17:17+00:00"
     }
   ]
 }
