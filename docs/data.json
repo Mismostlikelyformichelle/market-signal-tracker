@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-19T21:12:06.559721+00:00",
+  "generated_at": "2026-11-20T20:56:22.322165+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
     "alerts": 1,
-    "vix_term_note": null,
+    "vix_term_note": "VIX term structure inversion confirms already-flagged stress; no further escalation (already at max severity).",
     "crisis_override_note": null
   },
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-18",
-      "latest_value": 0.27,
+      "latest_date": "2026-11-19",
+      "latest_value": 0.28,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-21",
-          "value": 0.5
-        },
         {
           "date": "2026-08-24",
           "value": 0.46
@@ -259,22 +255,22 @@
         {
           "date": "2026-11-18",
           "value": 0.27
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0.28
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-18",
-      "latest_value": 3.47,
-      "latest_value_bps": 347.0,
+      "latest_date": "2026-11-19",
+      "latest_value": 3.52,
+      "latest_value_bps": 352.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-21",
-          "value": 2.7
-        },
         {
           "date": "2026-08-24",
           "value": 2.69
@@ -526,21 +522,21 @@
         {
           "date": "2026-11-18",
           "value": 3.47
+        },
+        {
+          "date": "2026-11-19",
+          "value": 3.52
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-19",
-      "latest_value": 28.100000381469727,
+      "latest_date": "2026-11-20",
+      "latest_value": 37.72999954223633,
       "unit": "",
       "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-21",
-          "value": 15.130000114440918
-        },
         {
           "date": "2026-08-24",
           "value": 15.850000381469727
@@ -795,27 +791,25 @@
         },
         {
           "date": "2026-11-19",
-          "value": 28.100000381469727
+          "value": 28.440000534057617
+        },
+        {
+          "date": "2026-11-20",
+          "value": 37.72999954223633
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-18",
-      "vix9d": 23.95,
-      "vix": 24.56,
-      "vix3m": 24.29,
-      "spread": 0.33999999999999986,
+      "latest_date": "2026-11-19",
+      "vix9d": 29.26,
+      "vix": 28.44,
+      "vix3m": 27.03,
+      "spread": -2.2300000000000004,
       "unit": "",
-      "status": "Watch",
+      "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-21",
-          "vix9d": 12.58,
-          "vix": 15.13,
-          "vix3m": 18.5
-        },
         {
           "date": "2026-08-24",
           "vix9d": 14.07,
@@ -1193,22 +1187,24 @@
           "vix9d": 23.95,
           "vix": 24.56,
           "vix3m": 24.29
+        },
+        {
+          "date": "2026-11-19",
+          "vix9d": 29.26,
+          "vix": 28.44,
+          "vix3m": 27.03
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-19",
-      "latest_value": 103.9010009765625,
-      "pct_change_20d": 2.2546996874809,
+      "latest_date": "2026-11-20",
+      "latest_value": 103.86299896240234,
+      "pct_change_20d": 2.016502753206579,
       "unit": "",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-21",
-          "value": 98.80000305175781
-        },
         {
           "date": "2026-08-24",
           "value": 99.0
@@ -1463,23 +1459,23 @@
         },
         {
           "date": "2026-11-19",
-          "value": 103.9010009765625
+          "value": 103.9000015258789
+        },
+        {
+          "date": "2026-11-20",
+          "value": 103.86299896240234
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-19",
-      "latest_value": 3659.39990234375,
-      "pct_change_20d": -9.875874535622321,
+      "latest_date": "2026-11-20",
+      "latest_value": 3515.89990234375,
+      "pct_change_20d": -12.275755682228665,
       "unit": "$",
-      "status": "Watch",
+      "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-21",
-          "value": 4624.10009765625
-        },
         {
           "date": "2026-08-24",
           "value": 4640.7998046875
@@ -1734,7 +1730,11 @@
         },
         {
           "date": "2026-11-19",
-          "value": 3659.39990234375
+          "value": 3685.5
+        },
+        {
+          "date": "2026-11-20",
+          "value": 3515.89990234375
         }
       ]
     }
@@ -1781,68 +1781,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-19T21:12:04.872400+00:00"
+    "last_refreshed": "2026-11-20T20:56:20.229771+00:00"
   },
   "headlines": [
     {
-      "headline": "Intuit reports Q1 revenue up 12%, to sell Mailchimp for $3.68B",
+      "headline": "Exclusive-Nvidia\u2019s accounting is a focus of US SEC investigation, sources say",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/intuit-reports-q1-revenue-up-12-to-sell-mailchimp-for-368b-93CH-5039930",
-      "published_at": "2026-11-19T21:04:41+00:00"
+      "link": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
+      "published_at": "2026-11-20T20:42:46+00:00"
     },
     {
-      "headline": "BayCom declares $0.30 quarterly dividend per share",
+      "headline": "Celcuity stock hits 52-week low at 53.48 USD",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/baycom-declares-030-quarterly-dividend-per-share-93CH-5039929",
-      "published_at": "2026-11-19T21:04:38+00:00"
+      "link": "https://www.investing.com/news/company-news/celcuity-stock-hits-52week-low-at-5348-usd-93CH-5042564",
+      "published_at": "2026-11-20T20:42:22+00:00"
     },
     {
-      "headline": "Celldex discontinues atopic dermatitis program after trial miss",
+      "headline": "TD Cowen names UnitedHealth its 2027 best idea, upgrades shares",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/celldex-discontinues-atopic-dermatitis-program-after-trial-miss-93CH-5039928",
-      "published_at": "2026-11-19T21:04:36+00:00"
+      "link": "https://www.investing.com/news/stock-market-news/td-cowen-names-unitedhealth-its-2027-best-idea-upgrades-shares-5042562",
+      "published_at": "2026-11-20T20:38:35+00:00"
     },
     {
-      "headline": "Midland States Bancorp to sell six branches, close two",
+      "headline": "First Hawaiian stock hits 52-week low at $23.26",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/midland-states-bancorp-to-sell-six-branches-close-two-93CH-5039926",
-      "published_at": "2026-11-19T21:04:35+00:00"
+      "link": "https://www.investing.com/news/company-news/first-hawaiian-stock-hits-52week-low-at-2326-93CH-5042561",
+      "published_at": "2026-11-20T20:37:14+00:00"
     },
     {
-      "headline": "Dow ends 1,100 points down, S&P 500 and Nasdaq slide after Anthropic goes public",
+      "headline": "Dow, S&P 500 in correction territory in final hour; Nasdaq wipes out 2026 gains",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fa6d8e6f-85c6-45e6-9477-7f2f95ffef4f&mod=mw_rss_bulletins",
-      "published_at": "2026-11-19T21:03:05+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=637c4718-e771-4db0-99c7-f2407a3cc48b&mod=mw_rss_bulletins",
+      "published_at": "2026-11-20T20:08:57+00:00"
     },
     {
-      "headline": "Nvidia\u2019s stock falls further \u2014 and has lost $611 billion in six trading days",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81730ce0-d6a6-47eb-a19e-3a7fa5770442&mod=mw_rss_bulletins",
-      "published_at": "2026-11-19T20:46:33+00:00"
-    },
-    {
-      "headline": "Dow down 1,000 points, S&P 500 and Nasdaq slide as Anthropic goes public \u2014 live",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2438a995-47f5-48c5-b3da-cfb80cde18fb&mod=mw_rss_bulletins",
-      "published_at": "2026-11-19T20:02:36+00:00"
-    },
-    {
-      "headline": "The surprising reason the economy is speeding up \u2014 and may have more room to run",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3d1d749e-1970-41d4-af12-ac0b974aea16&mod=mw_rss_bulletins",
-      "published_at": "2026-11-19T19:22:35+00:00"
-    },
-    {
-      "headline": "AMD dives on short-seller report of alleged China exposure",
+      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-      "published_at": "2026-11-19T18:24:54+00:00"
+      "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "published_at": "2026-11-20T19:59:03+00:00"
     },
     {
-      "headline": "Nexxen at RBC Global Technology conference: growth broadens",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/nexxen-at-rbc-global-technology-conference-growth-broadens-93CH-5036984",
-      "published_at": "2026-11-18T21:02:18+00:00"
+      "headline": "Trump is trying to stop Big Tech\u2019s push to build data centers outside the U.S.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0609ce20-a8d3-41b3-a1b1-ac4d39e8806f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-20T19:33:49+00:00"
+    },
+    {
+      "headline": "Nvidia\u2019s stock heads for a stretch of weekly losses not seen since 2008",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4844649e-b874-4033-b895-8b6174b4217f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-20T17:36:01+00:00"
+    },
+    {
+      "headline": "This proposed Social Security fix could add trillions to the national debt",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6fe4a0e2-ebef-48c6-8eec-3bfb4fd04b24&mod=mw_rss_bulletins",
+      "published_at": "2026-11-20T16:33:04+00:00"
+    },
+    {
+      "headline": "Cathie Wood\u2019s Ark Invest was a big buyer of Anthropic as she tells CNBC she\u2019s \u2018quite optimistic\u2019",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
+      "published_at": "2026-11-20T16:18:04+00:00"
     }
   ]
 }
