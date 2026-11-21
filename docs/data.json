@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:56:22.322165+00:00",
+  "generated_at": "2026-11-21T19:57:09.541063+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-19",
-      "latest_value": 0.28,
+      "latest_date": "2026-11-20",
+      "latest_value": 0.29,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -259,6 +259,10 @@
         {
           "date": "2026-11-19",
           "value": 0.28
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0.29
         }
       ]
     },
@@ -532,7 +536,7 @@
     "vix": {
       "label": "VIX (Close)",
       "latest_date": "2026-11-20",
-      "latest_value": 37.72999954223633,
+      "latest_value": 35.88999938964844,
       "unit": "",
       "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -795,17 +799,17 @@
         },
         {
           "date": "2026-11-20",
-          "value": 37.72999954223633
+          "value": 35.88999938964844
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-19",
-      "vix9d": 29.26,
-      "vix": 28.44,
-      "vix3m": 27.03,
-      "spread": -2.2300000000000004,
+      "latest_date": "2026-11-20",
+      "vix9d": 40.72,
+      "vix": 35.89,
+      "vix3m": 30.94,
+      "spread": -9.779999999999998,
       "unit": "",
       "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1193,16 +1197,22 @@
           "vix9d": 29.26,
           "vix": 28.44,
           "vix3m": 27.03
+        },
+        {
+          "date": "2026-11-20",
+          "vix9d": 40.72,
+          "vix": 35.89,
+          "vix3m": 30.94
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
       "latest_date": "2026-11-20",
-      "latest_value": 103.86299896240234,
-      "pct_change_20d": 2.016502753206579,
+      "latest_value": 103.80999755859375,
+      "pct_change_20d": 1.9644436184658178,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
         {
@@ -1463,15 +1473,15 @@
         },
         {
           "date": "2026-11-20",
-          "value": 103.86299896240234
+          "value": 103.80999755859375
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
       "latest_date": "2026-11-20",
-      "latest_value": 3515.89990234375,
-      "pct_change_20d": -12.275755682228665,
+      "latest_value": 3515.39990234375,
+      "pct_change_20d": -12.288231043694346,
       "unit": "$",
       "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
@@ -1734,7 +1744,7 @@
         },
         {
           "date": "2026-11-20",
-          "value": 3515.89990234375
+          "value": 3515.39990234375
         }
       ]
     }
@@ -1781,9 +1791,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-20T20:56:20.229771+00:00"
+    "last_refreshed": "2026-11-21T19:57:07.491360+00:00"
   },
   "headlines": [
+    {
+      "headline": "Terrance Ford, First Community Corp director, buys $20,928 in stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/terrance-ford-first-community-corp-director-buys-20928-in-stock-93CH-5043565",
+      "published_at": "2026-11-21T19:31:54+00:00"
+    },
+    {
+      "headline": "Trump orders contractors to report Congress inquiries",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/economy-news/trump-orders-contractors-to-report-congress-inquiries-5043559",
+      "published_at": "2026-11-21T19:00:57+00:00"
+    },
+    {
+      "headline": "Who really wins from AI?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/who-really-wins-from-ai-5043557",
+      "published_at": "2026-11-21T18:51:31+00:00"
+    },
+    {
+      "headline": "CV Sciences director Charlie Cheever III acquires $20,307 in common stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/cv-sciences-director-charlie-cheever-iii-acquires-20307-in-common-stock-93CH-5043555",
+      "published_at": "2026-11-21T18:46:03+00:00"
+    },
+    {
+      "headline": "Grocery stores have \u2018staggering deals\u2019 for Thanksgiving\u2014but don\u2019t get used to it",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=865dc883-dffb-42c2-b118-5705742a222f&mod=mw_rss_bulletins",
+      "published_at": "2026-11-21T16:21:01+00:00"
+    },
+    {
+      "headline": "How a brutal week for stocks almost wiped out their gains for the entire year",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=51a347e8-6c56-44bf-9ec5-6b13a5e01c7e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-21T15:37:46+00:00"
+    },
+    {
+      "headline": "Finding your edge in a market and economy dominated by AI: Barron\u2019s Roundtable",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a62375af-d903-4733-9192-735e87bcccb5&mod=mw_rss_bulletins",
+      "published_at": "2026-11-21T14:31:53+00:00"
+    },
+    {
+      "headline": "Yes, the U.S. is rich enough to fix Social Security. Medicare, too. Here\u2019s how.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8f940f38-8cf9-42b1-9cce-67f9d60c0c3c&mod=mw_rss_bulletins",
+      "published_at": "2026-11-21T14:00:49+00:00"
+    },
     {
       "headline": "Exclusive-Nvidia\u2019s accounting is a focus of US SEC investigation, sources say",
       "source": "Investing.com",
@@ -1795,54 +1853,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/company-news/celcuity-stock-hits-52week-low-at-5348-usd-93CH-5042564",
       "published_at": "2026-11-20T20:42:22+00:00"
-    },
-    {
-      "headline": "TD Cowen names UnitedHealth its 2027 best idea, upgrades shares",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/td-cowen-names-unitedhealth-its-2027-best-idea-upgrades-shares-5042562",
-      "published_at": "2026-11-20T20:38:35+00:00"
-    },
-    {
-      "headline": "First Hawaiian stock hits 52-week low at $23.26",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/first-hawaiian-stock-hits-52week-low-at-2326-93CH-5042561",
-      "published_at": "2026-11-20T20:37:14+00:00"
-    },
-    {
-      "headline": "Dow, S&P 500 in correction territory in final hour; Nasdaq wipes out 2026 gains",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=637c4718-e771-4db0-99c7-f2407a3cc48b&mod=mw_rss_bulletins",
-      "published_at": "2026-11-20T20:08:57+00:00"
-    },
-    {
-      "headline": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
-      "published_at": "2026-11-20T19:59:03+00:00"
-    },
-    {
-      "headline": "Trump is trying to stop Big Tech\u2019s push to build data centers outside the U.S.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=0609ce20-a8d3-41b3-a1b1-ac4d39e8806f&mod=mw_rss_bulletins",
-      "published_at": "2026-11-20T19:33:49+00:00"
-    },
-    {
-      "headline": "Nvidia\u2019s stock heads for a stretch of weekly losses not seen since 2008",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4844649e-b874-4033-b895-8b6174b4217f&mod=mw_rss_bulletins",
-      "published_at": "2026-11-20T17:36:01+00:00"
-    },
-    {
-      "headline": "This proposed Social Security fix could add trillions to the national debt",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6fe4a0e2-ebef-48c6-8eec-3bfb4fd04b24&mod=mw_rss_bulletins",
-      "published_at": "2026-11-20T16:33:04+00:00"
-    },
-    {
-      "headline": "Cathie Wood\u2019s Ark Invest was a big buyer of Anthropic as she tells CNBC she\u2019s \u2018quite optimistic\u2019",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
-      "published_at": "2026-11-20T16:18:04+00:00"
     }
   ]
 }
