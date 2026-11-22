@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:57:09.541063+00:00",
+  "generated_at": "2026-11-22T20:09:40.717173+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
@@ -1791,9 +1791,45 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-21T19:57:07.491360+00:00"
+    "last_refreshed": "2026-11-22T20:09:39.152340+00:00"
   },
   "headlines": [
+    {
+      "headline": "Analyst explains why SpaceX is \u2018roughly ten years ahead of any competitor\u2019",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/analyst-ratings/analyst-explains-why-spacex-is-roughly-ten-years-ahead-of-any-competitor-5044104",
+      "published_at": "2026-11-22T19:50:26+00:00"
+    },
+    {
+      "headline": "Delta flights faced brief delays at\u00a0Atlanta airport over automated system issue",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102",
+      "published_at": "2026-11-22T19:18:20+00:00"
+    },
+    {
+      "headline": "Gregory M. Shepard sells $2.19M in Atlas Energy Solutions stock",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/insider-trading-news/gregory-m-shepard-sells-219m-in-atlas-energy-solutions-stock-93CH-5044100",
+      "published_at": "2026-11-22T19:01:12+00:00"
+    },
+    {
+      "headline": "Bessent says Trump administration needs answers from Nvidia",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/bessent-says-trump-administration-needs-answers-from-nvidia-5044096",
+      "published_at": "2026-11-22T18:48:04+00:00"
+    },
+    {
+      "headline": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "published_at": "2026-11-22T12:13:56+00:00"
+    },
+    {
+      "headline": "The Nasdaq is in freefall. Here's one stock to look at",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "published_at": "2026-11-22T12:10:39+00:00"
+    },
     {
       "headline": "Terrance Ford, First Community Corp director, buys $20,928 in stock",
       "source": "Investing.com",
@@ -1817,42 +1853,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/insider-trading-news/cv-sciences-director-charlie-cheever-iii-acquires-20307-in-common-stock-93CH-5043555",
       "published_at": "2026-11-21T18:46:03+00:00"
-    },
-    {
-      "headline": "Grocery stores have \u2018staggering deals\u2019 for Thanksgiving\u2014but don\u2019t get used to it",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=865dc883-dffb-42c2-b118-5705742a222f&mod=mw_rss_bulletins",
-      "published_at": "2026-11-21T16:21:01+00:00"
-    },
-    {
-      "headline": "How a brutal week for stocks almost wiped out their gains for the entire year",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=51a347e8-6c56-44bf-9ec5-6b13a5e01c7e&mod=mw_rss_bulletins",
-      "published_at": "2026-11-21T15:37:46+00:00"
-    },
-    {
-      "headline": "Finding your edge in a market and economy dominated by AI: Barron\u2019s Roundtable",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a62375af-d903-4733-9192-735e87bcccb5&mod=mw_rss_bulletins",
-      "published_at": "2026-11-21T14:31:53+00:00"
-    },
-    {
-      "headline": "Yes, the U.S. is rich enough to fix Social Security. Medicare, too. Here\u2019s how.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8f940f38-8cf9-42b1-9cce-67f9d60c0c3c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-21T14:00:49+00:00"
-    },
-    {
-      "headline": "Exclusive-Nvidia\u2019s accounting is a focus of US SEC investigation, sources say",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
-      "published_at": "2026-11-20T20:42:46+00:00"
-    },
-    {
-      "headline": "Celcuity stock hits 52-week low at 53.48 USD",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/celcuity-stock-hits-52week-low-at-5348-usd-93CH-5042564",
-      "published_at": "2026-11-20T20:42:22+00:00"
     }
   ]
 }
