@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:36:21.714283+00:00",
+  "generated_at": "2026-11-24T22:55:33.092906+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 0,
@@ -10,8 +10,8 @@
   "indicators": {
     "t10y2y": {
       "label": "10Y-2Y Treasury Spread",
-      "latest_date": "2026-11-23",
-      "latest_value": 0.29,
+      "latest_date": "2026-11-24",
+      "latest_value": 0.28,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
@@ -259,14 +259,18 @@
         {
           "date": "2026-11-23",
           "value": 0.29
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0.28
         }
       ]
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-20",
-      "latest_value": 3.76,
-      "latest_value_bps": 376.0,
+      "latest_date": "2026-11-23",
+      "latest_value": 3.63,
+      "latest_value_bps": 363.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
@@ -522,13 +526,17 @@
         {
           "date": "2026-11-20",
           "value": 3.76
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3.63
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-23",
-      "latest_value": 26.6200008392334,
+      "latest_date": "2026-11-24",
+      "latest_value": 26.360000610351562,
       "unit": "",
       "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
@@ -788,16 +796,20 @@
         {
           "date": "2026-11-23",
           "value": 26.6200008392334
+        },
+        {
+          "date": "2026-11-24",
+          "value": 26.360000610351562
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-23",
-      "vix9d": 27.76,
+      "latest_date": "2026-11-24",
+      "vix9d": 26.68,
       "vix": null,
-      "vix3m": 25.5,
-      "spread": -2.2600000000000016,
+      "vix3m": 25.47,
+      "spread": -1.2100000000000009,
       "unit": "",
       "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
@@ -1183,18 +1195,24 @@
         {
           "date": "2026-11-23",
           "vix9d": 27.76,
-          "vix": null,
+          "vix": 26.62,
           "vix3m": 25.5
+        },
+        {
+          "date": "2026-11-24",
+          "vix9d": 26.68,
+          "vix": null,
+          "vix3m": 25.47
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-23",
-      "latest_value": 104.31700134277344,
-      "pct_change_20d": 2.3116930948067513,
+      "latest_date": "2026-11-24",
+      "latest_value": 103.8270034790039,
+      "pct_change_20d": 1.472834038970309,
       "unit": "",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
         {
@@ -1451,17 +1469,21 @@
         },
         {
           "date": "2026-11-23",
-          "value": 104.31700134277344
+          "value": 104.31999969482422
+        },
+        {
+          "date": "2026-11-24",
+          "value": 103.8270034790039
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-23",
-      "latest_value": 3644.800048828125,
-      "pct_change_20d": -9.746430839778721,
+      "latest_date": "2026-11-24",
+      "latest_value": 3555.10009765625,
+      "pct_change_20d": -12.749717458133414,
       "unit": "$",
-      "status": "Watch",
+      "status": "Alert",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
         {
@@ -1718,7 +1740,11 @@
         },
         {
           "date": "2026-11-23",
-          "value": 3644.800048828125
+          "value": 3651.39990234375
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3555.10009765625
         }
       ]
     }
@@ -1771,68 +1797,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-24T00:36:20.419014+00:00"
+    "last_refreshed": "2026-11-24T22:55:28.024343+00:00"
   },
   "headlines": [
     {
-      "headline": "I\u2019ve paid for long-term-care insurance for 20 years. Is it still worth it?",
+      "headline": "Earnings call transcript: Black Pearl Group posts H1 2026 revenue growth",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-black-pearl-group-posts-h1-2026-revenue-growth-93CH-5049290",
+      "published_at": "2026-11-24T22:43:14+00:00"
+    },
+    {
+      "headline": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
+      "published_at": "2026-11-24T22:42:53+00:00"
+    },
+    {
+      "headline": "What to do if your Thanksgiving flight gets delayed",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=f0451c86-49f6-4fae-b2fa-e3f8edbc165c&mod=mw_rss_bulletins",
-      "published_at": "2026-11-24T00:18:30+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=62547414-4798-46ea-914b-bfe2ca7d8664&mod=mw_rss_bulletins",
+      "published_at": "2026-11-24T22:41:25+00:00"
     },
     {
-      "headline": "Trump flexes influence after midterm losses with intervention at Nvidia",
+      "headline": "iSpecimen reports regaining Nasdaq compliance with stockholders\u2019 equity rule",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/trump-says-nvidia-board-made-right-call-on-huang-reinstatement-5045885",
-      "published_at": "2026-11-24T00:12:40+00:00"
+      "link": "https://www.investing.com/news/sec-filings/ispecimen-reports-regaining-nasdaq-compliance-with-stockholders-equity-rule-93CH-5049288",
+      "published_at": "2026-11-24T22:41:15+00:00"
     },
     {
-      "headline": "Deputy FBI director to retire in December, Washington Post reports",
+      "headline": "Earnings call transcript: CleanSpark posts Q4 2026 EPS beat, revenue miss",
       "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/deputy-fbi-director-to-retire-in-december-washington-post-reports-5046736",
-      "published_at": "2026-11-24T00:12:26+00:00"
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-cleanspark-posts-q4-2026-eps-beat-revenue-miss-93CH-5049281",
+      "published_at": "2026-11-24T22:40:36+00:00"
     },
     {
-      "headline": "Earnings call transcript: Hyperscale Data posts strong Q3 2026 revenue growth",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-hyperscale-data-posts-strong-q3-2026-revenue-growth-93CH-5046735",
-      "published_at": "2026-11-24T00:11:59+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Select Harvests lifts FY 2026 profit, shares rise 9.5% on outlook",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-select-harvests-lifts-fy-2026-profit-shares-rise-95-on-outlook-93CH-5046732",
-      "published_at": "2026-11-24T00:09:28+00:00"
-    },
-    {
-      "headline": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6a532d28-7ac8-4a28-addf-90b57aea80f4&mod=mw_rss_bulletins",
-      "published_at": "2026-11-23T23:23:15+00:00"
-    },
-    {
-      "headline": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "headline": "AI debt markets shudder as Nvidia's top 'banker' returns",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
-      "published_at": "2026-11-23T22:43:38+00:00"
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+      "published_at": "2026-11-24T21:52:05+00:00"
     },
     {
-      "headline": "HPE just posted its strongest growth ever \u2014 but its stock is wavering",
+      "headline": "Dell shares rise on earnings report, as the AI boom helps sales more than double",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3b46e602-2bd8-452b-9b3d-d2d390a867e2&mod=mw_rss_bulletins",
-      "published_at": "2026-11-23T22:19:25+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6fe21887-6f4a-4ae4-91ba-9f1f8fe6a227&mod=mw_rss_bulletins",
+      "published_at": "2026-11-24T21:22:08+00:00"
     },
     {
-      "headline": "Trump is open to capping credit-card interest rates. But don't bank on it.",
+      "headline": "Dow closes back above 50K, but Nasdaq and S&P 500 retreat as Nvidia shares fall",
       "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a4f1ebae-17bf-495e-a06d-21c4d132e172&mod=mw_rss_bulletins",
-      "published_at": "2026-11-23T22:18:12+00:00"
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9218b66-a40d-42c8-a0a3-c8b9a02794a5&mod=mw_rss_bulletins",
+      "published_at": "2026-11-24T21:03:55+00:00"
     },
     {
-      "headline": "The biggest money-making energy trade looks over. What to buy instead",
+      "headline": "A bipartisan backlash is hitting Nvidia after Trump\u2019s push for Huang\u2019s return",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=406aecf7-a59f-422c-946a-84d4b730944e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-24T20:48:25+00:00"
+    },
+    {
+      "headline": "Kalshi daily volume of \u2018perps\u2019 trading begins to top its prediction markets",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
-      "published_at": "2026-11-23T12:00:20+00:00"
+      "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+      "published_at": "2026-11-24T18:34:55+00:00"
     }
   ]
 }
