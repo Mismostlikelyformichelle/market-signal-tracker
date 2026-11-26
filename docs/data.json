@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:09:19.888846+00:00",
+  "generated_at": "2026-11-26T22:08:15.103861+00:00",
   "composite": {
     "status": "Elevated",
     "watches": 1,
@@ -16,10 +16,6 @@
       "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 0.47
-        },
         {
           "date": "2026-08-28",
           "value": 0.39
@@ -276,10 +272,6 @@
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
         {
-          "date": "2026-08-27",
-          "value": 2.63
-        },
-        {
           "date": "2026-08-28",
           "value": 2.6
         },
@@ -535,16 +527,12 @@
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-25",
-      "latest_value": 28.290000915527344,
+      "latest_date": "2026-11-26",
+      "latest_value": 26.799999237060547,
       "unit": "",
       "status": "High",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 14.510000228881836
-        },
         {
           "date": "2026-08-28",
           "value": 14.430000305175781
@@ -800,26 +788,24 @@
         {
           "date": "2026-11-25",
           "value": 28.290000915527344
+        },
+        {
+          "date": "2026-11-26",
+          "value": 26.799999237060547
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-24",
-      "vix9d": 26.68,
-      "vix": 26.36,
-      "vix3m": 25.47,
-      "spread": -1.2100000000000009,
+      "latest_date": "2026-11-25",
+      "vix9d": 29.61,
+      "vix": 28.29,
+      "vix3m": 26.29,
+      "spread": -3.3200000000000003,
       "unit": "",
       "status": "Alert",
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-27",
-          "vix9d": 12.1,
-          "vix": 14.51,
-          "vix3m": 17.56
-        },
         {
           "date": "2026-08-28",
           "vix9d": 11.22,
@@ -1197,22 +1183,24 @@
           "vix9d": 26.68,
           "vix": 26.36,
           "vix3m": 25.47
+        },
+        {
+          "date": "2026-11-25",
+          "vix9d": 29.61,
+          "vix": 28.29,
+          "vix3m": 26.29
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-25",
-      "latest_value": 103.70099639892578,
-      "pct_change_20d": 1.4786123117923455,
+      "latest_date": "2026-11-26",
+      "latest_value": 103.78299713134766,
+      "pct_change_20d": 1.708149941377629,
       "unit": "",
       "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 99.16000366210938
-        },
         {
           "date": "2026-08-28",
           "value": 99.69999694824219
@@ -1467,23 +1455,23 @@
         },
         {
           "date": "2026-11-25",
-          "value": 103.70099639892578
+          "value": 103.66999816894531
+        },
+        {
+          "date": "2026-11-26",
+          "value": 103.78299713134766
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-25",
-      "latest_value": 3616.699951171875,
-      "pct_change_20d": -10.734034356844694,
+      "latest_date": "2026-11-26",
+      "latest_value": 3593.39990234375,
+      "pct_change_20d": -10.864712273901636,
       "unit": "$",
       "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 4609.7001953125
-        },
         {
           "date": "2026-08-28",
           "value": 4478.10009765625
@@ -1738,7 +1726,11 @@
         },
         {
           "date": "2026-11-25",
-          "value": 3616.699951171875
+          "value": 3535.800048828125
+        },
+        {
+          "date": "2026-11-26",
+          "value": 3593.39990234375
         }
       ]
     }
@@ -1763,7 +1755,7 @@
       {
         "date": "2026-11-25",
         "name": "GDP Release",
-        "is_past": false,
+        "is_past": true,
         "headline": {
           "text": "US third-quarter GDP growth revised sharply higher",
           "source": "Reuters",
@@ -1795,68 +1787,68 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-25T22:09:17.645175+00:00"
+    "last_refreshed": "2026-11-26T22:08:13.688805+00:00"
   },
   "headlines": [
+    {
+      "headline": "Bradesco\u2019s Trabuco accepts invitation to be Brazil\u2019s finance minister, source says",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498",
+      "published_at": "2026-11-26T22:00:38+00:00"
+    },
+    {
+      "headline": "Loonie weakens amid Thanksgiving holiday lull, Canadian labor market data",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/forex-news/loonie-weakens-amid-thanksgiving-holiday-lull-canadian-labor-market-data-5052729",
+      "published_at": "2026-11-26T21:58:03+00:00"
+    },
+    {
+      "headline": "Canadian bonds extend rally amid AI jitters, Macklem comments",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/canadian-bonds-extend-rally-amid-ai-jitters-macklem-comments-5052727",
+      "published_at": "2026-11-26T21:41:16+00:00"
+    },
+    {
+      "headline": "Mexico stocks lower at close of trade; S&P/BMV IPC down 1.33%",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-133-5052726",
+      "published_at": "2026-11-26T21:30:32+00:00"
+    },
+    {
+      "headline": "Semiconductor chips are the new oil. Here's why",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "published_at": "2026-11-26T17:52:15+00:00"
+    },
+    {
+      "headline": "How hedge funds have been navigating stock-market volatility",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81da3ea0-76aa-43a0-b9cb-21ff0b219994&mod=mw_rss_bulletins",
+      "published_at": "2026-11-26T16:49:38+00:00"
+    },
+    {
+      "headline": "Stock-index futures and global equity markets point to Friday gains on Wall St.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=aff11f9b-12f2-46e0-9667-35960dd0d790&mod=mw_rss_bulletins",
+      "published_at": "2026-11-26T16:15:45+00:00"
+    },
+    {
+      "headline": "Is the U.S. stock market closed for Thanksgiving? Yes and no.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2b2f2a55-9284-48db-a2d5-e4dd24c62c0e&mod=mw_rss_bulletins",
+      "published_at": "2026-11-26T15:37:07+00:00"
+    },
+    {
+      "headline": "Elon Musk and SpaceX to donate roughly $17.8 billion to \u2018Trump accounts\u2019",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=da6056d5-2e1b-4c22-a143-43b3b2515d6b&mod=mw_rss_bulletins",
+      "published_at": "2026-11-25T22:08:15+00:00"
+    },
     {
       "headline": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
       "published_at": "2026-11-25T22:04:58+00:00"
-    },
-    {
-      "headline": "Men\u00e9 posts Q3 revenue of C$6.1M, CEO to step down",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/mene-posts-q3-revenue-of-c61m-ceo-to-step-down-93CH-5051604",
-      "published_at": "2026-11-25T22:04:34+00:00"
-    },
-    {
-      "headline": "iQIYI receives Nasdaq minimum bid price deficiency notice",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/iqiyi-receives-nasdaq-minimum-bid-price-deficiency-notice-93CH-5051602",
-      "published_at": "2026-11-25T22:04:27+00:00"
-    },
-    {
-      "headline": "Perseus Mining CFO resigns after 6 years with the company",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/company-news/perseus-mining-cfo-resigns-after-6-years-with-the-company-93CH-5051601",
-      "published_at": "2026-11-25T22:04:26+00:00"
-    },
-    {
-      "headline": "Acrivon Therapeutics announces CFO transition effective December 16",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/sec-filings/acrivon-therapeutics-announces-cfo-transition-effective-december-16-93CH-5051598",
-      "published_at": "2026-11-25T22:03:34+00:00"
-    },
-    {
-      "headline": "Dow closes higher after big comeback; S&P 500, Nasdaq fall but end well off lows",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3e0785ac-4ee8-482e-96ea-bb9b37898ccd&mod=mw_rss_bulletins",
-      "published_at": "2026-11-25T21:02:45+00:00"
-    },
-    {
-      "headline": "Nvidia heading for first \u2018death cross\u2019 since March 2025 as the stock struggles",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=792b6c57-7eb1-45a0-9bf0-d84258507eea&mod=mw_rss_bulletins",
-      "published_at": "2026-11-25T20:42:10+00:00"
-    },
-    {
-      "headline": "Dow up 200 points, S&P 500 and Nasdaq pare back losses as stocks bounce off lows",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8729df74-1dfa-472b-a24a-3dbbd60045df&mod=mw_rss_bulletins",
-      "published_at": "2026-11-25T20:07:30+00:00"
-    },
-    {
-      "headline": "Fed says inflation hasn\u2019t gotten any better ahead of key December vote on rates",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9c1a90f8-948c-4f54-b8df-e4b29931f037&mod=mw_rss_bulletins",
-      "published_at": "2026-11-25T19:49:47+00:00"
-    },
-    {
-      "headline": "Earnings call transcript: Black Pearl Group posts H1 2026 revenue growth",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-black-pearl-group-posts-h1-2026-revenue-growth-93CH-5049290",
-      "published_at": "2026-11-24T22:43:14+00:00"
     }
   ]
 }
