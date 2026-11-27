@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T22:08:15.103861+00:00",
+  "generated_at": "2026-11-27T21:49:18.422459+00:00",
   "composite": {
-    "status": "Elevated",
-    "watches": 1,
-    "alerts": 1,
-    "vix_term_note": "VIX term structure inversion confirms already-flagged stress; no further escalation (already at max severity).",
+    "status": "Mild Watch",
+    "watches": 2,
+    "alerts": 0,
+    "vix_term_note": null,
     "crisis_override_note": null
   },
   "indicators": {
@@ -16,10 +16,6 @@
       "status": "Watch",
       "thresholds": "Calm >0.25 \u00b7 Watch 0\u20130.25 \u00b7 Alert <0",
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 0.39
-        },
         {
           "date": "2026-08-31",
           "value": 0.41
@@ -264,17 +260,13 @@
     },
     "hy": {
       "label": "ICE BofA High Yield Spread",
-      "latest_date": "2026-11-24",
-      "latest_value": 3.72,
-      "latest_value_bps": 372.0,
+      "latest_date": "2026-11-26",
+      "latest_value": 3.77,
+      "latest_value_bps": 377.0,
       "unit": "pp",
       "status": "Calm",
       "thresholds": "Calm <400bps \u00b7 Watch 400\u2013500bps \u00b7 Alert >500bps",
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 2.6
-        },
         {
           "date": "2026-08-31",
           "value": 2.63
@@ -522,21 +514,25 @@
         {
           "date": "2026-11-24",
           "value": 3.72
+        },
+        {
+          "date": "2026-11-25",
+          "value": 3.77
+        },
+        {
+          "date": "2026-11-26",
+          "value": 3.77
         }
       ]
     },
     "vix": {
       "label": "VIX (Close)",
-      "latest_date": "2026-11-26",
-      "latest_value": 26.799999237060547,
+      "latest_date": "2026-11-27",
+      "latest_value": 23.809999465942383,
       "unit": "",
-      "status": "High",
+      "status": "Elevated",
       "thresholds": "Calm <15 \u00b7 Normal 15\u201320 \u00b7 Elevated 20\u201325 \u00b7 High >25",
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 14.430000305175781
-        },
         {
           "date": "2026-08-31",
           "value": 14.920000076293945
@@ -792,26 +788,24 @@
         {
           "date": "2026-11-26",
           "value": 26.799999237060547
+        },
+        {
+          "date": "2026-11-27",
+          "value": 23.809999465942383
         }
       ]
     },
     "vix_term": {
       "label": "VIX Term Structure (VIX3M \u2212 VIX9D)",
-      "latest_date": "2026-11-25",
-      "vix9d": 29.61,
-      "vix": 28.29,
-      "vix3m": 26.29,
-      "spread": -3.3200000000000003,
+      "latest_date": "2026-11-26",
+      "vix9d": null,
+      "vix": 26.8,
+      "vix3m": null,
+      "spread": null,
       "unit": "",
-      "status": "Alert",
+      "status": null,
       "thresholds": "Calm: spread \u22652 (contango) \u00b7 Watch 0\u20132 (flattening) \u00b7 Alert <0 (inverted)",
       "history": [
-        {
-          "date": "2026-08-28",
-          "vix9d": 11.22,
-          "vix": 14.43,
-          "vix3m": 17.48
-        },
         {
           "date": "2026-08-31",
           "vix9d": 12.34,
@@ -1189,22 +1183,24 @@
           "vix9d": 29.61,
           "vix": 28.29,
           "vix3m": 26.29
+        },
+        {
+          "date": "2026-11-26",
+          "vix9d": null,
+          "vix": 26.8,
+          "vix3m": null
         }
       ]
     },
     "dxy": {
       "label": "US Dollar Index (DXY)",
-      "latest_date": "2026-11-26",
-      "latest_value": 103.78299713134766,
-      "pct_change_20d": 1.708149941377629,
+      "latest_date": "2026-11-27",
+      "latest_value": 104.01399993896484,
+      "pct_change_20d": 2.094623815348877,
       "unit": "",
-      "status": "Calm",
+      "status": "Watch",
       "thresholds": "Based on 20-day move: Calm <2% \u00b7 Watch 2\u20134% \u00b7 Alert >4%",
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 99.69999694824219
-        },
         {
           "date": "2026-08-31",
           "value": 99.43000030517578
@@ -1460,22 +1456,22 @@
         {
           "date": "2026-11-26",
           "value": 103.78299713134766
+        },
+        {
+          "date": "2026-11-27",
+          "value": 104.01399993896484
         }
       ]
     },
     "gold": {
       "label": "Gold (GC=F)",
-      "latest_date": "2026-11-26",
-      "latest_value": 3593.39990234375,
-      "pct_change_20d": -10.864712273901636,
+      "latest_date": "2026-11-27",
+      "latest_value": 3668.5,
+      "pct_change_20d": -5.909356693288008,
       "unit": "$",
-      "status": "Watch",
+      "status": "Calm",
       "thresholds": "Based on 20-day move: Calm <6% \u00b7 Watch 6\u201312% \u00b7 Alert >12%",
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 4478.10009765625
-        },
         {
           "date": "2026-08-31",
           "value": 4431.10009765625
@@ -1731,6 +1727,10 @@
         {
           "date": "2026-11-26",
           "value": 3593.39990234375
+        },
+        {
+          "date": "2026-11-27",
+          "value": 3668.5
         }
       ]
     }
@@ -1787,9 +1787,57 @@
         "headline": null
       }
     ],
-    "last_refreshed": "2026-11-26T22:08:13.688805+00:00"
+    "last_refreshed": "2026-11-27T21:49:16.565317+00:00"
   },
   "headlines": [
+    {
+      "headline": "enCore Energy receives Nasdaq notice for minimum bid price non-compliance",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/sec-filings/encore-energy-receives-nasdaq-notice-for-minimum-bid-price-noncompliance-93CH-5053899",
+      "published_at": "2026-11-27T21:41:15+00:00"
+    },
+    {
+      "headline": "Longeveron appoints CEO Paul Lehr to board and approves retention bonus",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/sec-filings/longeveron-appoints-ceo-paul-lehr-to-board-and-approves-retention-bonus-93CH-5053891",
+      "published_at": "2026-11-27T21:36:46+00:00"
+    },
+    {
+      "headline": "IPST faces Nasdaq delisting risk over missing quarterly report",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/ipst-faces-nasdaq-delisting-risk-over-missing-quarterly-report-93CH-5053890",
+      "published_at": "2026-11-27T21:36:28+00:00"
+    },
+    {
+      "headline": "Why is Strategy stock gaining today?",
+      "source": "Investing.com",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-strategy-stock-gaining-today-93CH-5053886",
+      "published_at": "2026-11-27T21:31:59+00:00"
+    },
+    {
+      "headline": "These stocks soared the most during the wild week on Wall Street",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d9baf9af-37f0-4df3-8934-42c904ceaf6a&mod=mw_rss_bulletins",
+      "published_at": "2026-11-27T21:26:25+00:00"
+    },
+    {
+      "headline": "Dow, S&P 500 clinch best weekly gains of the year",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e1eacab1-b5ac-4df2-b12a-4dcad71d6731&mod=mw_rss_bulletins",
+      "published_at": "2026-11-27T18:02:49+00:00"
+    },
+    {
+      "headline": "The artificial-intelligence trade is breaking a foundational rule of economics",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4c739c92-c54a-45fa-b6c2-c097bffefee1&mod=mw_rss_bulletins",
+      "published_at": "2026-11-27T17:02:29+00:00"
+    },
+    {
+      "headline": "Here's how to spot Black Friday shopping scams",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5455d023-a5b5-42c7-9e1a-b5d81111b221&mod=mw_rss_bulletins",
+      "published_at": "2026-11-27T15:18:08+00:00"
+    },
     {
       "headline": "Bradesco\u2019s Trabuco accepts invitation to be Brazil\u2019s finance minister, source says",
       "source": "Investing.com",
@@ -1801,54 +1849,6 @@
       "source": "Investing.com",
       "link": "https://www.investing.com/news/forex-news/loonie-weakens-amid-thanksgiving-holiday-lull-canadian-labor-market-data-5052729",
       "published_at": "2026-11-26T21:58:03+00:00"
-    },
-    {
-      "headline": "Canadian bonds extend rally amid AI jitters, Macklem comments",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/canadian-bonds-extend-rally-amid-ai-jitters-macklem-comments-5052727",
-      "published_at": "2026-11-26T21:41:16+00:00"
-    },
-    {
-      "headline": "Mexico stocks lower at close of trade; S&P/BMV IPC down 1.33%",
-      "source": "Investing.com",
-      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-133-5052726",
-      "published_at": "2026-11-26T21:30:32+00:00"
-    },
-    {
-      "headline": "Semiconductor chips are the new oil. Here's why",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-      "published_at": "2026-11-26T17:52:15+00:00"
-    },
-    {
-      "headline": "How hedge funds have been navigating stock-market volatility",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81da3ea0-76aa-43a0-b9cb-21ff0b219994&mod=mw_rss_bulletins",
-      "published_at": "2026-11-26T16:49:38+00:00"
-    },
-    {
-      "headline": "Stock-index futures and global equity markets point to Friday gains on Wall St.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=aff11f9b-12f2-46e0-9667-35960dd0d790&mod=mw_rss_bulletins",
-      "published_at": "2026-11-26T16:15:45+00:00"
-    },
-    {
-      "headline": "Is the U.S. stock market closed for Thanksgiving? Yes and no.",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2b2f2a55-9284-48db-a2d5-e4dd24c62c0e&mod=mw_rss_bulletins",
-      "published_at": "2026-11-26T15:37:07+00:00"
-    },
-    {
-      "headline": "Elon Musk and SpaceX to donate roughly $17.8 billion to \u2018Trump accounts\u2019",
-      "source": "MarketWatch",
-      "link": "https://www.marketwatch.com/bulletins/redirect/go?g=da6056d5-2e1b-4c22-a143-43b3b2515d6b&mod=mw_rss_bulletins",
-      "published_at": "2026-11-25T22:08:15+00:00"
-    },
-    {
-      "headline": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
-      "published_at": "2026-11-25T22:04:58+00:00"
     }
   ]
 }
